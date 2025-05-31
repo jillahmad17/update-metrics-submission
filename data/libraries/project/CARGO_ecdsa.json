@@ -1,0 +1,908 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 35,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 74,
+  "dependents_count": 107,
+  "deprecation_reason": null,
+  "description": "Pure Rust implementation of the Elliptic Curve Digital Signature Algorithm\n(ECDSA) as specified in FIPS 186-4 (Digital Signature Standard), providing\nRFC6979 deterministic signatures as well as support for added entropy\n",
+  "forks": 110,
+  "funding_urls": [],
+  "homepage": "https://github.com/RustCrypto/signatures/tree/master/ecdsa",
+  "keywords": [
+    "crypto",
+    "ecc",
+    "nist",
+    "secp256k1",
+    "signature",
+    "dsa",
+    "ecdsa",
+    "ed25519",
+    "rust",
+    "signatures"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/ecdsa/0.17.0-pre.9/download",
+  "latest_release_number": "0.17.0-pre.9",
+  "latest_release_published_at": "2024-09-20T19:17:46.480Z",
+  "latest_stable_release_number": "0.16.9",
+  "latest_stable_release_published_at": "2023-11-16T15:55:48.150Z",
+  "license_normalized": true,
+  "licenses": "Apache-2.0 OR MIT",
+  "name": "ecdsa",
+  "normalized_licenses": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/ecdsa/",
+  "platform": "Cargo",
+  "rank": 18,
+  "repository_license": null,
+  "repository_status": null,
+  "repository_url": "https://github.com/RustCrypto/signatures",
+  "security_policy_url": "https://github.com/RustCrypto/signatures/security/policy",
+  "stars": 474,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.0",
+      "published_at": "2018-10-30T23:40:45.698Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2019-10-29T16:47:06.323Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.10.0",
+      "published_at": "2020-12-17T04:41:07.202Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.10.0-pre",
+      "published_at": "2020-12-17T03:16:02.406Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.10.1",
+      "published_at": "2020-12-17T05:56:36.476Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.10.2",
+      "published_at": "2020-12-22T16:13:24.391Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0",
+      "published_at": "2021-04-29T19:33:55.873Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.1",
+      "published_at": "2021-02-11T15:58:47.099Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.2",
+      "published_at": "2021-03-17T19:36:14.173Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.3",
+      "published_at": "2021-04-02T13:36:54.629Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.4",
+      "published_at": "2021-04-02T14:08:16.901Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.5",
+      "published_at": "2021-04-21T19:01:32.493Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0-pre.6",
+      "published_at": "2021-04-21T22:32:18.766Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.1",
+      "published_at": "2021-05-25T00:48:23.786Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.0",
+      "published_at": "2021-06-08T03:36:34.580Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.1",
+      "published_at": "2021-06-09T22:36:45.254Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.2",
+      "published_at": "2021-06-18T15:47:24.425Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.3",
+      "published_at": "2021-07-17T16:17:42.589Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.4",
+      "published_at": "2021-08-12T17:27:29.521Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.0",
+      "published_at": "2021-11-21T19:12:52.917Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.1",
+      "published_at": "2021-12-03T18:34:27.398Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.2",
+      "published_at": "2021-12-04T17:42:59.121Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.3",
+      "published_at": "2021-12-04T19:09:41.659Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.4",
+      "published_at": "2022-01-06T20:18:37.991Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0",
+      "published_at": "2022-05-09T13:14:41.025Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.0",
+      "published_at": "2022-01-18T19:41:15.858Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.1",
+      "published_at": "2022-01-19T22:30:24.812Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.2",
+      "published_at": "2022-03-16T17:13:21.945Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.3",
+      "published_at": "2022-05-06T20:08:28.454Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.4",
+      "published_at": "2022-05-07T17:44:09.168Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0-pre.5",
+      "published_at": "2022-05-08T03:13:36.954Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.1",
+      "published_at": "2022-05-10T01:58:32.178Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.2",
+      "published_at": "2022-06-17T19:18:59.977Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.3",
+      "published_at": "2022-06-27T03:33:51.576Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.4",
+      "published_at": "2022-08-16T00:11:26.659Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.5",
+      "published_at": "2022-09-07T02:37:04.302Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.6",
+      "published_at": "2022-09-13T02:02:00.855Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.7",
+      "published_at": "2022-09-15T21:55:55.877Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.8",
+      "published_at": "2022-09-28T02:07:34.319Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0",
+      "published_at": "2023-01-15T23:30:51.712Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0-pre.0",
+      "published_at": "2022-11-06T19:26:53.048Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0-pre.1",
+      "published_at": "2022-12-11T00:40:11.093Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0-rc.0",
+      "published_at": "2023-01-04T21:46:16.657Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0-rc.1",
+      "published_at": "2023-01-08T01:52:53.980Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.1",
+      "published_at": "2023-01-23T16:55:58.812Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.0",
+      "published_at": "2023-03-02T03:26:45.457Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.0-pre.0",
+      "published_at": "2023-02-01T03:50:37.502Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.0-pre.1",
+      "published_at": "2023-02-03T18:09:39.135Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.0-rc.0",
+      "published_at": "2023-02-28T21:31:46.801Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.1",
+      "published_at": "2023-03-08T19:26:08.871Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.2",
+      "published_at": "2023-03-28T17:12:34.217Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.3",
+      "published_at": "2023-04-05T02:55:18.179Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.4",
+      "published_at": "2023-04-05T18:52:42.656Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.5",
+      "published_at": "2023-04-09T03:10:40.360Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.6",
+      "published_at": "2023-04-10T00:41:29.270Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.7",
+      "published_at": "2023-05-11T15:43:19.899Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.8",
+      "published_at": "2023-07-21T02:13:51.583Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.9",
+      "published_at": "2023-11-16T15:55:48.150Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.0",
+      "published_at": "2024-01-09T20:38:54.355Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.1",
+      "published_at": "2024-01-10T20:34:33.099Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.2",
+      "published_at": "2024-01-11T00:46:38.106Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.3",
+      "published_at": "2024-01-17T19:37:21.681Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.4",
+      "published_at": "2024-01-19T19:23:12.668Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.5",
+      "published_at": "2024-02-02T02:32:06.733Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.6",
+      "published_at": "2024-07-27T01:20:40.612Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.7",
+      "published_at": "2024-07-27T03:16:36.918Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.8",
+      "published_at": "2024-09-20T03:04:53.930Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0-pre.9",
+      "published_at": "2024-09-20T19:17:46.480Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2019-12-07T01:48:19.963Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.1",
+      "published_at": "2019-12-07T02:51:51.277Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2019-12-11T18:11:49.867Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2020-01-07T17:01:49.599Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.5.0",
+      "published_at": "2020-04-18T19:20:08.192Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.5.0-pre",
+      "published_at": "2020-03-08T22:36:01.725Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2020-06-10T04:49:47.232Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.6.1",
+      "published_at": "2020-06-29T19:44:36.474Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2020-08-11T00:12:21.143Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.1",
+      "published_at": "2020-08-11T00:28:13.322Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.2",
+      "published_at": "2020-08-12T03:23:32.021Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2020-09-11T20:54:22.291Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.1",
+      "published_at": "2020-09-24T02:56:29.584Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.2",
+      "published_at": "2020-09-27T16:47:42.145Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.3",
+      "published_at": "2020-09-28T19:35:27.380Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.4",
+      "published_at": "2020-10-08T20:31:52.960Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.5",
+      "published_at": "2020-10-09T15:23:21.142Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.9.0",
+      "published_at": "2020-12-06T15:01:30.415Z",
+      "spdx_expression": "Apache-2.0 OR MIT",
+      "original_license": "Apache-2.0 OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,893 @@
+{
+  "code_of_conduct_url": "https://github.com/SALib/SALib/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 40,
+  "contribution_guidelines_url": "https://github.com/SALib/SALib/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 51,
+  "dependents_count": 76,
+  "deprecation_reason": null,
+  "description": "Tools for global sensitivity analysis. Contains Sobol', Morris, FAST, DGSM, PAWN, HDMR, Moment Independent and fractional factorial methods",
+  "forks": 240,
+  "funding_urls": [],
+  "homepage": "http://SALib.github.io/SALib/",
+  "keywords": [
+    "global-sensitivity-analysis",
+    "joss",
+    "morris",
+    "numpy",
+    "python",
+    "salib",
+    "sensitivity-analysis",
+    "sensitivity-analysis-library",
+    "sobol",
+    "uncertainty",
+    "uncertainty-quantification"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "1.5.1",
+  "latest_release_published_at": "2024-08-19T16:35:23.000Z",
+  "latest_stable_release_number": "1.5.1",
+  "latest_stable_release_published_at": "2024-08-19T16:35:23.000Z",
+  "license_normalized": true,
+  "licenses": "MIT License",
+  "name": "SALib",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://pypi.org/project/SALib/",
+  "platform": "Pypi",
+  "rank": 18,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "",
+  "security_policy_url": null,
+  "stars": 892,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.0",
+      "published_at": "2021-08-12T10:56:34.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.1",
+      "published_at": "2014-10-09T18:20:21.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "GNU LESSER GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\n  This version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public\nLicense, supplemented by the additional permissions listed below.\n\n  0. Additional Definitions.\n\n  As used herein, \"this License\" refers to version 3 of the GNU Lesser\nGeneral Public License, and the \"GNU GPL\" refers to version 3 of the GNU\nGeneral Public License.\n\n  \"The Library\" refers to a covered work governed by this License,\nother than an Application or a Combined Work as defined below.\n\n  An \"Application\" is any work that makes use of an interface provided\nby the Library, but which is not otherwise based on the Library.\nDefining a subclass of a class defined by the Library is deemed a mode\nof using an interface provided by the Library.\n\n  A \"Combined Work\" is a work produced by combining or linking an\nApplication with the Library.  The particular version of the Library\nwith which the Combined Work was made is also called the \"Linked\nVersion\".\n\n  The \"Minimal Corresponding Source\" for a Combined Work means the\nCorresponding Source for the Combined Work, excluding any source code\nfor portions of the Combined Work that, considered in isolation, are\nbased on the Application, and not on the Linked Version.\n\n  The \"Corresponding Application Code\" for a Combined Work means the\nobject code and/or source code for the Application, including any data\nand utility programs needed for reproducing the Combined Work from the\nApplication, but excluding the System Libraries of the Combined Work.\n\n  1. Exception to Section 3 of the GNU GPL.\n\n  You may convey a covered work under sections 3 and 4 of this License\nwithout being bound by section 3 of the GNU GPL.\n\n  2. Conveying Modified Versions.\n\n  If you modify a copy of the Library, and, in your modifications, a\nfacility refers to a function or data to be supplied by an Application\nthat uses the facility (other than as an argument passed when the\nfacility is invoked), then you may convey a copy of the modified\nversion:\n\n   a) under this License, provided that you make a good faith effort to\n   ensure that, in the event an Application does not supply the\n   function or data, the facility still operates, and performs\n   whatever part of its purpose remains meaningful, or\n\n   b) under the GNU GPL, with none of the additional permissions of\n   this License applicable to that copy.\n\n  3. Object Code Incorporating Material from Library Header Files.\n\n  The object code form of an Application may incorporate material from\na header file that is part of the Library.  You may convey such object\ncode under terms of your choice, provided that, if the incorporated\nmaterial is not limited to numerical parameters, data structure\nlayouts and accessors, or small macros, inline functions and templates\n(ten or fewer lines in length), you do both of the following:\n\n   a) Give prominent notice with each copy of the object code that the\n   Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the object code with a copy of the GNU GPL and this license\n   document.\n\n  4. Combined Works.\n\n  You may convey a Combined Work under terms of your choice that,\ntaken together, effectively do not restrict modification of the\nportions of the Library contained in the Combined Work and reverse\nengineering for debugging such modifications, if you also do each of\nthe following:\n\n   a) Give prominent notice with each copy of the Combined Work that\n   the Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the Combined Work with a copy of the GNU GPL and this license\n   document.\n\n   c) For a Combined Work that displays copyright notices during\n   execution, include the copyright notice for the Library among\n   these notices, as well as a reference directing the user to the\n   copies of the GNU GPL and this license document.\n\n   d) Do one of the following:\n\n       0) Convey the Minimal Corresponding Source under the terms of this\n       License, and the Corresponding Application Code in a form\n       suitable for, and under terms that permit, the user to\n       recombine or relink the Application with a modified version of\n       the Linked Version to produce a modified Combined Work, in the\n       manner specified by section 6 of the GNU GPL for conveying\n       Corresponding Source.\n\n       1) Use a suitable shared library mechanism for linking with the\n       Library.  A suitable mechanism is one that (a) uses at run time\n       a copy of the Library already present on the user's computer\n       system, and (b) will operate properly with a modified version\n       of the Library that is interface-compatible with the Linked\n       Version.\n\n   e) Provide Installation Information, but only if you would otherwise\n   be required to provide such information under section 6 of the\n   GNU GPL, and only to the extent that such information is\n   necessary to install and execute a modified version of the\n   Combined Work produced by recombining or relinking the\n   Application with a modified version of the Linked Version. (If\n   you use option 4d0, the Installation Information must accompany\n   the Minimal Corresponding Source and Corresponding Application\n   Code. If you use option 4d1, you must provide the Installation\n   Information in the manner specified by section 6 of the GNU GPL\n   for conveying Corresponding Source.)\n\n  5. Combined Libraries.\n\n  You may place library facilities that are a work based on the\nLibrary side by side in a single library together with other library\nfacilities that are not Applications and are not covered by this\nLicense, and convey such a combined library under terms of your\nchoice, if you do both of the following:\n\n   a) Accompany the combined library with a copy of the same work based\n   on the Library, uncombined with any other library facilities,\n   conveyed under the terms of this License.\n\n   b) Give prominent notice with the combined library that part of it\n   is a work based on the Library, and explaining where to find the\n   accompanying uncombined form of the same work.\n\n  6. Revised Versions of the GNU Lesser General Public License.\n\n  The Free Software Foundation may publish revised and/or new versions\nof the GNU Lesser General Public License from time to time. Such new\nversions will be similar in spirit to the present version, but may\ndiffer in detail to address new problems or concerns.\n\n  Each version is given a distinguishing version number. If the\nLibrary as you received it specifies that a certain numbered version\nof the GNU Lesser General Public License \"or any later version\"\napplies to it, you have the option of following the terms and\nconditions either of that published version or of any later version\npublished by the Free Software Foundation. If the Library as you\nreceived it does not specify a version number of the GNU Lesser\nGeneral Public License, you may choose any version of the GNU Lesser\nGeneral Public License ever published by the Free Software Foundation.\n\n  If the Library as you received it specifies that a proxy can decide\nwhether future versions of the GNU Lesser General Public License shall\napply, that proxy's public statement of acceptance of any version is\npermanent authorization for you to choose that version for the\nLibrary.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.2",
+      "published_at": "2014-12-02T14:37:28.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "GNU LESSER GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\n  This version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public\nLicense, supplemented by the additional permissions listed below.\n\n  0. Additional Definitions.\n\n  As used herein, \"this License\" refers to version 3 of the GNU Lesser\nGeneral Public License, and the \"GNU GPL\" refers to version 3 of the GNU\nGeneral Public License.\n\n  \"The Library\" refers to a covered work governed by this License,\nother than an Application or a Combined Work as defined below.\n\n  An \"Application\" is any work that makes use of an interface provided\nby the Library, but which is not otherwise based on the Library.\nDefining a subclass of a class defined by the Library is deemed a mode\nof using an interface provided by the Library.\n\n  A \"Combined Work\" is a work produced by combining or linking an\nApplication with the Library.  The particular version of the Library\nwith which the Combined Work was made is also called the \"Linked\nVersion\".\n\n  The \"Minimal Corresponding Source\" for a Combined Work means the\nCorresponding Source for the Combined Work, excluding any source code\nfor portions of the Combined Work that, considered in isolation, are\nbased on the Application, and not on the Linked Version.\n\n  The \"Corresponding Application Code\" for a Combined Work means the\nobject code and/or source code for the Application, including any data\nand utility programs needed for reproducing the Combined Work from the\nApplication, but excluding the System Libraries of the Combined Work.\n\n  1. Exception to Section 3 of the GNU GPL.\n\n  You may convey a covered work under sections 3 and 4 of this License\nwithout being bound by section 3 of the GNU GPL.\n\n  2. Conveying Modified Versions.\n\n  If you modify a copy of the Library, and, in your modifications, a\nfacility refers to a function or data to be supplied by an Application\nthat uses the facility (other than as an argument passed when the\nfacility is invoked), then you may convey a copy of the modified\nversion:\n\n   a) under this License, provided that you make a good faith effort to\n   ensure that, in the event an Application does not supply the\n   function or data, the facility still operates, and performs\n   whatever part of its purpose remains meaningful, or\n\n   b) under the GNU GPL, with none of the additional permissions of\n   this License applicable to that copy.\n\n  3. Object Code Incorporating Material from Library Header Files.\n\n  The object code form of an Application may incorporate material from\na header file that is part of the Library.  You may convey such object\ncode under terms of your choice, provided that, if the incorporated\nmaterial is not limited to numerical parameters, data structure\nlayouts and accessors, or small macros, inline functions and templates\n(ten or fewer lines in length), you do both of the following:\n\n   a) Give prominent notice with each copy of the object code that the\n   Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the object code with a copy of the GNU GPL and this license\n   document.\n\n  4. Combined Works.\n\n  You may convey a Combined Work under terms of your choice that,\ntaken together, effectively do not restrict modification of the\nportions of the Library contained in the Combined Work and reverse\nengineering for debugging such modifications, if you also do each of\nthe following:\n\n   a) Give prominent notice with each copy of the Combined Work that\n   the Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the Combined Work with a copy of the GNU GPL and this license\n   document.\n\n   c) For a Combined Work that displays copyright notices during\n   execution, include the copyright notice for the Library among\n   these notices, as well as a reference directing the user to the\n   copies of the GNU GPL and this license document.\n\n   d) Do one of the following:\n\n       0) Convey the Minimal Corresponding Source under the terms of this\n       License, and the Corresponding Application Code in a form\n       suitable for, and under terms that permit, the user to\n       recombine or relink the Application with a modified version of\n       the Linked Version to produce a modified Combined Work, in the\n       manner specified by section 6 of the GNU GPL for conveying\n       Corresponding Source.\n\n       1) Use a suitable shared library mechanism for linking with the\n       Library.  A suitable mechanism is one that (a) uses at run time\n       a copy of the Library already present on the user's computer\n       system, and (b) will operate properly with a modified version\n       of the Library that is interface-compatible with the Linked\n       Version.\n\n   e) Provide Installation Information, but only if you would otherwise\n   be required to provide such information under section 6 of the\n   GNU GPL, and only to the extent that such information is\n   necessary to install and execute a modified version of the\n   Combined Work produced by recombining or relinking the\n   Application with a modified version of the Linked Version. (If\n   you use option 4d0, the Installation Information must accompany\n   the Minimal Corresponding Source and Corresponding Application\n   Code. If you use option 4d1, you must provide the Installation\n   Information in the manner specified by section 6 of the GNU GPL\n   for conveying Corresponding Source.)\n\n  5. Combined Libraries.\n\n  You may place library facilities that are a work based on the\nLibrary side by side in a single library together with other library\nfacilities that are not Applications and are not covered by this\nLicense, and convey such a combined library under terms of your\nchoice, if you do both of the following:\n\n   a) Accompany the combined library with a copy of the same work based\n   on the Library, uncombined with any other library facilities,\n   conveyed under the terms of this License.\n\n   b) Give prominent notice with the combined library that part of it\n   is a work based on the Library, and explaining where to find the\n   accompanying uncombined form of the same work.\n\n  6. Revised Versions of the GNU Lesser General Public License.\n\n  The Free Software Foundation may publish revised and/or new versions\nof the GNU Lesser General Public License from time to time. Such new\nversions will be similar in spirit to the present version, but may\ndiffer in detail to address new problems or concerns.\n\n  Each version is given a distinguishing version number. If the\nLibrary as you received it specifies that a certain numbered version\nof the GNU Lesser General Public License \"or any later version\"\napplies to it, you have the option of following the terms and\nconditions either of that published version or of any later version\npublished by the Free Software Foundation. If the Library as you\nreceived it does not specify a version number of the GNU Lesser\nGeneral Public License, you may choose any version of the GNU Lesser\nGeneral Public License ever published by the Free Software Foundation.\n\n  If the Library as you received it specifies that a proxy can decide\nwhether future versions of the GNU Lesser General Public License shall\napply, that proxy's public statement of acceptance of any version is\npermanent authorization for you to choose that version for the\nLibrary.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.3",
+      "published_at": "2014-12-29T20:09:08.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "GNU LESSER GENERAL PUBLIC LICENSE\r\n                       Version 3, 29 June 2007\r\n\r\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\r\n Everyone is permitted to copy and distribute verbatim copies\r\n of this license document, but changing it is not allowed.\r\n\r\n\r\n  This version of the GNU Lesser General Public License incorporates\r\nthe terms and conditions of version 3 of the GNU General Public\r\nLicense, supplemented by the additional permissions listed below.\r\n\r\n  0. Additional Definitions.\r\n\r\n  As used herein, \"this License\" refers to version 3 of the GNU Lesser\r\nGeneral Public License, and the \"GNU GPL\" refers to version 3 of the GNU\r\nGeneral Public License.\r\n\r\n  \"The Library\" refers to a covered work governed by this License,\r\nother than an Application or a Combined Work as defined below.\r\n\r\n  An \"Application\" is any work that makes use of an interface provided\r\nby the Library, but which is not otherwise based on the Library.\r\nDefining a subclass of a class defined by the Library is deemed a mode\r\nof using an interface provided by the Library.\r\n\r\n  A \"Combined Work\" is a work produced by combining or linking an\r\nApplication with the Library.  The particular version of the Library\r\nwith which the Combined Work was made is also called the \"Linked\r\nVersion\".\r\n\r\n  The \"Minimal Corresponding Source\" for a Combined Work means the\r\nCorresponding Source for the Combined Work, excluding any source code\r\nfor portions of the Combined Work that, considered in isolation, are\r\nbased on the Application, and not on the Linked Version.\r\n\r\n  The \"Corresponding Application Code\" for a Combined Work means the\r\nobject code and/or source code for the Application, including any data\r\nand utility programs needed for reproducing the Combined Work from the\r\nApplication, but excluding the System Libraries of the Combined Work.\r\n\r\n  1. Exception to Section 3 of the GNU GPL.\r\n\r\n  You may convey a covered work under sections 3 and 4 of this License\r\nwithout being bound by section 3 of the GNU GPL.\r\n\r\n  2. Conveying Modified Versions.\r\n\r\n  If you modify a copy of the Library, and, in your modifications, a\r\nfacility refers to a function or data to be supplied by an Application\r\nthat uses the facility (other than as an argument passed when the\r\nfacility is invoked), then you may convey a copy of the modified\r\nversion:\r\n\r\n   a) under this License, provided that you make a good faith effort to\r\n   ensure that, in the event an Application does not supply the\r\n   function or data, the facility still operates, and performs\r\n   whatever part of its purpose remains meaningful, or\r\n\r\n   b) under the GNU GPL, with none of the additional permissions of\r\n   this License applicable to that copy.\r\n\r\n  3. Object Code Incorporating Material from Library Header Files.\r\n\r\n  The object code form of an Application may incorporate material from\r\na header file that is part of the Library.  You may convey such object\r\ncode under terms of your choice, provided that, if the incorporated\r\nmaterial is not limited to numerical parameters, data structure\r\nlayouts and accessors, or small macros, inline functions and templates\r\n(ten or fewer lines in length), you do both of the following:\r\n\r\n   a) Give prominent notice with each copy of the object code that the\r\n   Library is used in it and that the Library and its use are\r\n   covered by this License.\r\n\r\n   b) Accompany the object code with a copy of the GNU GPL and this license\r\n   document.\r\n\r\n  4. Combined Works.\r\n\r\n  You may convey a Combined Work under terms of your choice that,\r\ntaken together, effectively do not restrict modification of the\r\nportions of the Library contained in the Combined Work and reverse\r\nengineering for debugging such modifications, if you also do each of\r\nthe following:\r\n\r\n   a) Give prominent notice with each copy of the Combined Work that\r\n   the Library is used in it and that the Library and its use are\r\n   covered by this License.\r\n\r\n   b) Accompany the Combined Work with a copy of the GNU GPL and this license\r\n   document.\r\n\r\n   c) For a Combined Work that displays copyright notices during\r\n   execution, include the copyright notice for the Library among\r\n   these notices, as well as a reference directing the user to the\r\n   copies of the GNU GPL and this license document.\r\n\r\n   d) Do one of the following:\r\n\r\n       0) Convey the Minimal Corresponding Source under the terms of this\r\n       License, and the Corresponding Application Code in a form\r\n       suitable for, and under terms that permit, the user to\r\n       recombine or relink the Application with a modified version of\r\n       the Linked Version to produce a modified Combined Work, in the\r\n       manner specified by section 6 of the GNU GPL for conveying\r\n       Corresponding Source.\r\n\r\n       1) Use a suitable shared library mechanism for linking with the\r\n       Library.  A suitable mechanism is one that (a) uses at run time\r\n       a copy of the Library already present on the user's computer\r\n       system, and (b) will operate properly with a modified version\r\n       of the Library that is interface-compatible with the Linked\r\n       Version.\r\n\r\n   e) Provide Installation Information, but only if you would otherwise\r\n   be required to provide such information under section 6 of the\r\n   GNU GPL, and only to the extent that such information is\r\n   necessary to install and execute a modified version of the\r\n   Combined Work produced by recombining or relinking the\r\n   Application with a modified version of the Linked Version. (If\r\n   you use option 4d0, the Installation Information must accompany\r\n   the Minimal Corresponding Source and Corresponding Application\r\n   Code. If you use option 4d1, you must provide the Installation\r\n   Information in the manner specified by section 6 of the GNU GPL\r\n   for conveying Corresponding Source.)\r\n\r\n  5. Combined Libraries.\r\n\r\n  You may place library facilities that are a work based on the\r\nLibrary side by side in a single library together with other library\r\nfacilities that are not Applications and are not covered by this\r\nLicense, and convey such a combined library under terms of your\r\nchoice, if you do both of the following:\r\n\r\n   a) Accompany the combined library with a copy of the same work based\r\n   on the Library, uncombined with any other library facilities,\r\n   conveyed under the terms of this License.\r\n\r\n   b) Give prominent notice with the combined library that part of it\r\n   is a work based on the Library, and explaining where to find the\r\n   accompanying uncombined form of the same work.\r\n\r\n  6. Revised Versions of the GNU Lesser General Public License.\r\n\r\n  The Free Software Foundation may publish revised and/or new versions\r\nof the GNU Lesser General Public License from time to time. Such new\r\nversions will be similar in spirit to the present version, but may\r\ndiffer in detail to address new problems or concerns.\r\n\r\n  Each version is given a distinguishing version number. If the\r\nLibrary as you received it specifies that a certain numbered version\r\nof the GNU Lesser General Public License \"or any later version\"\r\napplies to it, you have the option of following the terms and\r\nconditions either of that published version or of any later version\r\npublished by the Free Software Foundation. If the Library as you\r\nreceived it does not specify a version number of the GNU Lesser\r\nGeneral Public License, you may choose any version of the GNU Lesser\r\nGeneral Public License ever published by the Free Software Foundation.\r\n\r\n  If the Library as you received it specifies that a proxy can decide\r\nwhether future versions of the GNU Lesser General Public License shall\r\napply, that proxy's public statement of acceptance of any version is\r\npermanent authorization for you to choose that version for the\r\nLibrary.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4",
+      "published_at": "2015-01-30T20:07:07.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "GNU LESSER GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\n  This version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public\nLicense, supplemented by the additional permissions listed below.\n\n  0. Additional Definitions.\n\n  As used herein, \"this License\" refers to version 3 of the GNU Lesser\nGeneral Public License, and the \"GNU GPL\" refers to version 3 of the GNU\nGeneral Public License.\n\n  \"The Library\" refers to a covered work governed by this License,\nother than an Application or a Combined Work as defined below.\n\n  An \"Application\" is any work that makes use of an interface provided\nby the Library, but which is not otherwise based on the Library.\nDefining a subclass of a class defined by the Library is deemed a mode\nof using an interface provided by the Library.\n\n  A \"Combined Work\" is a work produced by combining or linking an\nApplication with the Library.  The particular version of the Library\nwith which the Combined Work was made is also called the \"Linked\nVersion\".\n\n  The \"Minimal Corresponding Source\" for a Combined Work means the\nCorresponding Source for the Combined Work, excluding any source code\nfor portions of the Combined Work that, considered in isolation, are\nbased on the Application, and not on the Linked Version.\n\n  The \"Corresponding Application Code\" for a Combined Work means the\nobject code and/or source code for the Application, including any data\nand utility programs needed for reproducing the Combined Work from the\nApplication, but excluding the System Libraries of the Combined Work.\n\n  1. Exception to Section 3 of the GNU GPL.\n\n  You may convey a covered work under sections 3 and 4 of this License\nwithout being bound by section 3 of the GNU GPL.\n\n  2. Conveying Modified Versions.\n\n  If you modify a copy of the Library, and, in your modifications, a\nfacility refers to a function or data to be supplied by an Application\nthat uses the facility (other than as an argument passed when the\nfacility is invoked), then you may convey a copy of the modified\nversion:\n\n   a) under this License, provided that you make a good faith effort to\n   ensure that, in the event an Application does not supply the\n   function or data, the facility still operates, and performs\n   whatever part of its purpose remains meaningful, or\n\n   b) under the GNU GPL, with none of the additional permissions of\n   this License applicable to that copy.\n\n  3. Object Code Incorporating Material from Library Header Files.\n\n  The object code form of an Application may incorporate material from\na header file that is part of the Library.  You may convey such object\ncode under terms of your choice, provided that, if the incorporated\nmaterial is not limited to numerical parameters, data structure\nlayouts and accessors, or small macros, inline functions and templates\n(ten or fewer lines in length), you do both of the following:\n\n   a) Give prominent notice with each copy of the object code that the\n   Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the object code with a copy of the GNU GPL and this license\n   document.\n\n  4. Combined Works.\n\n  You may convey a Combined Work under terms of your choice that,\ntaken together, effectively do not restrict modification of the\nportions of the Library contained in the Combined Work and reverse\nengineering for debugging such modifications, if you also do each of\nthe following:\n\n   a) Give prominent notice with each copy of the Combined Work that\n   the Library is used in it and that the Library and its use are\n   covered by this License.\n\n   b) Accompany the Combined Work with a copy of the GNU GPL and this license\n   document.\n\n   c) For a Combined Work that displays copyright notices during\n   execution, include the copyright notice for the Library among\n   these notices, as well as a reference directing the user to the\n   copies of the GNU GPL and this license document.\n\n   d) Do one of the following:\n\n       0) Convey the Minimal Corresponding Source under the terms of this\n       License, and the Corresponding Application Code in a form\n       suitable for, and under terms that permit, the user to\n       recombine or relink the Application with a modified version of\n       the Linked Version to produce a modified Combined Work, in the\n       manner specified by section 6 of the GNU GPL for conveying\n       Corresponding Source.\n\n       1) Use a suitable shared library mechanism for linking with the\n       Library.  A suitable mechanism is one that (a) uses at run time\n       a copy of the Library already present on the user's computer\n       system, and (b) will operate properly with a modified version\n       of the Library that is interface-compatible with the Linked\n       Version.\n\n   e) Provide Installation Information, but only if you would otherwise\n   be required to provide such information under section 6 of the\n   GNU GPL, and only to the extent that such information is\n   necessary to install and execute a modified version of the\n   Combined Work produced by recombining or relinking the\n   Application with a modified version of the Linked Version. (If\n   you use option 4d0, the Installation Information must accompany\n   the Minimal Corresponding Source and Corresponding Application\n   Code. If you use option 4d1, you must provide the Installation\n   Information in the manner specified by section 6 of the GNU GPL\n   for conveying Corresponding Source.)\n\n  5. Combined Libraries.\n\n  You may place library facilities that are a work based on the\nLibrary side by side in a single library together with other library\nfacilities that are not Applications and are not covered by this\nLicense, and convey such a combined library under terms of your\nchoice, if you do both of the following:\n\n   a) Accompany the combined library with a copy of the same work based\n   on the Library, uncombined with any other library facilities,\n   conveyed under the terms of this License.\n\n   b) Give prominent notice with the combined library that part of it\n   is a work based on the Library, and explaining where to find the\n   accompanying uncombined form of the same work.\n\n  6. Revised Versions of the GNU Lesser General Public License.\n\n  The Free Software Foundation may publish revised and/or new versions\nof the GNU Lesser General Public License from time to time. Such new\nversions will be similar in spirit to the present version, but may\ndiffer in detail to address new problems or concerns.\n\n  Each version is given a distinguishing version number. If the\nLibrary as you received it specifies that a certain numbered version\nof the GNU Lesser General Public License \"or any later version\"\napplies to it, you have the option of following the terms and\nconditions either of that published version or of any later version\npublished by the Free Software Foundation. If the Library as you\nreceived it does not specify a version number of the GNU Lesser\nGeneral Public License, you may choose any version of the GNU Lesser\nGeneral Public License ever published by the Free Software Foundation.\n\n  If the Library as you received it specifies that a proxy can decide\nwhether future versions of the GNU Lesser General Public License shall\napply, that proxy's public statement of acceptance of any version is\npermanent authorization for you to choose that version for the\nLibrary.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.5",
+      "published_at": "2015-05-08T15:15:17.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\n\nCopyright (c) 2013-2015 Jon Herman and others.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.6",
+      "published_at": "2015-07-09T19:16:11.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\r\n\r\nCopyright (c) 2013-2015 Jon Herman, Will Usher, and others.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.6.2",
+      "published_at": "2015-08-25T14:46:53.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\r\n\r\nCopyright (c) 2013-2015 Jon Herman, Will Usher, and others.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.6.3",
+      "published_at": "2015-08-29T19:08:48.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\r\n\r\nCopyright (c) 2013-2015 Jon Herman, Will Usher, and others.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.7",
+      "published_at": "2015-09-25T02:32:24.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\r\n\r\nCopyright (c) 2013-2015 Jon Herman, Will Usher, and others.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.7.1",
+      "published_at": "2016-02-24T05:17:54.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "The MIT License (MIT)\r\n\r\nCopyright (c) 2013-2015 Jon Herman, Will Usher, and others.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2016-10-11T15:59:03.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2017-01-07T23:47:17.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.3",
+      "published_at": "2017-03-31T16:38:28.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2017-08-30T16:20:21.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.2",
+      "published_at": "2017-10-09T18:31:47.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.3",
+      "published_at": "2018-01-24T18:27:17.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.2",
+      "published_at": "2018-11-25T19:11:28.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.11",
+      "published_at": "2020-04-20T05:44:49.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.12",
+      "published_at": "2020-11-12T17:13:12.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.12.dev0",
+      "published_at": "2020-09-30T15:46:38.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.13",
+      "published_at": "2021-04-21T13:31:22.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.3",
+      "published_at": "2019-03-14T15:23:36.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.4",
+      "published_at": "2019-05-08T19:00:17.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.5",
+      "published_at": "2019-05-22T15:37:16.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.6",
+      "published_at": "2019-05-22T15:50:56.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.7",
+      "published_at": "2019-06-08T19:46:18.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.8",
+      "published_at": "2019-09-02T19:28:35.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0",
+      "published_at": "2021-06-27T08:13:11.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0.1",
+      "published_at": "2021-06-29T13:45:34.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0.2",
+      "published_at": "2021-07-01T12:45:18.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0b0",
+      "published_at": "2020-11-19T15:36:26.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0.dev0",
+      "published_at": "2020-10-24T06:20:32.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0.dev2",
+      "published_at": "2020-10-24T07:09:57.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0rc0",
+      "published_at": "2021-04-21T13:27:15.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.1",
+      "published_at": "2021-09-04T05:13:27.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.4",
+      "published_at": "2021-08-12T15:10:01.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.4.dev1",
+      "published_at": "2021-08-12T14:44:01.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.4.dev2",
+      "published_at": "2021-08-12T14:43:44.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.5",
+      "published_at": "2021-09-04T05:27:03.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.6",
+      "published_at": "2022-10-02T03:18:02.757Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.6.1",
+      "published_at": "2022-10-19T01:20:06.587Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.6b0",
+      "published_at": "2022-02-06T04:55:37.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.6b1",
+      "published_at": "2022-06-22T01:55:54.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "mit",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.6.dev0",
+      "published_at": "2022-09-25T09:34:01.220Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.7",
+      "published_at": "2023-01-08T01:14:38.679Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.8",
+      "published_at": "2024-02-18T21:10:04.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.5.0",
+      "published_at": "2024-04-22T16:08:04.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.5.1",
+      "published_at": "2024-08-19T16:35:23.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.5.1",
+  "dependencies": [
+    {
+      "project_name": "matplotlib",
+      "name": "matplotlib",
+      "platform": "Pypi",
+      "requirements": ">=3.5",
+      "latest_stable": "3.10.0",
+      "latest": "3.10.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "multiprocess",
+      "name": "multiprocess",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.70.17",
+      "latest": "0.70.17",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "numpy",
+      "name": "numpy",
+      "platform": "Pypi",
+      "requirements": ">=1.20.3",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pandas",
+      "name": "pandas",
+      "platform": "Pypi",
+      "requirements": ">=2.0",
+      "latest_stable": "2.2.3",
+      "latest": "2.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "scipy",
+      "name": "scipy",
+      "platform": "Pypi",
+      "requirements": ">=1.9.3",
+      "latest_stable": "1.15.1",
+      "latest": "1.15.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "hatch",
+      "name": "hatch",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.14.0",
+      "latest": "1.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "myst-parser",
+      "name": "myst-parser",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "numpydoc",
+      "name": "numpydoc",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.8.0",
+      "latest": "1.8.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pathos",
+      "name": "pathos",
+      "platform": "Pypi",
+      "requirements": ">=0.3.2",
+      "latest_stable": "0.3.3",
+      "latest": "0.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "pre-commit",
+      "name": "pre-commit",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pydata-sphinx-theme",
+      "name": "pydata-sphinx-theme",
+      "platform": "Pypi",
+      "requirements": ">=0.15.2",
+      "latest_stable": "0.16.1",
+      "latest": "0.16.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-cov",
+      "name": "pytest-cov",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinx",
+      "name": "sphinx",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.1.3",
+      "latest": "8.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "pathos",
+      "name": "pathos",
+      "platform": "Pypi",
+      "requirements": ">=0.3.2",
+      "latest_stable": "0.3.3",
+      "latest": "0.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"distributed\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "myst-parser",
+      "name": "myst-parser",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "numpydoc",
+      "name": "numpydoc",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.8.0",
+      "latest": "1.8.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pydata-sphinx-theme",
+      "name": "pydata-sphinx-theme",
+      "platform": "Pypi",
+      "requirements": ">=0.15.2",
+      "latest_stable": "0.16.1",
+      "latest": "0.16.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "sphinx",
+      "name": "sphinx",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.1.3",
+      "latest": "8.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "pathos",
+      "name": "pathos",
+      "platform": "Pypi",
+      "requirements": ">=0.3.2",
+      "latest_stable": "0.3.3",
+      "latest": "0.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-cov",
+      "name": "pytest-cov",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

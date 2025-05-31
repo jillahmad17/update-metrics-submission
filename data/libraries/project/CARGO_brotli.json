@@ -1,0 +1,542 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 22,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 137,
+  "dependents_count": 190,
+  "deprecation_reason": null,
+  "description": "A brotli compressor and decompressor that with an interface avoiding the rust stdlib. This makes it suitable for embedded devices and kernels. It is designed with a pluggable allocator so that the standard lib's allocator may be employed. The default build also includes a stdlib allocator and stream interface. Disable this with --features=no-stdlib. All included code is safe.",
+  "forks": 83,
+  "funding_urls": [],
+  "homepage": "https://github.com/dropbox/rust-brotli",
+  "keywords": [
+    "decompression",
+    "nostd",
+    "huffman",
+    "brotli",
+    "lz77",
+    "brotli-compression",
+    "brotli-compressor",
+    "brotli-decompressor",
+    "brotli-encoder",
+    "compression",
+    "compressor",
+    "rust",
+    "rustlang",
+    "safe"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/brotli/7.0.0/download",
+  "latest_release_number": "7.0.0",
+  "latest_release_published_at": "2024-10-02T07:06:27.834Z",
+  "latest_stable_release_number": "7.0.0",
+  "latest_stable_release_published_at": "2024-10-02T07:06:27.834Z",
+  "license_normalized": true,
+  "licenses": "BSD-3-Clause AND MIT",
+  "name": "brotli",
+  "normalized_licenses": [
+    "BSD-3-Clause",
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/brotli/",
+  "platform": "Cargo",
+  "rank": 20,
+  "repository_license": "BSD-3-Clause",
+  "repository_status": null,
+  "repository_url": "https://github.com/dropbox/rust-brotli",
+  "security_policy_url": null,
+  "stars": 818,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2015-11-30T16:41:44.788Z",
+      "spdx_expression": "CC0-1.0",
+      "original_license": "CC0-1.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2016-05-24T09:00:39.762Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.6",
+      "published_at": "2016-06-20T21:40:37.930Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.7",
+      "published_at": "2016-10-22T08:48:50.342Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.8",
+      "published_at": "2017-04-30T03:34:04.416Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.9",
+      "published_at": "2017-11-10T19:47:42.583Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2017-12-28T07:07:36.112Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2018-01-01T09:48:39.538Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.2",
+      "published_at": "2018-01-13T22:02:31.015Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.3",
+      "published_at": "2018-02-24T09:27:01.197Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.4",
+      "published_at": "2018-03-03T21:29:23.661Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2018-03-12T00:40:03.275Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2018-04-19T07:05:09.499Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2018-04-19T08:50:43.571Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2018-05-02T21:22:03.758Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2018-05-18T06:56:08.953Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "published_at": "2018-05-21T04:59:15.886Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2018-06-05T00:45:53.723Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.4.0",
+      "published_at": "2018-06-11T20:56:08.708Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.4.1",
+      "published_at": "2018-06-14T07:23:10.558Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.4.2",
+      "published_at": "2018-06-14T17:54:40.226Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.5.0",
+      "published_at": "2018-06-16T04:38:34.978Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.5.1",
+      "published_at": "2018-09-27T21:13:21.430Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2018-11-05T21:37:56.897Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2018-11-06T01:38:24.046Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2018-11-06T02:50:27.432Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.3",
+      "published_at": "2018-11-22T08:43:39.870Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2018-11-22T09:59:40.937Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2018-11-25T23:17:40.209Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.2",
+      "published_at": "2018-12-04T11:04:13.898Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.3",
+      "published_at": "2018-12-05T00:40:37.687Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.4",
+      "published_at": "2018-12-05T09:52:08.091Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.5",
+      "published_at": "2018-12-06T01:33:21.810Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.6",
+      "published_at": "2019-01-14T21:44:05.582Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.7",
+      "published_at": "2019-01-16T20:43:01.798Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.8",
+      "published_at": "2019-01-31T06:48:53.417Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0",
+      "published_at": "2019-02-11T22:43:12.940Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.1",
+      "published_at": "2019-02-12T02:51:37.909Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.0",
+      "published_at": "2019-02-12T07:41:56.240Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.1",
+      "published_at": "2021-07-31T17:11:56.096Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.2",
+      "published_at": "2021-08-01T01:05:00.283Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.3",
+      "published_at": "2022-01-15T06:59:44.186Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.4",
+      "published_at": "2022-03-31T07:04:02.681Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.4.0",
+      "published_at": "2023-09-30T06:32:21.227Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3-Clause/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.5.0",
+      "published_at": "2024-03-17T03:28:41.426Z",
+      "spdx_expression": "BSD-3-Clause OR MIT",
+      "original_license": "BSD-3-Clause OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2024-04-03T07:58:17.630Z",
+      "spdx_expression": "BSD-3-Clause OR MIT",
+      "original_license": "BSD-3-Clause OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2024-04-12T07:09:08.637Z",
+      "spdx_expression": "BSD-3-Clause OR MIT",
+      "original_license": "BSD-3-Clause OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2024-05-04T16:39:48.194Z",
+      "spdx_expression": "BSD-3-Clause OR MIT",
+      "original_license": "BSD-3-Clause OR MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0",
+      "published_at": "2024-10-02T07:06:27.834Z",
+      "spdx_expression": "BSD-3-Clause AND MIT",
+      "original_license": "BSD-3-Clause AND MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

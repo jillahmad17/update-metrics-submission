@@ -1,0 +1,4256 @@
+{
+  "code_of_conduct_url": "https://github.com/aws/aws-sdk-js-v3/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 159,
+  "contribution_guidelines_url": "https://github.com/aws/aws-sdk-js-v3/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 119,
+  "dependents_count": 325,
+  "deprecation_reason": null,
+  "description": "AWS SDK for JavaScript Ses Client for Node.js, Browser and React Native",
+  "forks": 590,
+  "funding_urls": [],
+  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-ses",
+  "keywords": [
+    "aws-sdk",
+    "aws-sdk-js",
+    "dynamodb",
+    "javascript",
+    "lambda",
+    "nodejs",
+    "s3",
+    "sns",
+    "typescript"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@aws-sdk/client-ses/-/@aws-sdk/client-ses-3.726.1.tgz",
+  "latest_release_number": "3.726.1",
+  "latest_release_published_at": "2025-01-10T20:08:44.305Z",
+  "latest_stable_release_number": "3.726.1",
+  "latest_stable_release_published_at": "2025-01-10T20:08:44.305Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@aws-sdk/client-ses",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@aws-sdk/client-ses",
+  "platform": "NPM",
+  "rank": 22,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/aws/aws-sdk-js-v3",
+  "security_policy_url": "https://github.com/aws/aws-sdk-js-v3/security/policy",
+  "stars": 3174,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0-alpha.10",
+      "published_at": "2020-02-09T21:54:08.962Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.11",
+      "published_at": "2020-02-11T01:10:50.386Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.12",
+      "published_at": "2020-02-11T04:27:34.080Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.13",
+      "published_at": "2020-02-14T01:21:18.783Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.14",
+      "published_at": "2020-02-18T19:22:49.052Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.15",
+      "published_at": "2020-03-09T17:25:19.432Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.16",
+      "published_at": "2020-03-12T18:49:10.029Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.17",
+      "published_at": "2020-03-14T00:41:25.653Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.18",
+      "published_at": "2020-03-20T22:26:25.251Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.2",
+      "published_at": "2020-01-17T03:16:52.699Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.3",
+      "published_at": "2020-01-22T01:11:30.793Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.4",
+      "published_at": "2020-01-24T02:07:12.553Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.5",
+      "published_at": "2020-01-28T20:38:45.319Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.6",
+      "published_at": "2020-02-04T01:35:07.135Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.7",
+      "published_at": "2020-02-05T18:32:24.624Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.8",
+      "published_at": "2020-02-06T03:04:43.030Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.9",
+      "published_at": "2020-02-07T23:47:03.978Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-beta.1",
+      "published_at": "2020-03-25T04:37:08.200Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-beta.2",
+      "published_at": "2020-03-28T01:12:34.896Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-beta.3",
+      "published_at": "2020-03-30T17:31:55.485Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-beta.4",
+      "published_at": "2020-04-25T02:02:54.041Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-beta.5",
+      "published_at": "2020-04-27T05:35:21.864Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.1",
+      "published_at": "2020-05-21T22:14:10.406Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.10",
+      "published_at": "2020-09-29T19:01:00.294Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.11",
+      "published_at": "2020-10-07T20:44:02.896Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.2",
+      "published_at": "2020-05-26T21:37:45.873Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.3",
+      "published_at": "2020-07-08T21:39:54.184Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.4",
+      "published_at": "2020-07-13T23:41:39.286Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.5",
+      "published_at": "2020-07-21T18:13:02.890Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.6",
+      "published_at": "2020-08-04T22:37:48.218Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.7",
+      "published_at": "2020-08-25T19:27:41.496Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.8",
+      "published_at": "2020-09-01T21:27:28.473Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-gamma.9",
+      "published_at": "2020-09-15T21:03:07.172Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.1",
+      "published_at": "2020-10-19T23:25:55.455Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.10",
+      "published_at": "2020-12-15T03:01:00.556Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.2",
+      "published_at": "2020-10-22T21:25:55.139Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.3",
+      "published_at": "2020-10-28T00:55:39.414Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.4",
+      "published_at": "2020-10-31T01:06:35.338Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.5",
+      "published_at": "2020-11-09T23:07:42.212Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.6",
+      "published_at": "2020-11-13T23:38:26.856Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.7",
+      "published_at": "2020-11-20T01:07:56.244Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.8",
+      "published_at": "2020-12-05T01:33:37.289Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.9",
+      "published_at": "2020-12-12T00:08:23.990Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2020-12-15T23:02:03.301Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2020-12-24T00:39:26.701Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.10.0",
+      "published_at": "2021-03-27T00:28:43.085Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.100.0",
+      "published_at": "2022-05-26T19:15:39.199Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.105.0",
+      "published_at": "2022-06-06T22:07:30.163Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.107.0",
+      "published_at": "2022-06-08T20:26:13.161Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.109.0",
+      "published_at": "2022-06-13T20:00:17.757Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.11.0",
+      "published_at": "2021-04-01T23:27:02.658Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.110.0",
+      "published_at": "2022-06-14T19:40:40.066Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.112.0",
+      "published_at": "2022-06-16T19:22:48.852Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.118.0",
+      "published_at": "2022-06-24T19:29:48.973Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.118.1",
+      "published_at": "2022-06-27T19:10:21.472Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.12.0",
+      "published_at": "2021-04-09T23:31:05.025Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.121.0",
+      "published_at": "2022-06-30T21:12:19.400Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.127.0",
+      "published_at": "2022-07-11T19:27:49.559Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.128.0",
+      "published_at": "2022-07-12T19:46:40.253Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.13.0",
+      "published_at": "2021-04-15T21:48:41.179Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.130.0",
+      "published_at": "2022-07-14T19:29:15.704Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.13.1",
+      "published_at": "2021-04-22T21:49:13.300Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.131.0",
+      "published_at": "2022-07-15T19:26:08.733Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.137.0",
+      "published_at": "2022-07-26T19:40:12.918Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.14.0",
+      "published_at": "2021-04-30T22:40:16.359Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.141.0",
+      "published_at": "2022-08-01T19:30:20.045Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.142.0",
+      "published_at": "2022-08-02T19:28:27.347Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.145.0",
+      "published_at": "2022-08-08T21:15:33.522Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.15.0",
+      "published_at": "2021-05-10T23:05:44.590Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.150.0",
+      "published_at": "2022-08-15T19:27:34.707Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.154.0",
+      "published_at": "2022-08-19T21:06:31.646Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.159.0",
+      "published_at": "2022-08-26T19:54:09.299Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.16.0",
+      "published_at": "2021-05-14T22:03:14.792Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.160.0",
+      "published_at": "2022-08-29T20:37:37.935Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.161.0",
+      "published_at": "2022-08-30T21:35:37.724Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.162.0",
+      "published_at": "2022-08-31T19:29:56.544Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.163.0",
+      "published_at": "2022-09-01T19:40:45.004Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.165.0",
+      "published_at": "2022-09-06T19:25:51.954Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.168.0",
+      "published_at": "2022-09-09T20:37:08.913Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.169.0",
+      "published_at": "2022-09-12T19:21:33.061Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.17.0",
+      "published_at": "2021-05-26T02:09:36.060Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.170.0",
+      "published_at": "2022-09-13T19:30:43.578Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.171.0",
+      "published_at": "2022-09-14T19:34:53.740Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.178.0",
+      "published_at": "2022-09-23T19:33:43.484Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.179.0",
+      "published_at": "2022-09-26T19:26:49.719Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.18.0",
+      "published_at": "2021-06-05T00:05:13.817Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.180.0",
+      "published_at": "2022-09-27T19:31:23.930Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.181.0",
+      "published_at": "2022-09-29T19:29:03.507Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.183.0",
+      "published_at": "2022-10-03T19:28:03.778Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.185.0",
+      "published_at": "2022-10-05T19:32:22.735Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.186.0",
+      "published_at": "2022-10-06T19:43:25.332Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.188.0",
+      "published_at": "2022-10-13T19:36:06.997Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.19.0",
+      "published_at": "2021-06-24T22:38:27.490Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.190.0",
+      "published_at": "2022-10-17T19:24:35.691Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.192.0",
+      "published_at": "2022-10-19T19:24:30.723Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.193.0",
+      "published_at": "2022-10-20T20:00:28.571Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.194.0",
+      "published_at": "2022-10-21T21:28:47.026Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.196.0",
+      "published_at": "2022-10-25T19:29:04.471Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.197.0",
+      "published_at": "2022-10-26T19:38:42.307Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.198.0",
+      "published_at": "2022-10-27T20:36:42.115Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.199.0",
+      "published_at": "2022-10-28T19:35:28.051Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.2.0",
+      "published_at": "2021-01-09T01:13:02.625Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.20.0",
+      "published_at": "2021-07-02T23:26:59.451Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.200.0",
+      "published_at": "2022-10-31T19:43:39.133Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.201.0",
+      "published_at": "2022-11-01T19:55:44.952Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.202.0",
+      "published_at": "2022-11-02T19:56:30.697Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.204.0",
+      "published_at": "2022-11-04T22:36:12.411Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.208.0",
+      "published_at": "2022-11-10T22:41:45.406Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.209.0",
+      "published_at": "2022-11-11T21:08:26.493Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.21.0",
+      "published_at": "2021-07-10T00:20:40.051Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.210.0",
+      "published_at": "2022-11-14T21:15:27.301Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.211.0",
+      "published_at": "2022-11-15T20:25:08.778Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.212.0",
+      "published_at": "2022-11-16T21:25:45.928Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.213.0",
+      "published_at": "2022-11-17T20:26:54.712Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.215.0",
+      "published_at": "2022-11-21T20:53:03.174Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.216.0",
+      "published_at": "2022-11-22T20:25:39.831Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.218.0",
+      "published_at": "2022-11-28T04:05:35.189Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.22.0",
+      "published_at": "2021-07-16T23:41:43.370Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.222.0",
+      "published_at": "2022-12-01T20:30:20.864Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.223.0",
+      "published_at": "2022-12-02T20:31:37.796Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.224.0",
+      "published_at": "2022-12-05T20:32:30.638Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.226.0",
+      "published_at": "2022-12-07T21:45:45.369Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.229.0",
+      "published_at": "2022-12-12T20:31:44.060Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.23.0",
+      "published_at": "2021-07-23T17:52:18.744Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.231.0",
+      "published_at": "2022-12-14T20:17:07.159Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.234.0",
+      "published_at": "2022-12-19T20:12:03.438Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.235.0",
+      "published_at": "2022-12-20T20:16:32.329Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.236.0",
+      "published_at": "2022-12-21T21:04:07.888Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.238.0",
+      "published_at": "2022-12-23T20:14:19.784Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.24.0",
+      "published_at": "2021-07-30T00:45:08.212Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.241.0",
+      "published_at": "2022-12-29T20:04:23.276Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.245.0",
+      "published_at": "2023-01-05T20:09:28.674Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.25.0",
+      "published_at": "2021-08-06T00:04:38.712Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.252.0",
+      "published_at": "2023-01-17T20:05:38.454Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.254.0",
+      "published_at": "2023-01-19T22:08:50.939Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.256.0",
+      "published_at": "2023-01-23T20:16:59.702Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.257.0",
+      "published_at": "2023-01-24T20:11:32.252Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.258.0",
+      "published_at": "2023-01-25T20:19:56.795Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.259.0",
+      "published_at": "2023-01-26T20:06:49.537Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.26.0",
+      "published_at": "2021-08-13T23:06:38.287Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.261.0",
+      "published_at": "2023-01-30T22:13:52.629Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.262.0",
+      "published_at": "2023-01-31T20:21:21.950Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.264.0",
+      "published_at": "2023-02-02T20:29:56.500Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.266.0",
+      "published_at": "2023-02-06T23:20:34.190Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.266.1",
+      "published_at": "2023-02-07T20:07:14.036Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.267.0",
+      "published_at": "2023-02-08T20:11:26.039Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.27.0",
+      "published_at": "2021-08-19T22:11:01.211Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.271.0",
+      "published_at": "2023-02-14T20:16:57.214Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.272.0",
+      "published_at": "2023-02-15T20:55:53.281Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.276.0",
+      "published_at": "2023-02-21T21:12:00.796Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.278.0",
+      "published_at": "2023-02-23T20:19:14.182Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.279.0",
+      "published_at": "2023-02-24T20:10:13.900Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.28.0",
+      "published_at": "2021-08-27T22:39:41.575Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.281.0",
+      "published_at": "2023-02-28T20:06:54.518Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.282.0",
+      "published_at": "2023-03-01T20:08:11.959Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.287.0",
+      "published_at": "2023-03-08T20:10:49.966Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.288.0",
+      "published_at": "2023-03-09T20:11:14.175Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.289.0",
+      "published_at": "2023-03-10T20:55:32.743Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.29.0",
+      "published_at": "2021-09-03T00:25:41.993Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.290.0",
+      "published_at": "2023-03-13T19:09:54.438Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.292.0",
+      "published_at": "2023-03-15T19:00:35.431Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.293.0",
+      "published_at": "2023-03-16T18:57:24.060Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.294.0",
+      "published_at": "2023-03-17T18:59:16.005Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.295.0",
+      "published_at": "2023-03-20T18:55:04.577Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.296.0",
+      "published_at": "2023-03-21T18:58:09.919Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.297.0",
+      "published_at": "2023-03-22T18:57:15.698Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.298.0",
+      "published_at": "2023-03-23T18:58:43.796Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.299.0",
+      "published_at": "2023-03-24T18:56:35.651Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.3.0",
+      "published_at": "2021-01-15T00:11:54.139Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.30.0",
+      "published_at": "2021-09-07T22:34:00.571Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.300.0",
+      "published_at": "2023-03-27T19:02:44.119Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.301.0",
+      "published_at": "2023-03-28T18:54:53.684Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.303.0",
+      "published_at": "2023-03-30T19:01:13.194Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.306.0",
+      "published_at": "2023-04-04T19:03:35.373Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.309.0",
+      "published_at": "2023-04-07T19:08:45.318Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.31.0",
+      "published_at": "2021-09-11T00:26:30.331Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.310.0",
+      "published_at": "2023-04-10T19:09:24.080Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.312.0",
+      "published_at": "2023-04-12T19:15:50.981Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.315.0",
+      "published_at": "2023-04-17T19:15:51.359Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.316.0",
+      "published_at": "2023-04-19T19:17:59.805Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.319.0",
+      "published_at": "2023-04-24T19:15:32.941Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.32.0",
+      "published_at": "2021-09-17T22:22:32.564Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.321.1",
+      "published_at": "2023-04-27T01:24:06.053Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.325.0",
+      "published_at": "2023-05-02T19:15:59.587Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.326.0",
+      "published_at": "2023-05-03T20:56:45.666Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.327.0",
+      "published_at": "2023-05-04T20:44:47.986Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.328.0",
+      "published_at": "2023-05-05T20:46:48.524Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.329.0",
+      "published_at": "2023-05-08T19:17:38.261Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.33.0",
+      "published_at": "2021-09-21T00:36:40.754Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.332.0",
+      "published_at": "2023-05-11T19:16:12.196Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.335.0",
+      "published_at": "2023-05-18T19:21:27.184Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.337.0",
+      "published_at": "2023-05-22T19:26:16.957Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.338.0",
+      "published_at": "2023-05-23T19:40:09.758Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.34.0",
+      "published_at": "2021-09-24T23:24:01.414Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.341.0",
+      "published_at": "2023-05-26T19:21:25.891Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.342.0",
+      "published_at": "2023-05-30T21:07:24.725Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.344.0",
+      "published_at": "2023-06-01T19:59:13.449Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.345.0",
+      "published_at": "2023-06-02T19:25:24.447Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.347.0",
+      "published_at": "2023-06-06T19:26:00.692Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.347.1",
+      "published_at": "2023-06-07T00:57:03.179Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.348.0",
+      "published_at": "2023-06-07T20:01:25.320Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.35.0",
+      "published_at": "2021-10-04T22:05:15.335Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.350.0",
+      "published_at": "2023-06-09T19:22:26.977Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.352.0",
+      "published_at": "2023-06-13T19:24:58.942Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.353.0",
+      "published_at": "2023-06-15T20:37:15.173Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.354.0",
+      "published_at": "2023-06-16T19:56:45.253Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.357.0",
+      "published_at": "2023-06-21T19:29:42.531Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.358.0",
+      "published_at": "2023-06-22T19:38:43.875Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.359.0",
+      "published_at": "2023-06-23T19:22:28.835Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.36.0",
+      "published_at": "2021-10-08T01:15:51.288Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.360.0",
+      "published_at": "2023-06-26T19:23:36.447Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.36.1",
+      "published_at": "2021-10-12T21:40:28.788Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.362.0",
+      "published_at": "2023-06-28T19:26:52.207Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.363.0",
+      "published_at": "2023-06-29T20:24:33.745Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.369.0",
+      "published_at": "2023-07-11T05:51:43.281Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.37.0",
+      "published_at": "2021-10-15T21:30:51.124Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.370.0",
+      "published_at": "2023-07-13T20:24:12.197Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.377.0",
+      "published_at": "2023-07-25T21:16:22.601Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.378.0",
+      "published_at": "2023-07-26T19:36:47.268Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.379.1",
+      "published_at": "2023-07-28T01:54:28.992Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.38.0",
+      "published_at": "2021-10-22T22:21:26.314Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.382.0",
+      "published_at": "2023-08-01T19:24:27.791Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.385.0",
+      "published_at": "2023-08-04T19:35:39.185Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.386.0",
+      "published_at": "2023-08-07T19:27:10.048Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.387.0",
+      "published_at": "2023-08-08T19:27:09.969Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.388.0",
+      "published_at": "2023-08-09T19:29:40.960Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.39.0",
+      "published_at": "2021-10-29T01:37:48.778Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.390.0",
+      "published_at": "2023-08-11T19:12:04.061Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.391.0",
+      "published_at": "2023-08-14T19:27:31.516Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.395.0",
+      "published_at": "2023-08-18T19:31:51.931Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.398.0",
+      "published_at": "2023-08-23T21:04:25.254Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.4.0",
+      "published_at": "2021-01-29T01:08:54.025Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.40.0",
+      "published_at": "2021-11-06T00:20:36.012Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.405.0",
+      "published_at": "2023-09-01T19:20:39.092Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.408.0",
+      "published_at": "2023-09-07T21:55:31.231Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.409.0",
+      "published_at": "2023-09-08T19:24:42.854Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.4.1",
+      "published_at": "2021-01-29T22:57:43.410Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.41.0",
+      "published_at": "2021-11-11T23:22:50.558Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.410.0",
+      "published_at": "2023-09-11T19:24:54.707Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.413.0",
+      "published_at": "2023-09-14T21:01:19.884Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.414.0",
+      "published_at": "2023-09-15T19:55:39.174Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.418.0",
+      "published_at": "2023-09-22T20:09:20.418Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.42.0",
+      "published_at": "2021-11-19T22:29:11.067Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.421.0",
+      "published_at": "2023-09-27T19:30:13.296Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.423.0",
+      "published_at": "2023-10-02T19:32:32.942Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.425.0",
+      "published_at": "2023-10-04T20:02:38.601Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.427.0",
+      "published_at": "2023-10-06T19:30:04.583Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.428.0",
+      "published_at": "2023-10-12T19:41:22.901Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.429.0",
+      "published_at": "2023-10-16T19:30:58.578Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.43.0",
+      "published_at": "2021-11-29T21:08:05.807Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.430.0",
+      "published_at": "2023-10-17T19:34:52.486Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.431.0",
+      "published_at": "2023-10-18T19:33:19.361Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.433.0",
+      "published_at": "2023-10-20T21:24:39.353Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.435.0",
+      "published_at": "2023-10-24T19:30:21.551Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.436.0",
+      "published_at": "2023-10-25T21:30:22.693Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.437.0",
+      "published_at": "2023-10-26T19:40:05.558Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.438.0",
+      "published_at": "2023-10-27T21:03:37.079Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.441.0",
+      "published_at": "2023-11-01T19:34:56.146Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.445.0",
+      "published_at": "2023-11-07T21:11:43.698Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.449.0",
+      "published_at": "2023-11-10T20:47:40.823Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.45.0",
+      "published_at": "2021-12-23T23:23:43.537Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.450.0",
+      "published_at": "2023-11-13T20:30:59.516Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.451.0",
+      "published_at": "2023-11-14T20:32:40.219Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.454.0",
+      "published_at": "2023-11-17T21:24:56.990Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.458.0",
+      "published_at": "2023-11-27T05:06:25.733Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.46.0",
+      "published_at": "2022-01-07T22:52:12.937Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.460.0",
+      "published_at": "2023-11-28T06:56:06.950Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.461.0",
+      "published_at": "2023-11-28T20:20:07.302Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.462.0",
+      "published_at": "2023-11-29T20:08:02.521Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.465.0",
+      "published_at": "2023-12-01T21:15:47.579Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.468.0",
+      "published_at": "2023-12-06T20:26:48.994Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.47.0",
+      "published_at": "2022-01-15T01:10:05.561Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.470.0",
+      "published_at": "2023-12-08T20:25:45.370Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.47.1",
+      "published_at": "2022-01-20T22:52:38.627Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.47.2",
+      "published_at": "2022-01-21T21:09:17.276Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.473.0",
+      "published_at": "2023-12-13T21:00:29.907Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.474.0",
+      "published_at": "2023-12-14T20:29:44.023Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.476.0",
+      "published_at": "2023-12-18T20:29:41.162Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.477.0",
+      "published_at": "2023-12-19T20:24:31.982Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.478.0",
+      "published_at": "2023-12-20T20:37:35.021Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.48.0",
+      "published_at": "2022-01-22T00:45:33.753Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.481.0",
+      "published_at": "2023-12-26T20:19:53.162Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.484.0",
+      "published_at": "2023-12-29T21:50:31.332Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.485.0",
+      "published_at": "2024-01-03T20:27:13.198Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.489.0",
+      "published_at": "2024-01-10T20:23:22.039Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.49.0",
+      "published_at": "2022-01-29T01:02:23.482Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.490.0",
+      "published_at": "2024-01-11T20:18:41.785Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.495.0",
+      "published_at": "2024-01-18T20:20:04.213Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.496.0",
+      "published_at": "2024-01-19T20:29:08.528Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.498.0",
+      "published_at": "2024-01-23T21:29:42.565Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.499.0",
+      "published_at": "2024-01-24T20:22:31.366Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.5.0",
+      "published_at": "2021-02-12T20:31:26.075Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.50.0",
+      "published_at": "2022-02-08T23:13:37.228Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.501.0",
+      "published_at": "2024-01-26T20:17:47.698Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.502.0",
+      "published_at": "2024-01-29T23:18:50.196Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.503.0",
+      "published_at": "2024-01-30T20:16:03.917Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.503.1",
+      "published_at": "2024-01-30T22:37:25.320Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.504.0",
+      "published_at": "2024-01-31T21:16:56.122Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.507.0",
+      "published_at": "2024-02-05T20:14:51.146Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.509.0",
+      "published_at": "2024-02-07T20:13:37.569Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.51.0",
+      "published_at": "2022-02-12T03:25:43.013Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.511.0",
+      "published_at": "2024-02-09T20:17:33.104Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.513.0",
+      "published_at": "2024-02-13T20:17:20.754Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.514.0",
+      "published_at": "2024-02-14T20:34:42.979Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.515.0",
+      "published_at": "2024-02-15T20:34:39.149Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.5.1-rc.0",
+      "published_at": "2021-02-19T22:34:55.134Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.52.0",
+      "published_at": "2022-02-18T23:17:08.509Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.521.0",
+      "published_at": "2024-02-23T20:20:59.311Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.523.0",
+      "published_at": "2024-02-27T20:21:22.794Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.525.0",
+      "published_at": "2024-02-29T20:17:28.160Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.529.0",
+      "published_at": "2024-03-07T20:23:55.414Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.529.1",
+      "published_at": "2024-03-08T01:16:56.212Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.53.0",
+      "published_at": "2022-02-25T02:14:58.724Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.533.0",
+      "published_at": "2024-03-13T19:17:11.781Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.535.0",
+      "published_at": "2024-03-15T19:25:52.421Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.54.0",
+      "published_at": "2022-03-11T00:49:40.449Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.540.0",
+      "published_at": "2024-03-22T19:13:59.171Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.54.1",
+      "published_at": "2022-03-16T00:28:55.659Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.549.0",
+      "published_at": "2024-04-04T19:21:38.990Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.55.0",
+      "published_at": "2022-03-22T00:09:55.943Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.552.0",
+      "published_at": "2024-04-09T19:19:36.262Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.554.0",
+      "published_at": "2024-04-11T19:18:45.580Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.556.0",
+      "published_at": "2024-04-16T19:27:23.482Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.56.0",
+      "published_at": "2022-03-24T19:12:10.328Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.563.0",
+      "published_at": "2024-04-25T19:18:54.913Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.564.0",
+      "published_at": "2024-04-26T19:16:08.607Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.565.0",
+      "published_at": "2024-04-29T19:20:01.045Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.567.0",
+      "published_at": "2024-05-01T19:17:39.206Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.568.0",
+      "published_at": "2024-05-02T19:35:49.685Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.569.0",
+      "published_at": "2024-05-03T19:42:34.962Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.572.0",
+      "published_at": "2024-05-08T19:18:51.334Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.574.0",
+      "published_at": "2024-05-10T19:32:52.529Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.575.0",
+      "published_at": "2024-05-13T19:17:06.723Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.576.0",
+      "published_at": "2024-05-14T19:15:39.414Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.577.0",
+      "published_at": "2024-05-15T19:14:31.607Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.58.0",
+      "published_at": "2022-03-28T19:16:05.410Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.582.0",
+      "published_at": "2024-05-22T19:19:14.679Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.583.0",
+      "published_at": "2024-05-23T19:19:08.883Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.587.0",
+      "published_at": "2024-05-30T19:18:18.716Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.588.0",
+      "published_at": "2024-05-31T19:27:49.479Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.590.0",
+      "published_at": "2024-06-04T19:17:11.050Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.592.0",
+      "published_at": "2024-06-06T19:14:03.189Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.596.0",
+      "published_at": "2024-06-12T19:19:47.967Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.598.0",
+      "published_at": "2024-06-14T19:21:25.041Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.6.0",
+      "published_at": "2021-02-20T02:33:23.836Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.600.0",
+      "published_at": "2024-06-18T19:22:28.584Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.606.0",
+      "published_at": "2024-06-28T16:23:23.233Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.609.0",
+      "published_at": "2024-07-02T19:19:31.110Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.6.1",
+      "published_at": "2021-02-22T23:48:46.932Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.613.0",
+      "published_at": "2024-07-09T19:18:47.538Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.614.0",
+      "published_at": "2024-07-10T19:52:42.900Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.616.0",
+      "published_at": "2024-07-18T20:33:11.747Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.620.0",
+      "published_at": "2024-07-25T20:42:44.060Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.620.1",
+      "published_at": "2024-07-29T19:22:30.874Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.621.0",
+      "published_at": "2024-07-30T19:19:55.268Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.622.0",
+      "published_at": "2024-08-01T19:25:29.046Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.623.0",
+      "published_at": "2024-08-02T19:20:16.049Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.624.0",
+      "published_at": "2024-08-05T19:20:09.811Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.629.0",
+      "published_at": "2024-08-12T19:55:18.201Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.631.0",
+      "published_at": "2024-08-14T19:06:48.417Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.632.0",
+      "published_at": "2024-08-15T19:12:04.441Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.635.0",
+      "published_at": "2024-08-20T19:23:33.045Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.636.0",
+      "published_at": "2024-08-21T19:11:44.137Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.637.0",
+      "published_at": "2024-08-22T19:34:52.755Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.645.0",
+      "published_at": "2024-09-04T19:15:07.492Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.649.0",
+      "published_at": "2024-09-10T19:36:07.598Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.650.0",
+      "published_at": "2024-09-11T19:35:53.094Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.651.1",
+      "published_at": "2024-09-13T19:07:38.116Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.654.0",
+      "published_at": "2024-09-18T19:18:36.711Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.658.0",
+      "published_at": "2024-09-24T19:54:27.343Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.658.1",
+      "published_at": "2024-09-25T19:25:23.990Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.662.0",
+      "published_at": "2024-10-01T19:29:42.858Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.664.0",
+      "published_at": "2024-10-03T20:13:19.887Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.665.0",
+      "published_at": "2024-10-04T19:13:19.408Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.666.0",
+      "published_at": "2024-10-07T19:54:47.176Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.667.0",
+      "published_at": "2024-10-08T19:11:55.207Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.668.0",
+      "published_at": "2024-10-09T19:13:04.264Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.669.0",
+      "published_at": "2024-10-10T19:16:52.040Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.67.0",
+      "published_at": "2022-04-08T19:11:16.953Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.670.0",
+      "published_at": "2024-10-11T19:25:19.027Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.675.0",
+      "published_at": "2024-10-18T19:13:59.238Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.677.0",
+      "published_at": "2024-10-22T19:37:11.155Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.678.0",
+      "published_at": "2024-10-23T20:48:19.395Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.679.0",
+      "published_at": "2024-10-24T20:09:05.271Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.682.0",
+      "published_at": "2024-10-29T19:52:01.005Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.686.0",
+      "published_at": "2024-11-06T20:35:50.979Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.687.0",
+      "published_at": "2024-11-07T20:25:19.833Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.691.0",
+      "published_at": "2024-11-14T00:13:18.857Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.692.0",
+      "published_at": "2024-11-14T20:13:11.071Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.693.0",
+      "published_at": "2024-11-15T02:56:23.127Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.696.0",
+      "published_at": "2024-11-19T21:31:47.351Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.699.0",
+      "published_at": "2024-11-22T20:11:08.138Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.7.0",
+      "published_at": "2021-02-26T00:37:56.996Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.709.0",
+      "published_at": "2024-12-10T20:44:33.761Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.712.0",
+      "published_at": "2024-12-13T20:23:39.619Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.713.0",
+      "published_at": "2024-12-16T20:13:28.021Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.714.0",
+      "published_at": "2024-12-17T20:03:15.074Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.716.0",
+      "published_at": "2024-12-19T20:07:12.688Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.72.0",
+      "published_at": "2022-04-15T19:14:27.986Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.721.0",
+      "published_at": "2025-01-02T20:08:07.271Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.723.0",
+      "published_at": "2025-01-06T20:59:15.296Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.726.0",
+      "published_at": "2025-01-09T20:06:12.628Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.726.1",
+      "published_at": "2025-01-10T20:08:44.305Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.74.0",
+      "published_at": "2022-04-20T19:13:42.546Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.75.0",
+      "published_at": "2022-04-21T19:13:30.659Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.76.0",
+      "published_at": "2022-04-22T20:32:24.860Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.78.0",
+      "published_at": "2022-04-26T19:15:40.096Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.79.0",
+      "published_at": "2022-04-27T19:15:57.725Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.8.0",
+      "published_at": "2021-03-05T23:32:18.822Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.80.0",
+      "published_at": "2022-04-28T20:31:20.037Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.8.1",
+      "published_at": "2021-03-12T00:03:09.057Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.81.0",
+      "published_at": "2022-04-29T19:15:47.341Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.82.0",
+      "published_at": "2022-05-02T19:11:45.752Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.85.0",
+      "published_at": "2022-05-05T19:40:21.164Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.87.0",
+      "published_at": "2022-05-09T19:13:55.813Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.9.0",
+      "published_at": "2021-03-18T22:24:47.271Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.92.0",
+      "published_at": "2022-05-16T19:12:47.275Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.94.0",
+      "published_at": "2022-05-18T19:13:33.658Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.95.0",
+      "published_at": "2022-05-19T19:27:40.452Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.98.0",
+      "published_at": "2022-05-24T18:46:42.767Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.99.0",
+      "published_at": "2022-05-25T19:15:42.077Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ]
+}

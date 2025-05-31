@@ -1,0 +1,819 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 198,
+  "contribution_guidelines_url": "https://github.com/wasmerio/wasmer/blob/main/docs/CONTRIBUTING.md",
+  "dependent_repos_count": 8,
+  "dependents_count": 14,
+  "deprecation_reason": null,
+  "description": "LLVM compiler for Wasmer WebAssembly runtime",
+  "forks": 829,
+  "funding_urls": [],
+  "homepage": "https://wasmer.io/",
+  "keywords": [
+    "compiler",
+    "llvm",
+    "wasm",
+    "webassembly",
+    "emscripten",
+    "linux",
+    "macos",
+    "rust",
+    "wasi",
+    "wasix",
+    "wasmer",
+    "windows"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/wasmer-compiler-llvm/5.0.4/download",
+  "latest_release_number": "5.0.4",
+  "latest_release_published_at": "2024-12-17T12:16:35.469Z",
+  "latest_stable_release_number": "5.0.4",
+  "latest_stable_release_published_at": "2024-12-17T12:16:35.469Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "wasmer-compiler-llvm",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/wasmer-compiler-llvm/",
+  "platform": "Cargo",
+  "rank": 16,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/wasmerio/wasmer",
+  "security_policy_url": "https://github.com/wasmerio/wasmer/security/policy",
+  "stars": 19205,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2021-01-05T14:36:54.049Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha01.0",
+      "published_at": "2020-08-15T00:39:16.539Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha02.0",
+      "published_at": "2020-09-11T22:05:47.662Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha3",
+      "published_at": "2020-09-14T21:05:34.291Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha4",
+      "published_at": "2020-10-09T00:58:25.310Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha5",
+      "published_at": "2020-11-06T19:32:43.345Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-beta1",
+      "published_at": "2020-12-02T01:27:22.683Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-beta2",
+      "published_at": "2020-12-16T17:18:18.175Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-rc1",
+      "published_at": "2020-12-23T21:31:12.465Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2021-01-13T21:51:02.809Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2021-02-05T03:28:51.494Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2021-06-16T14:47:13.959Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc1",
+      "published_at": "2021-06-02T16:42:59.507Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc2",
+      "published_at": "2021-06-15T14:56:09.195Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2021-11-30T23:37:00.607Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.1",
+      "published_at": "2021-12-21T14:48:32.664Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2022-02-28T21:44:58.435Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0-rc1",
+      "published_at": "2022-01-28T00:04:56.240Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0-rc2",
+      "published_at": "2022-02-17T23:49:07.706Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "published_at": "2022-03-16T00:45:27.116Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2022-06-06T20:32:09.222Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2022-11-20T17:36:01.676Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha",
+      "published_at": "2022-07-28T19:35:43.837Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.1",
+      "published_at": "2022-07-28T20:02:22.388Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.2",
+      "published_at": "2022-07-28T20:20:25.116Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.3",
+      "published_at": "2022-07-28T20:36:45.872Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.4",
+      "published_at": "2022-07-29T09:57:38.176Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta",
+      "published_at": "2022-08-08T17:31:52.667Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta.2",
+      "published_at": "2022-09-27T06:07:26.340Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.1",
+      "published_at": "2022-10-25T11:35:17.656Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.2",
+      "published_at": "2022-11-02T14:01:14.377Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.3",
+      "published_at": "2022-11-18T21:39:27.490Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.4",
+      "published_at": "2022-11-19T16:54:51.462Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2022-11-23T14:45:32.189Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2022-11-27T19:54:53.823Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.3",
+      "published_at": "2023-01-26T12:58:14.866Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2022-12-12T14:14:43.515Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2023-01-26T13:19:35.401Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0",
+      "published_at": "2023-04-18T17:51:35.306Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-alpha.1",
+      "published_at": "2023-01-23T16:35:28.031Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-beta.1",
+      "published_at": "2023-03-23T15:52:19.537Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-beta.2",
+      "published_at": "2023-04-05T15:09:59.967Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.1",
+      "published_at": "2023-04-21T16:02:10.569Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.0",
+      "published_at": "2023-05-03T11:34:18.204Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2023-06-22T15:57:09.475Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-alpha.1",
+      "published_at": "2023-05-25T17:08:40.723Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.1",
+      "published_at": "2023-06-01T19:31:51.822Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.2",
+      "published_at": "2023-06-09T16:57:54.654Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.3",
+      "published_at": "2023-06-15T13:54:51.218Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2023-07-24T20:57:57.954Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.1",
+      "published_at": "2023-08-03T17:16:02.369Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.2",
+      "published_at": "2023-08-21T16:12:01.005Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.0",
+      "published_at": "2023-09-05T16:25:14.213Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.1",
+      "published_at": "2023-09-28T20:17:17.105Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.2",
+      "published_at": "2023-10-05T08:32:52.176Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.3",
+      "published_at": "2023-10-27T07:41:26.673Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.4",
+      "published_at": "2023-12-01T11:57:25.580Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.5",
+      "published_at": "2023-12-23T12:38:38.200Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.6",
+      "published_at": "2024-03-04T07:51:53.756Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.8",
+      "published_at": "2024-04-08T12:48:07.467Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0",
+      "published_at": "2024-05-10T15:53:42.815Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0-alpha.1",
+      "published_at": "2024-04-25T13:07:41.717Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0-beta.1",
+      "published_at": "2024-05-08T17:52:23.157Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.1",
+      "published_at": "2024-05-23T15:11:50.229Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.2",
+      "published_at": "2024-06-11T16:39:59.988Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.3",
+      "published_at": "2024-07-04T08:16:09.765Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.4",
+      "published_at": "2024-07-08T22:00:16.857Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.5",
+      "published_at": "2024-07-16T17:36:45.823Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.6",
+      "published_at": "2024-08-22T11:11:06.438Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.7",
+      "published_at": "2024-09-09T08:32:52.844Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.4.0",
+      "published_at": "2024-10-04T13:59:46.464Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2024-10-29T16:58:54.673Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-rc.1",
+      "published_at": "2024-10-21T12:47:43.193Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2024-11-06T11:18:54.720Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.2",
+      "published_at": "2024-11-25T00:01:45.939Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.3",
+      "published_at": "2024-12-07T16:49:22.451Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.4",
+      "published_at": "2024-12-17T12:16:35.469Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

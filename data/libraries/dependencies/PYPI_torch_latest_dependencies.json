@@ -1,0 +1,909 @@
+{
+  "code_of_conduct_url": "https://github.com/pytorch/pytorch/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 656,
+  "contribution_guidelines_url": "https://github.com/pytorch/pytorch/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 7667,
+  "dependents_count": 13624,
+  "deprecation_reason": null,
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "forks": 22762,
+  "funding_urls": [],
+  "homepage": "https://pytorch.org/",
+  "keywords": [
+    "pytorch",
+    "machine",
+    "learning",
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "2.5.1",
+  "latest_release_published_at": "2024-10-29T17:32:42.000Z",
+  "latest_stable_release_number": "2.5.1",
+  "latest_stable_release_published_at": "2024-10-29T17:32:42.000Z",
+  "license_normalized": false,
+  "licenses": "BSD-3-Clause",
+  "name": "torch",
+  "normalized_licenses": [
+    "BSD-3-Clause"
+  ],
+  "package_manager_url": "https://pypi.org/project/torch/",
+  "platform": "Pypi",
+  "rank": 28,
+  "repository_license": "Other",
+  "repository_status": null,
+  "repository_url": "",
+  "security_policy_url": "https://github.com/pytorch/pytorch/security/policy",
+  "stars": 84512,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.2",
+      "published_at": "2017-03-06T15:53:21.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.1.2.post1",
+      "published_at": "2017-03-07T04:19:45.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.1.2.post2",
+      "published_at": "2019-06-21T22:03:58.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.3.0.post4",
+      "published_at": "2018-01-25T05:15:01.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.3.1",
+      "published_at": "2018-04-03T15:39:44.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2018-04-24T18:48:54.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2018-07-26T17:54:38.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.1.post2",
+      "published_at": "2018-07-27T02:58:39.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2018-12-07T18:56:01.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2019-02-05T13:41:09.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.0.1.post2",
+      "published_at": "2019-02-08T19:09:14.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2019-04-30T23:21:02.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.10.0",
+      "published_at": "2021-10-21T14:45:53.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.10.1",
+      "published_at": "2021-12-15T21:58:45.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.10.2",
+      "published_at": "2022-01-27T19:29:53.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0.post2",
+      "published_at": "2019-06-21T21:47:40.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.11.0",
+      "published_at": "2022-03-10T16:38:35.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.12.0",
+      "published_at": "2022-06-28T16:21:51.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.12.1",
+      "published_at": "2022-08-05T17:23:18.762Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.13.0",
+      "published_at": "2022-10-28T16:24:20.689Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.13.1",
+      "published_at": "2022-12-15T20:09:57.027Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2019-08-08T16:01:26.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.0",
+      "published_at": "2019-10-10T15:16:45.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.0.post2",
+      "published_at": "2019-10-22T18:06:28.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.3.1",
+      "published_at": "2019-11-07T17:45:55.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.4.0",
+      "published_at": "2020-01-15T23:22:37.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.5.0",
+      "published_at": "2020-04-21T16:01:10.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.5.1",
+      "published_at": "2020-06-18T16:31:41.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.6.0",
+      "published_at": "2020-07-28T15:52:16.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.7.0",
+      "published_at": "2020-10-27T15:58:18.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.7.1",
+      "published_at": "2020-12-10T16:22:02.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.8.0",
+      "published_at": "2021-03-04T20:36:11.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.8.1",
+      "published_at": "2021-03-25T15:54:32.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.9.0",
+      "published_at": "2021-06-15T15:09:35.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.9.1",
+      "published_at": "2021-09-20T22:30:00.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2023-03-15T15:59:21.858Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2023-05-08T16:30:35.713Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2023-10-04T16:37:27.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.1.1",
+      "published_at": "2023-11-15T16:42:26.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.1.2",
+      "published_at": "2023-12-14T21:46:00.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2024-01-30T17:28:30.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "published_at": "2024-02-22T19:14:18.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.2.2",
+      "published_at": "2024-03-27T21:06:18.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2024-04-24T15:44:27.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.3.1",
+      "published_at": "2024-06-05T16:39:11.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.4.0",
+      "published_at": "2024-07-24T15:26:35.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.4.1",
+      "published_at": "2024-09-04T19:10:42.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD-3",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.5.0",
+      "published_at": "2024-10-17T14:44:26.000Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "2.5.1",
+      "published_at": "2024-10-29T17:32:42.000Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "2.5.1",
+  "dependencies": [
+    {
+      "project_name": "filelock",
+      "name": "filelock",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.16.1",
+      "latest": "3.16.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense"
+      ]
+    },
+    {
+      "project_name": "typing-extensions",
+      "name": "typing-extensions",
+      "platform": "Pypi",
+      "requirements": ">=4.8.0",
+      "latest_stable": "4.12.2",
+      "latest": "4.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "PSF-2.0"
+      ]
+    },
+    {
+      "project_name": "networkx",
+      "name": "networkx",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "jinja2",
+      "name": "jinja2",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.1.5",
+      "latest": "3.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "fsspec",
+      "name": "fsspec",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2024.12.0",
+      "latest": "2024.12.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cuda-nvrtc-cu12",
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.127",
+      "latest_stable": "12.6.77",
+      "latest": "12.6.85",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cuda-runtime-cu12",
+      "name": "nvidia-cuda-runtime-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.127",
+      "latest_stable": "12.6.68",
+      "latest": "12.6.77",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cuda-cupti-cu12",
+      "name": "nvidia-cuda-cupti-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.127",
+      "latest_stable": "12.6.68",
+      "latest": "12.6.80",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cudnn-cu12",
+      "name": "nvidia-cudnn-cu12",
+      "platform": "Pypi",
+      "requirements": "==9.1.0.70",
+      "latest_stable": null,
+      "latest": "9.6.0.74",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cublas-cu12",
+      "name": "nvidia-cublas-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.5.8",
+      "latest_stable": null,
+      "latest": "12.6.4.1",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cufft-cu12",
+      "name": "nvidia-cufft-cu12",
+      "platform": "Pypi",
+      "requirements": "==11.2.1.3",
+      "latest_stable": null,
+      "latest": "11.3.0.4",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-curand-cu12",
+      "name": "nvidia-curand-cu12",
+      "platform": "Pypi",
+      "requirements": "==10.3.5.147",
+      "latest_stable": null,
+      "latest": "10.3.7.77",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cusolver-cu12",
+      "name": "nvidia-cusolver-cu12",
+      "platform": "Pypi",
+      "requirements": "==11.6.1.9",
+      "latest_stable": null,
+      "latest": "11.7.1.2",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-cusparse-cu12",
+      "name": "nvidia-cusparse-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.3.1.170",
+      "latest_stable": null,
+      "latest": "12.5.4.2",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nvidia-nccl-cu12",
+      "name": "nvidia-nccl-cu12",
+      "platform": "Pypi",
+      "requirements": "==2.21.5",
+      "latest_stable": "2.23.4",
+      "latest": "2.24.3",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "nvidia-nvtx-cu12",
+      "name": "nvidia-nvtx-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.127",
+      "latest_stable": "12.6.68",
+      "latest": "12.6.77",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nvidia-nvjitlink-cu12",
+      "name": "nvidia-nvjitlink-cu12",
+      "platform": "Pypi",
+      "requirements": "==12.4.127",
+      "latest_stable": "12.6.77",
+      "latest": "12.6.85",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "triton",
+      "name": "triton",
+      "platform": "Pypi",
+      "requirements": "==3.1.0",
+      "latest_stable": "3.1.0",
+      "latest": "3.1.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "platform_system == \"Linux\" and platform_machine == \"x86_64\" and python_version < \"3.13\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sympy",
+      "name": "sympy",
+      "platform": "Pypi",
+      "requirements": "==1.12.1",
+      "latest_stable": "1.13.3",
+      "latest": "1.13.3",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "python_version == \"3.8\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "setuptools",
+      "name": "setuptools",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "75.8.0",
+      "latest": "75.8.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "python_version >= \"3.12\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sympy",
+      "name": "sympy",
+      "platform": "Pypi",
+      "requirements": "==1.13.1",
+      "latest_stable": "1.13.3",
+      "latest": "1.13.3",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "python_version >= \"3.9\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "opt-einsum",
+      "name": "opt-einsum",
+      "platform": "Pypi",
+      "requirements": ">=3.3",
+      "latest_stable": "3.4.0",
+      "latest": "3.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"opt-einsum\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "optree",
+      "name": "optree",
+      "platform": "Pypi",
+      "requirements": ">=0.12.0",
+      "latest_stable": "0.13.1",
+      "latest": "0.14.0rc1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"optree\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

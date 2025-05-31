@@ -1,0 +1,819 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 198,
+  "contribution_guidelines_url": "https://github.com/wasmerio/wasmer/blob/main/docs/CONTRIBUTING.md",
+  "dependent_repos_count": 10,
+  "dependents_count": 19,
+  "deprecation_reason": null,
+  "description": "Cranelift compiler for Wasmer WebAssembly runtime",
+  "forks": 829,
+  "funding_urls": [],
+  "homepage": "https://wasmer.io/",
+  "keywords": [
+    "compiler",
+    "cranelift",
+    "wasm",
+    "webassembly",
+    "emscripten",
+    "linux",
+    "macos",
+    "rust",
+    "wasi",
+    "wasix",
+    "wasmer",
+    "windows"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/wasmer-compiler-cranelift/5.0.4/download",
+  "latest_release_number": "5.0.4",
+  "latest_release_published_at": "2024-12-17T12:15:13.893Z",
+  "latest_stable_release_number": "5.0.4",
+  "latest_stable_release_published_at": "2024-12-17T12:15:13.893Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "wasmer-compiler-cranelift",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/wasmer-compiler-cranelift/",
+  "platform": "Cargo",
+  "rank": 16,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/wasmerio/wasmer",
+  "security_policy_url": "https://github.com/wasmerio/wasmer/security/policy",
+  "stars": 19205,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2021-01-05T14:35:47.045Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha01.0",
+      "published_at": "2020-08-15T00:36:54.665Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha02.0",
+      "published_at": "2020-09-11T22:04:51.366Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha3",
+      "published_at": "2020-09-14T21:04:41.941Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha4",
+      "published_at": "2020-10-09T00:57:23.152Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha5",
+      "published_at": "2020-11-06T19:32:06.102Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-beta1",
+      "published_at": "2020-12-02T01:29:21.030Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-beta2",
+      "published_at": "2020-12-16T17:17:17.396Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-rc1",
+      "published_at": "2020-12-23T21:30:04.272Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2021-01-13T21:49:57.196Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2021-02-05T03:28:13.389Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2021-06-16T14:46:15.232Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc1",
+      "published_at": "2021-06-02T16:41:58.293Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc2",
+      "published_at": "2021-06-15T14:55:06.940Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2021-11-30T23:36:21.840Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.1",
+      "published_at": "2021-12-21T14:47:29.385Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2022-02-28T21:44:19.441Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0-rc1",
+      "published_at": "2022-01-28T00:04:05.037Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0-rc2",
+      "published_at": "2022-02-17T23:48:29.781Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "published_at": "2022-03-16T00:44:49.917Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2022-06-06T19:32:11.099Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2022-11-20T17:37:11.962Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha",
+      "published_at": "2022-07-28T19:34:54.552Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.1",
+      "published_at": "2022-07-28T20:01:31.152Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.2",
+      "published_at": "2022-07-28T20:19:27.599Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.3",
+      "published_at": "2022-07-28T20:35:53.920Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-alpha.4",
+      "published_at": "2022-07-29T09:56:43.852Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta",
+      "published_at": "2022-08-08T17:21:01.925Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta.2",
+      "published_at": "2022-09-26T11:12:20.084Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.1",
+      "published_at": "2022-10-25T11:32:54.193Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.2",
+      "published_at": "2022-11-02T14:02:24.066Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.3",
+      "published_at": "2022-11-18T21:40:40.858Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-rc.4",
+      "published_at": "2022-11-19T16:55:25.273Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2022-11-23T14:44:57.483Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2022-11-26T12:47:50.456Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.3",
+      "published_at": "2023-01-26T12:57:40.051Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2022-12-12T14:15:17.755Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2023-01-26T13:20:09.879Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0",
+      "published_at": "2023-04-18T17:50:17.492Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-alpha.1",
+      "published_at": "2023-01-23T16:34:40.045Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-beta.1",
+      "published_at": "2023-03-23T15:50:05.465Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.0-beta.2",
+      "published_at": "2023-04-05T15:11:38.574Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.2.1",
+      "published_at": "2023-04-21T16:04:40.339Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.3.0",
+      "published_at": "2023-05-03T11:36:02.397Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2023-06-22T15:55:39.089Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-alpha.1",
+      "published_at": "2023-05-25T17:10:08.995Z",
+      "spdx_expression": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "original_license": "MIT OR Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.1",
+      "published_at": "2023-06-01T19:29:14.507Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.2",
+      "published_at": "2023-06-09T16:54:48.527Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0-beta.3",
+      "published_at": "2023-06-15T13:52:07.691Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2023-07-24T20:56:36.880Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.1",
+      "published_at": "2023-08-03T17:14:37.882Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.2",
+      "published_at": "2023-08-21T16:13:30.234Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.0",
+      "published_at": "2023-09-05T16:26:39.850Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.1",
+      "published_at": "2023-09-28T19:27:25.221Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.2",
+      "published_at": "2023-10-05T08:33:53.899Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.3",
+      "published_at": "2023-10-27T07:40:29.284Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.4",
+      "published_at": "2023-12-01T11:55:43.817Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.5",
+      "published_at": "2023-12-23T12:40:17.255Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.6",
+      "published_at": "2024-03-04T07:50:20.281Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.8",
+      "published_at": "2024-04-06T08:13:38.769Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0",
+      "published_at": "2024-05-10T15:49:30.317Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0-alpha.1",
+      "published_at": "2024-04-25T13:05:58.353Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.0-beta.1",
+      "published_at": "2024-05-08T17:51:45.494Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.1",
+      "published_at": "2024-05-23T15:12:37.774Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.2",
+      "published_at": "2024-06-11T16:39:16.337Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.3",
+      "published_at": "2024-07-04T08:15:24.916Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.4",
+      "published_at": "2024-07-08T21:59:36.151Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.5",
+      "published_at": "2024-07-16T17:36:04.135Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.6",
+      "published_at": "2024-08-22T11:11:51.424Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.3.7",
+      "published_at": "2024-09-09T08:33:33.060Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.4.0",
+      "published_at": "2024-10-04T14:01:18.809Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2024-10-29T16:58:01.394Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-rc.1",
+      "published_at": "2024-10-21T12:30:01.551Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2024-11-06T11:19:38.817Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.2",
+      "published_at": "2024-11-25T00:00:57.484Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.3",
+      "published_at": "2024-12-07T16:48:24.946Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.4",
+      "published_at": "2024-12-17T12:15:13.893Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

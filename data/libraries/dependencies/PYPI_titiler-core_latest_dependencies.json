@@ -1,0 +1,321 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 66,
+  "contribution_guidelines_url": "https://github.com/developmentseed/titiler/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 1,
+  "dependents_count": 1,
+  "deprecation_reason": null,
+  "description": "A modern dynamic tile server built on top of FastAPI and Rasterio/GDAL.",
+  "forks": 174,
+  "funding_urls": [],
+  "homepage": "https://developmentseed.org/titiler/",
+  "keywords": [
+    "COG",
+    "STAC",
+    "MosaicJSON",
+    "Fastapi",
+    "Dynamic",
+    "tile",
+    "server",
+    "GDAL",
+    "Rasterio",
+    "OGC",
+    "aws-cdk",
+    "aws-lambda",
+    "cogeotiff",
+    "map-tile-server",
+    "map-tiles",
+    "raster",
+    "rest"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "0.19.3",
+  "latest_release_published_at": "2025-01-09T21:25:36.000Z",
+  "latest_stable_release_number": "0.19.3",
+  "latest_stable_release_published_at": "2025-01-09T21:25:36.000Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "titiler-core",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://pypi.org/project/titiler-core/",
+  "platform": "Pypi",
+  "rank": 10,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/developmentseed/titiler",
+  "security_policy_url": null,
+  "stars": 813,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.19.2",
+      "published_at": "2024-11-28T22:15:03.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.19.3",
+      "published_at": "2025-01-09T21:25:36.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.20.0",
+      "published_at": "2025-01-07T10:33:17.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.20.1",
+      "published_at": "2025-01-09T21:02:25.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.20.1",
+  "dependencies": [
+    {
+      "project_name": "fastapi",
+      "name": "fastapi",
+      "platform": "Pypi",
+      "requirements": ">=0.108.0",
+      "latest_stable": "0.115.6",
+      "latest": "0.115.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "geojson-pydantic",
+      "name": "geojson-pydantic",
+      "platform": "Pypi",
+      "requirements": "<2.0,>=1.1.2",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jinja2",
+      "name": "jinja2",
+      "platform": "Pypi",
+      "requirements": "<4.0.0,>=2.11.2",
+      "latest_stable": "3.1.5",
+      "latest": "3.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "numpy",
+      "name": "numpy",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pydantic",
+      "name": "pydantic",
+      "platform": "Pypi",
+      "requirements": "~=2.0",
+      "latest_stable": "2.10.5",
+      "latest": "2.10.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rasterio",
+      "name": "rasterio",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.4.3",
+      "latest": "1.4.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "rio-tiler",
+      "name": "rio-tiler",
+      "platform": "Pypi",
+      "requirements": "<8.0,>=7.0",
+      "latest_stable": "7.3.0",
+      "latest": "7.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "morecantile",
+      "name": "morecantile",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.2.0",
+      "latest": "6.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "simplejson",
+      "name": "simplejson",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.19.3",
+      "latest": "3.19.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typing_extensions",
+      "name": "typing_extensions",
+      "platform": "Pypi",
+      "requirements": ">=4.6.1",
+      "latest_stable": "4.12.2",
+      "latest": "4.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "PSF-2.0"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-cov",
+      "name": "pytest-cov",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-asyncio",
+      "name": "pytest-asyncio",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.25.2",
+      "latest": "0.25.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "httpx",
+      "name": "httpx",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.28.1",
+      "latest": "0.28.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    }
+  ]
+}

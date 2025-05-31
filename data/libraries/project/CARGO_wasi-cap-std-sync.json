@@ -1,0 +1,830 @@
+{
+  "code_of_conduct_url": "https://github.com/bytecodealliance/wasmtime/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 516,
+  "contribution_guidelines_url": "https://github.com/bytecodealliance/wasmtime/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 7,
+  "dependents_count": 10,
+  "deprecation_reason": null,
+  "description": "WASI implementation in Rust",
+  "forks": 1338,
+  "funding_urls": [],
+  "homepage": "https://wasmtime.dev/",
+  "keywords": [
+    "wasm",
+    "webassembly",
+    "aot",
+    "cranelift",
+    "jit",
+    "lightweight",
+    "portable",
+    "runtime",
+    "rust",
+    "sandbox",
+    "standalone",
+    "wasi",
+    "wasmtime"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/wasi-cap-std-sync/17.0.3/download",
+  "latest_release_number": "17.0.3",
+  "latest_release_published_at": "2024-04-11T19:54:59.670Z",
+  "latest_stable_release_number": "17.0.3",
+  "latest_stable_release_published_at": "2024-04-11T19:54:59.670Z",
+  "license_normalized": true,
+  "licenses": "Apache-2.0 WITH LLVM-exception",
+  "name": "wasi-cap-std-sync",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/wasi-cap-std-sync/",
+  "platform": "Cargo",
+  "rank": 16,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/bytecodealliance/wasmtime",
+  "security_policy_url": "https://github.com/bytecodealliance/wasmtime/security/policy",
+  "stars": 15654,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.23.0",
+      "published_at": "2021-02-18T00:29:21.908Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.24.0",
+      "published_at": "2021-03-05T02:24:15.955Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.25.0",
+      "published_at": "2021-03-16T20:23:58.632Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.26.0",
+      "published_at": "2021-04-05T19:10:22.824Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.26.1",
+      "published_at": "2021-05-21T21:40:44.204Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.27.0",
+      "published_at": "2021-05-21T20:49:45.480Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.28.0",
+      "published_at": "2021-06-09T19:02:50.836Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0",
+      "published_at": "2021-08-02T20:10:57.338Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.30.0",
+      "published_at": "2021-09-17T18:42:16.889Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.31.0",
+      "published_at": "2021-10-29T14:16:31.859Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.32.0",
+      "published_at": "2021-12-13T19:50:01.460Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.32.1",
+      "published_at": "2022-01-04T21:21:02.418Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.33.0",
+      "published_at": "2022-01-05T19:52:26.710Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.33.1",
+      "published_at": "2022-02-16T20:57:01.031Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.34.0",
+      "published_at": "2022-02-08T01:38:06.499Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.34.1",
+      "published_at": "2022-02-16T18:59:44.291Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.34.2",
+      "published_at": "2022-03-31T21:20:43.394Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.35.0",
+      "published_at": "2022-03-07T21:29:35.346Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.35.1",
+      "published_at": "2022-03-09T22:01:17.753Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.35.2",
+      "published_at": "2022-03-31T20:00:36.599Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.35.3",
+      "published_at": "2022-04-11T19:22:52.828Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.36.0",
+      "published_at": "2022-04-20T19:22:19.140Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.37.0",
+      "published_at": "2022-05-20T14:33:59.813Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.38.0",
+      "published_at": "2022-06-21T14:55:38.149Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.38.1",
+      "published_at": "2022-06-27T22:21:03.363Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.38.2",
+      "published_at": "2022-07-20T19:54:10.328Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.38.3",
+      "published_at": "2022-07-21T01:30:44.664Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.39.0",
+      "published_at": "2022-07-20T18:04:49.148Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.39.1",
+      "published_at": "2022-07-21T01:50:30.893Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.40.0",
+      "published_at": "2022-08-22T18:41:15.307Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.40.1",
+      "published_at": "2022-08-31T21:23:44.155Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2022-09-20T15:57:13.028Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "10.0.0",
+      "published_at": "2023-06-20T15:25:29.503Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "10.0.1",
+      "published_at": "2023-06-21T22:52:55.024Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "10.0.2",
+      "published_at": "2023-09-14T21:35:58.975Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2022-09-26T20:30:28.420Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2022-11-11T00:07:54.652Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "11.0.0",
+      "published_at": "2023-07-20T16:23:29.467Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "11.0.1",
+      "published_at": "2023-07-24T16:56:47.294Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "11.0.2",
+      "published_at": "2023-09-14T22:25:07.645Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "12.0.0",
+      "published_at": "2023-08-21T21:44:32.639Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "12.0.1",
+      "published_at": "2023-08-24T18:51:46.169Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "12.0.2",
+      "published_at": "2023-09-14T22:27:31.049Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "13.0.0",
+      "published_at": "2023-09-20T15:30:16.991Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "13.0.1",
+      "published_at": "2023-10-26T14:55:54.737Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "14.0.0",
+      "published_at": "2023-10-20T16:34:32.910Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "14.0.1",
+      "published_at": "2023-10-23T18:41:57.296Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "14.0.2",
+      "published_at": "2023-10-26T15:57:11.042Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "14.0.3",
+      "published_at": "2023-10-30T16:07:18.467Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "14.0.4",
+      "published_at": "2023-11-01T18:56:18.837Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "15.0.0",
+      "published_at": "2023-11-20T15:58:47.848Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "15.0.1",
+      "published_at": "2023-12-01T19:03:13.144Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "16.0.0",
+      "published_at": "2023-12-20T18:38:40.702Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "17.0.0",
+      "published_at": "2024-01-25T20:31:15.513Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "17.0.1",
+      "published_at": "2024-02-07T23:28:45.787Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "17.0.2",
+      "published_at": "2024-02-28T23:23:53.758Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "17.0.3",
+      "published_at": "2024-04-11T19:54:59.670Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2022-10-20T19:22:57.339Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2022-10-27T14:38:33.064Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.2",
+      "published_at": "2022-11-10T19:26:47.889Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2022-11-21T17:51:13.591Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2022-12-01T17:00:39.111Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2022-12-21T19:02:43.338Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.1",
+      "published_at": "2023-03-08T19:15:25.712Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2023-01-20T18:26:26.120Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2023-03-08T19:14:59.068Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2023-02-20T15:38:16.185Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.1",
+      "published_at": "2023-03-08T19:15:31.825Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.2",
+      "published_at": "2023-04-27T16:58:11.722Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0",
+      "published_at": "2023-03-20T16:05:42.987Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.1",
+      "published_at": "2023-04-27T17:37:49.942Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0",
+      "published_at": "2023-04-20T14:47:22.110Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.1",
+      "published_at": "2023-04-27T17:36:27.761Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "9.0.0",
+      "published_at": "2023-05-22T15:06:25.723Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "9.0.1",
+      "published_at": "2023-05-22T23:11:20.475Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "9.0.2",
+      "published_at": "2023-05-26T21:42:10.388Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "9.0.3",
+      "published_at": "2023-05-31T23:05:19.967Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "9.0.4",
+      "published_at": "2023-06-13T16:25:46.517Z",
+      "spdx_expression": "Apache-2.0 WITH LLVM-exception",
+      "original_license": "Apache-2.0 WITH LLVM-exception",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

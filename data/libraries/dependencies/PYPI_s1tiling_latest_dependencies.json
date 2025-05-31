@@ -1,0 +1,532 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 0,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "On demand Ortho-rectification of Sentinel-1 data on Sentinel-2 grid.",
+  "forks": 0,
+  "funding_urls": null,
+  "homepage": "https://gitlab.orfeo-toolbox.org/s1-tiling/s1tiling",
+  "keywords": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "orthorectification"
+  ],
+  "language": null,
+  "latest_download_url": null,
+  "latest_release_number": "1.1.0",
+  "latest_release_published_at": "2024-07-18T17:24:58.000Z",
+  "latest_stable_release_number": "1.1.0",
+  "latest_stable_release_published_at": "2024-07-18T17:24:58.000Z",
+  "license_normalized": true,
+  "licenses": "Apache 2.0",
+  "name": "s1tiling",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://pypi.org/project/s1tiling/",
+  "platform": "Pypi",
+  "rank": 5,
+  "repository_license": null,
+  "repository_status": null,
+  "repository_url": "https://gitlab.orfeo-toolbox.org/s1-tiling/s1tiling",
+  "security_policy_url": null,
+  "stars": 0,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.1.0",
+      "published_at": "2024-07-18T17:24:58.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Apache 2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0rc1",
+      "published_at": "2024-05-06T17:06:29.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Apache 2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0rc2",
+      "published_at": "2024-06-07T17:15:19.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Apache 2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.1.0rc3",
+      "published_at": "2024-07-08T11:59:15.000Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Apache 2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.1.0rc3",
+  "dependencies": [
+    {
+      "project_name": "click",
+      "name": "click",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.1.8",
+      "latest": "8.1.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "dask[distributed]",
+      "name": "dask[distributed]",
+      "platform": "Pypi",
+      "requirements": ">=2022.8.1",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "eodag",
+      "name": "eodag",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.0.1",
+      "latest": "3.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "gdal",
+      "name": "gdal",
+      "platform": "Pypi",
+      "requirements": "==3.8.3",
+      "latest_stable": "3.10.0",
+      "latest": "3.10.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "graphviz",
+      "name": "graphviz",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.20.3",
+      "latest": "0.20.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "numpy",
+      "name": "numpy",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "objgraph",
+      "name": "objgraph",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.6.2",
+      "latest": "3.6.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pympler",
+      "name": "pympler",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.0.1",
+      "latest": "1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pyyaml",
+      "name": "pyyaml",
+      "platform": "Pypi",
+      "requirements": ">=5.1",
+      "latest_stable": "6.0.2",
+      "latest": "6.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "wheel",
+      "name": "wheel",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.45.1",
+      "latest": "0.45.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "flake8",
+      "name": "flake8",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "7.1.1",
+      "latest": "7.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mypy",
+      "name": "mypy",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.14.1",
+      "latest": "1.14.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pre-commit",
+      "name": "pre-commit",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "<8.1",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-bdd",
+      "name": "pytest-bdd",
+      "platform": "Pypi",
+      "requirements": "<6",
+      "latest_stable": "8.1.0",
+      "latest": "8.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-check",
+      "name": "pytest-check",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2.4.1",
+      "latest": "2.4.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-icdiff",
+      "name": "pytest-icdiff",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.0.4",
+      "latest": "0.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Unlicense"
+      ]
+    },
+    {
+      "project_name": "pytest-mock",
+      "name": "pytest-mock",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.14.0",
+      "latest": "3.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pylint",
+      "name": "pylint",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.3.3",
+      "latest": "3.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "GPL-2.0"
+      ]
+    },
+    {
+      "project_name": "docutils",
+      "name": "docutils",
+      "platform": "Pypi",
+      "requirements": "<0.19.0",
+      "latest_stable": "0.21.2",
+      "latest": "0.21.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause",
+        "GPL-2.0+",
+        "PSF-2.0",
+        "Unlicense"
+      ]
+    },
+    {
+      "project_name": "jinja2",
+      "name": "jinja2",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "3.1.5",
+      "latest": "3.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "m2r2",
+      "name": "m2r2",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.3.3",
+      "latest": "0.3.3.post2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "natsort",
+      "name": "natsort",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.4.0",
+      "latest": "8.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nbsphinx",
+      "name": "nbsphinx",
+      "platform": "Pypi",
+      "requirements": "==0.9.3",
+      "latest_stable": "0.9.6",
+      "latest": "0.9.6",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nbsphinx-link",
+      "name": "nbsphinx-link",
+      "platform": "Pypi",
+      "requirements": "==1.3.0",
+      "latest_stable": "1.3.1",
+      "latest": "1.3.1",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-1-Clause"
+      ]
+    },
+    {
+      "project_name": "sphinx",
+      "name": "sphinx",
+      "platform": "Pypi",
+      "requirements": "~=7.1",
+      "latest_stable": "8.1.3",
+      "latest": "8.1.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "sphinx_rtd_theme",
+      "name": "sphinx_rtd_theme",
+      "platform": "Pypi",
+      "requirements": "~=1.3.0",
+      "latest_stable": "3.0.2",
+      "latest": "3.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinx-carousel",
+      "name": "sphinx-carousel",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    }
+  ]
+}

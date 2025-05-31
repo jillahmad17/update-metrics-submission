@@ -1,0 +1,592 @@
+{
+  "code_of_conduct_url": "https://github.com/paritytech/polkadot-sdk/blob/master/CODE_OF_CONDUCT.md",
+  "contributions_count": 450,
+  "contribution_guidelines_url": "https://github.com/paritytech/polkadot-sdk/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 7,
+  "dependents_count": 22,
+  "deprecation_reason": null,
+  "description": "Substrate service. Starts a thread that spins up the network, client, and extrinsic pool. Manages communication between them.",
+  "forks": 761,
+  "funding_urls": [],
+  "homepage": "https://paritytech.github.io/polkadot-sdk/",
+  "keywords": [
+    "blockchain",
+    "cumulus",
+    "polkadot",
+    "substrate"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/sc-service/0.46.0/download",
+  "latest_release_number": "0.46.0",
+  "latest_release_published_at": "2024-10-01T01:14:11.427Z",
+  "latest_stable_release_number": "0.46.0",
+  "latest_stable_release_published_at": "2024-10-01T01:14:11.427Z",
+  "license_normalized": true,
+  "licenses": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+  "name": "sc-service",
+  "normalized_licenses": [
+    "CNRI-Python-GPL-Compatible",
+    "BSD-3-Clause-Attribution"
+  ],
+  "package_manager_url": "https://crates.io/crates/sc-service/",
+  "platform": "Cargo",
+  "rank": 15,
+  "repository_license": null,
+  "repository_status": null,
+  "repository_url": "https://github.com/paritytech/polkadot-sdk",
+  "security_policy_url": "https://github.com/paritytech/polkadot-sdk/security/policy",
+  "stars": 2003,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.10.0",
+      "published_at": "2022-12-14T22:48:18.984Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0",
+      "published_at": "2022-12-15T18:57:59.274Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.0",
+      "published_at": "2022-12-16T16:14:45.646Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.0",
+      "published_at": "2022-12-19T17:23:53.548Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.0",
+      "published_at": "2022-12-19T23:58:44.957Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0",
+      "published_at": "2022-12-20T12:48:14.885Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.16.0",
+      "published_at": "2022-12-21T14:45:43.350Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.17.0",
+      "published_at": "2022-12-21T18:22:57.587Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.18.0",
+      "published_at": "2023-01-10T17:14:06.730Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.19.0",
+      "published_at": "2023-01-16T20:15:38.673Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.20.0",
+      "published_at": "2023-01-22T15:51:26.690Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.21.0",
+      "published_at": "2023-02-01T15:42:43.216Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.22.0",
+      "published_at": "2023-02-05T15:38:45.306Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.23.0",
+      "published_at": "2023-02-12T15:32:44.056Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.24.0",
+      "published_at": "2023-02-19T15:51:12.321Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.25.0",
+      "published_at": "2023-02-26T17:02:20.339Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.26.0",
+      "published_at": "2023-03-05T16:09:19.936Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.27.0",
+      "published_at": "2023-03-26T16:54:21.606Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.28.0",
+      "published_at": "2023-04-09T15:47:15.192Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0",
+      "published_at": "2023-08-08T02:13:44.651Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0-dev.2",
+      "published_at": "2023-07-27T22:36:23.807Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0-dev.3",
+      "published_at": "2023-08-03T23:18:46.826Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0-dev.5",
+      "published_at": "2023-08-04T17:14:33.018Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.29.0-dev.6",
+      "published_at": "2023-08-05T09:46:19.947Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.30.0",
+      "published_at": "2023-09-12T03:14:22.959Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.31.0",
+      "published_at": "2023-10-04T20:18:09.999Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.31.0-dev.1",
+      "published_at": "2023-09-30T00:09:13.374Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.32.0",
+      "published_at": "2023-11-02T10:09:10.661Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.33.0",
+      "published_at": "2023-11-20T20:41:25.022Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.34.0",
+      "published_at": "2023-12-13T02:13:26.766Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.35.0",
+      "published_at": "2024-01-23T06:28:32.862Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.36.0",
+      "published_at": "2024-02-13T08:39:41.392Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.37.0",
+      "published_at": "2024-02-27T01:31:33.621Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.38.0",
+      "published_at": "2024-03-18T19:11:24.767Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.39.0",
+      "published_at": "2024-04-09T06:05:59.406Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.40.0",
+      "published_at": "2024-05-01T14:25:40.285Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.41.0",
+      "published_at": "2024-05-24T13:16:48.010Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.42.0",
+      "published_at": "2024-06-24T08:48:58.059Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.43.0",
+      "published_at": "2024-07-13T13:28:48.728Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.45.0",
+      "published_at": "2024-07-19T13:32:26.560Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.46.0",
+      "published_at": "2024-10-01T01:14:11.427Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2020-09-22T18:56:23.095Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-alpha.3",
+      "published_at": "2020-02-27T23:13:10.645Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-alpha.5",
+      "published_at": "2020-03-24T11:11:17.198Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-alpha.6",
+      "published_at": "2020-04-14T19:20:09.772Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-alpha.7",
+      "published_at": "2020-05-05T18:21:12.696Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-alpha.8",
+      "published_at": "2020-05-15T17:17:25.373Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc1",
+      "published_at": "2020-05-25T18:17:50.381Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc2",
+      "published_at": "2020-05-26T11:41:43.191Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc3",
+      "published_at": "2020-06-08T20:20:54.627Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc4",
+      "published_at": "2020-06-25T20:39:59.065Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc5",
+      "published_at": "2020-07-24T19:58:40.006Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0-rc6",
+      "published_at": "2020-08-20T16:25:55.498Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.1",
+      "published_at": "2021-01-11T09:46:36.890Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.9.0",
+      "published_at": "2021-02-10T21:09:33.409Z",
+      "spdx_expression": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "original_license": "GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

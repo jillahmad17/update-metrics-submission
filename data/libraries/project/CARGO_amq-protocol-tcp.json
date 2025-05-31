@@ -1,0 +1,874 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 14,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 1,
+  "dependents_count": 1,
+  "deprecation_reason": null,
+  "description": "AMQP URI TCP connection handling",
+  "forks": 16,
+  "funding_urls": [
+    "https://github.com/Keruspe"
+  ],
+  "homepage": null,
+  "keywords": [
+    "amqp",
+    "protocol",
+    "rabbitmq",
+    "rust",
+    "rust-bindings"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/amq-protocol-tcp/8.0.0-beta.1/download",
+  "latest_release_number": "8.0.0-beta.1",
+  "latest_release_published_at": "2024-12-09T08:47:52.837Z",
+  "latest_stable_release_number": "7.2.2",
+  "latest_stable_release_published_at": "2024-09-21T12:03:03.473Z",
+  "license_normalized": false,
+  "licenses": "BSD-2-Clause",
+  "name": "amq-protocol-tcp",
+  "normalized_licenses": [
+    "BSD-2-Clause"
+  ],
+  "package_manager_url": "https://crates.io/crates/amq-protocol-tcp/",
+  "platform": "Cargo",
+  "rank": 11,
+  "repository_license": "BSD-2-Clause",
+  "repository_status": null,
+  "repository_url": "https://github.com/amqp-rs/amq-protocol",
+  "security_policy_url": null,
+  "stars": 31,
+  "status": null,
+  "versions": [
+    {
+      "number": "2.0.0",
+      "published_at": "2019-06-14T12:57:38.963Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc10",
+      "published_at": "2019-05-25T21:20:23.867Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc11",
+      "published_at": "2019-05-27T09:21:47.064Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc12",
+      "published_at": "2019-05-27T10:02:29.631Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc13",
+      "published_at": "2019-05-27T10:28:41.630Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc14",
+      "published_at": "2019-05-29T12:18:29.562Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc15",
+      "published_at": "2019-05-29T14:59:02.007Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc16",
+      "published_at": "2019-06-07T09:57:43.208Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc17",
+      "published_at": "2019-06-14T07:43:16.067Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.0-rc18",
+      "published_at": "2019-06-14T12:24:17.982Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.0.2",
+      "published_at": "2019-06-14T13:41:04.215Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2019-06-26T11:24:07.720Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.1.1",
+      "published_at": "2019-06-26T12:48:59.535Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2019-08-08T15:46:07.843Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "published_at": "2019-09-17T12:55:25.770Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2019-09-17T12:59:52.664Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2019-09-25T08:48:56.181Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta.1",
+      "published_at": "2019-08-13T08:35:29.346Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.0.0-beta.2",
+      "published_at": "2019-08-28T12:48:43.151Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2019-11-07T10:07:51.276Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2020-02-19T16:01:11.691Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2020-02-24T10:01:51.081Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2020-02-25T13:25:20.169Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.0",
+      "published_at": "2020-02-25T17:40:11.520Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.1",
+      "published_at": "2020-03-04T09:08:21.909Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "4.2.2",
+      "published_at": "2020-03-04T09:25:38.171Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2020-03-06T09:18:36.431Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-beta.1",
+      "published_at": "2020-03-03T09:57:54.125Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-beta.2",
+      "published_at": "2020-03-03T12:09:35.912Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-beta.3",
+      "published_at": "2020-03-03T12:19:12.541Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.0-beta.4",
+      "published_at": "2020-03-05T08:39:19.204Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2020-03-12T13:01:16.678Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "5.1.0",
+      "published_at": "2020-03-23T11:16:13.079Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2020-10-31T21:33:39.798Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha1",
+      "published_at": "2020-04-10T19:25:34.858Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha2",
+      "published_at": "2020-04-17T15:31:56.800Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha3",
+      "published_at": "2020-04-20T13:16:27.838Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha4",
+      "published_at": "2020-04-20T13:48:15.223Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha5",
+      "published_at": "2020-04-20T14:13:22.436Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-alpha6",
+      "published_at": "2020-04-20T14:53:28.479Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta1",
+      "published_at": "2020-04-20T14:59:52.376Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta2",
+      "published_at": "2020-04-21T07:41:13.595Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta3",
+      "published_at": "2020-04-21T09:06:24.071Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta4",
+      "published_at": "2020-04-22T14:29:14.360Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta5",
+      "published_at": "2020-04-24T15:30:58.378Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-beta6",
+      "published_at": "2020-04-25T08:47:04.205Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc1",
+      "published_at": "2020-04-26T10:41:54.249Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc10",
+      "published_at": "2020-06-03T08:46:12.886Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc11",
+      "published_at": "2020-06-09T19:53:03.939Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc12",
+      "published_at": "2020-06-25T20:21:59.645Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc2",
+      "published_at": "2020-04-26T20:10:18.164Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc3",
+      "published_at": "2020-05-03T18:47:21.919Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc4",
+      "published_at": "2020-05-12T14:22:00.183Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc5",
+      "published_at": "2020-05-19T15:47:35.823Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc6",
+      "published_at": "2020-05-21T18:52:15.923Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc7",
+      "published_at": "2020-05-22T06:12:14.234Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc8",
+      "published_at": "2020-05-22T08:32:07.518Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.0-rc9",
+      "published_at": "2020-05-22T20:36:59.233Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.1",
+      "published_at": "2020-10-31T21:53:38.509Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.2",
+      "published_at": "2020-11-16T20:10:08.829Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.0.3",
+      "published_at": "2021-03-26T16:38:21.216Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "6.1.0",
+      "published_at": "2021-08-22T18:36:56.478Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0",
+      "published_at": "2022-01-04T12:02:24.048Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.1",
+      "published_at": "2020-11-23T21:56:58.151Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.2",
+      "published_at": "2020-11-28T14:52:03.436Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.3",
+      "published_at": "2020-12-26T16:15:07.447Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.4",
+      "published_at": "2020-12-26T16:23:22.644Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.5",
+      "published_at": "2020-12-27T11:38:42.040Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.6",
+      "published_at": "2021-02-16T20:31:14.191Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-alpha.7",
+      "published_at": "2021-03-26T16:52:02.299Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.0-beta.1",
+      "published_at": "2021-10-25T11:10:44.820Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.0.1",
+      "published_at": "2022-02-24T16:07:40.310Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.1.0",
+      "published_at": "2023-04-30T08:49:28.924Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.1.1",
+      "published_at": "2023-05-18T20:56:10.519Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.1.2",
+      "published_at": "2023-05-19T11:52:53.996Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.2.0",
+      "published_at": "2024-04-24T15:20:44.856Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.2.1",
+      "published_at": "2024-07-11T15:17:43.735Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "7.2.2",
+      "published_at": "2024-09-21T12:03:03.473Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0-alpha.1",
+      "published_at": "2024-06-22T19:53:46.910Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0-alpha.2",
+      "published_at": "2024-06-22T20:50:09.982Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0-alpha.3",
+      "published_at": "2024-09-05T19:51:36.283Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0-alpha.4",
+      "published_at": "2024-09-21T12:13:06.824Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "8.0.0-beta.1",
+      "published_at": "2024-12-09T08:47:52.837Z",
+      "spdx_expression": "BSD-2-Clause",
+      "original_license": "BSD-2-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

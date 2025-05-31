@@ -1,0 +1,991 @@
+{
+  "code_of_conduct_url": "https://github.com/rust-lang/mdBook/blob/master/CODE_OF_CONDUCT.md",
+  "contributions_count": 310,
+  "contribution_guidelines_url": "https://github.com/rust-lang/mdBook/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 159,
+  "dependents_count": 197,
+  "deprecation_reason": null,
+  "description": "Creates a book from markdown files",
+  "forks": 1655,
+  "funding_urls": [],
+  "homepage": "https://rust-lang.github.io/mdBook/",
+  "keywords": [
+    "markdown",
+    "book",
+    "gitbook",
+    "rustbook"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/mdbook/0.4.43/download",
+  "latest_release_number": "0.4.43",
+  "latest_release_published_at": "2024-11-25T17:35:46.994Z",
+  "latest_stable_release_number": "0.4.43",
+  "latest_stable_release_published_at": "2024-11-25T17:35:46.994Z",
+  "license_normalized": false,
+  "licenses": "MPL-2.0",
+  "name": "mdbook",
+  "normalized_licenses": [
+    "MPL-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/mdbook/",
+  "platform": "Cargo",
+  "rank": 18,
+  "repository_license": "MPL-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/rust-lang/mdBook",
+  "security_policy_url": "https://github.com/rust-lang/mdBook/security/policy",
+  "stars": 18499,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.1",
+      "published_at": "2015-08-06T21:44:48.077Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MPL",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.10",
+      "published_at": "2016-03-01T17:39:08.987Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.11",
+      "published_at": "2016-04-13T20:34:50.080Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.12",
+      "published_at": "2016-04-26T18:22:20.052Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.13",
+      "published_at": "2016-08-01T22:50:19.499Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.14",
+      "published_at": "2016-08-26T22:58:43.800Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.15",
+      "published_at": "2017-02-19T10:22:57.258Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.16",
+      "published_at": "2017-02-20T15:21:20.240Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.17",
+      "published_at": "2017-02-28T16:21:28.426Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.18",
+      "published_at": "2017-03-10T18:43:17.349Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.19",
+      "published_at": "2017-04-18T14:57:41.964Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.2",
+      "published_at": "2015-09-24T21:20:35.663Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.20",
+      "published_at": "2017-04-26T17:23:27.593Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.21",
+      "published_at": "2017-04-27T14:03:57.483Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.22",
+      "published_at": "2017-05-19T17:40:34.706Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.23",
+      "published_at": "2017-08-29T17:30:54.163Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.24",
+      "published_at": "2017-09-07T21:32:50.695Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.25",
+      "published_at": "2017-09-08T18:21:46.335Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.26",
+      "published_at": "2017-10-02T13:13:31.383Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.27",
+      "published_at": "2017-12-07T10:40:41.643Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.28",
+      "published_at": "2017-12-09T10:26:08.692Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.3",
+      "published_at": "2015-12-11T20:36:54.950Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.4",
+      "published_at": "2015-12-30T16:04:10.413Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.5",
+      "published_at": "2015-12-30T16:25:04.056Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.6",
+      "published_at": "2016-01-03T13:17:42.230Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.7",
+      "published_at": "2016-02-15T20:18:59.764Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.8",
+      "published_at": "2016-02-16T07:56:52.284Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.9",
+      "published_at": "2016-02-22T18:02:18.156Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2018-01-23T14:06:50.957Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2018-01-27T03:56:16.877Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.10",
+      "published_at": "2018-07-31T00:23:09.970Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2018-01-31T11:19:45.377Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.3",
+      "published_at": "2018-02-15T23:47:30.900Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.4",
+      "published_at": "2018-03-15T01:23:46.295Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.5",
+      "published_at": "2018-03-15T23:38:54.332Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.6",
+      "published_at": "2018-04-21T16:44:59.550Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.7",
+      "published_at": "2018-04-22T23:42:39.922Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.8",
+      "published_at": "2018-07-09T10:41:41.541Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.9",
+      "published_at": "2018-07-26T17:49:50.827Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2018-08-03T00:19:36.083Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.1",
+      "published_at": "2018-08-22T14:00:23.027Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.2",
+      "published_at": "2018-10-20T06:22:42.835Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.3",
+      "published_at": "2019-01-18T15:42:15.514Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2019-06-19T01:27:13.393Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.1",
+      "published_at": "2019-07-15T23:22:07.034Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.2",
+      "published_at": "2019-10-21T20:08:35.908Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.3",
+      "published_at": "2019-10-26T19:19:42.810Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.4",
+      "published_at": "2019-10-29T17:33:54.490Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.5",
+      "published_at": "2019-11-11T21:58:44.157Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.6",
+      "published_at": "2020-03-19T20:57:24.182Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.7",
+      "published_at": "2020-04-03T20:20:22.307Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2020-06-23T20:16:40.847Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2020-07-03T16:33:10.898Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.10",
+      "published_at": "2021-06-08T22:50:05.725Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.11",
+      "published_at": "2021-07-26T21:58:33.025Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.12",
+      "published_at": "2021-08-02T15:58:00.069Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.13",
+      "published_at": "2021-10-03T23:19:57.978Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.14",
+      "published_at": "2021-11-27T18:53:20.867Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.15",
+      "published_at": "2022-01-04T20:14:24.077Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.16",
+      "published_at": "2022-03-30T00:59:57.178Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.17",
+      "published_at": "2022-03-30T18:11:35.524Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.18",
+      "published_at": "2022-04-15T18:53:18.287Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.19",
+      "published_at": "2022-07-01T23:00:35.578Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.2",
+      "published_at": "2020-08-11T22:54:27.381Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.20",
+      "published_at": "2022-07-14T22:14:32.955Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.21",
+      "published_at": "2022-07-22T18:32:33.276Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.22",
+      "published_at": "2022-11-28T20:36:08.639Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.23",
+      "published_at": "2022-12-15T03:25:08.986Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.24",
+      "published_at": "2022-12-15T16:15:25.217Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.25",
+      "published_at": "2022-12-17T16:51:52.402Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.26",
+      "published_at": "2023-02-09T05:00:17.437Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.27",
+      "published_at": "2023-02-13T16:15:05.305Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.28",
+      "published_at": "2023-03-05T01:47:04.323Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.29",
+      "published_at": "2023-05-13T19:51:00.087Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.3",
+      "published_at": "2020-09-08T15:35:23.166Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.30",
+      "published_at": "2023-05-28T22:28:47.855Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.31",
+      "published_at": "2023-06-29T20:25:12.910Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.32",
+      "published_at": "2023-07-17T00:49:20.223Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.33",
+      "published_at": "2023-08-04T00:38:00.476Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.34",
+      "published_at": "2023-08-05T22:05:02.169Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.35",
+      "published_at": "2023-09-29T23:03:03.317Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.36",
+      "published_at": "2023-11-29T23:00:47.132Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.37",
+      "published_at": "2024-02-07T04:03:14.234Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.38",
+      "published_at": "2024-05-16T22:18:03.608Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.39",
+      "published_at": "2024-05-17T01:00:59.093Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.4",
+      "published_at": "2020-10-20T15:22:34.545Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.40",
+      "published_at": "2024-05-17T01:44:26.807Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.41",
+      "published_at": "2024-11-06T17:59:50.663Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.42",
+      "published_at": "2024-11-07T14:58:07.469Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.43",
+      "published_at": "2024-11-25T17:35:46.994Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.5",
+      "published_at": "2021-01-04T15:06:58.768Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.6",
+      "published_at": "2021-01-15T01:46:06.053Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.7",
+      "published_at": "2021-02-23T00:00:26.753Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.8",
+      "published_at": "2021-05-10T17:30:57.841Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.9",
+      "published_at": "2021-06-02T18:16:18.188Z",
+      "spdx_expression": "MPL-2.0",
+      "original_license": "MPL-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 5,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "A tool to test performance of time-series databases",
+  "forks": 0,
+  "funding_urls": [],
+  "homepage": "https://github.com/crate/tsperf",
+  "keywords": [
+    "benchmark",
+    "benchmark-suite",
+    "benchmarks",
+    "cratedb",
+    "database",
+    "database-benchmarking",
+    "database-perfomance",
+    "database-performance-analysis",
+    "influxdb",
+    "mongodb",
+    "mssql",
+    "odbc",
+    "postgresql",
+    "time-series",
+    "timescaledb",
+    "timeseries",
+    "timeseries-data",
+    "timeseries-database",
+    "timestream",
+    "tsbs"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "1.2.1",
+  "latest_release_published_at": "2024-05-20T23:02:04.000Z",
+  "latest_stable_release_number": "1.2.1",
+  "latest_stable_release_published_at": "2024-05-20T23:02:04.000Z",
+  "license_normalized": true,
+  "licenses": "Apache Software License",
+  "name": "tsperf",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://pypi.org/project/tsperf/",
+  "platform": "Pypi",
+  "rank": 10,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/crate/tsperf",
+  "security_policy_url": null,
+  "stars": 5,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.1.0",
+      "published_at": "2021-06-01T14:21:36.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2024-05-20T22:45:52.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "1.2.1",
+      "published_at": "2024-05-20T23:02:04.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.2.1",
+  "dependencies": [
+    {
+      "project_name": "blessed",
+      "name": "blessed",
+      "platform": "Pypi",
+      "requirements": "<1.21",
+      "latest_stable": "1.20.0",
+      "latest": "1.20.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "boto3",
+      "name": "boto3",
+      "platform": "Pypi",
+      "requirements": "<1.35",
+      "latest_stable": "1.35.97",
+      "latest": "1.35.97",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "crate",
+      "name": "crate",
+      "platform": "Pypi",
+      "requirements": "==0.35.2",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "prometheus-client",
+      "name": "prometheus-client",
+      "platform": "Pypi",
+      "requirements": "<0.11",
+      "latest_stable": "0.21.1",
+      "latest": "0.21.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "urllib3",
+      "name": "urllib3",
+      "platform": "Pypi",
+      "requirements": "<3",
+      "latest_stable": "2.3.0",
+      "latest": "2.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "datetime-truncate",
+      "name": "datetime-truncate",
+      "platform": "Pypi",
+      "requirements": "<2",
+      "latest_stable": "1.1.1",
+      "latest": "1.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "psycopg2-binary",
+      "name": "psycopg2-binary",
+      "platform": "Pypi",
+      "requirements": "<2.10",
+      "latest_stable": "2.9.10",
+      "latest": "2.9.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause-Attribution"
+      ]
+    },
+    {
+      "project_name": "influxdb-client",
+      "name": "influxdb-client",
+      "platform": "Pypi",
+      "requirements": "<2",
+      "latest_stable": "1.48.0",
+      "latest": "1.48.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pymongo",
+      "name": "pymongo",
+      "platform": "Pypi",
+      "requirements": "<5",
+      "latest_stable": "4.9.2",
+      "latest": "4.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "dnspython",
+      "name": "dnspython",
+      "platform": "Pypi",
+      "requirements": "<3",
+      "latest_stable": "2.7.0",
+      "latest": "2.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "numpy",
+      "name": "numpy",
+      "platform": "Pypi",
+      "requirements": "<1.27",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pgcopy",
+      "name": "pgcopy",
+      "platform": "Pypi",
+      "requirements": "<1.7",
+      "latest_stable": "1.6.0",
+      "latest": "1.6.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pyodbc",
+      "name": "pyodbc",
+      "platform": "Pypi",
+      "requirements": "<6",
+      "latest_stable": "5.2.0",
+      "latest": "5.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tqdm",
+      "name": "tqdm",
+      "platform": "Pypi",
+      "requirements": "<5",
+      "latest_stable": "4.67.1",
+      "latest": "4.67.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MPL-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cloup",
+      "name": "cloup",
+      "platform": "Pypi",
+      "requirements": "<4",
+      "latest_stable": "3.0.5",
+      "latest": "3.0.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "mypy",
+      "name": "mypy",
+      "platform": "Pypi",
+      "requirements": "<1.11",
+      "latest_stable": "1.14.1",
+      "latest": "1.14.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "poethepoet",
+      "name": "poethepoet",
+      "platform": "Pypi",
+      "requirements": "<0.27",
+      "latest_stable": "0.32.1",
+      "latest": "0.32.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pyproject-fmt",
+      "name": "pyproject-fmt",
+      "platform": "Pypi",
+      "requirements": "<1.8",
+      "latest_stable": "2.5.0",
+      "latest": "2.5.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ruff",
+      "name": "ruff",
+      "platform": "Pypi",
+      "requirements": "<0.5",
+      "latest_stable": "0.9.1",
+      "latest": "0.9.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinx-autobuild",
+      "name": "sphinx-autobuild",
+      "platform": "Pypi",
+      "requirements": "==2021.3.14",
+      "latest_stable": "2024.10.3",
+      "latest": "2024.10.3",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "validate-pyproject",
+      "name": "validate-pyproject",
+      "platform": "Pypi",
+      "requirements": "<0.17",
+      "latest_stable": "0.20.2",
+      "latest": "0.23",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"develop\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MPL-2.0",
+        "MIT",
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "furo",
+      "name": "furo",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2024.8.6",
+      "latest": "2024.8.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "myst-parser[linkify]",
+      "name": "myst-parser[linkify]",
+      "platform": "Pypi",
+      "requirements": "<3,>=0.18",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "sphinx",
+      "name": "sphinx",
+      "platform": "Pypi",
+      "requirements": "<7",
+      "latest_stable": "8.1.3",
+      "latest": "8.1.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "sphinx-copybutton",
+      "name": "sphinx-copybutton",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.5.2",
+      "latest": "0.5.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinx-design-elements",
+      "name": "sphinx-design-elements",
+      "platform": "Pypi",
+      "requirements": "<1",
+      "latest_stable": "0.3.2",
+      "latest": "0.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "sphinxcontrib-mermaid",
+      "name": "sphinxcontrib-mermaid",
+      "platform": "Pypi",
+      "requirements": "<1",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "sphinxext-opengraph",
+      "name": "sphinxext-opengraph",
+      "platform": "Pypi",
+      "requirements": "<1",
+      "latest_stable": "0.9.1",
+      "latest": "0.9.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"docs\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "build",
+      "name": "build",
+      "platform": "Pypi",
+      "requirements": "<2",
+      "latest_stable": "1.2.2",
+      "latest": "1.2.2.post1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"release\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "twine",
+      "name": "twine",
+      "platform": "Pypi",
+      "requirements": "<6",
+      "latest_stable": "6.0.1",
+      "latest": "6.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"release\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "dotmap",
+      "name": "dotmap",
+      "platform": "Pypi",
+      "requirements": "<1.4",
+      "latest_stable": "1.3.30",
+      "latest": "1.3.30",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "<9",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-cov",
+      "name": "pytest-cov",
+      "platform": "Pypi",
+      "requirements": "<6",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ruff",
+      "name": "ruff",
+      "platform": "Pypi",
+      "requirements": "<0.5",
+      "latest_stable": "0.9.1",
+      "latest": "0.9.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}
