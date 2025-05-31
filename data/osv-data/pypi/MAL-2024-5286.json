@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-5286",
+  "summary": "Malicious code in jupitercalc (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:37Z",
+  "published": "2024-06-25T13:36:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:37Z",
+        "import_time": "2024-06-28T02:49:16.882612001Z",
+        "versions": [
+          "0.0.5",
+          "0.0.4"
+        ],
+        "id": "RLMA-2024-04068",
+        "source": "reversing-labs",
+        "sha256": "8332baf7092adfae506934cdc14b024a52a2b8b129641a1efbf4601485a8946a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "jupitercalc",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/jupitercalc"
+      },
+      "versions": [
+        "0.0.5",
+        "0.0.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/jupitercalc/MAL-2024-5286.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

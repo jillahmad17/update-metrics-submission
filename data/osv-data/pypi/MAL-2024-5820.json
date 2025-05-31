@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5820",
+  "summary": "Malicious code in pythonpathenv (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYTHONPATHENV-6129563"
+  ],
+  "modified": "2024-06-28T03:15:11.488198Z",
+  "published": "2024-06-25T13:41:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:02Z",
+        "import_time": "2024-06-28T02:50:21.495341268Z",
+        "versions": [
+          "2.9"
+        ],
+        "id": "RLMA-2024-04618",
+        "source": "reversing-labs",
+        "sha256": "39b447e19fed5a6c47095da8b0e19139927b121be9fcdeb45cca3abb0ed00b5f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYTHONPATHENV-6129563"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.welivesecurity.com/en/eset-research/pernicious-potpourri-python-packages-pypi/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pythonpathenv",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythonpathenv"
+      },
+      "versions": [
+        "2.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonpathenv/MAL-2024-5820.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

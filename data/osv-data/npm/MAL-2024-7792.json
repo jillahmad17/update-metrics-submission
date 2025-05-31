@@ -1,0 +1,79 @@
+{
+  "id": "MAL-2024-7792",
+  "summary": "Malicious code in roblox-ts-core (npm)",
+  "details": "This package contains a malicious postinstall script which downloads further payloads and delivers QuasarRAT.\n\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (53e846a11945248574678fe65e4f8cd5b4a766ff129c761b615aef0f0c595fa5)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-24fw-4mp4-hq95"
+  ],
+  "modified": "2024-07-24T00:41:58.102163Z",
+  "published": "2024-07-22T14:35:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "53e846a11945248574678fe65e4f8cd5b4a766ff129c761b615aef0f0c595fa5",
+        "import_time": "2024-07-24T00:28:36.681807118Z",
+        "id": "GHSA-24fw-4mp4-hq95",
+        "source": "ghsa-malware",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "modified_time": "2024-07-23T02:50:42Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-24fw-4mp4-hq95"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "roblox-ts-core",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/roblox-ts-core"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.6.8"
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/roblox-ts-core/MAL-2024-7792.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Stacklok: trustypkg.dev",
+      "contact": [
+        "https://discord.com/invite/RkzVuTp3WK"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

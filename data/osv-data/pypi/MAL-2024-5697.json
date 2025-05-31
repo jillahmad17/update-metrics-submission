@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5697",
+  "summary": "Malicious code in pydiblis (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:39:56Z",
+  "published": "2024-06-25T13:39:56Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:56Z",
+        "import_time": "2024-06-28T02:50:05.201342778Z",
+        "versions": [
+          "0.7"
+        ],
+        "id": "RLMA-2024-04480",
+        "source": "reversing-labs",
+        "sha256": "de70f65c9df6554b7e16e52ec711caa3a8ff46f1f6c36495c481e1ca55a14076"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pydiblis",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pydiblis"
+      },
+      "versions": [
+        "0.7"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pydiblis/MAL-2024-5697.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4720",
+  "summary": "Malicious code in 1337test (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:02Z",
+  "published": "2024-06-25T13:32:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:02Z",
+        "import_time": "2024-06-28T02:48:10.844486592Z",
+        "versions": [
+          "1"
+        ],
+        "id": "RLMA-2024-03500",
+        "source": "reversing-labs",
+        "sha256": "279834401dc2e90c46bbb007eb3cdb3996576edea27cd56803498c90904cb5e0"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "1337test",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/1337test"
+      },
+      "versions": [
+        "1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/1337test/MAL-2024-4720.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

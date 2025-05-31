@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3018",
+  "summary": "Malicious code in signingroom-app (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:00:51Z",
+  "published": "2024-06-25T13:00:51Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:00:51Z",
+        "import_time": "2024-06-28T02:44:44.492868032Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01747",
+        "source": "reversing-labs",
+        "sha256": "6ff3c65dcc01add886976edb338347986b326eb3d492c187dbe778d1ecf76b10"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "signingroom-app",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/signingroom-app"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/signingroom-app/MAL-2024-3018.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

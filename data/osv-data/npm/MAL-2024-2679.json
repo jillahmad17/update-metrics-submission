@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2679",
+  "summary": "Malicious code in msstore-purchase (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:50:54Z",
+  "published": "2024-06-25T12:50:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:50:54Z",
+        "import_time": "2024-06-28T02:43:58.680084103Z",
+        "versions": [
+          "1.9.9",
+          "0.9.9",
+          "99.9.9",
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-01366",
+        "source": "reversing-labs",
+        "sha256": "3ff31e71e433c580cc4936316115a6f4dc21d0748e2c9c872528367335fd568d"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "msstore-purchase",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/msstore-purchase"
+      },
+      "versions": [
+        "1.9.9",
+        "0.9.9",
+        "99.9.9",
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/msstore-purchase/MAL-2024-2679.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-6010",
+  "summary": "Malicious code in siamphishtest (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:35Z",
+  "published": "2024-06-25T13:42:35Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:35Z",
+        "import_time": "2024-06-28T02:50:45.240827465Z",
+        "versions": [
+          "2.1.7",
+          "2.1.6",
+          "2.1.8"
+        ],
+        "id": "RLMA-2024-04811",
+        "source": "reversing-labs",
+        "sha256": "aa0e94804b573db0386e6498e95f7f3767f42fcd1c2dabc59007b82bbdb260f9"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "siamphishtest",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/siamphishtest"
+      },
+      "versions": [
+        "2.1.7",
+        "2.1.6",
+        "2.1.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/siamphishtest/MAL-2024-6010.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

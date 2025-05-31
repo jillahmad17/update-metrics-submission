@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5615",
+  "summary": "Malicious code in py-corrd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCORRD-6513668"
+  ],
+  "modified": "2024-06-28T03:15:04.906595Z",
+  "published": "2024-06-25T13:39:14Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:14Z",
+        "import_time": "2024-06-28T02:49:55.48861178Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04397",
+        "source": "reversing-labs",
+        "sha256": "931f21ec9046290bd1d8668d908d324e829203ec624a0a60105bbd3a01da2d1f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCORRD-6513668"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py-corrd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py-corrd"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py-corrd/MAL-2024-5615.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

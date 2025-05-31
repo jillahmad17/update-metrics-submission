@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-5745",
+  "summary": "Malicious code in pynanopro (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:25Z",
+  "published": "2024-06-25T13:40:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:25Z",
+        "import_time": "2024-06-28T02:50:12.261319869Z",
+        "versions": [
+          "0.0.1",
+          "0.0.2",
+          "0.0.3"
+        ],
+        "id": "RLMA-2024-04539",
+        "source": "reversing-labs",
+        "sha256": "46f8efa6687882bfe87e21b3e8bf47e2e6b58a13afcd7afdcd61aed4ba313914"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pynanopro",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pynanopro"
+      },
+      "versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pynanopro/MAL-2024-5745.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

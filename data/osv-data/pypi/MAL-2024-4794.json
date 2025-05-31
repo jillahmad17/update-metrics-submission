@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4794",
+  "summary": "Malicious code in bestcolors (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:37Z",
+  "published": "2024-06-25T13:32:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:37Z",
+        "import_time": "2024-06-28T02:48:19.154025734Z",
+        "versions": [
+          "0.0.0"
+        ],
+        "id": "RLMA-2024-03574",
+        "source": "reversing-labs",
+        "sha256": "1a7398ca4ff843f66bc3ab73410f8bef858567b99dfa6ea1b00777bb2c084449"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "bestcolors",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/bestcolors"
+      },
+      "versions": [
+        "0.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/bestcolors/MAL-2024-4794.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

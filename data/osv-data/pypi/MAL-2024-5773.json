@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-5773",
+  "summary": "Malicious code in pysqlchiper-conv (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYSQLCHIPERCONV-5885062"
+  ],
+  "modified": "2024-06-28T03:15:09.304303Z",
+  "published": "2024-06-25T13:40:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:39Z",
+        "import_time": "2024-06-28T02:50:15.699381086Z",
+        "versions": [
+          "0.4.7"
+        ],
+        "id": "RLMA-2024-04569",
+        "source": "reversing-labs",
+        "sha256": "69e2a2ef2dab69f5754b8d39e62fd47c146a750d19e4585f9f72626ab495b51e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYSQLCHIPERCONV-5885062"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pysqlchiper-conv",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pysqlchiper-conv"
+      },
+      "versions": [
+        "0.4.7"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pysqlchiper-conv/MAL-2024-5773.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

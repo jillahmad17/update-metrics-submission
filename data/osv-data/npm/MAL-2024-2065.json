@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-2065",
+  "summary": "Malicious code in @realty-front/dayjs (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-REALTYFRONTDAYJS-3326403"
+  ],
+  "modified": "2024-07-01T04:00:00Z",
+  "published": "2024-06-25T12:21:40Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "1c1b200acd9054ac592f431c73df4cceeda9783a665cfcd6413d2053a4e059bc",
+        "import_time": "2024-06-28T02:41:34.249957552Z",
+        "versions": [
+          "1.13.1",
+          "1.0.1",
+          "1.13.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00181",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:06Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-REALTYFRONTDAYJS-3326403"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@realty-front/dayjs",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40realty-front/dayjs"
+      },
+      "versions": [
+        "1.13.1",
+        "1.0.1",
+        "1.13.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@realty-front/dayjs/MAL-2024-2065.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-1801",
+  "summary": "Malicious code in @plangrid-private/babel-preset-react-app (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:21:51Z",
+  "published": "2024-06-25T12:21:51Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "7773a1b1914d5ef40183791d852151ad5224e2972b663364d436d410be91206e",
+        "import_time": "2024-06-28T02:41:32.836471652Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00169",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:21:51Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@plangrid-private/babel-preset-react-app",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40plangrid-private/babel-preset-react-app"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@plangrid-private/babel-preset-react-app/MAL-2024-1801.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

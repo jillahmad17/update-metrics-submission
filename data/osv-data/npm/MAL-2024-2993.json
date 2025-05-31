@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2993",
+  "summary": "Malicious code in @xbox-web/sdk-components (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:23:03Z",
+  "published": "2024-06-25T12:23:03Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "d8e65490d8e527a4ce17a4a1148c51078b216a581c636c548c271b6512e6251d",
+        "import_time": "2024-06-28T02:41:38.989820396Z",
+        "versions": [
+          "14.0.0"
+        ],
+        "id": "RLMA-2024-00221",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:23:03Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@xbox-web/sdk-components",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40xbox-web/sdk-components"
+      },
+      "versions": [
+        "14.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@xbox-web/sdk-components/MAL-2024-2993.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

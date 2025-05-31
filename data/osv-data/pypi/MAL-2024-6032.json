@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-6032",
+  "summary": "Malicious code in speedyquests (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:46Z",
+  "published": "2024-06-25T13:42:46Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:46Z",
+        "import_time": "2024-06-28T02:50:48.03578152Z",
+        "versions": [
+          "0.6.0"
+        ],
+        "id": "RLMA-2024-04835",
+        "source": "reversing-labs",
+        "sha256": "1f93fd9824b417c7adff13113763f320a8954c352417d7845b32ad5aa07daa2e"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "speedyquests",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/speedyquests"
+      },
+      "versions": [
+        "0.6.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/speedyquests/MAL-2024-6032.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5237",
+  "summary": "Malicious code in httpxboost (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-HTTPXBOOST-5295859"
+  ],
+  "modified": "2024-06-28T03:14:54.515247Z",
+  "published": "2024-06-25T13:36:13Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:13Z",
+        "import_time": "2024-06-28T02:49:11.069366095Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04019",
+        "source": "reversing-labs",
+        "sha256": "67db149596c345a5db509dae0d80239544cf441ff312d87ad712775bbc206c5e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-HTTPXBOOST-5295859"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "httpxboost",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/httpxboost"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/httpxboost/MAL-2024-5237.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-3099",
+  "summary": "Malicious code in terraform-config (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-TERRAFORMCONFIG-5666403"
+  ],
+  "modified": "2024-06-28T03:14:42.222975Z",
+  "published": "2024-06-25T13:03:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:03:23Z",
+        "import_time": "2024-06-28T02:44:56.492583095Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01851",
+        "source": "reversing-labs",
+        "sha256": "fe26f6f05126cabd0ac90c0b076bc7aba5494fe3e1baab78f50786b040b6fee6"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-TERRAFORMCONFIG-5666403"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "terraform-config",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/terraform-config"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/terraform-config/MAL-2024-3099.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

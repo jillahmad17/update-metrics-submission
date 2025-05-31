@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-5221",
+  "summary": "Malicious code in httprequesthub (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-HTTPREQUESTHUB-6139265"
+  ],
+  "modified": "2024-06-28T03:14:54.319239Z",
+  "published": "2024-06-25T13:36:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:05Z",
+        "import_time": "2024-06-28T02:49:09.088838839Z",
+        "versions": [
+          "2.31.3",
+          "2.31.1",
+          "2.31.0",
+          "2.31.4"
+        ],
+        "id": "RLMA-2024-04003",
+        "source": "reversing-labs",
+        "sha256": "e2da341d77a84522b98021d1c613853bfbed53b58c3938454866295eea2d4455"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/python-packages-leverage-github-to-deploy-fileless-malware-b6c281dea58f"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-HTTPREQUESTHUB-6139265"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "httprequesthub",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/httprequesthub"
+      },
+      "versions": [
+        "2.31.3",
+        "2.31.1",
+        "2.31.0",
+        "2.31.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/httprequesthub/MAL-2024-5221.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

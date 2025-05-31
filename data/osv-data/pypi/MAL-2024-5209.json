@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-5209",
+  "summary": "Malicious code in httiop (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:00Z",
+  "published": "2024-06-25T13:36:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:00Z",
+        "import_time": "2024-06-28T02:49:07.163925877Z",
+        "versions": [
+          "0.0.1"
+        ],
+        "id": "RLMA-2024-03991",
+        "source": "reversing-labs",
+        "sha256": "541c74b5b3e8ecb38afe363cda64afb8b08430543ad52f86d18c1878427ae021"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://www.reversinglabs.com/blog/beware-impostor-http-libraries-lurk-on-pypi"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "httiop",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/httiop"
+      },
+      "versions": [
+        "0.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/httiop/MAL-2024-5209.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

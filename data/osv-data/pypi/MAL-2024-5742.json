@@ -1,0 +1,58 @@
+{
+  "id": "MAL-2024-5742",
+  "summary": "Malicious code in pylopenssl (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:23Z",
+  "published": "2024-06-25T13:40:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:23Z",
+        "import_time": "2024-06-28T02:50:11.7656628Z",
+        "versions": [
+          "20.0.2",
+          "20.0.4",
+          "20.0.3",
+          "20.0.1"
+        ],
+        "id": "RLMA-2024-04535",
+        "source": "reversing-labs",
+        "sha256": "9b73002bcff6db803413321fee5be94d314b4ff1f2f9417d0c46d22193d82f9d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pylopenssl",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pylopenssl"
+      },
+      "versions": [
+        "20.0.2",
+        "20.0.4",
+        "20.0.3",
+        "20.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pylopenssl/MAL-2024-5742.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

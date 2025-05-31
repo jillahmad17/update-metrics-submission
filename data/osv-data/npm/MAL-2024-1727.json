@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-1727",
+  "summary": "Malicious code in @realty-front/ad (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-REALTYFRONTAD-3319916"
+  ],
+  "modified": "2024-06-28T03:14:38.751270Z",
+  "published": "2024-06-25T12:22:03Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "fc976ce5dd352d3c7b0b310f5c9a3fb86d51182dd4d9f4b5d20db5e3dccdd812",
+        "import_time": "2024-06-28T02:41:34.009863359Z",
+        "versions": [
+          "1.13.1",
+          "1.0.1",
+          "1.13.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00179",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:03Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-REALTYFRONTAD-3319916"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@realty-front/ad",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40realty-front/ad"
+      },
+      "versions": [
+        "1.13.1",
+        "1.0.1",
+        "1.13.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@realty-front/ad/MAL-2024-1727.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

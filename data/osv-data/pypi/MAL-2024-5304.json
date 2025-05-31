@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5304",
+  "summary": "Malicious code in lalaproxy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-LALAPROXY-5296002"
+  ],
+  "modified": "2024-06-28T03:14:54.925670Z",
+  "published": "2024-06-25T13:36:46Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:46Z",
+        "import_time": "2024-06-28T02:49:18.922795438Z",
+        "versions": [
+          "1"
+        ],
+        "id": "RLMA-2024-04086",
+        "source": "reversing-labs",
+        "sha256": "38d7fa1f8cc02b03d8ed2c5b5d8948e3382aa4b5eced5f86ed4598eec204d90c"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-LALAPROXY-5296002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "lalaproxy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/lalaproxy"
+      },
+      "versions": [
+        "1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/lalaproxy/MAL-2024-5304.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

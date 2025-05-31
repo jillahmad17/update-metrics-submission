@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-4766",
+  "summary": "Malicious code in androidspyeye (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-ANDROIDSPYEYE-5508582"
+  ],
+  "modified": "2024-06-28T03:14:45.201352Z",
+  "published": "2024-06-25T13:32:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:23Z",
+        "import_time": "2024-06-28T02:48:16.079158738Z",
+        "versions": [
+          "2.5"
+        ],
+        "id": "RLMA-2024-03546",
+        "source": "reversing-labs",
+        "sha256": "e0c190168ec74690a0e5ef6c412ff51b7b3a750c2a65818f821f403c943320dc"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-ANDROIDSPYEYE-5508582"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/ml-engine-detects-pypi-packages-containing-whitesnake-malware-designed-to-steal-your-personal-7a275496f442"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "androidspyeye",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/androidspyeye"
+      },
+      "versions": [
+        "2.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/androidspyeye/MAL-2024-4766.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

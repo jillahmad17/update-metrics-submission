@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-5984",
+  "summary": "Malicious code in semdb (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SEMDB-5885081"
+  ],
+  "modified": "2024-06-28T03:15:16.044528Z",
+  "published": "2024-06-25T13:42:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:22Z",
+        "import_time": "2024-06-28T02:50:41.922840721Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04785",
+        "source": "reversing-labs",
+        "sha256": "8e8a8a6eb92bd52b245aaf70cc54f1e57dd633364279006fa823e50d3f93547f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SEMDB-5885081"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "semdb",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/semdb"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/semdb/MAL-2024-5984.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

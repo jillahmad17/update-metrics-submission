@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5429",
+  "summary": "Malicious code in oauthtest123 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:45Z",
+  "published": "2024-06-25T13:37:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:45Z",
+        "import_time": "2024-06-28T02:49:33.639511694Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04211",
+        "source": "reversing-labs",
+        "sha256": "2602014bda74351a8e805f56764e6a287d12d88ec45f842ec682e0c5a9296ab8"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "oauthtest123",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/oauthtest123"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/oauthtest123/MAL-2024-5429.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

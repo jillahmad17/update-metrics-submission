@@ -1,0 +1,496 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 27,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 1,
+  "dependents_count": 1,
+  "deprecation_reason": null,
+  "description": "Rust interface to nRF SoftDevice",
+  "forks": 76,
+  "funding_urls": null,
+  "homepage": null,
+  "keywords": [
+    "arm",
+    "cortex-m",
+    "nrf-softdevice",
+    "nrf52"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/nrf-softdevice/0.1.0/download",
+  "latest_release_number": "0.1.0",
+  "latest_release_published_at": "2024-01-15T18:21:26.477Z",
+  "latest_stable_release_number": "0.1.0",
+  "latest_stable_release_published_at": "2024-01-15T18:21:26.477Z",
+  "license_normalized": true,
+  "licenses": "MIT OR Apache-2.0",
+  "name": "nrf-softdevice",
+  "normalized_licenses": [
+    "MIT",
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/nrf-softdevice/",
+  "platform": "Cargo",
+  "rank": 9,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/embassy-rs/nrf-softdevice",
+  "security_policy_url": null,
+  "stars": 257,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.0",
+      "published_at": "2020-10-31T20:51:58.083Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2024-01-15T18:21:26.477Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.1.0",
+  "dependencies": [
+    {
+      "project_name": "cortex-m",
+      "name": "cortex-m",
+      "platform": "Cargo",
+      "requirements": "^0.7.2",
+      "latest_stable": "0.7.7",
+      "latest": "0.7.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "cortex-m-rt",
+      "name": "cortex-m-rt",
+      "platform": "Cargo",
+      "requirements": ">=0.6.15, <0.8",
+      "latest_stable": "0.7.5",
+      "latest": "0.7.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "embassy-futures",
+      "name": "embassy-futures",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.1",
+      "latest": "0.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "embassy-sync",
+      "name": "embassy-sync",
+      "platform": "Cargo",
+      "requirements": "^0.5.0",
+      "latest_stable": "0.6.1",
+      "latest": "0.6.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "embedded-storage",
+      "name": "embedded-storage",
+      "platform": "Cargo",
+      "requirements": "^0.3.1",
+      "latest_stable": "0.3.1",
+      "latest": "0.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "embedded-storage-async",
+      "name": "embedded-storage-async",
+      "platform": "Cargo",
+      "requirements": "^0.4.1",
+      "latest_stable": "0.4.1",
+      "latest": "0.4.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "fixed",
+      "name": "fixed",
+      "platform": "Cargo",
+      "requirements": "^1.5.0",
+      "latest_stable": "1.28.0",
+      "latest": "1.28.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "futures",
+      "name": "futures",
+      "platform": "Cargo",
+      "requirements": "^0.3.17",
+      "latest_stable": "0.3.31",
+      "latest": "0.3.31",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "heapless",
+      "name": "heapless",
+      "platform": "Cargo",
+      "requirements": "^0.8.0",
+      "latest_stable": "0.7.17",
+      "latest": "0.7.17",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-macro",
+      "name": "nrf-softdevice-macro",
+      "platform": "Cargo",
+      "requirements": "^0.1.0",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "num_enum",
+      "name": "num_enum",
+      "platform": "Cargo",
+      "requirements": "^0.7.0",
+      "latest_stable": "0.7.3",
+      "latest": "0.7.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause",
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "critical-section",
+      "name": "critical-section",
+      "platform": "Cargo",
+      "requirements": "^1.0",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "defmt",
+      "name": "defmt",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.3.10",
+      "latest": "0.3.100-rc.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4.11",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nrf52805-pac",
+      "name": "nrf52805-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52810-pac",
+      "name": "nrf52810-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52811-pac",
+      "name": "nrf52811-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52820-pac",
+      "name": "nrf52820-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52832-pac",
+      "name": "nrf52832-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52833-pac",
+      "name": "nrf52833-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf52840-pac",
+      "name": "nrf52840-pac",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.2",
+      "latest": "0.12.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-s112",
+      "name": "nrf-softdevice-s112",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-s113",
+      "name": "nrf-softdevice-s113",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-s122",
+      "name": "nrf-softdevice-s122",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-s132",
+      "name": "nrf-softdevice-s132",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "nrf-softdevice-s140",
+      "name": "nrf-softdevice-s140",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    }
+  ]
+}

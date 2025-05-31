@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-1967",
+  "summary": "Malicious code in cd-package-lib (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:32:52Z",
+  "published": "2024-06-25T12:32:52Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:32:52Z",
+        "import_time": "2024-06-28T02:42:20.971290126Z",
+        "versions": [
+          "87.1.2",
+          "87.1.1"
+        ],
+        "id": "RLMA-2024-00564",
+        "source": "reversing-labs",
+        "sha256": "b6dae090d1d5bebc707f1511af21ed61f8de9e5f450e1bfedf86d03a2f17871c"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "cd-package-lib",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cd-package-lib"
+      },
+      "versions": [
+        "87.1.2",
+        "87.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/cd-package-lib/MAL-2024-1967.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

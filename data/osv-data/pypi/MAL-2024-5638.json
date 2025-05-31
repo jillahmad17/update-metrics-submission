@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5638",
+  "summary": "Malicious code in py32cly (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:39:25Z",
+  "published": "2024-06-25T13:39:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:25Z",
+        "import_time": "2024-06-28T02:49:58.15740693Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04420",
+        "source": "reversing-labs",
+        "sha256": "f0e951acb4df5f3126112ad9aa61c47ead4e2ae294f6f7bcb7e6051111e7718b"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py32cly",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py32cly"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py32cly/MAL-2024-5638.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

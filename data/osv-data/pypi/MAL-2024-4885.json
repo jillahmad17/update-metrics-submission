@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-4885",
+  "summary": "Malicious code in centerprint (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:21Z",
+  "published": "2024-06-25T13:33:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:21Z",
+        "import_time": "2024-06-28T02:48:29.30070656Z",
+        "versions": [
+          "2.3",
+          "2.2",
+          "2.1"
+        ],
+        "id": "RLMA-2024-03665",
+        "source": "reversing-labs",
+        "sha256": "af2419d135ef3fa3fc7e723c1fece0190792b3701c02a1cbfdaef9895ee64200"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "centerprint",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/centerprint"
+      },
+      "versions": [
+        "2.3",
+        "2.2",
+        "2.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/centerprint/MAL-2024-4885.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

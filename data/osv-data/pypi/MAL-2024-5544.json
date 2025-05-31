@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5544",
+  "summary": "Malicious code in pipsqlitelibv2 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PIPSQLITELIBV2-5932322"
+  ],
+  "modified": "2024-06-28T03:15:00.955064Z",
+  "published": "2024-06-25T13:38:40Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:40Z",
+        "import_time": "2024-06-28T02:49:47.133572635Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04326",
+        "source": "reversing-labs",
+        "sha256": "e8a5daab1d582bf252431af398f3eaf1a55b50ec3f8ef8290fcb390a11ad1473"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PIPSQLITELIBV2-5932322"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pipsqlitelibv2",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pipsqlitelibv2"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pipsqlitelibv2/MAL-2024-5544.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

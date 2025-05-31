@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2957",
+  "summary": "Malicious code in remove-pr-labels (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:58:35Z",
+  "published": "2024-06-25T12:58:35Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:58:35Z",
+        "import_time": "2024-06-28T02:44:36.583190106Z",
+        "versions": [
+          "1.1.0"
+        ],
+        "id": "RLMA-2024-01680",
+        "source": "reversing-labs",
+        "sha256": "5359d706607f20f9685399a3e830ee3e5fbca279abbcdd6ed1a60922b6d79a1a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "remove-pr-labels",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/remove-pr-labels"
+      },
+      "versions": [
+        "1.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/remove-pr-labels/MAL-2024-2957.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

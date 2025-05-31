@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5594",
+  "summary": "Malicious code in py-coerd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCOERD-6513676"
+  ],
+  "modified": "2024-06-28T03:15:02.874261Z",
+  "published": "2024-06-25T13:39:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:04Z",
+        "import_time": "2024-06-28T02:49:53.010325308Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04376",
+        "source": "reversing-labs",
+        "sha256": "73efa3dd9393ed7f7f7448a6ee4f27526b6033651d2920766b7369636c8bf770"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCOERD-6513676"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py-coerd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py-coerd"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py-coerd/MAL-2024-5594.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

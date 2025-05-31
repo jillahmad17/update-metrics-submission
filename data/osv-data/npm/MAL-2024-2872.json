@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2872",
+  "summary": "Malicious code in pkg-with-peer-deps (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:56:05Z",
+  "published": "2024-06-25T12:56:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:56:05Z",
+        "import_time": "2024-06-28T02:44:26.026324105Z",
+        "versions": [
+          "1.999.1"
+        ],
+        "id": "RLMA-2024-01593",
+        "source": "reversing-labs",
+        "sha256": "15680b17121ecfc91b2e45a279614989b1282fb477c3d9528136f5e5d15cd30f"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pkg-with-peer-deps",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/pkg-with-peer-deps"
+      },
+      "versions": [
+        "1.999.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/pkg-with-peer-deps/MAL-2024-2872.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

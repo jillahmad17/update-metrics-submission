@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5698",
+  "summary": "Malicious code in pydiscordion (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:39:56Z",
+  "published": "2024-06-25T13:39:56Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:56Z",
+        "import_time": "2024-06-28T02:50:05.34376528Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04481",
+        "source": "reversing-labs",
+        "sha256": "706a5829e94d8b6c333788954bcdf4c671936364312a084b07b188769b5b3cc4"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pydiscordion",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pydiscordion"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pydiscordion/MAL-2024-5698.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

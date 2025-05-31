@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2663",
+  "summary": "Malicious code in @ks-radar/mini-program (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:33Z",
+  "published": "2024-06-25T12:20:33Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "811cff7c36458e554e332767500b22fdd77496a300a7e4a77087d3face16ef73",
+        "import_time": "2024-06-28T02:41:25.677726943Z",
+        "versions": [
+          "2.1.10"
+        ],
+        "id": "RLMA-2024-00108",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:33Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@ks-radar/mini-program",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40ks-radar/mini-program"
+      },
+      "versions": [
+        "2.1.10"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@ks-radar/mini-program/MAL-2024-2663.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

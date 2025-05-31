@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-4902",
+  "summary": "Malicious code in code-helper (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:29Z",
+  "published": "2024-06-25T13:33:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:29Z",
+        "import_time": "2024-06-28T02:48:31.169634004Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03682",
+        "source": "reversing-labs",
+        "sha256": "9a2917e3e746f1b0c3a7c9a8c66605f57b3a9fecd6739a2818360aa95163e0c0"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "code-helper",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/code-helper"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/code-helper/MAL-2024-4902.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

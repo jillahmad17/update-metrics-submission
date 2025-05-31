@@ -1,0 +1,813 @@
+{
+  "code_of_conduct_url": "https://github.com/the-lean-crate/criner/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 2,
+  "contribution_guidelines_url": "https://github.com/the-lean-crate/criner/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 1,
+  "dependents_count": 1,
+  "deprecation_reason": null,
+  "description": "a platform for resumable mining of crates.io for knowledge and information",
+  "forks": 2,
+  "funding_urls": [],
+  "homepage": null,
+  "keywords": [],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/criner/0.4.0/download",
+  "latest_release_number": "0.4.0",
+  "latest_release_published_at": "2024-10-17T05:49:06.922Z",
+  "latest_stable_release_number": "0.4.0",
+  "latest_stable_release_published_at": "2024-10-17T05:49:06.922Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "criner",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/criner/",
+  "platform": "Cargo",
+  "rank": 9,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/the-lean-crate/criner",
+  "security_policy_url": null,
+  "stars": 123,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2020-03-20T00:10:35.864Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2020-03-20T00:21:00.527Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2020-04-12T10:06:47.999Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2020-06-16T01:38:35.887Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2020-11-02T12:42:56.886Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.1",
+      "published_at": "2023-03-16T07:42:00.539Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2024-10-17T05:49:06.922Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.4.0",
+  "dependencies": [
+    {
+      "project_name": "async-channel",
+      "name": "async-channel",
+      "platform": "Cargo",
+      "requirements": "^1.1.1",
+      "latest_stable": "2.3.1",
+      "latest": "2.3.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "async-compat",
+      "name": "async-compat",
+      "platform": "Cargo",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.4",
+      "latest": "0.2.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "async-executor",
+      "name": "async-executor",
+      "platform": "Cargo",
+      "requirements": "^1.1.0",
+      "latest_stable": "1.13.1",
+      "latest": "1.13.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "async-io",
+      "name": "async-io",
+      "platform": "Cargo",
+      "requirements": "^1.1.0",
+      "latest_stable": "2.4.0",
+      "latest": "2.4.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "async-trait",
+      "name": "async-trait",
+      "platform": "Cargo",
+      "requirements": "^0.1.24",
+      "latest_stable": "0.1.85",
+      "latest": "0.1.85",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "blocking",
+      "name": "blocking",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.6.1",
+      "latest": "1.6.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bytesize",
+      "name": "bytesize",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "common_macros",
+      "name": "common_macros",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "crates-index-diff",
+      "name": "crates-index-diff",
+      "platform": "Cargo",
+      "requirements": "^25.0.0",
+      "latest_stable": "26.0.0",
+      "latest": "26.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "criner-waste-report",
+      "name": "criner-waste-report",
+      "platform": "Cargo",
+      "requirements": "^0.1.5",
+      "latest_stable": "0.1.5",
+      "latest": "0.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "csv",
+      "name": "csv",
+      "platform": "Cargo",
+      "requirements": "^1.1.3",
+      "latest_stable": "1.3.1",
+      "latest": "1.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ctrlc",
+      "name": "ctrlc",
+      "platform": "Cargo",
+      "requirements": "^3.1.4",
+      "latest_stable": "3.4.5",
+      "latest": "3.4.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "dia-semver",
+      "name": "dia-semver",
+      "platform": "Cargo",
+      "requirements": "^11.0.0",
+      "latest_stable": "11.0.0",
+      "latest": "11.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "futures-lite",
+      "name": "futures-lite",
+      "platform": "Cargo",
+      "requirements": "^1.4.0",
+      "latest_stable": "2.6.0",
+      "latest": "2.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "futures-util",
+      "name": "futures-util",
+      "platform": "Cargo",
+      "requirements": "^0.3.5",
+      "latest_stable": "0.3.31",
+      "latest": "0.3.31",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "git2",
+      "name": "git2",
+      "platform": "Cargo",
+      "requirements": "^0.19.0",
+      "latest_stable": "0.20.0",
+      "latest": "0.20.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "gix",
+      "name": "gix",
+      "platform": "Cargo",
+      "requirements": "^0.63.0",
+      "latest_stable": "0.69.1",
+      "latest": "0.69.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "glob",
+      "name": "glob",
+      "platform": "Cargo",
+      "requirements": "^0.3.0",
+      "latest_stable": "0.3.2",
+      "latest": "0.3.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "globset",
+      "name": "globset",
+      "platform": "Cargo",
+      "requirements": "^0.4.4",
+      "latest_stable": "0.4.15",
+      "latest": "0.4.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "hex",
+      "name": "hex",
+      "platform": "Cargo",
+      "requirements": "^0.4.3",
+      "latest_stable": "0.4.3",
+      "latest": "0.4.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "horrorshow",
+      "name": "horrorshow",
+      "platform": "Cargo",
+      "requirements": "^0.8.1",
+      "latest_stable": "0.8.4",
+      "latest": "0.8.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "http",
+      "name": "http",
+      "platform": "Cargo",
+      "requirements": "^0.2.0",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "humantime",
+      "name": "humantime",
+      "platform": "Cargo",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.1.0",
+      "latest": "2.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "lazy_static",
+      "name": "lazy_static",
+      "platform": "Cargo",
+      "requirements": "^1.4.0",
+      "latest_stable": "1.5.0",
+      "latest": "1.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "libflate",
+      "name": "libflate",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "2.1.0",
+      "latest": "2.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4.8",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "once_cell",
+      "name": "once_cell",
+      "platform": "Cargo",
+      "requirements": "^1.4.0",
+      "latest_stable": "1.20.2",
+      "latest": "1.20.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "parking_lot",
+      "name": "parking_lot",
+      "platform": "Cargo",
+      "requirements": "^0.12.0",
+      "latest_stable": "0.12.3",
+      "latest": "0.12.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "prodash",
+      "name": "prodash",
+      "platform": "Cargo",
+      "requirements": "^28.0.0",
+      "latest_stable": "29.0.0",
+      "latest": "29.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "quick-error",
+      "name": "quick-error",
+      "platform": "Cargo",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.1",
+      "latest": "2.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "regex",
+      "name": "regex",
+      "platform": "Cargo",
+      "requirements": "^1.3.4",
+      "latest_stable": "1.11.1",
+      "latest": "1.11.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "reqwest",
+      "name": "reqwest",
+      "platform": "Cargo",
+      "requirements": "^0.11.1",
+      "latest_stable": "0.12.12",
+      "latest": "0.12.12",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rmp-serde",
+      "name": "rmp-serde",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rmpv",
+      "name": "rmpv",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rusqlite",
+      "name": "rusqlite",
+      "platform": "Cargo",
+      "requirements": "^0.32.1",
+      "latest_stable": "0.32.1",
+      "latest": "0.32.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1.0.104",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde_derive",
+      "name": "serde_derive",
+      "platform": "Cargo",
+      "requirements": "^1.0.104",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde_json",
+      "name": "serde_json",
+      "platform": "Cargo",
+      "requirements": "^1.0.48",
+      "latest_stable": "1.0.135",
+      "latest": "1.0.135",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "tar",
+      "name": "tar",
+      "platform": "Cargo",
+      "requirements": "^0.4.26",
+      "latest_stable": "0.4.43",
+      "latest": "0.4.43",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "time",
+      "name": "time",
+      "platform": "Cargo",
+      "requirements": "^0.3.5",
+      "latest_stable": "0.3.37",
+      "latest": "0.3.37",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "toml",
+      "name": "toml",
+      "platform": "Cargo",
+      "requirements": "^0.7.2",
+      "latest_stable": "0.8.19",
+      "latest": "0.8.19",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "jwalk",
+      "name": "jwalk",
+      "platform": "Cargo",
+      "requirements": "^0.8.1",
+      "latest_stable": "0.8.1",
+      "latest": "0.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

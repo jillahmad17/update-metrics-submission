@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-2015",
+  "summary": "Malicious code in config-storages (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-CONFIGSTORAGES-6146031"
+  ],
+  "modified": "2024-06-28T03:27:23.090650Z",
+  "published": "2024-06-25T12:34:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:34:12Z",
+        "import_time": "2024-06-28T02:42:28.608498811Z",
+        "versions": [
+          "3.41.2"
+        ],
+        "id": "RLMA-2024-00629",
+        "source": "reversing-labs",
+        "sha256": "8029a97618aa03afb09cfbbd4f13a80ec313f10dac2506df6b18fabda1217285"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/update-to-novembers-crypto-themed-npm-attack/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-CONFIGSTORAGES-6146031"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "config-storages",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/config-storages"
+      },
+      "versions": [
+        "3.41.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/config-storages/MAL-2024-2015.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-2012",
+  "summary": "Malicious code in @ikea-aoa/component-popover (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:23Z",
+  "published": "2024-06-25T12:20:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "b3ca23ee4464c03b881fca85fe01725429dacfd4889d1bc0667664e063d27f8a",
+        "import_time": "2024-06-28T02:41:24.874142005Z",
+        "versions": [
+          "99.0.0",
+          "99.0.1"
+        ],
+        "id": "RLMA-2024-00101",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:23Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@ikea-aoa/component-popover",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40ikea-aoa/component-popover"
+      },
+      "versions": [
+        "99.0.0",
+        "99.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@ikea-aoa/component-popover/MAL-2024-2012.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

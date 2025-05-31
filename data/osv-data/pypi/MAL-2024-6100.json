@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-6100",
+  "summary": "Malicious code in tensofliw (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-TENSOFLIW-6513571"
+  ],
+  "modified": "2024-06-28T03:15:19.405415Z",
+  "published": "2024-06-25T13:43:17Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:17Z",
+        "import_time": "2024-06-28T02:50:56.223423078Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04903",
+        "source": "reversing-labs",
+        "sha256": "f3baacbe73e8ae1069dd021a6fe4972ed747742039e8412ed8654427f9c604f0"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-TENSOFLIW-6513571"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "tensofliw",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/tensofliw"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/tensofliw/MAL-2024-6100.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

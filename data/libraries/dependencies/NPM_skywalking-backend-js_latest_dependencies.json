@@ -1,0 +1,765 @@
+{
+  "code_of_conduct_url": "https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md",
+  "contributions_count": 17,
+  "contribution_guidelines_url": "https://github.com/apache/skywalking-nodejs/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 4,
+  "dependents_count": 13,
+  "deprecation_reason": null,
+  "description": "The NodeJS agent for Apache SkyWalking",
+  "forks": 63,
+  "funding_urls": [],
+  "homepage": "http://skywalking.apache.org",
+  "keywords": [
+    "SkyWalking",
+    "APM",
+    "Dapper",
+    "Tracing",
+    "Agent",
+    "Instrumentation",
+    "distributed-tracing",
+    "nodejs",
+    "observability",
+    "typescript"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/skywalking-backend-js/-/skywalking-backend-js-0.7.0.tgz",
+  "latest_release_number": "0.7.0",
+  "latest_release_published_at": "2023-11-08T12:46:39.799Z",
+  "latest_stable_release_number": "0.7.0",
+  "latest_stable_release_published_at": "2023-11-08T12:46:39.799Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "skywalking-backend-js",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/skywalking-backend-js",
+  "platform": "NPM",
+  "rank": 12,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/apache/skywalking-nodejs",
+  "security_policy_url": "https://github.com/apache/skywalking-nodejs/security/policy",
+  "stars": 157,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2020-12-31T02:12:01.094Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2021-03-31T14:32:42.232Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2021-05-28T10:49:46.865Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2022-03-13T12:06:27.901Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2022-03-13T12:10:06.855Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.5.0",
+      "published_at": "2022-07-10T04:19:59.713Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.5.1",
+      "published_at": "2022-07-18T02:48:13.963Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2022-12-09T01:00:30.636Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2023-11-08T12:46:39.799Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.7.0",
+  "dependencies": [
+    {
+      "project_name": "@grpc/grpc-js",
+      "name": "@grpc/grpc-js",
+      "platform": "NPM",
+      "requirements": "^1.6.7",
+      "latest_stable": "1.12.5",
+      "latest": "1.12.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "google-protobuf",
+      "name": "google-protobuf",
+      "platform": "NPM",
+      "requirements": "^3.14.0",
+      "latest_stable": "3.21.4",
+      "latest": "3.21.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "husky",
+      "name": "husky",
+      "platform": "NPM",
+      "requirements": "^7.0.4",
+      "latest_stable": "9.1.7",
+      "latest": "9.1.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "semver",
+      "name": "semver",
+      "platform": "NPM",
+      "requirements": "^7.3.2",
+      "latest_stable": "7.6.3",
+      "latest": "7.6.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "tslib",
+      "name": "tslib",
+      "platform": "NPM",
+      "requirements": "^2.0.3",
+      "latest_stable": "2.8.1",
+      "latest": "2.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "uuid",
+      "name": "uuid",
+      "platform": "NPM",
+      "requirements": "^8.1.0",
+      "latest_stable": "11.0.5",
+      "latest": "11.0.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "winston",
+      "name": "winston",
+      "platform": "NPM",
+      "requirements": "^3.2.1",
+      "latest_stable": "3.17.0",
+      "latest": "3.17.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/express",
+      "name": "@types/express",
+      "platform": "NPM",
+      "requirements": "^4.17.9",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/google-protobuf",
+      "name": "@types/google-protobuf",
+      "platform": "NPM",
+      "requirements": "^3.7.2",
+      "latest_stable": "3.15.12",
+      "latest": "3.15.12",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/ioredis",
+      "name": "@types/ioredis",
+      "platform": "NPM",
+      "requirements": "^4.26.4",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "^26.0.15",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^14.0.11",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/semver",
+      "name": "@types/semver",
+      "platform": "NPM",
+      "requirements": "^7.2.0",
+      "latest_stable": "7.5.8",
+      "latest": "7.5.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/uuid",
+      "name": "@types/uuid",
+      "platform": "NPM",
+      "requirements": "^8.0.0",
+      "latest_stable": "10.0.0",
+      "latest": "10.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "^5.10.1",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "amqplib",
+      "name": "amqplib",
+      "platform": "NPM",
+      "requirements": "^0.7.0",
+      "latest_stable": "0.10.5",
+      "latest": "0.10.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "axios",
+      "name": "axios",
+      "platform": "NPM",
+      "requirements": "^0.21.0",
+      "latest_stable": "1.7.9",
+      "latest": "1.7.9",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.8.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-prettier",
+      "name": "eslint-config-prettier",
+      "platform": "NPM",
+      "requirements": "^8.3.0",
+      "latest_stable": "9.1.0",
+      "latest": "9.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-header",
+      "name": "eslint-plugin-header",
+      "platform": "NPM",
+      "requirements": "^3.1.1",
+      "latest_stable": "3.1.1",
+      "latest": "3.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-prettier",
+      "name": "eslint-plugin-prettier",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "5.2.1",
+      "latest": "5.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "express",
+      "name": "express",
+      "platform": "NPM",
+      "requirements": "^4.17.1",
+      "latest_stable": "4.21.2",
+      "latest": "4.21.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "grpc-tools",
+      "name": "grpc-tools",
+      "platform": "NPM",
+      "requirements": "^1.11.1",
+      "latest_stable": "1.12.4",
+      "latest": "1.12.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "grpc_tools_node_protoc_ts",
+      "name": "grpc_tools_node_protoc_ts",
+      "platform": "NPM",
+      "requirements": "^5.3.0",
+      "latest_stable": "5.3.3",
+      "latest": "5.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ioredis",
+      "name": "ioredis",
+      "platform": "NPM",
+      "requirements": "^4.27.2",
+      "latest_stable": "5.4.2",
+      "latest": "5.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^26.6.3",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lint-staged",
+      "name": "lint-staged",
+      "platform": "NPM",
+      "requirements": "^12.3.2",
+      "latest_stable": "15.3.0",
+      "latest": "15.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mongodb",
+      "name": "mongodb",
+      "platform": "NPM",
+      "requirements": "^3.6.4",
+      "latest_stable": "6.12.0",
+      "latest": "6.12.0-dev.20250111.sha.13ca4405",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mongoose",
+      "name": "mongoose",
+      "platform": "NPM",
+      "requirements": "^5.12.2",
+      "latest_stable": "8.9.4",
+      "latest": "8.9.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mysql",
+      "name": "mysql",
+      "platform": "NPM",
+      "requirements": "^2.18.1",
+      "latest_stable": "2.18.1",
+      "latest": "2.18.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mysql2",
+      "name": "mysql2",
+      "platform": "NPM",
+      "requirements": "^2.2.5",
+      "latest_stable": "3.12.0",
+      "latest": "3.12.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pg",
+      "name": "pg",
+      "platform": "NPM",
+      "requirements": "^8.5.1",
+      "latest_stable": "8.13.1",
+      "latest": "8.13.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^2.5.1",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "testcontainers",
+      "name": "testcontainers",
+      "platform": "NPM",
+      "requirements": "^6.2.0",
+      "latest_stable": "10.16.0",
+      "latest": "10.16.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-jest",
+      "name": "ts-jest",
+      "platform": "NPM",
+      "requirements": "^26.4.4",
+      "latest_stable": "29.2.5",
+      "latest": "29.2.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-node",
+      "name": "ts-node",
+      "platform": "NPM",
+      "requirements": "^8.10.2",
+      "latest_stable": "10.9.2",
+      "latest": "10.9.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tsconfig-paths",
+      "name": "tsconfig-paths",
+      "platform": "NPM",
+      "requirements": "^3.9.0",
+      "latest_stable": "3.15.0",
+      "latest": "3.15.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^3.9.5",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "wait-for-expect",
+      "name": "wait-for-expect",
+      "platform": "NPM",
+      "requirements": "^3.0.2",
+      "latest_stable": "3.0.2",
+      "latest": "3.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

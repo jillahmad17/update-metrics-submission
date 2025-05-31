@@ -1,0 +1,787 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 12,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "Sharp and simple graphics library",
+  "forks": 38,
+  "funding_urls": [],
+  "homepage": "",
+  "keywords": [
+    "graphics",
+    "rust-library"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/blade/0.3.0/download",
+  "latest_release_number": "0.3.0",
+  "latest_release_published_at": "2024-12-21T18:30:49.095Z",
+  "latest_stable_release_number": "0.3.0",
+  "latest_stable_release_published_at": "2024-12-21T18:30:49.095Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "blade",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/blade/",
+  "platform": "Cargo",
+  "rank": 11,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/kvark/blade",
+  "security_policy_url": null,
+  "stars": 558,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.0",
+      "published_at": "2019-06-04T18:50:52.681Z",
+      "spdx_expression": "0BSD",
+      "original_license": "0BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.0.1",
+      "published_at": "2022-11-25T03:01:56.953Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2023-01-26T06:36:17.282Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2024-03-22T16:56:44.067Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2024-12-21T18:30:49.095Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.3.0",
+  "dependencies": [
+    {
+      "project_name": "base64",
+      "name": "base64",
+      "platform": "Cargo",
+      "requirements": "^0.21",
+      "latest_stable": "0.22.1",
+      "latest": "0.22.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "blade-asset",
+      "name": "blade-asset",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.2.0",
+      "latest": "0.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-egui",
+      "name": "blade-egui",
+      "platform": "Cargo",
+      "requirements": "^0.6",
+      "latest_stable": "0.6.0",
+      "latest": "0.6.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-graphics",
+      "name": "blade-graphics",
+      "platform": "Cargo",
+      "requirements": "^0.6",
+      "latest_stable": "0.5.0",
+      "latest": "0.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-helpers",
+      "name": "blade-helpers",
+      "platform": "Cargo",
+      "requirements": "^0.1",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-macros",
+      "name": "blade-macros",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-render",
+      "name": "blade-render",
+      "platform": "Cargo",
+      "requirements": "^0.4",
+      "latest_stable": "0.4.0",
+      "latest": "0.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "blade-util",
+      "name": "blade-util",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bytemuck",
+      "name": "bytemuck",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.21.0",
+      "latest": "1.21.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "Zlib",
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "choir",
+      "name": "choir",
+      "platform": "Cargo",
+      "requirements": "^0.7",
+      "latest_stable": "0.7.0",
+      "latest": "0.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "choir",
+      "name": "choir",
+      "platform": "Cargo",
+      "requirements": "^0.7",
+      "latest_stable": "0.7.0",
+      "latest": "0.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "colorsys",
+      "name": "colorsys",
+      "platform": "Cargo",
+      "requirements": "^0.6",
+      "latest_stable": "0.6.7",
+      "latest": "0.6.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "console_error_panic_hook",
+      "name": "console_error_panic_hook",
+      "platform": "Cargo",
+      "requirements": "^0.1.7",
+      "latest_stable": "0.1.7",
+      "latest": "0.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "console_log",
+      "name": "console_log",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "del-geo",
+      "name": "del-geo",
+      "platform": "Cargo",
+      "requirements": "=0.1.29",
+      "latest_stable": "0.1.29",
+      "latest": "0.1.29",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "del-msh-core",
+      "name": "del-msh-core",
+      "platform": "Cargo",
+      "requirements": "=0.1.33",
+      "latest_stable": "0.1.36",
+      "latest": "0.1.36",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "egui",
+      "name": "egui",
+      "platform": "Cargo",
+      "requirements": "^0.29",
+      "latest_stable": "0.30.0",
+      "latest": "0.30.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "egui",
+      "name": "egui",
+      "platform": "Cargo",
+      "requirements": "^0.29",
+      "latest_stable": "0.30.0",
+      "latest": "0.30.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "egui-winit",
+      "name": "egui-winit",
+      "platform": "Cargo",
+      "requirements": "^0.29",
+      "latest_stable": "0.30.0",
+      "latest": "0.30.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "env_logger",
+      "name": "env_logger",
+      "platform": "Cargo",
+      "requirements": "^0.11",
+      "latest_stable": "0.11.5",
+      "latest": "0.11.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "getrandom",
+      "name": "getrandom",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.2.15",
+      "latest": "0.3.0-rc.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "glam",
+      "name": "glam",
+      "platform": "Cargo",
+      "requirements": "^0.28",
+      "latest_stable": "0.29.2",
+      "latest": "0.29.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "gltf",
+      "name": "gltf",
+      "platform": "Cargo",
+      "requirements": "^1.1",
+      "latest_stable": "1.4.1",
+      "latest": "1.4.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mint",
+      "name": "mint",
+      "platform": "Cargo",
+      "requirements": "^0.5",
+      "latest_stable": "0.5.9",
+      "latest": "0.5.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mint",
+      "name": "mint",
+      "platform": "Cargo",
+      "requirements": "^0.5",
+      "latest_stable": "0.5.9",
+      "latest": "0.5.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "naga",
+      "name": "naga",
+      "platform": "Cargo",
+      "requirements": "^23.1.0",
+      "latest_stable": "23.1.0",
+      "latest": "23.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nalgebra",
+      "name": "nalgebra",
+      "platform": "Cargo",
+      "requirements": "^0.33",
+      "latest_stable": "0.33.2",
+      "latest": "0.33.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nanorand",
+      "name": "nanorand",
+      "platform": "Cargo",
+      "requirements": "^0.7",
+      "latest_stable": "0.7.0",
+      "latest": "0.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "Zlib"
+      ]
+    },
+    {
+      "project_name": "num_cpus",
+      "name": "num_cpus",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.16.0",
+      "latest": "1.16.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "profiling",
+      "name": "profiling",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.16",
+      "latest": "1.0.16",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "profiling",
+      "name": "profiling",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.16",
+      "latest": "1.0.16",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rapier3d",
+      "name": "rapier3d",
+      "platform": "Cargo",
+      "requirements": "^0.22",
+      "latest_stable": "0.23.0",
+      "latest": "0.23.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "renderdoc",
+      "name": "renderdoc",
+      "platform": "Cargo",
+      "requirements": "^0.12",
+      "latest_stable": "0.12.1",
+      "latest": "0.12.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "ron",
+      "name": "ron",
+      "platform": "Cargo",
+      "requirements": "^0.8",
+      "latest_stable": "0.8.1",
+      "latest": "0.9.0-alpha.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "slab",
+      "name": "slab",
+      "platform": "Cargo",
+      "requirements": "^0.4",
+      "latest_stable": "0.4.9",
+      "latest": "0.4.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "strum",
+      "name": "strum",
+      "platform": "Cargo",
+      "requirements": "^0.25",
+      "latest_stable": "0.26.3",
+      "latest": "0.26.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "web-sys",
+      "name": "web-sys",
+      "platform": "Cargo",
+      "requirements": "^0.3.60",
+      "latest_stable": "0.3.76",
+      "latest": "0.3.76",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "winit",
+      "name": "winit",
+      "platform": "Cargo",
+      "requirements": "^0.30",
+      "latest_stable": "0.30.8",
+      "latest": "0.30.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

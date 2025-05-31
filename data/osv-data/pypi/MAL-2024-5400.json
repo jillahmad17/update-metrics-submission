@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5400",
+  "summary": "Malicious code in neftron (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:31Z",
+  "published": "2024-06-25T13:37:31Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:31Z",
+        "import_time": "2024-06-28T02:49:30.216804133Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04182",
+        "source": "reversing-labs",
+        "sha256": "5e8583636d43958d0cfc2373282103bb0ebfbc2dca22ca833e54f1d096698a91"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "neftron",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/neftron"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/neftron/MAL-2024-5400.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

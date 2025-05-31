@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5534",
+  "summary": "Malicious code in piplibraryscraper (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PIPLIBRARYSCRAPER-5932236"
+  ],
+  "modified": "2024-06-28T03:15:00.411951Z",
+  "published": "2024-06-25T13:38:36Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:36Z",
+        "import_time": "2024-06-28T02:49:46.029695353Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04316",
+        "source": "reversing-labs",
+        "sha256": "7872cb97d4cdd2cf42bff2594c4045d137b09e54f55c35acd138f0317d45713f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PIPLIBRARYSCRAPER-5932236"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "piplibraryscraper",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/piplibraryscraper"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/piplibraryscraper/MAL-2024-5534.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

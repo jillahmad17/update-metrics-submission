@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5099",
+  "summary": "Malicious code in dumers (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:05Z",
+  "published": "2024-06-25T13:35:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:05Z",
+        "import_time": "2024-06-28T02:48:53.826386099Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03879",
+        "source": "reversing-labs",
+        "sha256": "a59912eda9463f2ab059817daa5b185a30d6f874752f5852269de65641dd3828"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "dumers",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/dumers"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/dumers/MAL-2024-5099.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

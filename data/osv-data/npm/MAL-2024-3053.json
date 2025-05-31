@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3053",
+  "summary": "Malicious code in staging-proxy (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:02:00Z",
+  "published": "2024-06-25T13:02:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:02:00Z",
+        "import_time": "2024-06-28T02:44:48.942387314Z",
+        "versions": [
+          "0.0.0"
+        ],
+        "id": "RLMA-2024-01787",
+        "source": "reversing-labs",
+        "sha256": "ab75fceaf83fcd8827edf6f7e492810ba421beb7ac0a35e70cdfeeb8308f59a6"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "staging-proxy",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/staging-proxy"
+      },
+      "versions": [
+        "0.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/staging-proxy/MAL-2024-3053.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

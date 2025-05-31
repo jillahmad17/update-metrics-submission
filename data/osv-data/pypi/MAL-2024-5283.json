@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5283",
+  "summary": "Malicious code in jsbip39-decrypt (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:35Z",
+  "published": "2024-06-25T13:36:35Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:35Z",
+        "import_time": "2024-06-28T02:49:16.567831544Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04065",
+        "source": "reversing-labs",
+        "sha256": "8e5b6002f76281561dc61c99ebb5f4331d9aa580cbc54148ae7a50241359885f"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "jsbip39-decrypt",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/jsbip39-decrypt"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/jsbip39-decrypt/MAL-2024-5283.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

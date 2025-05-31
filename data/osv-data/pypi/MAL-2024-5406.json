@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5406",
+  "summary": "Malicious code in newcls (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:34Z",
+  "published": "2024-06-25T13:37:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:34Z",
+        "import_time": "2024-06-28T02:49:30.91495102Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04188",
+        "source": "reversing-labs",
+        "sha256": "cf487748277e058fd55d3e7cf209f5175b4282640e4a210f73661e41b17858fb"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "newcls",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/newcls"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/newcls/MAL-2024-5406.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

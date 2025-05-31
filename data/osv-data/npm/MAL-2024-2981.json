@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-2981",
+  "summary": "Malicious code in sap-iot-sdk (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-SAPIOTSDK-5406420"
+  ],
+  "modified": "2024-06-28T03:14:39.873975Z",
+  "published": "2024-06-25T12:59:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:59:44Z",
+        "import_time": "2024-06-28T02:44:39.658231671Z",
+        "versions": [
+          "1.0.1",
+          "1.0.2",
+          "99.99.99"
+        ],
+        "id": "RLMA-2024-01706",
+        "source": "reversing-labs",
+        "sha256": "46c36607e7cd209689c21c74c0b2a430783bb65ad033b66a6430e8cbbe70176f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-SAPIOTSDK-5406420"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sap-iot-sdk",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/sap-iot-sdk"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.2",
+        "99.99.99"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/sap-iot-sdk/MAL-2024-2981.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "MAL-2024-6101",
+  "summary": "Malicious code in tensor-processor-learning (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:43:18Z",
+  "published": "2024-06-25T13:43:18Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:18Z",
+        "import_time": "2024-06-28T02:50:56.34504066Z",
+        "versions": [
+          "1.6",
+          "1.7",
+          "1.8",
+          "1.0",
+          "1.3",
+          "1.5",
+          "1.2",
+          "1.1",
+          "1.4"
+        ],
+        "id": "RLMA-2024-04904",
+        "source": "reversing-labs",
+        "sha256": "f1cf9ce183e1f389e6f1af6408979b6d406ba31a8d3dedeaaeffaf204515e9e7"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "tensor-processor-learning",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/tensor-processor-learning"
+      },
+      "versions": [
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.0",
+        "1.3",
+        "1.5",
+        "1.2",
+        "1.1",
+        "1.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/tensor-processor-learning/MAL-2024-6101.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "code_of_conduct_url": "https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 1,
+  "contribution_guidelines_url": "https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 7,
+  "dependents_count": 8,
+  "deprecation_reason": null,
+  "description": "Negative binomial distribution probability mass function (PMF).",
+  "forks": 0,
+  "funding_urls": [
+    "https://github.com/stdlib-js",
+    "https://opencollective.com/stdlib",
+    "https://tidelift.com/funding/github/npm/@stdlib/stdlib"
+  ],
+  "homepage": "https://stdlib.io",
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "distribution",
+    "dist",
+    "probability",
+    "pdf",
+    "density",
+    "negative",
+    "binomial",
+    "univariate",
+    "discrete",
+    "javascript",
+    "node",
+    "node-js",
+    "nodejs"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@stdlib/stats-base-dists-negative-binomial-pmf/-/@stdlib/stats-base-dists-negative-binomial-pmf-0.1.2.tgz",
+  "latest_release_number": "0.1.2",
+  "latest_release_published_at": "2024-07-28T14:23:14.098Z",
+  "latest_stable_release_number": "0.1.2",
+  "latest_stable_release_published_at": "2024-07-28T14:23:14.098Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@stdlib/stats-base-dists-negative-binomial-pmf",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@stdlib/stats-base-dists-negative-binomial-pmf",
+  "platform": "NPM",
+  "rank": 11,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf",
+  "security_policy_url": "https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf/security/policy",
+  "stars": 2,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.1",
+      "published_at": "2021-06-15T17:23:04.772Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.2",
+      "published_at": "2021-06-16T05:37:26.051Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.3",
+      "published_at": "2021-06-27T23:22:45.059Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.4",
+      "published_at": "2021-07-07T01:39:09.831Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.5",
+      "published_at": "2021-08-22T22:10:57.769Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.6",
+      "published_at": "2022-02-16T20:15:25.958Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.7",
+      "published_at": "2022-07-08T22:44:37.155Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2023-09-24T04:08:57.132Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2024-02-24T21:35:47.972Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2024-07-28T14:23:14.098Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2024-02-14T08:33:23.897Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.2.0",
+  "dependencies": [
+    {
+      "project_name": "@stdlib/constants-float64-e",
+      "name": "@stdlib/constants-float64-e",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-gamma-lanczos-g",
+      "name": "@stdlib/constants-float64-gamma-lanczos-g",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-max-ln",
+      "name": "@stdlib/constants-float64-max-ln",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-min-ln",
+      "name": "@stdlib/constants-float64-min-ln",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-assert-is-nan",
+      "name": "@stdlib/math-base-assert-is-nan",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-assert-is-nonnegative-integer",
+      "name": "@stdlib/math-base-assert-is-nonnegative-integer",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.1",
+      "latest": "0.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-abs",
+      "name": "@stdlib/math-base-special-abs",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-exp",
+      "name": "@stdlib/math-base-special-exp",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.4",
+      "latest": "0.2.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-expm1",
+      "name": "@stdlib/math-base-special-expm1",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.3",
+      "latest": "0.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled",
+      "name": "@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "BSL-1.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-ln",
+      "name": "@stdlib/math-base-special-ln",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.4",
+      "latest": "0.2.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-log1p",
+      "name": "@stdlib/math-base-special-log1p",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.3",
+      "latest": "0.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-max",
+      "name": "@stdlib/math-base-special-max",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-min",
+      "name": "@stdlib/math-base-special-min",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.3",
+      "latest": "0.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-pow",
+      "name": "@stdlib/math-base-special-pow",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-sqrt",
+      "name": "@stdlib/math-base-special-sqrt",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/utils-constant-function",
+      "name": "@stdlib/utils-constant-function",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/utils-define-nonenumerable-read-only-property",
+      "name": "@stdlib/utils-define-nonenumerable-read-only-property",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-eps",
+      "name": "@stdlib/constants-float64-eps",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-ninf",
+      "name": "@stdlib/constants-float64-ninf",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/constants-float64-pinf",
+      "name": "@stdlib/constants-float64-pinf",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-ceil",
+      "name": "@stdlib/math-base-special-ceil",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/math-base-special-round",
+      "name": "@stdlib/math-base-special-round",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/random-base-randu",
+      "name": "@stdlib/random-base-randu",
+      "platform": "NPM",
+      "requirements": "^0.1.0",
+      "latest_stable": "0.2.1",
+      "latest": "0.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/random-base-uniform",
+      "name": "@stdlib/random-base-uniform",
+      "platform": "NPM",
+      "requirements": "^0.1.0",
+      "latest_stable": "0.2.1",
+      "latest": "0.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "tape",
+      "name": "tape",
+      "platform": "NPM",
+      "requirements": "git+https://github.com/kgryte/tape.git#fix/globby",
+      "latest_stable": "5.9.0",
+      "latest": "5.9.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "istanbul",
+      "name": "istanbul",
+      "platform": "NPM",
+      "requirements": "^0.4.1",
+      "latest_stable": "0.4.5",
+      "latest": "0.4.5",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "tap-min",
+      "name": "tap-min",
+      "platform": "NPM",
+      "requirements": "git+https://github.com/Planeshifter/tap-min.git",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "@stdlib/bench-harness",
+      "name": "@stdlib/bench-harness",
+      "platform": "NPM",
+      "requirements": "^0.2.0",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/bench",
+      "name": "@stdlib/bench",
+      "platform": "NPM",
+      "requirements": "^0.3.1",
+      "latest_stable": "0.4.3",
+      "latest": "0.4.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

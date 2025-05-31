@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-2287",
+  "summary": "Malicious code in egstore-ctx (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-EGSTORECTX-3358911"
+  ],
+  "modified": "2024-06-28T03:14:34.687669Z",
+  "published": "2024-06-25T12:41:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:41:07Z",
+        "import_time": "2024-06-28T02:43:05.818550844Z",
+        "versions": [
+          "1.0.1",
+          "1.0.2",
+          "1.0.3",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00936",
+        "source": "reversing-labs",
+        "sha256": "4f00e414205e2c18aaea4b4dcb89153a52909c255fbe293b3f5ff23065c0f610"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-EGSTORECTX-3358911"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "egstore-ctx",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/egstore-ctx"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/egstore-ctx/MAL-2024-2287.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

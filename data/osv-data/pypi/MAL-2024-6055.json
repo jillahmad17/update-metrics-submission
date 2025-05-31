@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-6055",
+  "summary": "Malicious code in sylex-syntax (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SYLEXSYNTAX-5295991"
+  ],
+  "modified": "2024-06-28T03:15:17.512871Z",
+  "published": "2024-06-25T13:42:57Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:57Z",
+        "import_time": "2024-06-28T02:50:50.78427886Z",
+        "versions": [
+          "1.5"
+        ],
+        "id": "RLMA-2024-04858",
+        "source": "reversing-labs",
+        "sha256": "a4220583c18596d02e8e9ad22b13c001f380307993b60ceeb46fdd6346ffeb9d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SYLEXSYNTAX-5295991"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sylex-syntax",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/sylex-syntax"
+      },
+      "versions": [
+        "1.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sylex-syntax/MAL-2024-6055.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

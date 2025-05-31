@@ -1,0 +1,3681 @@
+{
+  "code_of_conduct_url": "https://github.com/stdlib-js/stats-base/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 1,
+  "contribution_guidelines_url": "https://github.com/stdlib-js/stats-base/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 3,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "Base (i.e., lower-level) statistical functions.",
+  "forks": 0,
+  "funding_urls": [
+    "https://github.com/stdlib-js",
+    "https://opencollective.com/stdlib",
+    "https://tidelift.com/funding/github/npm/@stdlib/stdlib"
+  ],
+  "homepage": "https://stdlib.io",
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "statistics",
+    "stats",
+    "base",
+    "javascript",
+    "node",
+    "node-js",
+    "nodejs"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@stdlib/stats-base/-/@stdlib/stats-base-0.3.2.tgz",
+  "latest_release_number": "0.3.2",
+  "latest_release_published_at": "2024-07-29T02:04:46.789Z",
+  "latest_stable_release_number": "0.3.2",
+  "latest_stable_release_published_at": "2024-07-29T02:04:46.789Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@stdlib/stats-base",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@stdlib/stats-base",
+  "platform": "NPM",
+  "rank": 10,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/stdlib-js/stats-base",
+  "security_policy_url": "https://github.com/stdlib-js/stats-base/security/policy",
+  "stars": 2,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.1",
+      "published_at": "2021-06-15T18:10:03.376Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.2",
+      "published_at": "2021-06-16T05:59:56.994Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.3",
+      "published_at": "2021-06-28T00:18:21.275Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.4",
+      "published_at": "2021-07-07T02:01:32.719Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.5",
+      "published_at": "2021-08-22T22:51:17.543Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.6",
+      "published_at": "2022-02-16T19:19:24.531Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.7",
+      "published_at": "2022-07-08T22:29:59.094Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.0",
+      "published_at": "2023-09-24T08:20:32.602Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2023-09-24T14:38:26.670Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2024-02-14T23:14:19.465Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.1",
+      "published_at": "2024-02-24T22:59:08.224Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.2",
+      "published_at": "2024-07-29T02:04:46.789Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.3.2",
+  "dependencies": [
+    {
+      "project_name": "@stdlib/stats-base-cumax",
+      "name": "@stdlib/stats-base-cumax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-cumaxabs",
+      "name": "@stdlib/stats-base-cumaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-cumin",
+      "name": "@stdlib/stats-base-cumin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-cuminabs",
+      "name": "@stdlib/stats-base-cuminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dcumax",
+      "name": "@stdlib/stats-base-dcumax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dcumaxabs",
+      "name": "@stdlib/stats-base-dcumaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dcumin",
+      "name": "@stdlib/stats-base-dcumin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dcuminabs",
+      "name": "@stdlib/stats-base-dcuminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dists",
+      "name": "@stdlib/stats-base-dists",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmax",
+      "name": "@stdlib/stats-base-dmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmaxabs",
+      "name": "@stdlib/stats-base-dmaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmaxabssorted",
+      "name": "@stdlib/stats-base-dmaxabssorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmaxsorted",
+      "name": "@stdlib/stats-base-dmaxsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmean",
+      "name": "@stdlib/stats-base-dmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeankbn",
+      "name": "@stdlib/stats-base-dmeankbn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeankbn2",
+      "name": "@stdlib/stats-base-dmeankbn2",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanli",
+      "name": "@stdlib/stats-base-dmeanli",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanlipw",
+      "name": "@stdlib/stats-base-dmeanlipw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanors",
+      "name": "@stdlib/stats-base-dmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanpn",
+      "name": "@stdlib/stats-base-dmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanpw",
+      "name": "@stdlib/stats-base-dmeanpw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanstdev",
+      "name": "@stdlib/stats-base-dmeanstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanstdevpn",
+      "name": "@stdlib/stats-base-dmeanstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanvar",
+      "name": "@stdlib/stats-base-dmeanvar",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanvarpn",
+      "name": "@stdlib/stats-base-dmeanvarpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmeanwd",
+      "name": "@stdlib/stats-base-dmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmediansorted",
+      "name": "@stdlib/stats-base-dmediansorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmidrange",
+      "name": "@stdlib/stats-base-dmidrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmin",
+      "name": "@stdlib/stats-base-dmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dminabs",
+      "name": "@stdlib/stats-base-dminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dminsorted",
+      "name": "@stdlib/stats-base-dminsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmskmax",
+      "name": "@stdlib/stats-base-dmskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmskmin",
+      "name": "@stdlib/stats-base-dmskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dmskrange",
+      "name": "@stdlib/stats-base-dmskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmax",
+      "name": "@stdlib/stats-base-dnanmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmaxabs",
+      "name": "@stdlib/stats-base-dnanmaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmean",
+      "name": "@stdlib/stats-base-dnanmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmeanors",
+      "name": "@stdlib/stats-base-dnanmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmeanpn",
+      "name": "@stdlib/stats-base-dnanmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmeanpw",
+      "name": "@stdlib/stats-base-dnanmeanpw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmeanwd",
+      "name": "@stdlib/stats-base-dnanmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmin",
+      "name": "@stdlib/stats-base-dnanmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanminabs",
+      "name": "@stdlib/stats-base-dnanminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmskmax",
+      "name": "@stdlib/stats-base-dnanmskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmskmin",
+      "name": "@stdlib/stats-base-dnanmskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanmskrange",
+      "name": "@stdlib/stats-base-dnanmskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanrange",
+      "name": "@stdlib/stats-base-dnanrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdev",
+      "name": "@stdlib/stats-base-dnanstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdevch",
+      "name": "@stdlib/stats-base-dnanstdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdevpn",
+      "name": "@stdlib/stats-base-dnanstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdevtk",
+      "name": "@stdlib/stats-base-dnanstdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdevwd",
+      "name": "@stdlib/stats-base-dnanstdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanstdevyc",
+      "name": "@stdlib/stats-base-dnanstdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvariance",
+      "name": "@stdlib/stats-base-dnanvariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvariancech",
+      "name": "@stdlib/stats-base-dnanvariancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvariancepn",
+      "name": "@stdlib/stats-base-dnanvariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvariancetk",
+      "name": "@stdlib/stats-base-dnanvariancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvariancewd",
+      "name": "@stdlib/stats-base-dnanvariancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dnanvarianceyc",
+      "name": "@stdlib/stats-base-dnanvarianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-drange",
+      "name": "@stdlib/stats-base-drange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsem",
+      "name": "@stdlib/stats-base-dsem",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsemch",
+      "name": "@stdlib/stats-base-dsemch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsempn",
+      "name": "@stdlib/stats-base-dsempn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsemtk",
+      "name": "@stdlib/stats-base-dsemtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsemwd",
+      "name": "@stdlib/stats-base-dsemwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsemyc",
+      "name": "@stdlib/stats-base-dsemyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsmean",
+      "name": "@stdlib/stats-base-dsmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsmeanors",
+      "name": "@stdlib/stats-base-dsmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsmeanpn",
+      "name": "@stdlib/stats-base-dsmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsmeanpw",
+      "name": "@stdlib/stats-base-dsmeanpw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsmeanwd",
+      "name": "@stdlib/stats-base-dsmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsnanmean",
+      "name": "@stdlib/stats-base-dsnanmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsnanmeanors",
+      "name": "@stdlib/stats-base-dsnanmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsnanmeanpn",
+      "name": "@stdlib/stats-base-dsnanmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsnanmeanwd",
+      "name": "@stdlib/stats-base-dsnanmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdev",
+      "name": "@stdlib/stats-base-dstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdevch",
+      "name": "@stdlib/stats-base-dstdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdevpn",
+      "name": "@stdlib/stats-base-dstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdevtk",
+      "name": "@stdlib/stats-base-dstdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdevwd",
+      "name": "@stdlib/stats-base-dstdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dstdevyc",
+      "name": "@stdlib/stats-base-dstdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsvariance",
+      "name": "@stdlib/stats-base-dsvariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dsvariancepn",
+      "name": "@stdlib/stats-base-dsvariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvariance",
+      "name": "@stdlib/stats-base-dvariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvariancech",
+      "name": "@stdlib/stats-base-dvariancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvariancepn",
+      "name": "@stdlib/stats-base-dvariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvariancetk",
+      "name": "@stdlib/stats-base-dvariancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvariancewd",
+      "name": "@stdlib/stats-base-dvariancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvarianceyc",
+      "name": "@stdlib/stats-base-dvarianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvarm",
+      "name": "@stdlib/stats-base-dvarm",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvarmpn",
+      "name": "@stdlib/stats-base-dvarmpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-dvarmtk",
+      "name": "@stdlib/stats-base-dvarmtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-max",
+      "name": "@stdlib/stats-base-max",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-max-by",
+      "name": "@stdlib/stats-base-max-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-maxabs",
+      "name": "@stdlib/stats-base-maxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-maxsorted",
+      "name": "@stdlib/stats-base-maxsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-mean",
+      "name": "@stdlib/stats-base-mean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meankbn",
+      "name": "@stdlib/stats-base-meankbn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meankbn2",
+      "name": "@stdlib/stats-base-meankbn2",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meanors",
+      "name": "@stdlib/stats-base-meanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meanpn",
+      "name": "@stdlib/stats-base-meanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meanpw",
+      "name": "@stdlib/stats-base-meanpw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-meanwd",
+      "name": "@stdlib/stats-base-meanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-mediansorted",
+      "name": "@stdlib/stats-base-mediansorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-min",
+      "name": "@stdlib/stats-base-min",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-min-by",
+      "name": "@stdlib/stats-base-min-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-minabs",
+      "name": "@stdlib/stats-base-minabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-minsorted",
+      "name": "@stdlib/stats-base-minsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-mskmax",
+      "name": "@stdlib/stats-base-mskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-mskmin",
+      "name": "@stdlib/stats-base-mskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-mskrange",
+      "name": "@stdlib/stats-base-mskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmax",
+      "name": "@stdlib/stats-base-nanmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmax-by",
+      "name": "@stdlib/stats-base-nanmax-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmaxabs",
+      "name": "@stdlib/stats-base-nanmaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmean",
+      "name": "@stdlib/stats-base-nanmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmeanors",
+      "name": "@stdlib/stats-base-nanmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmeanpn",
+      "name": "@stdlib/stats-base-nanmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmeanwd",
+      "name": "@stdlib/stats-base-nanmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmin",
+      "name": "@stdlib/stats-base-nanmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmin-by",
+      "name": "@stdlib/stats-base-nanmin-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanminabs",
+      "name": "@stdlib/stats-base-nanminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmskmax",
+      "name": "@stdlib/stats-base-nanmskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmskmin",
+      "name": "@stdlib/stats-base-nanmskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanmskrange",
+      "name": "@stdlib/stats-base-nanmskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanrange",
+      "name": "@stdlib/stats-base-nanrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanrange-by",
+      "name": "@stdlib/stats-base-nanrange-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdev",
+      "name": "@stdlib/stats-base-nanstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdevch",
+      "name": "@stdlib/stats-base-nanstdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdevpn",
+      "name": "@stdlib/stats-base-nanstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdevtk",
+      "name": "@stdlib/stats-base-nanstdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdevwd",
+      "name": "@stdlib/stats-base-nanstdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanstdevyc",
+      "name": "@stdlib/stats-base-nanstdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvariance",
+      "name": "@stdlib/stats-base-nanvariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvariancech",
+      "name": "@stdlib/stats-base-nanvariancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvariancepn",
+      "name": "@stdlib/stats-base-nanvariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvariancetk",
+      "name": "@stdlib/stats-base-nanvariancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvariancewd",
+      "name": "@stdlib/stats-base-nanvariancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-nanvarianceyc",
+      "name": "@stdlib/stats-base-nanvarianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-range",
+      "name": "@stdlib/stats-base-range",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-range-by",
+      "name": "@stdlib/stats-base-range-by",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-scumax",
+      "name": "@stdlib/stats-base-scumax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-scumaxabs",
+      "name": "@stdlib/stats-base-scumaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-scumin",
+      "name": "@stdlib/stats-base-scumin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-scuminabs",
+      "name": "@stdlib/stats-base-scuminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sdsmean",
+      "name": "@stdlib/stats-base-sdsmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sdsmeanors",
+      "name": "@stdlib/stats-base-sdsmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sdsnanmean",
+      "name": "@stdlib/stats-base-sdsnanmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sdsnanmeanors",
+      "name": "@stdlib/stats-base-sdsnanmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smax",
+      "name": "@stdlib/stats-base-smax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smaxabs",
+      "name": "@stdlib/stats-base-smaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smaxabssorted",
+      "name": "@stdlib/stats-base-smaxabssorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smaxsorted",
+      "name": "@stdlib/stats-base-smaxsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smean",
+      "name": "@stdlib/stats-base-smean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeankbn",
+      "name": "@stdlib/stats-base-smeankbn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeankbn2",
+      "name": "@stdlib/stats-base-smeankbn2",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanli",
+      "name": "@stdlib/stats-base-smeanli",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanlipw",
+      "name": "@stdlib/stats-base-smeanlipw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanors",
+      "name": "@stdlib/stats-base-smeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanpn",
+      "name": "@stdlib/stats-base-smeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanpw",
+      "name": "@stdlib/stats-base-smeanpw",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smeanwd",
+      "name": "@stdlib/stats-base-smeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smediansorted",
+      "name": "@stdlib/stats-base-smediansorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smidrange",
+      "name": "@stdlib/stats-base-smidrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smin",
+      "name": "@stdlib/stats-base-smin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sminabs",
+      "name": "@stdlib/stats-base-sminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sminsorted",
+      "name": "@stdlib/stats-base-sminsorted",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smskmax",
+      "name": "@stdlib/stats-base-smskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smskmin",
+      "name": "@stdlib/stats-base-smskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-smskrange",
+      "name": "@stdlib/stats-base-smskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmax",
+      "name": "@stdlib/stats-base-snanmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmaxabs",
+      "name": "@stdlib/stats-base-snanmaxabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmean",
+      "name": "@stdlib/stats-base-snanmean",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmeanors",
+      "name": "@stdlib/stats-base-snanmeanors",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmeanpn",
+      "name": "@stdlib/stats-base-snanmeanpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmeanwd",
+      "name": "@stdlib/stats-base-snanmeanwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmin",
+      "name": "@stdlib/stats-base-snanmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanminabs",
+      "name": "@stdlib/stats-base-snanminabs",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmskmax",
+      "name": "@stdlib/stats-base-snanmskmax",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmskmin",
+      "name": "@stdlib/stats-base-snanmskmin",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanmskrange",
+      "name": "@stdlib/stats-base-snanmskrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanrange",
+      "name": "@stdlib/stats-base-snanrange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdev",
+      "name": "@stdlib/stats-base-snanstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdevch",
+      "name": "@stdlib/stats-base-snanstdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdevpn",
+      "name": "@stdlib/stats-base-snanstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdevtk",
+      "name": "@stdlib/stats-base-snanstdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdevwd",
+      "name": "@stdlib/stats-base-snanstdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanstdevyc",
+      "name": "@stdlib/stats-base-snanstdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvariance",
+      "name": "@stdlib/stats-base-snanvariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvariancech",
+      "name": "@stdlib/stats-base-snanvariancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvariancepn",
+      "name": "@stdlib/stats-base-snanvariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvariancetk",
+      "name": "@stdlib/stats-base-snanvariancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvariancewd",
+      "name": "@stdlib/stats-base-snanvariancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-snanvarianceyc",
+      "name": "@stdlib/stats-base-snanvarianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-srange",
+      "name": "@stdlib/stats-base-srange",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdev",
+      "name": "@stdlib/stats-base-sstdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdevch",
+      "name": "@stdlib/stats-base-sstdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdevpn",
+      "name": "@stdlib/stats-base-sstdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdevtk",
+      "name": "@stdlib/stats-base-sstdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdevwd",
+      "name": "@stdlib/stats-base-sstdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-sstdevyc",
+      "name": "@stdlib/stats-base-sstdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdev",
+      "name": "@stdlib/stats-base-stdev",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdevch",
+      "name": "@stdlib/stats-base-stdevch",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdevpn",
+      "name": "@stdlib/stats-base-stdevpn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdevtk",
+      "name": "@stdlib/stats-base-stdevtk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdevwd",
+      "name": "@stdlib/stats-base-stdevwd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-stdevyc",
+      "name": "@stdlib/stats-base-stdevyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svariance",
+      "name": "@stdlib/stats-base-svariance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svariancech",
+      "name": "@stdlib/stats-base-svariancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svariancepn",
+      "name": "@stdlib/stats-base-svariancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svariancetk",
+      "name": "@stdlib/stats-base-svariancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svariancewd",
+      "name": "@stdlib/stats-base-svariancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-svarianceyc",
+      "name": "@stdlib/stats-base-svarianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-variance",
+      "name": "@stdlib/stats-base-variance",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-variancech",
+      "name": "@stdlib/stats-base-variancech",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-variancepn",
+      "name": "@stdlib/stats-base-variancepn",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-variancetk",
+      "name": "@stdlib/stats-base-variancetk",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-variancewd",
+      "name": "@stdlib/stats-base-variancewd",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/stats-base-varianceyc",
+      "name": "@stdlib/stats-base-varianceyc",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@stdlib/utils-define-read-only-property",
+      "name": "@stdlib/utils-define-read-only-property",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

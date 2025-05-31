@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-3021",
+  "summary": "Malicious code in sks-themes (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-SKSTHEMES-5406429"
+  ],
+  "modified": "2024-06-28T03:14:40.409104Z",
+  "published": "2024-06-25T13:00:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:00:54Z",
+        "import_time": "2024-06-28T02:44:44.809336749Z",
+        "versions": [
+          "1.0.1"
+        ],
+        "id": "RLMA-2024-01750",
+        "source": "reversing-labs",
+        "sha256": "d9e1dd3203b6d6ab35842f93a1d10e3b935b6004be67c996e5afd37c681004c8"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-SKSTHEMES-5406429"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sks-themes",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/sks-themes"
+      },
+      "versions": [
+        "1.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/sks-themes/MAL-2024-3021.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

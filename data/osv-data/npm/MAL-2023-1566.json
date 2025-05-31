@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1566",
+  "summary": "Malicious code in devops-challenge (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (8991bc34cfb7d5ef8f09875bd4d1bdc71ab89e54104b9205a85f86d03bc3ede3)\nThe OpenSSF Package Analysis project identified 'devops-challenge' @ 15.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "modified": "2023-08-24T11:55:48Z",
+  "published": "2023-08-24T11:55:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-08-24T11:55:48Z",
+        "import_time": "2023-08-24T12:07:20.634603707Z",
+        "versions": [
+          "15.0.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "8991bc34cfb7d5ef8f09875bd4d1bdc71ab89e54104b9205a85f86d03bc3ede3"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "devops-challenge",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/devops-challenge"
+      },
+      "versions": [
+        "15.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/devops-challenge/MAL-2023-1566.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-3965",
+  "summary": "Malicious code in www-site (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-WWWSITE-6044704"
+  ],
+  "modified": "2024-06-28T03:14:43.995558Z",
+  "published": "2024-06-25T13:22:20Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:22:20Z",
+        "import_time": "2024-06-28T02:46:40.672338494Z",
+        "versions": [
+          "6.0.4",
+          "6.0.2",
+          "6.0.3",
+          "3.0.2"
+        ],
+        "id": "RLMA-2024-02741",
+        "source": "reversing-labs",
+        "sha256": "216b44b249520dcbe383d64c795936d8c132cacb45efc07fe3d01e24df7dacdf"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/dozens-of-npm-packages-caught-attempting-to-deploy-reverse-shell/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-WWWSITE-6044704"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "www-site",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/www-site"
+      },
+      "versions": [
+        "6.0.4",
+        "6.0.2",
+        "6.0.3",
+        "3.0.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/www-site/MAL-2024-3965.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

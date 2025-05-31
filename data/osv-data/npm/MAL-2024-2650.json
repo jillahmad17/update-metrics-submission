@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-2650",
+  "summary": "Malicious code in @b2bgeo/map-icons (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOMAPICONS-3326421"
+  ],
+  "modified": "2024-06-28T03:14:30.926185Z",
+  "published": "2024-06-25T12:18:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "91e9240202814143ef99f25745e6aa82ea55775852b50451fcf4049d04cf3133",
+        "import_time": "2024-06-28T02:41:14.921858904Z",
+        "versions": [
+          "13.3.7"
+        ],
+        "id": "RLMA-2024-00020",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:41Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOMAPICONS-3326421"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/map-icons",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/map-icons"
+      },
+      "versions": [
+        "13.3.7"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/map-icons/MAL-2024-2650.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "MAL-2024-4732",
+  "summary": "Malicious code in admcheck (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:07Z",
+  "published": "2024-06-25T13:32:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:07Z",
+        "import_time": "2024-06-28T02:48:12.182096949Z",
+        "versions": [
+          "1.0.0",
+          "0.0.9 ",
+          "1.1.0",
+          "1.3.0",
+          "1.5.0",
+          "1.2.0",
+          "1.4.0"
+        ],
+        "id": "RLMA-2024-03512",
+        "source": "reversing-labs",
+        "sha256": "e2fac47257aec519a3327068771ddd97c1aaf1d85d7569ffc990374b0ae1c4c7"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "admcheck",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/admcheck"
+      },
+      "versions": [
+        "1.0.0",
+        "0.0.9 ",
+        "1.1.0",
+        "1.3.0",
+        "1.5.0",
+        "1.2.0",
+        "1.4.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/admcheck/MAL-2024-4732.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4912",
+  "summary": "Malicious code in colimer (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:34Z",
+  "published": "2024-06-25T13:33:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:34Z",
+        "import_time": "2024-06-28T02:48:32.297014341Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03692",
+        "source": "reversing-labs",
+        "sha256": "bd95036dd61b461e8e93f7c0950b69f4c66d52f2a07f29beece42b45da6e899b"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "colimer",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colimer"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colimer/MAL-2024-4912.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

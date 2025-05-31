@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-3090",
+  "summary": "Malicious code in @fnt-cmd/template-engine (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:03Z",
+  "published": "2024-06-25T12:20:03Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "61259d3255ea9b390d93edc5d5add5db0d9b7aa272d533298b903be0c92521a6",
+        "import_time": "2024-06-28T02:41:22.683862105Z",
+        "versions": [
+          "1.999.0",
+          "2.0.0"
+        ],
+        "id": "RLMA-2024-00084",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:03Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@fnt-cmd/template-engine",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40fnt-cmd/template-engine"
+      },
+      "versions": [
+        "1.999.0",
+        "2.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@fnt-cmd/template-engine/MAL-2024-3090.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

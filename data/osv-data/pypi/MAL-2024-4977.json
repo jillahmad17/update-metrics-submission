@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4977",
+  "summary": "Malicious code in colors-update (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:06Z",
+  "published": "2024-06-25T13:34:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:06Z",
+        "import_time": "2024-06-28T02:48:40.042479573Z",
+        "versions": [
+          "3"
+        ],
+        "id": "RLMA-2024-03757",
+        "source": "reversing-labs",
+        "sha256": "b9572390c991ded8055ec7fd630adff6ddbfa62d95f08abdc7ed10eb99d4da79"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "colors-update",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colors-update"
+      },
+      "versions": [
+        "3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colors-update/MAL-2024-4977.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

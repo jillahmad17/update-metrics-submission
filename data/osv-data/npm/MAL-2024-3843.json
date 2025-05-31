@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-3843",
+  "summary": "Malicious code in vueofflinez (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:19:34Z",
+  "published": "2024-06-25T13:19:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:19:34Z",
+        "import_time": "2024-06-28T02:46:25.981535081Z",
+        "versions": [
+          "1.0.1"
+        ],
+        "id": "RLMA-2024-02617",
+        "source": "reversing-labs",
+        "sha256": "6e41ba82ea76a87811ea298b4eecf21ee61931c03feb992b96b142d8d0978289"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://www.reversinglabs.com/blog/operation-brainleeches-malicious-npm-packages-fuel-supply-chain-and-phishing-attacks"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "vueofflinez",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/vueofflinez"
+      },
+      "versions": [
+        "1.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/vueofflinez/MAL-2024-3843.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

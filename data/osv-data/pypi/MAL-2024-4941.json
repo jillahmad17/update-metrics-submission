@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-4941",
+  "summary": "Malicious code in colorana (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:48Z",
+  "published": "2024-06-25T13:33:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:48Z",
+        "import_time": "2024-06-28T02:48:35.995996523Z",
+        "versions": [
+          "0.0.1",
+          "1.1"
+        ],
+        "id": "RLMA-2024-03721",
+        "source": "reversing-labs",
+        "sha256": "e8b4d8bb3485e2134bee62897a4704af0033d8ed9894b46adf691b066c281526"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "colorana",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colorana"
+      },
+      "versions": [
+        "0.0.1",
+        "1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colorana/MAL-2024-4941.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

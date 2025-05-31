@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5829",
+  "summary": "Malicious code in pythonsqlitev1 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYTHONSQLITEV1-5932317"
+  ],
+  "modified": "2024-06-28T03:15:11.986792Z",
+  "published": "2024-06-25T13:41:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:07Z",
+        "import_time": "2024-06-28T02:50:22.655099118Z",
+        "versions": [
+          "1.1.0"
+        ],
+        "id": "RLMA-2024-04627",
+        "source": "reversing-labs",
+        "sha256": "068d973aaf0e7f23eec79fd55f691995b636f78d9cdd4290145a5e0ea64ce651"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYTHONSQLITEV1-5932317"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pythonsqlitev1",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythonsqlitev1"
+      },
+      "versions": [
+        "1.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonsqlitev1/MAL-2024-5829.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-5212",
+  "summary": "Malicious code in http-xen (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:01Z",
+  "published": "2024-06-25T13:36:01Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:01Z",
+        "import_time": "2024-06-28T02:49:07.487802207Z",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03994",
+        "source": "reversing-labs",
+        "sha256": "4da425ec3458e77643c445d71206af5679ab254179ff7140547e231cce8f6619"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "http-xen",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/http-xen"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/http-xen/MAL-2024-5212.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

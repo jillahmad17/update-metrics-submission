@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-8767",
+  "summary": "Malicious code in grand_xss (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (ce59c91d382e007649de4140fb5dd97f67594f864a0ca288c188c27d5bdf5dad)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-87pg-jjjr-63vw"
+  ],
+  "modified": "2024-09-05T00:42:33.687561Z",
+  "published": "2024-09-04T07:20:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-04T07:20:07Z",
+        "import_time": "2024-09-05T00:29:56.669486682Z",
+        "id": "GHSA-87pg-jjjr-63vw",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "ce59c91d382e007649de4140fb5dd97f67594f864a0ca288c188c27d5bdf5dad"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-87pg-jjjr-63vw"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "grand_xss",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/grand_xss"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/grand_xss/MAL-2024-8767.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

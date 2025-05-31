@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-3074",
+  "summary": "Malicious code in symphony-lib (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:02:39Z",
+  "published": "2024-06-25T13:02:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:02:39Z",
+        "import_time": "2024-06-28T02:44:52.611107753Z",
+        "versions": [
+          "1.0.1",
+          "1.0.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01818",
+        "source": "reversing-labs",
+        "sha256": "dffa47b0b4525060d4fec1ddf3daed943b15bbc073d3a1fd9c5c8587f7a5e374"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "symphony-lib",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/symphony-lib"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/symphony-lib/MAL-2024-3074.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

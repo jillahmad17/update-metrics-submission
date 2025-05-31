@@ -1,0 +1,666 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 17,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "Firmware for the Sinara Stabilizer board (STM32H743, Ethernet, PoE, 2 ADCs, 2 DACs)",
+  "forks": 27,
+  "funding_urls": [],
+  "homepage": "http://quartiq.de/stabilizer/",
+  "keywords": [
+    "adc",
+    "dac",
+    "ethernet",
+    "physics",
+    "stm32h7",
+    "artiq",
+    "dsp",
+    "open-hardware",
+    "rust",
+    "rust-embedded",
+    "sinara-hw"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/stabilizer/0.11.0/download",
+  "latest_release_number": "0.11.0",
+  "latest_release_published_at": "2024-12-02T11:51:38.923Z",
+  "latest_stable_release_number": "0.11.0",
+  "latest_stable_release_published_at": "2024-12-02T11:51:38.923Z",
+  "license_normalized": true,
+  "licenses": "MIT OR Apache-2.0",
+  "name": "stabilizer",
+  "normalized_licenses": [
+    "MIT",
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/stabilizer/",
+  "platform": "Cargo",
+  "rank": 10,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/quartiq/stabilizer",
+  "security_policy_url": null,
+  "stars": 112,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.10.0",
+      "published_at": "2024-08-28T19:58:42.123Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0",
+      "published_at": "2024-12-02T11:51:38.923Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2020-01-21T12:07:46.640Z",
+      "spdx_expression": "GPL-3.0-or-later",
+      "original_license": "GPL-3.0-or-later",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2022-02-11T16:03:50.106Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2022-08-10T08:52:46.802Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2022-11-07T19:21:31.187Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.1",
+      "published_at": "2022-11-14T12:27:55.098Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.9.0",
+      "published_at": "2023-11-01T15:48:00.773Z",
+      "spdx_expression": "MIT OR Apache-2.0",
+      "original_license": "MIT OR Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.9.0",
+  "dependencies": [
+    {
+      "project_name": "ad9959",
+      "name": "ad9959",
+      "platform": "Cargo",
+      "requirements": "^0.2.1",
+      "latest_stable": "0.2.1",
+      "latest": "0.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "bbqueue",
+      "name": "bbqueue",
+      "platform": "Cargo",
+      "requirements": "^0.5",
+      "latest_stable": "0.5.1",
+      "latest": "0.5.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "cortex-m",
+      "name": "cortex-m",
+      "platform": "Cargo",
+      "requirements": "^0.7.7",
+      "latest_stable": "0.7.7",
+      "latest": "0.7.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "cortex-m-rt",
+      "name": "cortex-m-rt",
+      "platform": "Cargo",
+      "requirements": "^0.7",
+      "latest_stable": "0.7.5",
+      "latest": "0.7.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "cortex-m-rtic",
+      "name": "cortex-m-rtic",
+      "platform": "Cargo",
+      "requirements": "^1.0",
+      "latest_stable": "1.1.4",
+      "latest": "1.1.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "embedded-hal",
+      "name": "embedded-hal",
+      "platform": "Cargo",
+      "requirements": "^0.2.7",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "enum-iterator",
+      "name": "enum-iterator",
+      "platform": "Cargo",
+      "requirements": "^1.4.1",
+      "latest_stable": "2.1.0",
+      "latest": "2.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "fugit",
+      "name": "fugit",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.3.7",
+      "latest": "0.3.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "heapless",
+      "name": "heapless",
+      "platform": "Cargo",
+      "requirements": "^0.7.16",
+      "latest_stable": "0.7.17",
+      "latest": "0.7.17",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "idsp",
+      "name": "idsp",
+      "platform": "Cargo",
+      "requirements": "^0.12",
+      "latest_stable": "0.16.0",
+      "latest": "0.16.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "lm75",
+      "name": "lm75",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mcp230xx",
+      "name": "mcp230xx",
+      "platform": "Cargo",
+      "requirements": "^1.0",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "miniconf",
+      "name": "miniconf",
+      "platform": "Cargo",
+      "requirements": "^0.9.0",
+      "latest_stable": "0.18.0",
+      "latest": "0.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "minimq",
+      "name": "minimq",
+      "platform": "Cargo",
+      "requirements": "^0.8.0",
+      "latest_stable": "0.9.0",
+      "latest": "0.9.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mono-clock",
+      "name": "mono-clock",
+      "platform": "Cargo",
+      "requirements": "^0.1",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mutex-trait",
+      "name": "mutex-trait",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.2.0",
+      "latest": "0.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "num_enum",
+      "name": "num_enum",
+      "platform": "Cargo",
+      "requirements": "^0.7.1",
+      "latest_stable": "0.7.3",
+      "latest": "0.7.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause",
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "paste",
+      "name": "paste",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.0.15",
+      "latest": "1.0.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand_core",
+      "name": "rand_core",
+      "platform": "Cargo",
+      "requirements": "^0.6.4",
+      "latest_stable": "0.6.4",
+      "latest": "0.9.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand_xorshift",
+      "name": "rand_xorshift",
+      "platform": "Cargo",
+      "requirements": "^0.3.0",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rtt-logger",
+      "name": "rtt-logger",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.3.0",
+      "latest": "0.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rtt-target",
+      "name": "rtt-target",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.6.1",
+      "latest": "0.6.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1.0",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde-json-core",
+      "name": "serde-json-core",
+      "platform": "Cargo",
+      "requirements": "^0.5",
+      "latest_stable": "0.6.0",
+      "latest": "0.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "shared-bus",
+      "name": "shared-bus",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.3.1",
+      "latest": "0.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "smoltcp-nal",
+      "name": "smoltcp-nal",
+      "platform": "Cargo",
+      "requirements": "^0.4.1",
+      "latest_stable": "0.5.1",
+      "latest": "0.5.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "spin",
+      "name": "spin",
+      "platform": "Cargo",
+      "requirements": "^0.9",
+      "latest_stable": "0.9.8",
+      "latest": "0.9.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "stm32h7xx-hal",
+      "name": "stm32h7xx-hal",
+      "platform": "Cargo",
+      "requirements": "^0.15.0",
+      "latest_stable": "0.16.0",
+      "latest": "0.16.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "systick-monotonic",
+      "name": "systick-monotonic",
+      "platform": "Cargo",
+      "requirements": "^1.0",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "usb-device",
+      "name": "usb-device",
+      "platform": "Cargo",
+      "requirements": "^0.2.9",
+      "latest_stable": "0.3.1",
+      "latest": "0.3.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "usbd-serial",
+      "name": "usbd-serial",
+      "platform": "Cargo",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

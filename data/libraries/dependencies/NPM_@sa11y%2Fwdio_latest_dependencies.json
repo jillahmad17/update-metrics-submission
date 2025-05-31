@@ -1,0 +1,996 @@
+{
+  "code_of_conduct_url": "https://github.com/salesforce/sa11y/blob/master/CODE_OF_CONDUCT.md",
+  "contributions_count": 14,
+  "contribution_guidelines_url": "https://github.com/salesforce/sa11y/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 2,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "Accessibility testing API for WebdriverIO",
+  "forks": 22,
+  "funding_urls": [],
+  "homepage": "https://github.com/salesforce/sa11y/tree/master/packages/wdio#readme",
+  "keywords": [
+    "accessibility",
+    "automated test",
+    "integration test",
+    "Webdriver",
+    "WebdriverIO",
+    "axe",
+    "accessibility-automation",
+    "accessibility-testing",
+    "automation",
+    "javascript",
+    "salesforce",
+    "test"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@sa11y/wdio/-/@sa11y/wdio-7.0.0.tgz",
+  "latest_release_number": "7.0.0",
+  "latest_release_published_at": "2025-01-01T13:31:01.813Z",
+  "latest_stable_release_number": "7.0.0",
+  "latest_stable_release_published_at": "2025-01-01T13:31:01.813Z",
+  "license_normalized": false,
+  "licenses": "BSD-3-Clause",
+  "name": "@sa11y/wdio",
+  "normalized_licenses": [
+    "BSD-3-Clause"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@sa11y/wdio",
+  "platform": "NPM",
+  "rank": 12,
+  "repository_license": "BSD-3-Clause",
+  "repository_status": null,
+  "repository_url": "https://github.com/salesforce/sa11y",
+  "security_policy_url": "https://github.com/salesforce/sa11y/security/policy",
+  "stars": 92,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0-alpha",
+      "published_at": "2020-07-28T23:36:41.140Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.1-alpha.0",
+      "published_at": "2020-09-28T18:22:38.061Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.2-alpha.0",
+      "published_at": "2020-11-11T01:36:20.803Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.3-alpha.0",
+      "published_at": "2020-11-26T03:11:25.207Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0-alpha.0",
+      "published_at": "2020-12-02T01:13:06.118Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.0-alpha.0",
+      "published_at": "2021-01-22T20:45:46.246Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.1-alpha.0",
+      "published_at": "2021-02-26T22:44:30.987Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0-alpha.0",
+      "published_at": "2021-04-15T01:23:23.303Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1-alpha.0",
+      "published_at": "2021-06-30T18:29:57.147Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2-alpha.0",
+      "published_at": "2021-07-01T18:34:23.874Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.3-alpha.0",
+      "published_at": "2021-07-14T02:32:01.338Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.4-alpha.0",
+      "published_at": "2021-08-07T02:08:32.113Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0-alpha.0",
+      "published_at": "2021-08-27T20:44:12.038Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.1-beta.0",
+      "published_at": "2021-09-13T20:10:46.447Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.2-beta.0",
+      "published_at": "2021-09-14T22:00:09.058Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2021-09-16T21:18:56.252Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2021-10-26T02:22:41.279Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2021-11-03T01:18:50.593Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2021-11-20T03:49:10.710Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2022-10-20T06:31:59.156Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0-alpha.0",
+      "published_at": "2022-10-13T03:55:56.534Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0-alpha.7",
+      "published_at": "2022-10-19T00:49:19.601Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.1",
+      "published_at": "2022-11-17T07:12:23.603Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2022-12-15T00:03:38.630Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.1",
+      "published_at": "2022-12-28T04:50:21.534Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.2",
+      "published_at": "2023-02-24T10:13:24.406Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.3",
+      "published_at": "2023-02-27T05:17:24.829Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.4",
+      "published_at": "2023-03-28T04:55:35.058Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.5",
+      "published_at": "2023-03-28T05:24:51.154Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2023-05-17T03:38:42.546Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2023-05-17T05:45:32.302Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0",
+      "published_at": "2023-06-05T17:06:25.150Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0",
+      "published_at": "2023-06-18T08:39:18.129Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0",
+      "published_at": "2023-09-01T06:21:03.404Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.1",
+      "published_at": "2023-10-24T16:14:12.006Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.2",
+      "published_at": "2023-10-25T07:01:07.714Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2023-10-25T10:51:15.018Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.1.0",
+      "published_at": "2023-11-02T07:27:14.104Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.0",
+      "published_at": "2024-07-08T05:46:55.217Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.1",
+      "published_at": "2024-07-15T12:02:55.185Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.1-alpha.1",
+      "published_at": "2024-07-10T08:41:33.439Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.2",
+      "published_at": "2024-09-02T10:16:13.849Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.2-alpha.1",
+      "published_at": "2024-07-15T12:25:19.002Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.2-alpha.2",
+      "published_at": "2024-07-15T12:54:23.523Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.2-alpha.3",
+      "published_at": "2024-07-15T14:19:11.102Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.10.3",
+      "published_at": "2024-09-13T10:35:11.491Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.1.1",
+      "published_at": "2023-11-02T12:46:39.021Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.11.0",
+      "published_at": "2024-09-17T08:07:17.542Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.1.2",
+      "published_at": "2023-11-08T15:31:42.346Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.12.0",
+      "published_at": "2024-10-04T05:59:33.006Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.12.1",
+      "published_at": "2024-10-18T14:49:19.829Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.12.3",
+      "published_at": "2024-11-07T08:26:14.751Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.13.0",
+      "published_at": "2024-11-08T10:38:48.707Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.13.0-alpha.1",
+      "published_at": "2024-10-31T14:06:00.376Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.2.0",
+      "published_at": "2023-11-29T08:19:09.833Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.2.1",
+      "published_at": "2023-11-30T09:58:15.293Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.2.2",
+      "published_at": "2023-11-30T12:22:32.523Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.2.3",
+      "published_at": "2024-01-16T05:22:26.509Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.3.0",
+      "published_at": "2024-01-22T05:27:05.884Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.3.0-alpha.1",
+      "published_at": "2024-01-05T07:36:58.906Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.3.1",
+      "published_at": "2024-01-31T07:10:42.760Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.3.2",
+      "published_at": "2024-02-02T08:56:40.120Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.4.0",
+      "published_at": "2024-02-06T05:35:22.820Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.5.0",
+      "published_at": "2024-02-09T06:51:22.546Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.5.1",
+      "published_at": "2024-02-12T05:53:40.984Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.6.0",
+      "published_at": "2024-02-26T06:13:26.651Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.6.1",
+      "published_at": "2024-03-05T05:14:11.139Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.6.2",
+      "published_at": "2024-05-03T08:57:12.197Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.7.0",
+      "published_at": "2024-05-07T12:16:08.333Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.7.1-alpha.1",
+      "published_at": "2024-05-10T11:51:03.114Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.7.1-alpha.2",
+      "published_at": "2024-05-14T06:22:11.200Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.7.1-alpha.3",
+      "published_at": "2024-05-16T05:26:33.350Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.7.1-alpha.4",
+      "published_at": "2024-05-22T07:19:33.446Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.8.0",
+      "published_at": "2024-05-23T06:36:53.685Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.0",
+      "published_at": "2024-05-27T07:00:42.910Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.1",
+      "published_at": "2024-05-29T11:06:58.172Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.2",
+      "published_at": "2024-05-29T11:11:33.280Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.3",
+      "published_at": "2024-05-29T13:40:18.068Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.4",
+      "published_at": "2024-05-29T13:55:49.921Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.5",
+      "published_at": "2024-06-25T12:14:46.413Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.5-alpha.1",
+      "published_at": "2024-05-31T09:36:19.212Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.5-alpha.2",
+      "published_at": "2024-05-31T09:46:39.964Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.5-alpha.3",
+      "published_at": "2024-06-03T04:49:41.549Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.9.5-alpha.4",
+      "published_at": "2024-06-12T14:19:03.474Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "7.0.0",
+      "published_at": "2025-01-01T13:31:01.813Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "7.0.0",
+  "dependencies": [
+    {
+      "project_name": "@sa11y/common",
+      "name": "@sa11y/common",
+      "platform": "NPM",
+      "requirements": "7.0.0",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "@sa11y/format",
+      "name": "@sa11y/format",
+      "platform": "NPM",
+      "requirements": "7.0.0",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "@sa11y/preset-rules",
+      "name": "@sa11y/preset-rules",
+      "platform": "NPM",
+      "requirements": "7.0.0",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "axe-core",
+      "name": "axe-core",
+      "platform": "NPM",
+      "requirements": "4.10.2",
+      "latest_stable": "4.10.2",
+      "latest": "4.10.2-canary.0f4ec8d",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MPL-2.0"
+      ]
+    },
+    {
+      "project_name": "@sa11y/test-utils",
+      "name": "@sa11y/test-utils",
+      "platform": "NPM",
+      "requirements": "7.0.0",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "webdriverio",
+      "name": "webdriverio",
+      "platform": "NPM",
+      "requirements": "8.41.0",
+      "latest_stable": "9.5.4",
+      "latest": "9.5.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

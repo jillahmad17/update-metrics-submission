@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-2516",
+  "summary": "Malicious code in inside-design-stencil (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:46:48Z",
+  "published": "2024-06-25T12:46:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:46:48Z",
+        "import_time": "2024-06-28T02:43:35.487164857Z",
+        "versions": [
+          "2.5.1",
+          "2.4.0"
+        ],
+        "id": "RLMA-2024-01185",
+        "source": "reversing-labs",
+        "sha256": "44e25ca8c87b33587bd01ba83726108f11725beacc1cfce3fb63853c8fa11d08"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "inside-design-stencil",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/inside-design-stencil"
+      },
+      "versions": [
+        "2.5.1",
+        "2.4.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/inside-design-stencil/MAL-2024-2516.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

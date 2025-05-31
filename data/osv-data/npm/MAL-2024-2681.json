@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2681",
+  "summary": "Malicious code in my-shopify-app (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:50:59Z",
+  "published": "2024-06-25T12:50:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:50:59Z",
+        "import_time": "2024-06-28T02:43:59.006608954Z",
+        "versions": [
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-01369",
+        "source": "reversing-labs",
+        "sha256": "444857c0e53ff2af75142b3be43d768a6a4771af51a24ccfc6a934c29d8799b3"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "my-shopify-app",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/my-shopify-app"
+      },
+      "versions": [
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/my-shopify-app/MAL-2024-2681.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

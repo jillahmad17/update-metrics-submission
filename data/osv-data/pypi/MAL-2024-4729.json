@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4729",
+  "summary": "Malicious code in a1rn (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:06Z",
+  "published": "2024-06-25T13:32:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:06Z",
+        "import_time": "2024-06-28T02:48:11.877960623Z",
+        "versions": [
+          "0.1.2"
+        ],
+        "id": "RLMA-2024-03509",
+        "source": "reversing-labs",
+        "sha256": "ef4e0243168d0c81602470821287e7369e4c0a21b40e41d999057ce523cc2892"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "a1rn",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/a1rn"
+      },
+      "versions": [
+        "0.1.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/a1rn/MAL-2024-4729.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

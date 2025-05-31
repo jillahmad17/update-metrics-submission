@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4783",
+  "summary": "Malicious code in async-dispatcher (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:32Z",
+  "published": "2024-06-25T13:32:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:32Z",
+        "import_time": "2024-06-28T02:48:17.955889931Z",
+        "versions": [
+          "1.2.2",
+          "1.2.4",
+          "1.2.1",
+          "1.2.5"
+        ],
+        "id": "RLMA-2024-03563",
+        "source": "reversing-labs",
+        "sha256": "8c395eae79d878774a292fcfb2d31b3e1551c11afe4d4ffb0421dad8a62b72d2"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "async-dispatcher",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/async-dispatcher"
+      },
+      "versions": [
+        "1.2.2",
+        "1.2.4",
+        "1.2.1",
+        "1.2.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/async-dispatcher/MAL-2024-4783.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

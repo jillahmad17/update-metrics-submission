@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5250",
+  "summary": "Malicious code in huluquests (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:19Z",
+  "published": "2024-06-25T13:36:19Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:19Z",
+        "import_time": "2024-06-28T02:49:12.577698199Z",
+        "versions": [
+          "0.0.3"
+        ],
+        "id": "RLMA-2024-04032",
+        "source": "reversing-labs",
+        "sha256": "c775f0ee6e89e4dae07d799950afddcebe7292b1be647f51f6c399959e637d96"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "huluquests",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/huluquests"
+      },
+      "versions": [
+        "0.0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/huluquests/MAL-2024-5250.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

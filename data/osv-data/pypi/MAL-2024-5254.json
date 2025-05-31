@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5254",
+  "summary": "Malicious code in iam-enumerate (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:21Z",
+  "published": "2024-06-25T13:36:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:21Z",
+        "import_time": "2024-06-28T02:49:12.989912721Z",
+        "versions": [
+          "1.0.1"
+        ],
+        "id": "RLMA-2024-04036",
+        "source": "reversing-labs",
+        "sha256": "06fb17d233511cdb4b8cbc055098873dc855de453ae9cd82ff5c4a81d398d4a4"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "iam-enumerate",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/iam-enumerate"
+      },
+      "versions": [
+        "1.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/iam-enumerate/MAL-2024-5254.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

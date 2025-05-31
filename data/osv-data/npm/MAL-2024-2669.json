@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-2669",
+  "summary": "Malicious code in @clearing/models (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-CLEARINGMODELS-3358907"
+  ],
+  "modified": "2024-06-28T03:14:32.527832Z",
+  "published": "2024-06-25T12:19:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "d412b594d8680b36ba6bee3913c486d5ad7a3cbdf8829f2e1dc6a8ca898da8ac",
+        "import_time": "2024-06-28T02:41:17.904294374Z",
+        "versions": [
+          "3.6.0",
+          "3.9.5"
+        ],
+        "id": "RLMA-2024-00044",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:19:12Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-CLEARINGMODELS-3358907"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@clearing/models",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40clearing/models"
+      },
+      "versions": [
+        "3.6.0",
+        "3.9.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@clearing/models/MAL-2024-2669.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

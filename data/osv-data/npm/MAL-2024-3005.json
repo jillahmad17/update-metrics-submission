@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-3005",
+  "summary": "Malicious code in sh-indeva-poc (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:00:31Z",
+  "published": "2024-06-25T13:00:31Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:00:31Z",
+        "import_time": "2024-06-28T02:44:43.054205047Z",
+        "versions": [
+          "1.0.1",
+          "1.0.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01734",
+        "source": "reversing-labs",
+        "sha256": "75e445c04b2efe3945692b15f720b94abd6995aa7ee946266e4153f2c602e8fc"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "sh-indeva-poc",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/sh-indeva-poc"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/sh-indeva-poc/MAL-2024-3005.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

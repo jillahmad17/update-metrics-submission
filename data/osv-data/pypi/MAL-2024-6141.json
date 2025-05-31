@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-6141",
+  "summary": "Malicious code in threadscount (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:43:37Z",
+  "published": "2024-06-25T13:43:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:37Z",
+        "import_time": "2024-06-28T02:51:01.006378868Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04945",
+        "source": "reversing-labs",
+        "sha256": "3da76faf0441ba58572eee958f2cc8f9326b043831edfe09dd04540ea2a91c4c"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "threadscount",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/threadscount"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/threadscount/MAL-2024-6141.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

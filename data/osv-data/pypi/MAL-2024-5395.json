@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-5395",
+  "summary": "Malicious code in nagie (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:29Z",
+  "published": "2024-06-25T13:37:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:29Z",
+        "import_time": "2024-06-28T02:49:29.615697226Z",
+        "versions": [
+          "1.13.0",
+          "1.1.0",
+          "2.32.0"
+        ],
+        "id": "RLMA-2024-04177",
+        "source": "reversing-labs",
+        "sha256": "09f94a09ca4ac444ec1357e3aefcc41ebda714b5fdedaea8cb0f52fb0d9aaf97"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "nagie",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/nagie"
+      },
+      "versions": [
+        "1.13.0",
+        "1.1.0",
+        "2.32.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/nagie/MAL-2024-5395.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

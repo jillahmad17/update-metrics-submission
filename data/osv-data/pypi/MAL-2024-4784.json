@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-4784",
+  "summary": "Malicious code in asyncio3 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:32Z",
+  "published": "2024-06-25T13:32:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:32Z",
+        "import_time": "2024-06-28T02:48:18.075450748Z",
+        "versions": [
+          "1"
+        ],
+        "id": "RLMA-2024-03564",
+        "source": "reversing-labs",
+        "sha256": "3598c59fdaaac7819cfeabdb8a517341bb82925019eeb7b73d9006e8a52f5669"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "asyncio3",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/asyncio3"
+      },
+      "versions": [
+        "1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/asyncio3/MAL-2024-4784.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

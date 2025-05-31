@@ -1,0 +1,599 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 14,
+  "contribution_guidelines_url": "https://github.com/matrix-org/vodozemac/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 1,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "A Rust implementation of Olm and Megolm",
+  "forks": 31,
+  "funding_urls": [],
+  "homepage": "",
+  "keywords": [
+    "chat",
+    "cryptography",
+    "matrix",
+    "messaging",
+    "olm",
+    "double-ratchet",
+    "encryption",
+    "rust"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/vodozemac/0.8.1/download",
+  "latest_release_number": "0.8.1",
+  "latest_release_published_at": "2024-10-08T13:08:21.991Z",
+  "latest_stable_release_number": "0.8.1",
+  "latest_stable_release_published_at": "2024-10-08T13:08:21.991Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "vodozemac",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/vodozemac/",
+  "platform": "Cargo",
+  "rank": 12,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/matrix-org/vodozemac",
+  "security_policy_url": "https://github.com/matrix-org/vodozemac/security/policy",
+  "stars": 176,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2021-12-16T21:14:24.986Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2022-05-09T11:53:41.927Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2022-09-13T13:26:38.080Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2023-05-31T09:24:09.075Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.5.0",
+      "published_at": "2023-10-06T13:52:20.428Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.5.1",
+      "published_at": "2024-02-05T13:36:39.073Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2024-05-06T12:48:37.226Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2024-07-17T12:31:55.134Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2024-09-20T14:50:12.665Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.1",
+      "published_at": "2024-10-08T13:08:21.991Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.8.1",
+  "dependencies": [
+    {
+      "project_name": "aes",
+      "name": "aes",
+      "platform": "Cargo",
+      "requirements": "^0.8.4",
+      "latest_stable": "0.8.4",
+      "latest": "0.9.0-pre.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "anyhow",
+      "name": "anyhow",
+      "platform": "Cargo",
+      "requirements": "^1.0.89",
+      "latest_stable": "1.0.95",
+      "latest": "1.0.95",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "arrayvec",
+      "name": "arrayvec",
+      "platform": "Cargo",
+      "requirements": "^0.7.6",
+      "latest_stable": "0.7.6",
+      "latest": "0.7.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "assert_matches",
+      "name": "assert_matches",
+      "platform": "Cargo",
+      "requirements": "^1.5.0",
+      "latest_stable": "1.5.0",
+      "latest": "1.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "assert_matches2",
+      "name": "assert_matches2",
+      "platform": "Cargo",
+      "requirements": "^0.1.2",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MPL-2.0"
+      ]
+    },
+    {
+      "project_name": "base64",
+      "name": "base64",
+      "platform": "Cargo",
+      "requirements": "^0.22.1",
+      "latest_stable": "0.22.1",
+      "latest": "0.22.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "base64ct",
+      "name": "base64ct",
+      "platform": "Cargo",
+      "requirements": "^1.6.0",
+      "latest_stable": "1.6.0",
+      "latest": "1.6.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cbc",
+      "name": "cbc",
+      "platform": "Cargo",
+      "requirements": "^0.1.2",
+      "latest_stable": "0.1.2",
+      "latest": "0.2.0-pre.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "chacha20poly1305",
+      "name": "chacha20poly1305",
+      "platform": "Cargo",
+      "requirements": "^0.10.1",
+      "latest_stable": "0.10.1",
+      "latest": "0.11.0-pre.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "curve25519-dalek",
+      "name": "curve25519-dalek",
+      "platform": "Cargo",
+      "requirements": "^4.1.3",
+      "latest_stable": "4.1.3",
+      "latest": "4.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "ed25519-dalek",
+      "name": "ed25519-dalek",
+      "platform": "Cargo",
+      "requirements": "^2.1.1",
+      "latest_stable": "2.1.1",
+      "latest": "2.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "getrandom",
+      "name": "getrandom",
+      "platform": "Cargo",
+      "requirements": "^0.2.15",
+      "latest_stable": "0.2.15",
+      "latest": "0.3.0-rc.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "hkdf",
+      "name": "hkdf",
+      "platform": "Cargo",
+      "requirements": "^0.12.4",
+      "latest_stable": "0.12.4",
+      "latest": "0.13.0-pre.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "hmac",
+      "name": "hmac",
+      "platform": "Cargo",
+      "requirements": "^0.12.1",
+      "latest_stable": "0.12.1",
+      "latest": "0.13.0-pre.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "matrix-pickle",
+      "name": "matrix-pickle",
+      "platform": "Cargo",
+      "requirements": "^0.2.1",
+      "latest_stable": "0.2.1",
+      "latest": "0.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "olm-rs",
+      "name": "olm-rs",
+      "platform": "Cargo",
+      "requirements": "^2.2.0",
+      "latest_stable": "2.1.0",
+      "latest": "2.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "proptest",
+      "name": "proptest",
+      "platform": "Cargo",
+      "requirements": "^1.5.0",
+      "latest_stable": "1.6.0",
+      "latest": "1.6.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "prost",
+      "name": "prost",
+      "platform": "Cargo",
+      "requirements": "^0.13.2",
+      "latest_stable": "0.13.4",
+      "latest": "0.13.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand",
+      "name": "rand",
+      "platform": "Cargo",
+      "requirements": "^0.8.5",
+      "latest_stable": "0.8.5",
+      "latest": "0.9.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1.0.210",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde_bytes",
+      "name": "serde_bytes",
+      "platform": "Cargo",
+      "requirements": "^0.11.15",
+      "latest_stable": "0.11.14",
+      "latest": "0.11.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde_json",
+      "name": "serde_json",
+      "platform": "Cargo",
+      "requirements": "^1.0.128",
+      "latest_stable": "1.0.135",
+      "latest": "1.0.135",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "sha2",
+      "name": "sha2",
+      "platform": "Cargo",
+      "requirements": "^0.10.8",
+      "latest_stable": "0.10.8",
+      "latest": "0.11.0-pre.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "subtle",
+      "name": "subtle",
+      "platform": "Cargo",
+      "requirements": "^2.6.1",
+      "latest_stable": "2.6.1",
+      "latest": "2.6.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "thiserror",
+      "name": "thiserror",
+      "platform": "Cargo",
+      "requirements": "^1.0.63",
+      "latest_stable": "2.0.11",
+      "latest": "2.0.11",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "x25519-dalek",
+      "name": "x25519-dalek",
+      "platform": "Cargo",
+      "requirements": "^2.0.1",
+      "latest_stable": "2.0.1",
+      "latest": "2.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "zeroize",
+      "name": "zeroize",
+      "platform": "Cargo",
+      "requirements": "^1.8.1",
+      "latest_stable": "1.8.1",
+      "latest": "1.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    }
+  ]
+}

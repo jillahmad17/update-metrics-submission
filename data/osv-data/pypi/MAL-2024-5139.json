@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-5139",
+  "summary": "Malicious code in figflix (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:24Z",
+  "published": "2024-06-25T13:35:24Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:24Z",
+        "import_time": "2024-06-28T02:48:58.793477616Z",
+        "versions": [
+          "0.2",
+          "0.1"
+        ],
+        "id": "RLMA-2024-03919",
+        "source": "reversing-labs",
+        "sha256": "faa897b1787dfd1e7d11e6b94d9e52f7f1d320b354754905db68935aff2b007b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "figflix",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/figflix"
+      },
+      "versions": [
+        "0.2",
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/figflix/MAL-2024-5139.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

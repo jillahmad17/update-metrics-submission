@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2460",
+  "summary": "Malicious code in hellodependency01 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:45:21Z",
+  "published": "2024-06-25T12:45:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:45:21Z",
+        "import_time": "2024-06-28T02:43:28.146361808Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01123",
+        "source": "reversing-labs",
+        "sha256": "f98c3ea952388fe4c2ac0c7b1817b022eb90ebd7ccfe2cb9d7c55aec633962f4"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "hellodependency01",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/hellodependency01"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/hellodependency01/MAL-2024-2460.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

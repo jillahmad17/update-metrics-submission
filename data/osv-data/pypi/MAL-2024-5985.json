@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-5985",
+  "summary": "Malicious code in semdber (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SEMDBER-5885067"
+  ],
+  "modified": "2024-06-28T03:15:16.105472Z",
+  "published": "2024-06-25T13:42:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:23Z",
+        "import_time": "2024-06-28T02:50:42.023422915Z",
+        "versions": [
+          "4.12"
+        ],
+        "id": "RLMA-2024-04786",
+        "source": "reversing-labs",
+        "sha256": "89bf2bcb4eb5ec5fe3794ef7e67029a9de9aa24d9ee775d9f3c92ab2cffbba78"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SEMDBER-5885067"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "semdber",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/semdber"
+      },
+      "versions": [
+        "4.12"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/semdber/MAL-2024-5985.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

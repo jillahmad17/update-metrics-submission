@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-1968",
+  "summary": "Malicious code in @rc-mfe/cdn19-test (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:22:01Z",
+  "published": "2024-06-25T12:22:01Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "48168b896c3581628935e21801de5871f68ead04f45a57fa69f196fcdca117ea",
+        "import_time": "2024-06-28T02:41:33.907961869Z",
+        "versions": [
+          "1.993.0",
+          "1.990.0",
+          "1.992.0"
+        ],
+        "id": "RLMA-2024-00178",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:01Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@rc-mfe/cdn19-test",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40rc-mfe/cdn19-test"
+      },
+      "versions": [
+        "1.993.0",
+        "1.990.0",
+        "1.992.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@rc-mfe/cdn19-test/MAL-2024-1968.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

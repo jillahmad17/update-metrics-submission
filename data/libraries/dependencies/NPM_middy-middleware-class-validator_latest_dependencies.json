@@ -1,0 +1,796 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 4,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "A middy validation middleware using class-validator.",
+  "forks": 5,
+  "funding_urls": [],
+  "homepage": "https://github.com/dbartholomae/middy-middleware-class-validator#readme",
+  "keywords": [
+    "middy",
+    "middleware",
+    "validation",
+    "validator"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/middy-middleware-class-validator/-/middy-middleware-class-validator-3.0.0.tgz",
+  "latest_release_number": "3.0.0",
+  "latest_release_published_at": "2024-04-22T18:04:42.526Z",
+  "latest_stable_release_number": "3.0.0",
+  "latest_stable_release_published_at": "2024-04-22T18:04:42.526Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "middy-middleware-class-validator",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/middy-middleware-class-validator",
+  "platform": "NPM",
+  "rank": 11,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/dbartholomae/middy-middleware-class-validator",
+  "security_policy_url": null,
+  "stars": 12,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2020-01-23T22:25:03.070Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2020-04-16T16:50:50.427Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2020-04-17T07:27:32.742Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.3",
+      "published_at": "2020-05-01T11:09:48.902Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2020-05-02T17:47:56.185Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2020-05-19T07:30:25.197Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.2",
+      "published_at": "2020-06-20T12:13:51.049Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2024-04-22T18:04:42.526Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "3.0.0",
+  "dependencies": [
+    {
+      "project_name": "@types/debug",
+      "name": "@types/debug",
+      "platform": "NPM",
+      "requirements": ">=4.1.0",
+      "latest_stable": "4.1.12",
+      "latest": "4.1.12",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "class-transformer",
+      "name": "class-transformer",
+      "platform": "NPM",
+      "requirements": ">=0.2.3",
+      "latest_stable": "0.5.1",
+      "latest": "0.5.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "class-transformer-validator",
+      "name": "class-transformer-validator",
+      "platform": "NPM",
+      "requirements": ">=0.8.0",
+      "latest_stable": "0.9.1",
+      "latest": "0.9.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "class-validator",
+      "name": "class-validator",
+      "platform": "NPM",
+      "requirements": ">=0.11.0",
+      "latest_stable": "0.14.1",
+      "latest": "0.14.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "debug",
+      "name": "debug",
+      "platform": "NPM",
+      "requirements": ">=4.1.0",
+      "latest_stable": "4.4.0",
+      "latest": "4.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@commitlint/cli",
+      "name": "@commitlint/cli",
+      "platform": "NPM",
+      "requirements": "^19.2.2",
+      "latest_stable": "19.6.1",
+      "latest": "19.6.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@commitlint/config-conventional",
+      "name": "@commitlint/config-conventional",
+      "platform": "NPM",
+      "requirements": "^19.2.2",
+      "latest_stable": "19.6.0",
+      "latest": "19.6.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@middy/core",
+      "name": "@middy/core",
+      "platform": "NPM",
+      "requirements": "^5.3.2",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/changelog",
+      "name": "@semantic-release/changelog",
+      "platform": "NPM",
+      "requirements": "^6.0.3",
+      "latest_stable": "6.0.3",
+      "latest": "6.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/commit-analyzer",
+      "name": "@semantic-release/commit-analyzer",
+      "platform": "NPM",
+      "requirements": "^12.0.0",
+      "latest_stable": "13.0.1",
+      "latest": "13.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/git",
+      "name": "@semantic-release/git",
+      "platform": "NPM",
+      "requirements": "^10.0.1",
+      "latest_stable": "10.0.1",
+      "latest": "10.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/npm",
+      "name": "@semantic-release/npm",
+      "platform": "NPM",
+      "requirements": "^12.0.0",
+      "latest_stable": "12.0.1",
+      "latest": "12.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/release-notes-generator",
+      "name": "@semantic-release/release-notes-generator",
+      "platform": "NPM",
+      "requirements": "^13.0.0",
+      "latest_stable": "14.0.3",
+      "latest": "14.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/aws-lambda",
+      "name": "@types/aws-lambda",
+      "platform": "NPM",
+      "requirements": "^8.10.137",
+      "latest_stable": "8.10.147",
+      "latest": "8.10.147",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "^29.5.12",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/supertest",
+      "name": "@types/supertest",
+      "platform": "NPM",
+      "requirements": "^6.0.2",
+      "latest_stable": "6.0.2",
+      "latest": "6.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "aws-lambda",
+      "name": "aws-lambda",
+      "platform": "NPM",
+      "requirements": "*",
+      "latest_stable": "1.0.7",
+      "latest": "1.0.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "codecov",
+      "name": "codecov",
+      "platform": "NPM",
+      "requirements": "^3.8.3",
+      "latest_stable": "3.8.3",
+      "latest": "3.8.3",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "concurrently",
+      "name": "concurrently",
+      "platform": "NPM",
+      "requirements": "^8.2.2",
+      "latest_stable": "9.1.2",
+      "latest": "9.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cross-env",
+      "name": "cross-env",
+      "platform": "NPM",
+      "requirements": "^7.0.3",
+      "latest_stable": "7.0.3",
+      "latest": "7.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^9.1.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "http-errors",
+      "name": "http-errors",
+      "platform": "NPM",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^29.7.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "middy-middleware-json-error-handler",
+      "name": "middy-middleware-json-error-handler",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pkg-ok",
+      "name": "pkg-ok",
+      "platform": "NPM",
+      "requirements": "^3.0.0",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^3.2.5",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "reflect-metadata",
+      "name": "reflect-metadata",
+      "platform": "NPM",
+      "requirements": "^0.2.2",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^5.0.5",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "semantic-release",
+      "name": "semantic-release",
+      "platform": "NPM",
+      "requirements": "^23.0.8",
+      "latest_stable": "24.2.1",
+      "latest": "24.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serverless",
+      "name": "serverless",
+      "platform": "NPM",
+      "requirements": "^3.38.0",
+      "latest_stable": "4.4.18",
+      "latest": "4.4.18",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serverless-offline",
+      "name": "serverless-offline",
+      "platform": "NPM",
+      "requirements": "^13.3.4",
+      "latest_stable": "14.4.0",
+      "latest": "14.4.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serverless-webpack",
+      "name": "serverless-webpack",
+      "platform": "NPM",
+      "requirements": "^5.13.0",
+      "latest_stable": "5.15.0",
+      "latest": "5.15.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "source-map-support",
+      "name": "source-map-support",
+      "platform": "NPM",
+      "requirements": "^0.5.21",
+      "latest_stable": "0.5.21",
+      "latest": "0.5.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "supertest",
+      "name": "supertest",
+      "platform": "NPM",
+      "requirements": "^6.3.4",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-jest",
+      "name": "ts-jest",
+      "platform": "NPM",
+      "requirements": "^29.1.2",
+      "latest_stable": "29.2.5",
+      "latest": "29.2.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-loader",
+      "name": "ts-loader",
+      "platform": "NPM",
+      "requirements": "^9.5.1",
+      "latest_stable": "9.5.2",
+      "latest": "9.5.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tslib",
+      "name": "tslib",
+      "platform": "NPM",
+      "requirements": "^2.6.2",
+      "latest_stable": "2.8.1",
+      "latest": "2.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "0BSD"
+      ]
+    },
+    {
+      "project_name": "typedoc",
+      "name": "typedoc",
+      "platform": "NPM",
+      "requirements": "^0.25.13",
+      "latest_stable": "0.27.6",
+      "latest": "0.27.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.4.5",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "typescript-eslint",
+      "name": "typescript-eslint",
+      "platform": "NPM",
+      "requirements": "^7.7.1",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "wait-on",
+      "name": "wait-on",
+      "platform": "NPM",
+      "requirements": "^7.2.0",
+      "latest_stable": "8.0.2",
+      "latest": "8.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack",
+      "name": "webpack",
+      "platform": "NPM",
+      "requirements": "^5.91.0",
+      "latest_stable": "5.97.1",
+      "latest": "5.97.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

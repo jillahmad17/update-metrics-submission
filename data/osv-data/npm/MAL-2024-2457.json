@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2457",
+  "summary": "Malicious code in heliotrope (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:45:16Z",
+  "published": "2024-06-25T12:45:16Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:45:16Z",
+        "import_time": "2024-06-28T02:43:27.790851563Z",
+        "versions": [
+          "1.9.9",
+          "0.9.9",
+          "99.9.9",
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-01120",
+        "source": "reversing-labs",
+        "sha256": "34ff814122f5caf402b196fef93a0e24b28213593d882d6262d965469691097d"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "heliotrope",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/heliotrope"
+      },
+      "versions": [
+        "1.9.9",
+        "0.9.9",
+        "99.9.9",
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/heliotrope/MAL-2024-2457.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5403",
+  "summary": "Malicious code in networkpackage (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-NETWORKPACKAGE-5885075"
+  ],
+  "modified": "2024-06-28T03:27:23.780494Z",
+  "published": "2024-06-25T13:37:33Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:33Z",
+        "import_time": "2024-06-28T02:49:30.55485611Z",
+        "versions": [
+          "1"
+        ],
+        "id": "RLMA-2024-04185",
+        "source": "reversing-labs",
+        "sha256": "a5b1a993e0812ea394fcc5d5effb2d7c58981b6a98407a086b88968d447a1b84"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-NETWORKPACKAGE-5885075"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "networkpackage",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/networkpackage"
+      },
+      "versions": [
+        "1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/networkpackage/MAL-2024-5403.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

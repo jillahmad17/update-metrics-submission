@@ -1,0 +1,633 @@
+{
+  "code_of_conduct_url": "https://github.com/open-telemetry/.github/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 272,
+  "contribution_guidelines_url": "https://github.com/open-telemetry/opentelemetry-js-contrib/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 6,
+  "dependents_count": 13,
+  "deprecation_reason": null,
+  "description": "OpenTelemetry instrumentation for `cassandra-driver` database client library for Apache Cassandra",
+  "forks": 539,
+  "funding_urls": [],
+  "homepage": "https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/plugins/node/opentelemetry-instrumentation-cassandra#readme",
+  "keywords": [
+    "cassandra-driver",
+    "instrumentation",
+    "logging",
+    "nodejs",
+    "opentelemetry",
+    "profiling",
+    "tracing"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@opentelemetry/instrumentation-cassandra-driver/-/@opentelemetry/instrumentation-cassandra-driver-0.45.0.tgz",
+  "latest_release_number": "0.45.0",
+  "latest_release_published_at": "2024-12-18T12:25:02.535Z",
+  "latest_stable_release_number": "0.45.0",
+  "latest_stable_release_published_at": "2024-12-18T12:25:02.535Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@opentelemetry/instrumentation-cassandra-driver",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-cassandra-driver",
+  "platform": "NPM",
+  "rank": 15,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/open-telemetry/opentelemetry-js-contrib",
+  "security_policy_url": "https://github.com/open-telemetry/opentelemetry-js-contrib/security/policy",
+  "stars": 735,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.23.0",
+      "published_at": "2021-07-02T18:56:47.690Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.24.0",
+      "published_at": "2021-07-29T19:49:33.986Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.25.0",
+      "published_at": "2021-09-15T16:02:37.589Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.26.0",
+      "published_at": "2021-10-25T16:00:32.999Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.27.0",
+      "published_at": "2021-12-02T20:02:10.164Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.27.1",
+      "published_at": "2022-01-24T19:01:59.862Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.28.0",
+      "published_at": "2022-05-24T15:42:30.942Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.29.0",
+      "published_at": "2022-06-15T18:29:58.176Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.29.1",
+      "published_at": "2022-08-09T18:01:44.022Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.30.0",
+      "published_at": "2022-09-02T17:47:40.793Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.31.0",
+      "published_at": "2022-11-02T13:44:59.783Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.32.0",
+      "published_at": "2022-11-18T16:38:46.297Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.32.1",
+      "published_at": "2023-02-07T23:13:05.361Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.32.2",
+      "published_at": "2023-04-25T15:41:32.673Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.32.3",
+      "published_at": "2023-05-16T13:44:08.892Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.32.4",
+      "published_at": "2023-06-12T19:51:23.234Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.33.0",
+      "published_at": "2023-07-12T16:11:27.719Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.33.1",
+      "published_at": "2023-08-14T21:07:16.830Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.33.2",
+      "published_at": "2023-10-11T08:13:50.435Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.34.0",
+      "published_at": "2023-11-13T15:57:42.400Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.34.1",
+      "published_at": "2023-11-22T09:33:29.839Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.34.2",
+      "published_at": "2024-01-04T22:15:35.055Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.35.0",
+      "published_at": "2024-01-29T09:20:44.705Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.36.0",
+      "published_at": "2024-03-06T11:02:13.751Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.37.0",
+      "published_at": "2024-04-03T16:55:25.494Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.38.0",
+      "published_at": "2024-04-25T19:02:12.049Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.39.0",
+      "published_at": "2024-06-06T07:53:22.241Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.40.0",
+      "published_at": "2024-07-04T07:41:16.184Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.41.0",
+      "published_at": "2024-09-02T13:11:08.960Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.42.0",
+      "published_at": "2024-10-25T14:34:46.827Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.43.0",
+      "published_at": "2024-11-18T16:56:33.710Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.44.0",
+      "published_at": "2024-12-05T07:38:11.890Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.45.0",
+      "published_at": "2024-12-18T12:25:02.535Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.45.0",
+  "dependencies": [
+    {
+      "project_name": "@opentelemetry/instrumentation",
+      "name": "@opentelemetry/instrumentation",
+      "platform": "NPM",
+      "requirements": "^0.57.0",
+      "latest_stable": "0.57.0",
+      "latest": "0.57.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/semantic-conventions",
+      "name": "@opentelemetry/semantic-conventions",
+      "platform": "NPM",
+      "requirements": "^1.27.0",
+      "latest_stable": "1.28.0",
+      "latest": "1.28.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/api",
+      "name": "@opentelemetry/api",
+      "platform": "NPM",
+      "requirements": "^1.3.0",
+      "latest_stable": "1.9.0",
+      "latest": "1.9.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/context-async-hooks",
+      "name": "@opentelemetry/context-async-hooks",
+      "platform": "NPM",
+      "requirements": "^1.8.0",
+      "latest_stable": "1.30.0",
+      "latest": "1.30.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/contrib-test-utils",
+      "name": "@opentelemetry/contrib-test-utils",
+      "platform": "NPM",
+      "requirements": "^0.45.0",
+      "latest_stable": "0.45.0",
+      "latest": "0.45.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/sdk-trace-base",
+      "name": "@opentelemetry/sdk-trace-base",
+      "platform": "NPM",
+      "requirements": "^1.8.0",
+      "latest_stable": "1.30.0",
+      "latest": "1.30.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@opentelemetry/sdk-trace-node",
+      "name": "@opentelemetry/sdk-trace-node",
+      "platform": "NPM",
+      "requirements": "^1.8.0",
+      "latest_stable": "1.30.0",
+      "latest": "1.30.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@types/mocha",
+      "name": "@types/mocha",
+      "platform": "NPM",
+      "requirements": "7.0.2",
+      "latest_stable": "10.0.10",
+      "latest": "10.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "18.18.14",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/semver",
+      "name": "@types/semver",
+      "platform": "NPM",
+      "requirements": "7.5.8",
+      "latest_stable": "7.5.8",
+      "latest": "7.5.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/sinon",
+      "name": "@types/sinon",
+      "platform": "NPM",
+      "requirements": "10.0.20",
+      "latest_stable": "17.0.3",
+      "latest": "17.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cassandra-driver",
+      "name": "cassandra-driver",
+      "platform": "NPM",
+      "requirements": "4.6.4",
+      "latest_stable": "4.7.2",
+      "latest": "4.7.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "nyc",
+      "name": "nyc",
+      "platform": "NPM",
+      "requirements": "15.1.0",
+      "latest_stable": "17.1.0",
+      "latest": "17.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "5.0.10",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "sinon",
+      "name": "sinon",
+      "platform": "NPM",
+      "requirements": "15.2.0",
+      "latest_stable": "19.0.2",
+      "latest": "19.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "4.4.4",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

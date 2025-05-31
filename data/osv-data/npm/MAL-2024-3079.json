@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-3079",
+  "summary": "Malicious code in @b2bgeo/tanker (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOTANKER-3326440"
+  ],
+  "modified": "2024-06-28T03:14:31.156802Z",
+  "published": "2024-06-25T12:18:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "c6df285c75a7e097508efec541667f840ad831e847aa64ff67c37bd324039591",
+        "import_time": "2024-06-28T02:41:15.34911907Z",
+        "versions": [
+          "13.3.7",
+          "13.3.8"
+        ],
+        "id": "RLMA-2024-00023",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:44Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOTANKER-3326440"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/tanker",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/tanker"
+      },
+      "versions": [
+        "13.3.7",
+        "13.3.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/tanker/MAL-2024-3079.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "MAL-2024-5360",
+  "summary": "Malicious code in methantiafkxd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:12Z",
+  "published": "2024-06-25T13:37:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:12Z",
+        "import_time": "2024-06-28T02:49:25.66313166Z",
+        "versions": [
+          "0.0.2",
+          "0.0.3"
+        ],
+        "id": "RLMA-2024-04142",
+        "source": "reversing-labs",
+        "sha256": "c71e7ecced7a689a38975d4da8fc7f5bbe798b00919ea4a131fdf57f75cbe205"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "methantiafkxd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/methantiafkxd"
+      },
+      "versions": [
+        "0.0.2",
+        "0.0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/methantiafkxd/MAL-2024-5360.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

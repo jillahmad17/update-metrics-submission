@@ -1,0 +1,614 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 7,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 1,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "Rate limiting for hapi/hapi.js to prevent brute-force attacks",
+  "forks": 7,
+  "funding_urls": [],
+  "homepage": "https://github.com/futurestudio/hapi-rate-limitor#readme",
+  "keywords": [
+    "brute force",
+    "brute force protection",
+    "bruteforce",
+    "hapi",
+    "hapi.js",
+    "hapijs",
+    "limit",
+    "plugin",
+    "rate",
+    "rate limit",
+    "rate limiter",
+    "rate limiting",
+    "rate-limit",
+    "async-ratelimiter",
+    "future-studio-university",
+    "hapi-plugin",
+    "ioredis",
+    "node",
+    "nodejs",
+    "rate-limiting",
+    "rate-limits",
+    "redis"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/hapi-rate-limitor/-/hapi-rate-limitor-4.0.0.tgz",
+  "latest_release_number": "4.0.0",
+  "latest_release_published_at": "2024-03-25T05:03:16.855Z",
+  "latest_stable_release_number": "4.0.0",
+  "latest_stable_release_published_at": "2024-03-25T05:03:16.855Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "hapi-rate-limitor",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/hapi-rate-limitor",
+  "platform": "NPM",
+  "rank": 14,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/futurestudio/hapi-rate-limitor",
+  "security_policy_url": null,
+  "stars": 42,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2018-07-11T09:47:37.102Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2018-08-08T03:17:07.297Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2018-08-21T07:07:46.582Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2018-09-11T09:05:11.736Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2018-09-11T10:51:11.564Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2018-09-30T11:59:31.876Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.10.0",
+      "published_at": "2019-10-10T09:29:00.091Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.11.0",
+      "published_at": "2019-10-17T03:08:28.422Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.12.0",
+      "published_at": "2019-11-22T09:20:58.275Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.13.0",
+      "published_at": "2020-06-01T04:56:37.047Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.2.0",
+      "published_at": "2018-10-21T10:05:23.255Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.3.0",
+      "published_at": "2018-10-29T05:24:37.941Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.4.0",
+      "published_at": "2018-12-12T10:36:31.229Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.0",
+      "published_at": "2019-01-16T15:30:17.518Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.1",
+      "published_at": "2019-01-22T05:22:21.319Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.2",
+      "published_at": "2019-01-26T05:21:30.591Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.3",
+      "published_at": "2019-02-18T10:09:31.671Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.6.0",
+      "published_at": "2019-02-28T14:20:36.297Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.6.1",
+      "published_at": "2019-04-27T05:30:47.181Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.7.0",
+      "published_at": "2019-05-04T14:41:47.898Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.7.1",
+      "published_at": "2019-05-10T05:41:09.196Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.8.0",
+      "published_at": "2019-06-25T03:59:29.895Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.9.0",
+      "published_at": "2019-08-13T03:56:01.166Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2020-01-10T11:04:36.785Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2020-06-01T05:02:35.248Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2020-08-05T08:49:06.571Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.2",
+      "published_at": "2022-02-17T04:57:56.531Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2024-03-25T05:03:16.855Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "4.0.0",
+  "dependencies": [
+    {
+      "project_name": "@hapi/boom",
+      "name": "@hapi/boom",
+      "platform": "NPM",
+      "requirements": "~10.0.1",
+      "latest_stable": "10.0.1",
+      "latest": "10.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "@supercharge/request-ip",
+      "name": "@supercharge/request-ip",
+      "platform": "NPM",
+      "requirements": "~1.2.0",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "async-ratelimiter",
+      "name": "async-ratelimiter",
+      "platform": "NPM",
+      "requirements": "~1.3.13",
+      "latest_stable": "1.3.13",
+      "latest": "1.3.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ioredis",
+      "name": "ioredis",
+      "platform": "NPM",
+      "requirements": "~5.3.2",
+      "latest_stable": "5.4.2",
+      "latest": "5.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@hapi/basic",
+      "name": "@hapi/basic",
+      "platform": "NPM",
+      "requirements": "~7.0.2",
+      "latest_stable": "7.0.2",
+      "latest": "7.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "@hapi/hapi",
+      "name": "@hapi/hapi",
+      "platform": "NPM",
+      "requirements": "~21.3.7",
+      "latest_stable": "21.3.12",
+      "latest": "21.3.12",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "@hapi/vision",
+      "name": "@hapi/vision",
+      "platform": "NPM",
+      "requirements": "~7.0.3",
+      "latest_stable": "7.0.3",
+      "latest": "7.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "ava",
+      "name": "ava",
+      "platform": "NPM",
+      "requirements": "~5.3.0",
+      "latest_stable": "6.2.0",
+      "latest": "6.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "~8.57.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-standard",
+      "name": "eslint-config-standard",
+      "platform": "NPM",
+      "requirements": "~17.1.0",
+      "latest_stable": "17.1.0",
+      "latest": "17.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "~2.29.1",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-node",
+      "name": "eslint-plugin-node",
+      "platform": "NPM",
+      "requirements": "~11.1.0",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-promise",
+      "name": "eslint-plugin-promise",
+      "platform": "NPM",
+      "requirements": "~6.1.1",
+      "latest_stable": "7.2.1",
+      "latest": "7.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-standard",
+      "name": "eslint-plugin-standard",
+      "platform": "NPM",
+      "requirements": "~5.0.0",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "handlebars",
+      "name": "handlebars",
+      "platform": "NPM",
+      "requirements": "~4.7.8",
+      "latest_stable": "4.7.8",
+      "latest": "4.7.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nyc",
+      "name": "nyc",
+      "platform": "NPM",
+      "requirements": "~15.1.0",
+      "latest_stable": "17.1.0",
+      "latest": "17.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "p-event",
+      "name": "p-event",
+      "platform": "NPM",
+      "requirements": "~4.2.0",
+      "latest_stable": "6.0.1",
+      "latest": "6.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

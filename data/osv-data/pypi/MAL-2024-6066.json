@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-6066",
+  "summary": "Malicious code in syscoloringspkg (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SYSCOLORINGSPKG-5932251"
+  ],
+  "modified": "2024-06-28T03:15:17.845548Z",
+  "published": "2024-06-25T13:43:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:02Z",
+        "import_time": "2024-06-28T02:50:52.092583409Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04869",
+        "source": "reversing-labs",
+        "sha256": "07ef59c1fff321382d5ccefc627d701d2afaec4b1a058ee1852f64fae932e4bc"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SYSCOLORINGSPKG-5932251"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "syscoloringspkg",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/syscoloringspkg"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/syscoloringspkg/MAL-2024-6066.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

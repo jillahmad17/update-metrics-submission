@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-3989",
+  "summary": "Malicious code in @realty-front/zookeeper (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-REALTYFRONTZOOKEEPER-3326398"
+  ],
+  "modified": "2024-06-28T03:14:39.481578Z",
+  "published": "2024-06-25T12:22:15Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "1b2472c340681fcf540a3fa3404d02fe63d220f3677bbae12b1f93556856fd81",
+        "import_time": "2024-06-28T02:41:35.324988891Z",
+        "versions": [
+          "1.13.1",
+          "1.0.1",
+          "1.13.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00190",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:15Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-REALTYFRONTZOOKEEPER-3326398"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@realty-front/zookeeper",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40realty-front/zookeeper"
+      },
+      "versions": [
+        "1.13.1",
+        "1.0.1",
+        "1.13.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@realty-front/zookeeper/MAL-2024-3989.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2299",
+  "summary": "Malicious code in en-features-rollout (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:41:22Z",
+  "published": "2024-06-25T12:41:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:41:22Z",
+        "import_time": "2024-06-28T02:43:07.396496542Z",
+        "versions": [
+          "1.90.9"
+        ],
+        "id": "RLMA-2024-00949",
+        "source": "reversing-labs",
+        "sha256": "8ca40e41fe00dce614b503c469dffa22367a1c76822b6a14911c72271df13680"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "en-features-rollout",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/en-features-rollout"
+      },
+      "versions": [
+        "1.90.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/en-features-rollout/MAL-2024-2299.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

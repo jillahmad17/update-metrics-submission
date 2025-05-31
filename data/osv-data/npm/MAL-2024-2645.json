@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2645",
+  "summary": "Malicious code in macnative (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:49:50Z",
+  "published": "2024-06-25T12:49:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:49:50Z",
+        "import_time": "2024-06-28T02:43:53.047576106Z",
+        "versions": [
+          "1.9.9",
+          "0.9.9",
+          "99.9.9",
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-01322",
+        "source": "reversing-labs",
+        "sha256": "d61f1e11aab58a0e9d2ae971d89c51eb1af06ca53b661db78a7e6972b52b8496"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "macnative",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/macnative"
+      },
+      "versions": [
+        "1.9.9",
+        "0.9.9",
+        "99.9.9",
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/macnative/MAL-2024-2645.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

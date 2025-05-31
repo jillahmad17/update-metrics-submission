@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5889",
+  "summary": "Malicious code in requestedapi (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:37Z",
+  "published": "2024-06-25T13:41:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:37Z",
+        "import_time": "2024-06-28T02:50:30.132812635Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04690",
+        "source": "reversing-labs",
+        "sha256": "9aa0cb435b7312aa1a55e595fe3ee56662ecb1e23d2404edb4210483ee647d96"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "requestedapi",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requestedapi"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requestedapi/MAL-2024-5889.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

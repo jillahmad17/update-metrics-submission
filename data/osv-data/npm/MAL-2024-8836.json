@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-8836",
+  "summary": "Malicious code in @warnermediacode/wme-gep-modules-bundle (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (a4a72f149d9eb6781982bac5c0c9283126ceab07ead60b9298ffb1c9f889ca8a)\nThe OpenSSF Package Analysis project identified '@warnermediacode/wme-gep-modules-bundle' @ 99.50.55 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2024-09-08T16:44:25Z",
+  "published": "2024-09-08T16:44:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-08T16:44:25Z",
+        "import_time": "2024-09-08T17:05:56.938083681Z",
+        "versions": [
+          "99.50.55"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "a4a72f149d9eb6781982bac5c0c9283126ceab07ead60b9298ffb1c9f889ca8a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@warnermediacode/wme-gep-modules-bundle",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40warnermediacode/wme-gep-modules-bundle"
+      },
+      "versions": [
+        "99.50.55"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@warnermediacode/wme-gep-modules-bundle/MAL-2024-8836.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

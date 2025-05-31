@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5939",
+  "summary": "Malicious code in ressy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:00Z",
+  "published": "2024-06-25T13:42:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:00Z",
+        "import_time": "2024-06-28T02:50:36.422958413Z",
+        "versions": [
+          "0.8"
+        ],
+        "id": "RLMA-2024-04740",
+        "source": "reversing-labs",
+        "sha256": "33c39955f00e46a150af53035014db9578ea61b784783d16556f21b2d45c6a32"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "ressy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/ressy"
+      },
+      "versions": [
+        "0.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/ressy/MAL-2024-5939.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

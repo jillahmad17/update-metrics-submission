@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4887",
+  "summary": "Malicious code in cffy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:22Z",
+  "published": "2024-06-25T13:33:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:22Z",
+        "import_time": "2024-06-28T02:48:29.493473121Z",
+        "versions": [
+          "1.15.1"
+        ],
+        "id": "RLMA-2024-03667",
+        "source": "reversing-labs",
+        "sha256": "828fb9e842089fe18578b6e9e2187e8727bc3e9753a475a521d7573b2017dda2"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cffy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/cffy"
+      },
+      "versions": [
+        "1.15.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/cffy/MAL-2024-4887.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

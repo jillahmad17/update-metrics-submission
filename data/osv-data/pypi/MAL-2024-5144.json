@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-5144",
+  "summary": "Malicious code in flaw (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:27Z",
+  "published": "2024-06-25T13:35:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:27Z",
+        "import_time": "2024-06-28T02:48:59.379042244Z",
+        "versions": [
+          "0.0.2",
+          "0.0.3"
+        ],
+        "id": "RLMA-2024-03924",
+        "source": "reversing-labs",
+        "sha256": "3c80cc8d4499d0209a9a889c61843da525fd3d538314165c7d60ea43545e804e"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "flaw",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/flaw"
+      },
+      "versions": [
+        "0.0.2",
+        "0.0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/flaw/MAL-2024-5144.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

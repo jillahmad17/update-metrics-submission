@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5570",
+  "summary": "Malicious code in proxycpz (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:38:53Z",
+  "published": "2024-06-25T13:38:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:53Z",
+        "import_time": "2024-06-28T02:49:50.286506559Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04352",
+        "source": "reversing-labs",
+        "sha256": "d090cbdc5d18ed767803e99a29697ed534e3340ab765d80d0ca394d858a801be"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "proxycpz",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/proxycpz"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/proxycpz/MAL-2024-5570.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

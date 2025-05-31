@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-2501",
+  "summary": "Malicious code in @realty-front/icons (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-REALTYFRONTICONS-3326443"
+  ],
+  "modified": "2024-06-28T03:14:39.081185Z",
+  "published": "2024-06-25T12:22:09Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "b117e98bf52f31868edb60c1926c5980c48c4ce4ca8ba7c882d9404e4d6eec5c",
+        "import_time": "2024-06-28T02:41:34.554816336Z",
+        "versions": [
+          "1.13.1",
+          "1.0.1",
+          "1.13.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00184",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:09Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-REALTYFRONTICONS-3326443"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@realty-front/icons",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40realty-front/icons"
+      },
+      "versions": [
+        "1.13.1",
+        "1.0.1",
+        "1.13.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@realty-front/icons/MAL-2024-2501.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

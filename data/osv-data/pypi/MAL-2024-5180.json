@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5180",
+  "summary": "Malicious code in getwebshareproxy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:45Z",
+  "published": "2024-06-25T13:35:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:45Z",
+        "import_time": "2024-06-28T02:49:03.824612114Z",
+        "versions": [
+          "3.2.9"
+        ],
+        "id": "RLMA-2024-03962",
+        "source": "reversing-labs",
+        "sha256": "93309b705c76e0ec8f6abd613d779826f4e365f91d21f4f68f205a3b9ac9d743"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "getwebshareproxy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/getwebshareproxy"
+      },
+      "versions": [
+        "3.2.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/getwebshareproxy/MAL-2024-5180.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

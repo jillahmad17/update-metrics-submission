@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5364",
+  "summary": "Malicious code in microsoft-helper (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-MICROSOFTHELPER-5295987"
+  ],
+  "modified": "2024-06-28T03:14:55.921716Z",
+  "published": "2024-06-25T13:37:14Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:14Z",
+        "import_time": "2024-06-28T02:49:26.156221747Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04146",
+        "source": "reversing-labs",
+        "sha256": "c6915c26d25feea397fc8b2ca47f128a041fa477b526705d6e8d2f2d349db1ca"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-MICROSOFTHELPER-5295987"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "microsoft-helper",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/microsoft-helper"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/microsoft-helper/MAL-2024-5364.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

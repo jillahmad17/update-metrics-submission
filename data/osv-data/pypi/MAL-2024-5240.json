@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5240",
+  "summary": "Malicious code in httpxhelp (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:14Z",
+  "published": "2024-06-25T13:36:14Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:14Z",
+        "import_time": "2024-06-28T02:49:11.428100483Z",
+        "versions": [
+          "0.9.0"
+        ],
+        "id": "RLMA-2024-04022",
+        "source": "reversing-labs",
+        "sha256": "9daa9844db871b4c28c988b1a8f2b4818e36bdfbb24418069a6348d0853cc60b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "httpxhelp",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/httpxhelp"
+      },
+      "versions": [
+        "0.9.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/httpxhelp/MAL-2024-5240.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

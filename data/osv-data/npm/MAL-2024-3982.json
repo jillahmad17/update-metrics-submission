@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-3982",
+  "summary": "Malicious code in yinhai-cloud (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-YINHAICLOUD-6044725"
+  ],
+  "modified": "2024-06-28T03:14:44.397428Z",
+  "published": "2024-06-25T13:22:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:22:39Z",
+        "import_time": "2024-06-28T02:46:42.476833295Z",
+        "versions": [
+          "6.0.2",
+          "6.0.3",
+          "3.0.2"
+        ],
+        "id": "RLMA-2024-02757",
+        "source": "reversing-labs",
+        "sha256": "561cba6fb49df304e018c8b5ce1cb5bcb17624304e032d4b3d2fe517061eef67"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-YINHAICLOUD-6044725"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/dozens-of-npm-packages-caught-attempting-to-deploy-reverse-shell/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "yinhai-cloud",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/yinhai-cloud"
+      },
+      "versions": [
+        "6.0.2",
+        "6.0.3",
+        "3.0.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/yinhai-cloud/MAL-2024-3982.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

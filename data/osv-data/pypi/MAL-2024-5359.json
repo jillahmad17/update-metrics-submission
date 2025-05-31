@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5359",
+  "summary": "Malicious code in mestin (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:12Z",
+  "published": "2024-06-25T13:37:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:12Z",
+        "import_time": "2024-06-28T02:49:25.550665062Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04141",
+        "source": "reversing-labs",
+        "sha256": "74aeb021ae578fedb3921694e99213d3c24024dd4a1a9d9e67102f67f7699512"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "mestin",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/mestin"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/mestin/MAL-2024-5359.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

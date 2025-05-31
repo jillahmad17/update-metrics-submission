@@ -1,0 +1,935 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 1,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 1,
+  "deprecation_reason": null,
+  "description": "Webpack Build Analysis Plugin",
+  "forks": 2,
+  "funding_urls": [],
+  "homepage": "https://github.com/deeppatel234/webpack-report#readme",
+  "keywords": [
+    "javascript",
+    "reactjs",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/webpack-report/-/webpack-report-2.0.3.tgz",
+  "latest_release_number": "2.0.3",
+  "latest_release_published_at": "2023-03-05T08:13:33.014Z",
+  "latest_stable_release_number": "2.0.3",
+  "latest_stable_release_published_at": "2023-03-05T08:13:33.014Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "webpack-report",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/webpack-report",
+  "platform": "NPM",
+  "rank": 9,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/deeppatel234/webpack-report",
+  "security_policy_url": null,
+  "stars": 27,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2020-04-12T07:37:02.677Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2020-04-12T07:44:24.157Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2020-04-12T07:48:30.962Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2020-04-12T10:16:03.283Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2020-05-30T14:46:41.787Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2023-02-26T15:59:57.208Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2023-02-26T16:47:56.543Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.2",
+      "published_at": "2023-03-05T07:41:15.241Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.3",
+      "published_at": "2023-03-05T08:13:33.014Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "2.0.3",
+  "dependencies": [
+    {
+      "project_name": "ansi-to-html",
+      "name": "ansi-to-html",
+      "platform": "NPM",
+      "requirements": "^0.7.2",
+      "latest_stable": "0.7.2",
+      "latest": "0.7.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chalk",
+      "name": "chalk",
+      "platform": "NPM",
+      "requirements": "4.0.0",
+      "latest_stable": "5.4.1",
+      "latest": "5.4.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "express",
+      "name": "express",
+      "platform": "NPM",
+      "requirements": "^4.18.2",
+      "latest_stable": "4.21.2",
+      "latest": "4.21.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "filesize",
+      "name": "filesize",
+      "platform": "NPM",
+      "requirements": "^10.0.6",
+      "latest_stable": "10.1.6",
+      "latest": "10.1.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "import-from",
+      "name": "import-from",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lodash",
+      "name": "lodash",
+      "platform": "NPM",
+      "requirements": "^4.17.21",
+      "latest_stable": "4.17.21",
+      "latest": "4.17.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "opener",
+      "name": "opener",
+      "platform": "NPM",
+      "requirements": "^1.5.2",
+      "latest_stable": "1.5.2",
+      "latest": "1.5.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "WTFPL",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "socket.io",
+      "name": "socket.io",
+      "platform": "NPM",
+      "requirements": "^4.6.1",
+      "latest_stable": "4.8.1",
+      "latest": "4.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@antv/data-set",
+      "name": "@antv/data-set",
+      "platform": "NPM",
+      "requirements": "^0.11.8",
+      "latest_stable": "0.11.8",
+      "latest": "0.11.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@antv/g2",
+      "name": "@antv/g2",
+      "platform": "NPM",
+      "requirements": "^4.2.9",
+      "latest_stable": "5.2.10",
+      "latest": "5.2.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/core",
+      "name": "@babel/core",
+      "platform": "NPM",
+      "requirements": "^7.21.0",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/plugin-proposal-class-properties",
+      "name": "@babel/plugin-proposal-class-properties",
+      "platform": "NPM",
+      "requirements": "7.18.6",
+      "latest_stable": "7.18.6",
+      "latest": "7.21.4-esm.4",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/plugin-syntax-dynamic-import",
+      "name": "@babel/plugin-syntax-dynamic-import",
+      "platform": "NPM",
+      "requirements": "^7.8.3",
+      "latest_stable": "7.8.3",
+      "latest": "7.8.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/plugin-transform-runtime",
+      "name": "@babel/plugin-transform-runtime",
+      "platform": "NPM",
+      "requirements": "^7.21.0",
+      "latest_stable": "7.25.9",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/preset-env",
+      "name": "@babel/preset-env",
+      "platform": "NPM",
+      "requirements": "^7.20.2",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/preset-react",
+      "name": "@babel/preset-react",
+      "platform": "NPM",
+      "requirements": "^7.18.6",
+      "latest_stable": "7.26.3",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@emotion/react",
+      "name": "@emotion/react",
+      "platform": "NPM",
+      "requirements": "^11.10.6",
+      "latest_stable": "11.14.0",
+      "latest": "11.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@emotion/styled",
+      "name": "@emotion/styled",
+      "platform": "NPM",
+      "requirements": "^11.10.6",
+      "latest_stable": "11.14.0",
+      "latest": "11.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-core",
+      "name": "babel-core",
+      "platform": "NPM",
+      "requirements": "^6.26.3",
+      "latest_stable": "6.26.3",
+      "latest": "6.26.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-eslint",
+      "name": "babel-eslint",
+      "platform": "NPM",
+      "requirements": "^10.1.0",
+      "latest_stable": "10.1.0",
+      "latest": "10.1.0",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-loader",
+      "name": "babel-loader",
+      "platform": "NPM",
+      "requirements": "^9.1.2",
+      "latest_stable": "9.2.1",
+      "latest": "9.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "case-sensitive-paths-webpack-plugin",
+      "name": "case-sensitive-paths-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "2.4.0",
+      "latest_stable": "2.4.0",
+      "latest": "2.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "clean-webpack-plugin",
+      "name": "clean-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "concurrently",
+      "name": "concurrently",
+      "platform": "NPM",
+      "requirements": "^7.6.0",
+      "latest_stable": "9.1.2",
+      "latest": "9.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "copy-webpack-plugin",
+      "name": "copy-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "^11.0.0",
+      "latest_stable": "12.0.2",
+      "latest": "12.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "css-loader",
+      "name": "css-loader",
+      "platform": "NPM",
+      "requirements": "^6.7.3",
+      "latest_stable": "7.1.2",
+      "latest": "7.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "css-minimizer-webpack-plugin",
+      "name": "css-minimizer-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "4.2.2",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "detect-port",
+      "name": "detect-port",
+      "platform": "NPM",
+      "requirements": "^1.5.1",
+      "latest_stable": "2.1.0",
+      "latest": "2.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "8.31.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-airbnb",
+      "name": "eslint-config-airbnb",
+      "platform": "NPM",
+      "requirements": "19.0.4",
+      "latest_stable": "19.0.4",
+      "latest": "19.0.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-import-resolver-alias",
+      "name": "eslint-import-resolver-alias",
+      "platform": "NPM",
+      "requirements": "1.1.2",
+      "latest_stable": "1.1.2",
+      "latest": "1.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "2.26.0",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-jsx-a11y",
+      "name": "eslint-plugin-jsx-a11y",
+      "platform": "NPM",
+      "requirements": "6.6.1",
+      "latest_stable": "6.10.2",
+      "latest": "6.10.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-react",
+      "name": "eslint-plugin-react",
+      "platform": "NPM",
+      "requirements": "7.31.11",
+      "latest_stable": "7.37.3",
+      "latest": "7.37.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-react-hooks",
+      "name": "eslint-plugin-react-hooks",
+      "platform": "NPM",
+      "requirements": "4.6.0",
+      "latest_stable": "5.1.0",
+      "latest": "0.0.0-experimental-540efebc-20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "file-loader",
+      "name": "file-loader",
+      "platform": "NPM",
+      "requirements": "^6.2.0",
+      "latest_stable": "6.2.0",
+      "latest": "6.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "html-webpack-plugin",
+      "name": "html-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "^5.5.0",
+      "latest_stable": "5.6.3",
+      "latest": "5.6.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mini-css-extract-plugin",
+      "name": "mini-css-extract-plugin",
+      "platform": "NPM",
+      "requirements": "^2.7.2",
+      "latest_stable": "2.9.2",
+      "latest": "2.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^2.8.4",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react",
+      "name": "react",
+      "platform": "NPM",
+      "requirements": "^18.2.0",
+      "latest_stable": "19.0.0",
+      "latest": "0.0.0-experimental-540efebc-20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react-dom",
+      "name": "react-dom",
+      "platform": "NPM",
+      "requirements": "^18.2.0",
+      "latest_stable": "19.0.0",
+      "latest": "0.0.0-experimental-540efebc-20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react-router-dom",
+      "name": "react-router-dom",
+      "platform": "NPM",
+      "requirements": "^6.8.1",
+      "latest_stable": "7.1.1",
+      "latest": "0.0.0-experimental-7a19e47ea",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react-transition-group",
+      "name": "react-transition-group",
+      "platform": "NPM",
+      "requirements": "^4.4.5",
+      "latest_stable": "4.4.5",
+      "latest": "4.4.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "socket.io-client",
+      "name": "socket.io-client",
+      "platform": "NPM",
+      "requirements": "^4.6.1",
+      "latest_stable": "4.8.1",
+      "latest": "4.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "terser-webpack-plugin",
+      "name": "terser-webpack-plugin",
+      "platform": "NPM",
+      "requirements": "^5.3.6",
+      "latest_stable": "5.3.11",
+      "latest": "5.3.11",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack",
+      "name": "webpack",
+      "platform": "NPM",
+      "requirements": "^5.75.0",
+      "latest_stable": "5.97.1",
+      "latest": "5.97.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack-cli",
+      "name": "webpack-cli",
+      "platform": "NPM",
+      "requirements": "^5.0.1",
+      "latest_stable": "6.0.1",
+      "latest": "6.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack-dev-middleware",
+      "name": "webpack-dev-middleware",
+      "platform": "NPM",
+      "requirements": "^6.0.1",
+      "latest_stable": "7.4.2",
+      "latest": "7.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack-dev-server",
+      "name": "webpack-dev-server",
+      "platform": "NPM",
+      "requirements": "^4.11.1",
+      "latest_stable": "5.2.0",
+      "latest": "5.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "webpack-merge",
+      "name": "webpack-merge",
+      "platform": "NPM",
+      "requirements": "^5.8.0",
+      "latest_stable": "6.0.1",
+      "latest": "6.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

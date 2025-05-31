@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2878",
+  "summary": "Malicious code in poc-test-package (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:56:09Z",
+  "published": "2024-06-25T12:56:09Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:56:09Z",
+        "import_time": "2024-06-28T02:44:26.874992798Z",
+        "versions": [
+          "99.9.9"
+        ],
+        "id": "RLMA-2024-01599",
+        "source": "reversing-labs",
+        "sha256": "3d6bbb16afb37301fbb66b454be76eec12108f48307a11de9c19017405910378"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "poc-test-package",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/poc-test-package"
+      },
+      "versions": [
+        "99.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/poc-test-package/MAL-2024-2878.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

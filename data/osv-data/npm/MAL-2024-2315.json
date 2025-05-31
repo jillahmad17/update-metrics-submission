@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2315",
+  "summary": "Malicious code in @hkbn/es-header-footer (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:10Z",
+  "published": "2024-06-25T12:20:10Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "d43096b51d3853e2e858402233312ef992c8181142c4b782c4552bf24eae1cee",
+        "import_time": "2024-06-28T02:41:23.62637717Z",
+        "versions": [
+          "7.1.7",
+          "7.1.4",
+          "7.1.6",
+          "7.1.5"
+        ],
+        "id": "RLMA-2024-00091",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:10Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@hkbn/es-header-footer",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40hkbn/es-header-footer"
+      },
+      "versions": [
+        "7.1.7",
+        "7.1.4",
+        "7.1.6",
+        "7.1.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@hkbn/es-header-footer/MAL-2024-2315.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

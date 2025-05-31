@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-8814",
+  "summary": "Malicious code in yieoure (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (38f176ea13b2f71d0abec94a832a04bd1b6eaf649327498706c32b92c616ee7f)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-3x27-x225-p7cx"
+  ],
+  "modified": "2024-09-05T00:42:32.191158Z",
+  "published": "2024-09-04T09:08:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-04T09:08:29Z",
+        "import_time": "2024-09-05T00:29:56.648505349Z",
+        "id": "GHSA-3x27-x225-p7cx",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "38f176ea13b2f71d0abec94a832a04bd1b6eaf649327498706c32b92c616ee7f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-3x27-x225-p7cx"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "yieoure",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/yieoure"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/yieoure/MAL-2024-8814.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

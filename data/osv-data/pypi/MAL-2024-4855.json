@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-4855",
+  "summary": "Malicious code in capmonstercloudclieent (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-CAPMONSTERCLOUDCLIEENT-6513338"
+  ],
+  "modified": "2024-06-28T03:14:47.784395Z",
+  "published": "2024-06-25T13:33:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:07Z",
+        "import_time": "2024-06-28T02:48:26.055837041Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03635",
+        "source": "reversing-labs",
+        "sha256": "a39c8067d3ea6bb666b3459ed284c2a434b255eadc6abb06a14e92b450fb6d05"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-CAPMONSTERCLOUDCLIEENT-6513338"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "capmonstercloudclieent",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/capmonstercloudclieent"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/capmonstercloudclieent/MAL-2024-4855.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

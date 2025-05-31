@@ -1,0 +1,69 @@
+{
+  "id": "MAL-2024-5849",
+  "summary": "Malicious code in randgenlib (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-RANDGENLIB-5932261"
+  ],
+  "modified": "2024-06-28T03:15:12.541714Z",
+  "published": "2024-06-25T13:41:18Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:18Z",
+        "import_time": "2024-06-28T02:50:25.277440582Z",
+        "versions": [
+          "1.0.4",
+          "1.0.2",
+          "1.0.3",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04650",
+        "source": "reversing-labs",
+        "sha256": "bc4439371727b3cb914f4094d0dec9d0858e662b521e0145f880615e3983f4d3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-RANDGENLIB-5932261"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "randgenlib",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/randgenlib"
+      },
+      "versions": [
+        "1.0.4",
+        "1.0.2",
+        "1.0.3",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/randgenlib/MAL-2024-5849.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

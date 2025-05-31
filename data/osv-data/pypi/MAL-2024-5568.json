@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5568",
+  "summary": "Malicious code in proxies-booster-v1 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:38:52Z",
+  "published": "2024-06-25T13:38:52Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:52Z",
+        "import_time": "2024-06-28T02:49:50.063708792Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04350",
+        "source": "reversing-labs",
+        "sha256": "9e2789cef4c6f4720254ea4286c840b7bbc2e774e30ab4be9da7b0c814959373"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "proxies-booster-v1",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/proxies-booster-v1"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/proxies-booster-v1/MAL-2024-5568.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

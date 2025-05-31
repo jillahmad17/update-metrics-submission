@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-7081",
+  "summary": "Malicious code in @realty-front/eslint-plugin (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-REALTYFRONTESLINTPLUGIN-3326435"
+  ],
+  "modified": "2024-07-02T03:29:30.858277Z",
+  "published": "2024-06-25T12:22:08Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:22:08Z",
+        "import_time": "2024-07-02T00:26:36.737485Z",
+        "versions": [
+          "1.13.1",
+          "1.0.1",
+          "1.13.2",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-00183",
+        "source": "reversing-labs",
+        "sha256": "f6f2bcbd4e27b95b7d6e6761d40db35ebaf0e6d5fbd36575f0c7432a62816d41"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-REALTYFRONTESLINTPLUGIN-3326435"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@realty-front/eslint-plugin",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40realty-front/eslint-plugin"
+      },
+      "versions": [
+        "1.13.1",
+        "1.0.1",
+        "1.13.2",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@realty-front/eslint-plugin/MAL-2024-7081.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

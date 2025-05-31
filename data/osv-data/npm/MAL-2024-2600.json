@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2600",
+  "summary": "Malicious code in @lbank/lbank-ui (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:45Z",
+  "published": "2024-06-25T12:20:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "c98ec297dc97db2a2e87062dedd830485f90db4e8376de7c0eb9d3ee815f0ac8",
+        "import_time": "2024-06-28T02:41:27.093352881Z",
+        "versions": [
+          "3000.0.0"
+        ],
+        "id": "RLMA-2024-00119",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:45Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@lbank/lbank-ui",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40lbank/lbank-ui"
+      },
+      "versions": [
+        "3000.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@lbank/lbank-ui/MAL-2024-2600.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-2473",
+  "summary": "Malicious code in hermione-login-plugin (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-HERMIONELOGINPLUGIN-3336145"
+  ],
+  "modified": "2024-06-28T03:14:36.174490Z",
+  "published": "2024-06-25T12:45:36Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:45:36Z",
+        "import_time": "2024-06-28T02:43:29.651508246Z",
+        "versions": [
+          "0.12.9",
+          "0.1.8",
+          "1.4.5",
+          "0.1.7",
+          "0.12.8",
+          "1.4.6"
+        ],
+        "id": "RLMA-2024-01136",
+        "source": "reversing-labs",
+        "sha256": "ba62c41bbf4e86a2b77322ba591909771507a984a05d3fafd5bbe2e0f205ce2d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-HERMIONELOGINPLUGIN-3336145"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "hermione-login-plugin",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/hermione-login-plugin"
+      },
+      "versions": [
+        "0.12.9",
+        "0.1.8",
+        "1.4.5",
+        "0.1.7",
+        "0.12.8",
+        "1.4.6"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/hermione-login-plugin/MAL-2024-2473.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

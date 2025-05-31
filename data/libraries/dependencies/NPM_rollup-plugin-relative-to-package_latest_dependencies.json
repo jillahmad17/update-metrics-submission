@@ -1,0 +1,399 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 1,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 7,
+  "dependents_count": 8,
+  "deprecation_reason": null,
+  "description": "Converts unit tests using relative imports (e.g. '../src/module.js') to use package imports (e.g. '<package-name>', to support package testing.",
+  "forks": 0,
+  "funding_urls": [],
+  "homepage": "https://github.com/toolbuilder/rollup-plugin-relative-to-package#readme",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "packfile",
+    "dual-module",
+    "module",
+    "plugins",
+    "rollup-plugins"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/rollup-plugin-relative-to-package/-/rollup-plugin-relative-to-package-1.0.3.tgz",
+  "latest_release_number": "1.0.3",
+  "latest_release_published_at": "2024-11-06T22:53:49.679Z",
+  "latest_stable_release_number": "1.0.3",
+  "latest_stable_release_published_at": "2024-11-06T22:53:49.679Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "rollup-plugin-relative-to-package",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/rollup-plugin-relative-to-package",
+  "platform": "NPM",
+  "rank": 11,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/toolbuilder/rollup-plugin-relative-to-package",
+  "security_policy_url": null,
+  "stars": 0,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2020-05-21T19:38:05.628Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2020-05-24T02:11:43.913Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2020-06-29T02:07:29.107Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.3",
+      "published_at": "2020-07-20T22:01:45.403Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.4",
+      "published_at": "2021-07-19T17:27:10.886Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2023-08-02T21:51:13.278Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2023-08-04T17:48:16.258Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.3",
+      "published_at": "2024-11-06T22:53:49.679Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.0.3",
+  "dependencies": [
+    {
+      "project_name": "pkg-dir",
+      "name": "pkg-dir",
+      "platform": "NPM",
+      "requirements": "5.0.0",
+      "latest_stable": "8.0.0",
+      "latest": "8.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@toolbuilder/package-json-lint-config",
+      "name": "@toolbuilder/package-json-lint-config",
+      "platform": "NPM",
+      "requirements": "^0.1.1",
+      "latest_stable": "0.1.1",
+      "latest": "0.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@toolbuilder/rollup-plugin-commands",
+      "name": "@toolbuilder/rollup-plugin-commands",
+      "platform": "NPM",
+      "requirements": "^0.1.5",
+      "latest_stable": "0.1.6",
+      "latest": "0.1.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@toolbuilder/rollup-plugin-create-pack-file",
+      "name": "@toolbuilder/rollup-plugin-create-pack-file",
+      "platform": "NPM",
+      "requirements": "^0.1.6",
+      "latest_stable": "0.1.7",
+      "latest": "0.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "date-fns",
+      "name": "date-fns",
+      "platform": "NPM",
+      "requirements": "^4.1.0",
+      "latest_stable": "4.1.0",
+      "latest": "4.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^9.14.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fs-extra",
+      "name": "fs-extra",
+      "platform": "NPM",
+      "requirements": "^11.2.0",
+      "latest_stable": "11.2.0",
+      "latest": "11.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "glob",
+      "name": "glob",
+      "platform": "NPM",
+      "requirements": "^11.0.0",
+      "latest_stable": "11.0.1",
+      "latest": "11.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "npm-package-json-lint",
+      "name": "npm-package-json-lint",
+      "platform": "NPM",
+      "requirements": "^7.1.0",
+      "latest_stable": "8.0.0",
+      "latest": "8.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "npm-run-all",
+      "name": "npm-run-all",
+      "platform": "NPM",
+      "requirements": "^4.1.5",
+      "latest_stable": "4.1.5",
+      "latest": "4.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pta",
+      "name": "pta",
+      "platform": "NPM",
+      "requirements": "^1.3.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup",
+      "name": "rollup",
+      "platform": "NPM",
+      "requirements": "^4.24.4",
+      "latest_stable": "4.30.1",
+      "latest": "4.30.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-create-test-package-json",
+      "name": "rollup-plugin-create-test-package-json",
+      "platform": "NPM",
+      "requirements": "^1.1.1",
+      "latest_stable": "1.1.2",
+      "latest": "1.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "standard",
+      "name": "standard",
+      "platform": "NPM",
+      "requirements": "^17.1.2",
+      "latest_stable": "17.1.2",
+      "latest": "17.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "standard-version",
+      "name": "standard-version",
+      "platform": "NPM",
+      "requirements": "^9.5.0",
+      "latest_stable": "9.5.0",
+      "latest": "9.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "uncommitted",
+      "name": "uncommitted",
+      "platform": "NPM",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "zora",
+      "name": "zora",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

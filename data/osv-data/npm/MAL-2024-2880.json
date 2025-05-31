@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-2880",
+  "summary": "Malicious code in port-common (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-PORTCOMMON-6146028"
+  ],
+  "modified": "2024-06-28T03:14:38.487073Z",
+  "published": "2024-06-25T12:56:19Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:56:19Z",
+        "import_time": "2024-06-28T02:44:27.329463031Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01603",
+        "source": "reversing-labs",
+        "sha256": "0509702c667889e9b8bbbb9db52b7795e8be4780a7a19f17ff4834a8d13aa359"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/update-to-novembers-crypto-themed-npm-attack/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-PORTCOMMON-6146028"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "port-common",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/port-common"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/port-common/MAL-2024-2880.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5943",
+  "summary": "Malicious code in rhermann (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:02Z",
+  "published": "2024-06-25T13:42:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:02Z",
+        "import_time": "2024-06-28T02:50:36.858556844Z",
+        "versions": [
+          "99.0"
+        ],
+        "id": "RLMA-2024-04744",
+        "source": "reversing-labs",
+        "sha256": "8c763ae79d8e95995a1fcb5f37bde3be7d882c08c012b5d0c59be53464fe087b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "rhermann",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/rhermann"
+      },
+      "versions": [
+        "99.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/rhermann/MAL-2024-5943.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

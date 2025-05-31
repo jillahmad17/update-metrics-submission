@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2373",
+  "summary": "Malicious code in firefly-shared-ts (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:43:06Z",
+  "published": "2024-06-25T12:43:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:43:06Z",
+        "import_time": "2024-06-28T02:43:16.725753088Z",
+        "versions": [
+          "11.0.28"
+        ],
+        "id": "RLMA-2024-01027",
+        "source": "reversing-labs",
+        "sha256": "22b935a54877facc3eb94a12db33c666f18b5f756457496929196b8e3c443ea5"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "firefly-shared-ts",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/firefly-shared-ts"
+      },
+      "versions": [
+        "11.0.28"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/firefly-shared-ts/MAL-2024-2373.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

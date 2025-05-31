@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-2818",
+  "summary": "Malicious code in @ozon-shared-deps/ozon-fe__media-player-standard (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:21:41Z",
+  "published": "2024-06-25T12:21:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "836e49f18377b64680222a7a6eb795d581c4ef279c54bc730b4a2861ce5d155b",
+        "import_time": "2024-06-28T02:41:31.91870416Z",
+        "versions": [
+          "0.0.80",
+          "0.0.56"
+        ],
+        "id": "RLMA-2024-00161",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:21:41Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@ozon-shared-deps/ozon-fe__media-player-standard",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40ozon-shared-deps/ozon-fe__media-player-standard"
+      },
+      "versions": [
+        "0.0.80",
+        "0.0.56"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@ozon-shared-deps/ozon-fe__media-player-standard/MAL-2024-2818.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

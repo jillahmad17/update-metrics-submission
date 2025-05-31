@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5830",
+  "summary": "Malicious code in pytimed (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:07Z",
+  "published": "2024-06-25T13:41:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:07Z",
+        "import_time": "2024-06-28T02:50:22.753154324Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04628",
+        "source": "reversing-labs",
+        "sha256": "d48e44d820a38e497f759c0e601dbb6b3ddbf8b1b8822062e6ac45efdb20e641"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pytimed",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pytimed"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pytimed/MAL-2024-5830.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

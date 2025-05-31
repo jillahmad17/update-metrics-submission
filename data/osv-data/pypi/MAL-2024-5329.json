@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5329",
+  "summary": "Malicious code in lindze (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-LINDZE-5885046"
+  ],
+  "modified": "2024-06-28T03:14:55.793484Z",
+  "published": "2024-06-25T13:36:58Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:58Z",
+        "import_time": "2024-06-28T02:49:22.057999211Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04111",
+        "source": "reversing-labs",
+        "sha256": "9e595d67eb850e631d30b1e39502a0e7ff9a51bb9e6a363ceefab39b53f58ec3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-LINDZE-5885046"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "lindze",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/lindze"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/lindze/MAL-2024-5329.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

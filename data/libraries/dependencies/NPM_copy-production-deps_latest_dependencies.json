@@ -1,0 +1,537 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 3,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "Create production node_modules from Npm/Yarn workspace",
+  "forks": 0,
+  "funding_urls": [],
+  "homepage": "https://github.com/zbigg/copy-production-deps#readme",
+  "keywords": [
+    "dependencies",
+    "nodejs",
+    "yarn-workspaces"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/copy-production-deps/-/copy-production-deps-0.2.2.tgz",
+  "latest_release_number": "0.2.2",
+  "latest_release_published_at": "2024-01-02T10:26:08.835Z",
+  "latest_stable_release_number": "0.2.2",
+  "latest_stable_release_published_at": "2024-01-02T10:26:08.835Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "copy-production-deps",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/copy-production-deps",
+  "platform": "NPM",
+  "rank": 8,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/zbigg/copy-production-deps",
+  "security_policy_url": null,
+  "stars": 4,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.1",
+      "published_at": "2020-03-25T22:14:45.959Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2020-03-26T10:18:06.187Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.3",
+      "published_at": "2020-03-26T16:19:21.766Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.4",
+      "published_at": "2020-05-22T12:49:23.979Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.5",
+      "published_at": "2020-07-22T08:20:12.130Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.6",
+      "published_at": "2020-07-22T13:04:49.189Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.7",
+      "published_at": "2020-07-22T14:14:05.606Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.8",
+      "published_at": "2020-09-04T10:48:27.771Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2021-11-22T15:59:19.479Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.1",
+      "published_at": "2022-02-16T09:52:08.281Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.2",
+      "published_at": "2024-01-02T10:26:08.835Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.2.2",
+  "dependencies": [
+    {
+      "project_name": "debug",
+      "name": "debug",
+      "platform": "NPM",
+      "requirements": "^4.1.1",
+      "latest_stable": "4.4.0",
+      "latest": "4.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fs-extra",
+      "name": "fs-extra",
+      "platform": "NPM",
+      "requirements": "^10.0.0",
+      "latest_stable": "11.2.0",
+      "latest": "11.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lodash",
+      "name": "lodash",
+      "platform": "NPM",
+      "requirements": "^4.17.19",
+      "latest_stable": "4.17.21",
+      "latest": "4.17.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "minimatch",
+      "name": "minimatch",
+      "platform": "NPM",
+      "requirements": "^3.1.2",
+      "latest_stable": "10.0.1",
+      "latest": "10.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "semver",
+      "name": "semver",
+      "platform": "NPM",
+      "requirements": "^7.1.3",
+      "latest_stable": "7.6.3",
+      "latest": "7.6.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "yargs",
+      "name": "yargs",
+      "platform": "NPM",
+      "requirements": "^17.2.1",
+      "latest_stable": "17.7.2",
+      "latest": "17.7.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/chai",
+      "name": "@types/chai",
+      "platform": "NPM",
+      "requirements": "^4.2.11",
+      "latest_stable": "5.0.1",
+      "latest": "5.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/debug",
+      "name": "@types/debug",
+      "platform": "NPM",
+      "requirements": "^4.1.5",
+      "latest_stable": "4.1.12",
+      "latest": "4.1.12",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/fs-extra",
+      "name": "@types/fs-extra",
+      "platform": "NPM",
+      "requirements": "^9.0.1",
+      "latest_stable": "4.0.15",
+      "latest": "4.0.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/lodash",
+      "name": "@types/lodash",
+      "platform": "NPM",
+      "requirements": "^4.14.149",
+      "latest_stable": "4.17.14",
+      "latest": "4.17.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/minimatch",
+      "name": "@types/minimatch",
+      "platform": "NPM",
+      "requirements": "^3.0.3",
+      "latest_stable": "5.1.2",
+      "latest": "5.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/mocha",
+      "name": "@types/mocha",
+      "platform": "NPM",
+      "requirements": "^10.0.1",
+      "latest_stable": "10.0.10",
+      "latest": "10.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/mock-fs",
+      "name": "@types/mock-fs",
+      "platform": "NPM",
+      "requirements": "^4.10.0",
+      "latest_stable": "4.13.4",
+      "latest": "4.13.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^18.11.18",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/semver",
+      "name": "@types/semver",
+      "platform": "NPM",
+      "requirements": "^7.1.0",
+      "latest_stable": "7.5.8",
+      "latest": "7.5.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/yargs",
+      "name": "@types/yargs",
+      "platform": "NPM",
+      "requirements": "^17.0.7",
+      "latest_stable": "17.0.33",
+      "latest": "17.0.33",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chai",
+      "name": "chai",
+      "platform": "NPM",
+      "requirements": "^4.2.0",
+      "latest_stable": "5.1.2",
+      "latest": "5.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "codecov",
+      "name": "codecov",
+      "platform": "NPM",
+      "requirements": "^3.7.2",
+      "latest_stable": "3.8.3",
+      "latest": "3.8.3",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mocha",
+      "name": "mocha",
+      "platform": "NPM",
+      "requirements": "^10.2.0",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mock-fs",
+      "name": "mock-fs",
+      "platform": "NPM",
+      "requirements": "^5.2.0",
+      "latest_stable": "5.4.1",
+      "latest": "5.4.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nyc",
+      "name": "nyc",
+      "platform": "NPM",
+      "requirements": "^15.1.0",
+      "latest_stable": "17.1.0",
+      "latest": "17.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^2.0.5",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-node",
+      "name": "ts-node",
+      "platform": "NPM",
+      "requirements": "^10.9.2",
+      "latest_stable": "10.9.2",
+      "latest": "10.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.0.4",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

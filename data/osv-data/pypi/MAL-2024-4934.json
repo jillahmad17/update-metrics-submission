@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-4934",
+  "summary": "Malicious code in coloramu (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-COLORAMU-6513694"
+  ],
+  "modified": "2024-06-28T03:14:50.791639Z",
+  "published": "2024-06-25T13:33:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:45Z",
+        "import_time": "2024-06-28T02:48:35.182676724Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03714",
+        "source": "reversing-labs",
+        "sha256": "e341c8a6890795cc05b6b90ee634b4edf7b89683acd97d34e4a38afe436da240"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-COLORAMU-6513694"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "coloramu",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/coloramu"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/coloramu/MAL-2024-4934.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

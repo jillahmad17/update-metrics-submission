@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-5685",
+  "summary": "Malicious code in pycryptlibraryv3 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:39:49Z",
+  "published": "2024-06-25T13:39:49Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:49Z",
+        "import_time": "2024-06-28T02:50:03.771280141Z",
+        "versions": [
+          "0.6"
+        ],
+        "id": "RLMA-2024-04468",
+        "source": "reversing-labs",
+        "sha256": "5ae704acf4a074ba9192990c19fe61b94dd75c7743fc50afaca951ec577b8ea4"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pycryptlibraryv3",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pycryptlibraryv3"
+      },
+      "versions": [
+        "0.6"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pycryptlibraryv3/MAL-2024-5685.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

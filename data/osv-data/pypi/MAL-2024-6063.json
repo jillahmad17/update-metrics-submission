@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-6063",
+  "summary": "Malicious code in sysargvsox (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:43:00Z",
+  "published": "2024-06-25T13:43:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:00Z",
+        "import_time": "2024-06-28T02:50:51.775957843Z",
+        "versions": [
+          "1.1.1"
+        ],
+        "id": "RLMA-2024-04866",
+        "source": "reversing-labs",
+        "sha256": "add66428146ddb8c403cd7edd64e2e49087c5a536f448cb062a082c1f626eaa3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sysargvsox",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/sysargvsox"
+      },
+      "versions": [
+        "1.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sysargvsox/MAL-2024-6063.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

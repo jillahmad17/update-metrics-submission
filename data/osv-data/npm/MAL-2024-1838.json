@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-1838",
+  "summary": "Malicious code in branch-to-cmsg (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-BRANCHTOCMSG-3336151"
+  ],
+  "modified": "2024-06-28T03:14:32.007554Z",
+  "published": "2024-06-25T12:30:08Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:30:08Z",
+        "import_time": "2024-06-28T02:42:05.594787742Z",
+        "versions": [
+          "1.7.7",
+          "1.7.8",
+          "1.0.12",
+          "2.5.1",
+          "1.0.13"
+        ],
+        "id": "RLMA-2024-00435",
+        "source": "reversing-labs",
+        "sha256": "5c513f761de5005d02e404fd83c0cd7bf2dc8d3b07c660f766b056c6bd4694e0"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-BRANCHTOCMSG-3336151"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "branch-to-cmsg",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/branch-to-cmsg"
+      },
+      "versions": [
+        "1.7.7",
+        "1.7.8",
+        "1.0.12",
+        "2.5.1",
+        "1.0.13"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/branch-to-cmsg/MAL-2024-1838.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

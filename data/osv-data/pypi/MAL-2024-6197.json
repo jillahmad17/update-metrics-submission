@@ -1,0 +1,60 @@
+{
+  "id": "MAL-2024-6197",
+  "summary": "Malicious code in wdrags (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:44:02Z",
+  "published": "2024-06-25T13:44:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:44:02Z",
+        "import_time": "2024-06-28T02:51:08.236976643Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-05001",
+        "source": "reversing-labs",
+        "sha256": "0b0265935b7ea591496b8ef042d320aba85e0a714665961491fe80fe952bf24d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "wdrags",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/wdrags"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/wdrags/MAL-2024-6197.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

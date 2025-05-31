@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2529",
+  "summary": "Malicious code in internal-logger (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:47:05Z",
+  "published": "2024-06-25T12:47:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:47:05Z",
+        "import_time": "2024-06-28T02:43:37.504050203Z",
+        "versions": [
+          "2.9.0"
+        ],
+        "id": "RLMA-2024-01199",
+        "source": "reversing-labs",
+        "sha256": "acaff202b6f515427d2b85028015a400d2b89ec1508398faf5f42c5b1ee98747"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "internal-logger",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/internal-logger"
+      },
+      "versions": [
+        "2.9.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/internal-logger/MAL-2024-2529.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

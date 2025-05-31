@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3152",
+  "summary": "Malicious code in trace-util (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:04:39Z",
+  "published": "2024-06-25T13:04:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:04:39Z",
+        "import_time": "2024-06-28T02:45:03.615860908Z",
+        "versions": [
+          "2.3.20"
+        ],
+        "id": "RLMA-2024-01910",
+        "source": "reversing-labs",
+        "sha256": "4adb738b9fcdec25bef427a2f780cee3dfa4e94e847c4d18063a1cdefb733203"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "trace-util",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/trace-util"
+      },
+      "versions": [
+        "2.3.20"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/trace-util/MAL-2024-3152.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

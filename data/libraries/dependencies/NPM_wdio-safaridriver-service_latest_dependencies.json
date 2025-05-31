@@ -1,0 +1,603 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 4,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 7,
+  "deprecation_reason": null,
+  "description": "WebdriverIO service to start & stop Safaridriver",
+  "forks": 2,
+  "funding_urls": [],
+  "homepage": "https://github.com/webdriverio-community/wdio-safaridriver-service#readme",
+  "keywords": [
+    "wdio",
+    "wdio-service",
+    "safaridriver",
+    "webdriverio",
+    "webdriver",
+    "safari",
+    "wdio-plugin"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/wdio-safaridriver-service/-/wdio-safaridriver-service-2.1.1.tgz",
+  "latest_release_number": "2.1.1",
+  "latest_release_published_at": "2023-07-17T04:18:42.038Z",
+  "latest_stable_release_number": "2.1.1",
+  "latest_stable_release_published_at": "2023-07-17T04:18:42.038Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "wdio-safaridriver-service",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/wdio-safaridriver-service",
+  "platform": "NPM",
+  "rank": 13,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/webdriverio-community/wdio-safaridriver-service",
+  "security_policy_url": null,
+  "stars": 4,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.1",
+      "published_at": "2020-03-18T08:32:57.797Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2022-03-24T00:35:12.041Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2022-06-27T20:02:13.551Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2022-10-01T19:45:22.659Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.1.0",
+      "published_at": "2023-02-16T03:40:23.185Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.1.1",
+      "published_at": "2023-07-17T04:18:42.038Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "2.1.1",
+  "dependencies": [
+    {
+      "project_name": "@types/split2",
+      "name": "@types/split2",
+      "platform": "NPM",
+      "requirements": "^4.2.0",
+      "latest_stable": "4.2.3",
+      "latest": "4.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/tcp-port-used",
+      "name": "@types/tcp-port-used",
+      "platform": "NPM",
+      "requirements": "^1.0.1",
+      "latest_stable": "1.0.4",
+      "latest": "1.0.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/logger",
+      "name": "@wdio/logger",
+      "platform": "NPM",
+      "requirements": "^8.11.0",
+      "latest_stable": "9.4.4",
+      "latest": "9.4.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fs-extra",
+      "name": "fs-extra",
+      "platform": "NPM",
+      "requirements": "^11.1.1",
+      "latest_stable": "11.2.0",
+      "latest": "11.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "safaridriver",
+      "name": "safaridriver",
+      "platform": "NPM",
+      "requirements": "^0.0.6",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "split2",
+      "name": "split2",
+      "platform": "NPM",
+      "requirements": "^4.2.0",
+      "latest_stable": "4.2.0",
+      "latest": "4.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "tcp-port-used",
+      "name": "tcp-port-used",
+      "platform": "NPM",
+      "requirements": "^1.0.2",
+      "latest_stable": "1.0.2",
+      "latest": "1.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/fs-extra",
+      "name": "@types/fs-extra",
+      "platform": "NPM",
+      "requirements": "^11.0.1",
+      "latest_stable": "4.0.15",
+      "latest": "4.0.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/mocha",
+      "name": "@types/mocha",
+      "platform": "NPM",
+      "requirements": "^10.0.1",
+      "latest_stable": "10.0.10",
+      "latest": "10.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^20.4.2",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/eslint-plugin",
+      "name": "@typescript-eslint/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/cli",
+      "name": "@wdio/cli",
+      "platform": "NPM",
+      "requirements": "^8.13.1",
+      "latest_stable": "9.5.7",
+      "latest": "9.5.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/local-runner",
+      "name": "@wdio/local-runner",
+      "platform": "NPM",
+      "requirements": "^8.13.1",
+      "latest_stable": "9.5.7",
+      "latest": "9.5.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/mocha-framework",
+      "name": "@wdio/mocha-framework",
+      "platform": "NPM",
+      "requirements": "^8.12.1",
+      "latest_stable": "9.5.0",
+      "latest": "9.5.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/spec-reporter",
+      "name": "@wdio/spec-reporter",
+      "platform": "NPM",
+      "requirements": "^8.12.2",
+      "latest_stable": "9.5.0",
+      "latest": "9.5.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wdio/types",
+      "name": "@wdio/types",
+      "platform": "NPM",
+      "requirements": "^8.10.4",
+      "latest_stable": "9.5.0",
+      "latest": "9.5.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.45.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-airbnb-base",
+      "name": "eslint-config-airbnb-base",
+      "platform": "NPM",
+      "requirements": "^15.0.0",
+      "latest_stable": "15.0.0",
+      "latest": "15.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-airbnb-base-typescript",
+      "name": "eslint-config-airbnb-base-typescript",
+      "platform": "NPM",
+      "requirements": "^1.1.0",
+      "latest_stable": "1.1.0",
+      "latest": "1.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-import-resolver-typescript",
+      "name": "eslint-import-resolver-typescript",
+      "platform": "NPM",
+      "requirements": "^3.5.5",
+      "latest_stable": "3.7.0",
+      "latest": "3.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "^2.27.5",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-node",
+      "name": "eslint-plugin-node",
+      "platform": "NPM",
+      "requirements": "^11.1.0",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-promise",
+      "name": "eslint-plugin-promise",
+      "platform": "NPM",
+      "requirements": "^6.1.1",
+      "latest_stable": "7.2.1",
+      "latest": "7.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-wdio",
+      "name": "eslint-plugin-wdio",
+      "platform": "NPM",
+      "requirements": "^8.8.7",
+      "latest_stable": "9.4.4",
+      "latest": "9.4.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "husky",
+      "name": "husky",
+      "platform": "NPM",
+      "requirements": "^8.0.3",
+      "latest_stable": "9.1.7",
+      "latest": "9.1.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "npm-run-all",
+      "name": "npm-run-all",
+      "platform": "NPM",
+      "requirements": "^4.1.5",
+      "latest_stable": "4.1.5",
+      "latest": "4.1.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "release-it",
+      "name": "release-it",
+      "platform": "NPM",
+      "requirements": "^16.1.2",
+      "latest_stable": "18.1.1",
+      "latest": "18.1.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^5.0.1",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "ts-node",
+      "name": "ts-node",
+      "platform": "NPM",
+      "requirements": "^10.9.1",
+      "latest_stable": "10.9.2",
+      "latest": "10.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.1.6",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

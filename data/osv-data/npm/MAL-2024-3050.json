@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3050",
+  "summary": "Malicious code in @mosfe/sso-sdk (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:21:14Z",
+  "published": "2024-06-25T12:21:14Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "5325b9af22bae19e20379bd6564b0cec9d3f90dc26e35a187b2b04edafe286ae",
+        "import_time": "2024-06-28T02:41:29.801246992Z",
+        "versions": [
+          "0.0.6"
+        ],
+        "id": "RLMA-2024-00142",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:21:14Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@mosfe/sso-sdk",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40mosfe/sso-sdk"
+      },
+      "versions": [
+        "0.0.6"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@mosfe/sso-sdk/MAL-2024-3050.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

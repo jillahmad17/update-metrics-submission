@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-5850",
+  "summary": "Malicious code in raspberry-getinfo (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:19Z",
+  "published": "2024-06-25T13:41:19Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:19Z",
+        "import_time": "2024-06-28T02:50:25.387256906Z",
+        "versions": [
+          "0.0.8",
+          "0.0.7"
+        ],
+        "id": "RLMA-2024-04651",
+        "source": "reversing-labs",
+        "sha256": "b59bceb078ab8cc5f9abd66d3ddbb2e6bf58eb95e92019ac3a5dbdc6d670bd96"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "raspberry-getinfo",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/raspberry-getinfo"
+      },
+      "versions": [
+        "0.0.8",
+        "0.0.7"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/raspberry-getinfo/MAL-2024-5850.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

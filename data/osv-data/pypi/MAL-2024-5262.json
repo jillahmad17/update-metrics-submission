@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5262",
+  "summary": "Malicious code in initializers (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:25Z",
+  "published": "2024-06-25T13:36:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:25Z",
+        "import_time": "2024-06-28T02:49:13.965690237Z",
+        "versions": [
+          "0.0.1"
+        ],
+        "id": "RLMA-2024-04044",
+        "source": "reversing-labs",
+        "sha256": "7711c0a634ed69065c067769d0e066f8ba3a388d2ef8048f10c1ebb8848175ef"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "initializers",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/initializers"
+      },
+      "versions": [
+        "0.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/initializers/MAL-2024-5262.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2441",
+  "summary": "Malicious code in grunt-frontend-packager (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:44:50Z",
+  "published": "2024-06-25T12:44:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:44:50Z",
+        "import_time": "2024-06-28T02:43:25.968703585Z",
+        "versions": [
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-01104",
+        "source": "reversing-labs",
+        "sha256": "181e28069af1c23881f8bd42622b786fa551e4220cb47518e47f13a34539a730"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "grunt-frontend-packager",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/grunt-frontend-packager"
+      },
+      "versions": [
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/grunt-frontend-packager/MAL-2024-2441.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

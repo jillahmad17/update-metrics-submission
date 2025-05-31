@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5928",
+  "summary": "Malicious code in requriments (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-REQURIMENTS-6513555"
+  ],
+  "modified": "2024-06-28T03:15:15.035109Z",
+  "published": "2024-06-25T13:41:55Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:55Z",
+        "import_time": "2024-06-28T02:50:35.063448386Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04729",
+        "source": "reversing-labs",
+        "sha256": "4c08617a5321f68f47b4c0359e68eab08d6e0b26ea05cbba17b4dc74a934f971"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-REQURIMENTS-6513555"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "requriments",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requriments"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requriments/MAL-2024-5928.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

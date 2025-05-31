@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5371",
+  "summary": "Malicious code in mlp-data-product-producer (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:18Z",
+  "published": "2024-06-25T13:37:18Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:18Z",
+        "import_time": "2024-06-28T02:49:26.877586304Z",
+        "versions": [
+          "999.9.19",
+          "999.9.20",
+          "999.9.18",
+          "999.9.17"
+        ],
+        "id": "RLMA-2024-04153",
+        "source": "reversing-labs",
+        "sha256": "a484f7727f7342d6083d232f231295d4b941c369ed06c69aa40165760b593197"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "mlp-data-product-producer",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/mlp-data-product-producer"
+      },
+      "versions": [
+        "999.9.19",
+        "999.9.20",
+        "999.9.18",
+        "999.9.17"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/mlp-data-product-producer/MAL-2024-5371.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-4815",
+  "summary": "Malicious code in bip-utlils (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-BIPUTLILS-6513723"
+  ],
+  "modified": "2024-06-28T03:14:46.663185Z",
+  "published": "2024-06-25T13:32:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:48Z",
+        "import_time": "2024-06-28T02:48:21.430730294Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03595",
+        "source": "reversing-labs",
+        "sha256": "69bcf3e954a6901b770ecc80f2dfa79e22eb77bd2963a3f7cc6bda1d31761d52"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-BIPUTLILS-6513723"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "bip-utlils",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/bip-utlils"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/bip-utlils/MAL-2024-4815.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

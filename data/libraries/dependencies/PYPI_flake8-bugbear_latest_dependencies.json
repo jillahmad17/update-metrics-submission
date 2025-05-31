@@ -1,0 +1,908 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 88,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 505,
+  "dependents_count": 733,
+  "deprecation_reason": null,
+  "description": "A plugin for flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle.",
+  "forks": 109,
+  "funding_urls": [],
+  "homepage": "https://github.com/PyCQA/flake8-bugbear",
+  "keywords": [
+    "flake8",
+    "bugbear",
+    "bugs",
+    "pyflakes",
+    "pylint",
+    "linter",
+    "qa",
+    "code-quality",
+    "linter-flake8",
+    "linter-plugin"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "24.12.12",
+  "latest_release_published_at": "2024-12-12T16:49:23.000Z",
+  "latest_stable_release_number": "24.12.12",
+  "latest_stable_release_published_at": "2024-12-12T16:49:23.000Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "flake8-bugbear",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://pypi.org/project/flake8-bugbear/",
+  "platform": "Pypi",
+  "rank": 23,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/PyCQA/flake8-bugbear",
+  "security_policy_url": null,
+  "stars": 1066,
+  "status": null,
+  "versions": [
+    {
+      "number": "16.10.0",
+      "published_at": "2016-10-03T22:15:28.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.10.1",
+      "published_at": "2016-10-04T20:23:54.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.11.0",
+      "published_at": "2016-11-08T16:55:12.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.11.1",
+      "published_at": "2016-11-27T09:49:21.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.12.0",
+      "published_at": "2016-12-13T06:25:04.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.12.1",
+      "published_at": "2016-12-13T22:34:41.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.12.2",
+      "published_at": "2016-12-20T00:16:48.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.4.0",
+      "published_at": "2016-04-13T01:32:40.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.4.2",
+      "published_at": "2016-05-06T21:46:13.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.6.0",
+      "published_at": "2016-06-08T21:29:33.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.6.1",
+      "published_at": "2016-06-09T22:43:22.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.7.0",
+      "published_at": "2016-07-01T22:32:35.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.7.1",
+      "published_at": "2016-07-01T22:48:27.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "16.9.0",
+      "published_at": "2016-09-01T01:20:32.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "17.12.0",
+      "published_at": "2017-12-12T17:19:15.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "17.2.0",
+      "published_at": "2017-02-16T02:59:43.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "17.3.0",
+      "published_at": "2017-03-02T02:53:46.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "17.4.0",
+      "published_at": "2017-04-14T17:38:24.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "18.2.0",
+      "published_at": "2018-02-05T13:14:52.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "18.8.0",
+      "published_at": "2018-08-13T22:15:54.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "19.3.0",
+      "published_at": "2019-03-28T17:10:26.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "19.8.0",
+      "published_at": "2019-08-12T04:20:54.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.1.0",
+      "published_at": "2020-01-02T00:27:08.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.1.1",
+      "published_at": "2020-01-05T02:03:21.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.11.1",
+      "published_at": "2022-11-10T20:56:43.595Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.1.2",
+      "published_at": "2020-01-06T03:52:18.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.1.3",
+      "published_at": "2020-01-29T03:12:02.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "20.1.4",
+      "published_at": "2020-02-01T04:11:01.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.11.28",
+      "published_at": "2022-11-10T20:56:43.623Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.11.29",
+      "published_at": "2022-11-10T20:56:43.639Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.3.1",
+      "published_at": "2022-11-10T20:56:43.654Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.3.2",
+      "published_at": "2022-11-10T20:56:43.668Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.4.1",
+      "published_at": "2022-11-10T20:56:43.682Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.4.2",
+      "published_at": "2022-11-10T20:56:43.696Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.4.3",
+      "published_at": "2022-11-10T20:56:43.710Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.9.1",
+      "published_at": "2022-11-10T20:56:43.723Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "21.9.2",
+      "published_at": "2022-11-10T20:56:43.738Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.10.25",
+      "published_at": "2022-11-10T20:56:43.767Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.10.27",
+      "published_at": "2022-11-10T20:56:43.781Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.10.6",
+      "published_at": null,
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.1.11",
+      "published_at": "2022-11-10T20:56:43.752Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.12.6",
+      "published_at": "2022-12-06T19:07:50.328Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.3.20",
+      "published_at": "2022-11-10T20:56:43.794Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.3.23",
+      "published_at": "2022-11-10T20:56:43.807Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.4.25",
+      "published_at": "2022-11-10T20:56:43.822Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.6.22",
+      "published_at": "2022-11-10T20:56:43.836Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.7.1",
+      "published_at": "2022-11-10T20:56:43.855Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.8.22",
+      "published_at": "2022-11-10T20:56:43.870Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.8.23",
+      "published_at": "2022-11-10T20:56:43.883Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.9.11",
+      "published_at": "2022-11-10T20:56:43.896Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "22.9.23",
+      "published_at": "2022-11-10T20:56:43.910Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.11.26",
+      "published_at": "2023-11-27T03:57:04.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.11.28",
+      "published_at": "2023-11-29T05:10:42.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.1.14",
+      "published_at": "2023-01-14T12:00:47.661Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.1.17",
+      "published_at": "2023-01-18T00:41:00.691Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.1.20",
+      "published_at": "2023-01-20T21:20:01.679Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.12.2",
+      "published_at": "2023-12-02T22:59:15.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.2.13",
+      "published_at": "2023-02-13T18:10:05.834Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.3.12",
+      "published_at": "2023-03-12T21:30:44.251Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.3.23",
+      "published_at": "2023-03-23T14:48:01.895Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.5.9",
+      "published_at": "2023-05-10T00:00:02.878Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.6.5",
+      "published_at": "2023-06-05T16:21:02.322Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.7.10",
+      "published_at": "2023-07-10T16:30:53.438Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "23.9.16",
+      "published_at": "2023-09-16T20:26:29.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.10.31",
+      "published_at": "2024-10-31T20:47:59.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.1.15",
+      "published_at": "2024-01-15T23:39:59.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.1.16",
+      "published_at": "2024-01-16T14:19:57.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.1.17",
+      "published_at": "2024-01-17T15:53:23.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.12.12",
+      "published_at": "2024-12-12T16:49:23.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.2.6",
+      "published_at": "2024-02-07T04:25:21.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.4.21",
+      "published_at": "2024-04-21T15:52:35.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.4.26",
+      "published_at": "2024-04-26T14:51:12.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "24.8.19",
+      "published_at": "2024-08-20T02:16:01.000Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "24.8.19",
+  "dependencies": [
+    {
+      "project_name": "flake8",
+      "name": "flake8",
+      "platform": "Pypi",
+      "requirements": ">=6.0.0",
+      "latest_stable": "7.1.1",
+      "latest": "7.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "attrs",
+      "name": "attrs",
+      "platform": "Pypi",
+      "requirements": ">=19.2.0",
+      "latest_stable": "24.3.0",
+      "latest": "24.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tox",
+      "name": "tox",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.23.2",
+      "latest": "4.23.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "coverage",
+      "name": "coverage",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "7.6.10",
+      "latest": "7.6.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "hypothesis",
+      "name": "hypothesis",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.123.15",
+      "latest": "6.123.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MPL-2.0"
+      ]
+    },
+    {
+      "project_name": "hypothesmith",
+      "name": "hypothesmith",
+      "platform": "Pypi",
+      "requirements": ">=0.2",
+      "latest_stable": "0.3.3",
+      "latest": "0.3.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MPL-2.0"
+      ]
+    },
+    {
+      "project_name": "pre-commit",
+      "name": "pre-commit",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

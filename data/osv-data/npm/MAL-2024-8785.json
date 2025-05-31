@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-8785",
+  "summary": "Malicious code in mayaseven5 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (caaacc480504955b08d266c86d1eea4dd3e75bc0658fc6293aee05cbcde36158)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-xwqp-h5rm-xv99"
+  ],
+  "modified": "2024-09-05T00:42:37.207433Z",
+  "published": "2024-09-04T08:04:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-04T08:04:39Z",
+        "import_time": "2024-09-05T00:29:56.721123812Z",
+        "id": "GHSA-xwqp-h5rm-xv99",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "caaacc480504955b08d266c86d1eea4dd3e75bc0658fc6293aee05cbcde36158"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-xwqp-h5rm-xv99"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "mayaseven5",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/mayaseven5"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/mayaseven5/MAL-2024-8785.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

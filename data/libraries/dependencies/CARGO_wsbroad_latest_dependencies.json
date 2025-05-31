@@ -1,0 +1,249 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 1,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "Websocket server that broadcasts each message to other clients connected to the same URL",
+  "forks": 2,
+  "funding_urls": [],
+  "homepage": null,
+  "keywords": [
+    "websockets",
+    "websocket",
+    "broadcast",
+    "nightly",
+    "rfc6455",
+    "broadcast-messages",
+    "hub",
+    "rust"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/wsbroad/0.3.0/download",
+  "latest_release_number": "0.3.0",
+  "latest_release_published_at": "2023-08-02T01:18:49.101Z",
+  "latest_stable_release_number": "0.3.0",
+  "latest_stable_release_published_at": "2023-08-02T01:18:49.101Z",
+  "license_normalized": true,
+  "licenses": "MIT/Apache-2.0",
+  "name": "wsbroad",
+  "normalized_licenses": [
+    "MIT",
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/wsbroad/",
+  "platform": "Cargo",
+  "rank": 9,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/vi/wsbroad",
+  "security_policy_url": null,
+  "stars": 29,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2017-11-15T11:45:34.012Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MIT/Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2020-12-28T19:00:25.624Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MIT/Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.1",
+      "published_at": "2020-12-28T19:06:06.806Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MIT/Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.2",
+      "published_at": "2022-09-27T09:04:22.502Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MIT/Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2023-08-02T01:18:49.101Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "MIT/Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.3.0",
+  "dependencies": [
+    {
+      "project_name": "anyhow",
+      "name": "anyhow",
+      "platform": "Cargo",
+      "requirements": "^1.0.36",
+      "latest_stable": "1.0.95",
+      "latest": "1.0.95",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "futures",
+      "name": "futures",
+      "platform": "Cargo",
+      "requirements": "^0.3.8",
+      "latest_stable": "0.3.31",
+      "latest": "0.3.31",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand",
+      "name": "rand",
+      "platform": "Cargo",
+      "requirements": "^0.8.5",
+      "latest_stable": "0.8.5",
+      "latest": "0.9.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "slab",
+      "name": "slab",
+      "platform": "Cargo",
+      "requirements": "^0.4.2",
+      "latest_stable": "0.4.9",
+      "latest": "0.4.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tokio",
+      "name": "tokio",
+      "platform": "Cargo",
+      "requirements": "^1",
+      "latest_stable": "1.43.0",
+      "latest": "1.43.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tokio-listener",
+      "name": "tokio-listener",
+      "platform": "Cargo",
+      "requirements": "^0.2.1",
+      "latest_stable": "0.5.0",
+      "latest": "0.5.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "tokio-tungstenite",
+      "name": "tokio-tungstenite",
+      "platform": "Cargo",
+      "requirements": "^0.20",
+      "latest_stable": "0.26.1",
+      "latest": "0.26.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tungstenite",
+      "name": "tungstenite",
+      "platform": "Cargo",
+      "requirements": "^0.20",
+      "latest_stable": "0.26.1",
+      "latest": "0.26.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "xflags",
+      "name": "xflags",
+      "platform": "Cargo",
+      "requirements": "^0.3.1",
+      "latest_stable": "0.3.2",
+      "latest": "0.4.0-pre.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

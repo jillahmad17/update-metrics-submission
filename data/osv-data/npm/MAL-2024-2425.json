@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-2425",
+  "summary": "Malicious code in google-build-slack (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:44:27Z",
+  "published": "2024-06-25T12:44:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:44:27Z",
+        "import_time": "2024-06-28T02:43:23.525013779Z",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01086",
+        "source": "reversing-labs",
+        "sha256": "2c25f2c122886b3ad97f8f4eafb3dcafa047c433bbd58b3f92d2ed0cf60ead12"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "google-build-slack",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/google-build-slack"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/google-build-slack/MAL-2024-2425.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

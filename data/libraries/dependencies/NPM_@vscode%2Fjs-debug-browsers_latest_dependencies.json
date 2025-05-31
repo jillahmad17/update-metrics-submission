@@ -1,0 +1,344 @@
+{
+  "code_of_conduct_url": "https://github.com/microsoft/vscode-js-debug-browsers/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 5,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 2,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "Browser launch and discovery logic used in VS Code's JavaScript Debugger",
+  "forks": 5,
+  "funding_urls": [],
+  "homepage": "https://github.com/microsoft/vscode-js-debug-browsers#readme",
+  "keywords": [
+    "vscode",
+    "js-debug",
+    "chrome",
+    "edge"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@vscode/js-debug-browsers/-/@vscode/js-debug-browsers-1.1.2.tgz",
+  "latest_release_number": "1.1.2",
+  "latest_release_published_at": "2024-01-30T17:22:43.082Z",
+  "latest_stable_release_number": "1.1.2",
+  "latest_stable_release_published_at": "2024-01-30T17:22:43.082Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "@vscode/js-debug-browsers",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@vscode/js-debug-browsers",
+  "platform": "NPM",
+  "rank": 8,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/microsoft/vscode-js-debug-browsers",
+  "security_policy_url": "https://github.com/microsoft/vscode-js-debug-browsers/security/policy",
+  "stars": 3,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.5",
+      "published_at": "2022-01-04T06:33:51.128Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.6",
+      "published_at": "2022-01-27T17:56:46.101Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.7",
+      "published_at": "2022-12-28T00:02:04.630Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.8",
+      "published_at": "2022-12-28T18:12:18.539Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2023-06-09T22:59:57.737Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.2",
+      "published_at": "2024-01-30T17:22:43.082Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.1.2",
+  "dependencies": [
+    {
+      "project_name": "execa",
+      "name": "execa",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "9.5.2",
+      "latest": "9.5.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/chai",
+      "name": "@types/chai",
+      "platform": "NPM",
+      "requirements": "^4.3.0",
+      "latest_stable": "5.0.1",
+      "latest": "5.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/mocha",
+      "name": "@types/mocha",
+      "platform": "NPM",
+      "requirements": "^9.0.0",
+      "latest_stable": "10.0.10",
+      "latest": "10.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^17.0.5",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/sinon",
+      "name": "@types/sinon",
+      "platform": "NPM",
+      "requirements": "^10.0.6",
+      "latest_stable": "17.0.3",
+      "latest": "17.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/eslint-plugin",
+      "name": "@typescript-eslint/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "^5.8.1",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "^5.8.1",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chai",
+      "name": "chai",
+      "platform": "NPM",
+      "requirements": "^4.3.4",
+      "latest_stable": "5.1.2",
+      "latest": "5.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.5.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-header",
+      "name": "eslint-plugin-header",
+      "platform": "NPM",
+      "requirements": "^3.1.1",
+      "latest_stable": "3.1.1",
+      "latest": "3.1.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mocha",
+      "name": "mocha",
+      "platform": "NPM",
+      "requirements": "^9.1.3",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^2.5.1",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^3.0.2",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "sinon",
+      "name": "sinon",
+      "platform": "NPM",
+      "requirements": "^12.0.1",
+      "latest_stable": "19.0.2",
+      "latest": "19.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^4.5.4",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

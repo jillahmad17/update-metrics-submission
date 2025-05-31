@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5805",
+  "summary": "Malicious code in pythoncolourv8 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYTHONCOLOURV8-5932301"
+  ],
+  "modified": "2024-06-28T03:15:10.798077Z",
+  "published": "2024-06-25T13:40:55Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:55Z",
+        "import_time": "2024-06-28T02:50:19.810369151Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04603",
+        "source": "reversing-labs",
+        "sha256": "3f8cc5fb57e5614dbcdebf6365757c986109765308e7b3845a572ddc9fc9c0f3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYTHONCOLOURV8-5932301"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pythoncolourv8",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythoncolourv8"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythoncolourv8/MAL-2024-5805.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

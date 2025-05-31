@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2112",
+  "summary": "Malicious code in @elastic-internal/dojox (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:19:26Z",
+  "published": "2024-06-25T12:19:26Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "8ae66677ae28418e46c9213aa8c5573d408460541eddd3fc94b0a12083c136c4",
+        "import_time": "2024-06-28T02:41:19.291859427Z",
+        "versions": [
+          "1.6.10"
+        ],
+        "id": "RLMA-2024-00055",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:19:26Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@elastic-internal/dojox",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40elastic-internal/dojox"
+      },
+      "versions": [
+        "1.6.10"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@elastic-internal/dojox/MAL-2024-2112.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

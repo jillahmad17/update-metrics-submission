@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-8835",
+  "summary": "Malicious code in skibo (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (2926d03211dc44468a65561ad4c8faa1e35ea81bbff5dcfb9bd4a918bd603384)\nThe OpenSSF Package Analysis project identified 'skibo' @ 1.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2024-09-07T18:48:45Z",
+  "published": "2024-09-07T18:48:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-07T18:48:45Z",
+        "import_time": "2024-09-07T19:04:46.105392586Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "2926d03211dc44468a65561ad4c8faa1e35ea81bbff5dcfb9bd4a918bd603384"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "skibo",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/skibo"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/skibo/MAL-2024-8835.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

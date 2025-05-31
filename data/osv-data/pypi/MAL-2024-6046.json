@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-6046",
+  "summary": "Malicious code in stripepy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:53Z",
+  "published": "2024-06-25T13:42:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:53Z",
+        "import_time": "2024-06-28T02:50:49.752755642Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04849",
+        "source": "reversing-labs",
+        "sha256": "e7f46cf29f17ca9e2c8e41b845ae4958cc3e9357036708f68b2c8c65ae6aa48c"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "stripepy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/stripepy"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/stripepy/MAL-2024-6046.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

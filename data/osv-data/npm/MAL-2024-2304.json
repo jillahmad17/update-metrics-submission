@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2304",
+  "summary": "Malicious code in epc-onboarding-web (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:41:27Z",
+  "published": "2024-06-25T12:41:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:41:27Z",
+        "import_time": "2024-06-28T02:43:08.01374267Z",
+        "versions": [
+          "6.6.6"
+        ],
+        "id": "RLMA-2024-00954",
+        "source": "reversing-labs",
+        "sha256": "30af3bcc6ccf6f1ee91259dba6834cad6ce8881349917baa07c144d0a005e767"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "epc-onboarding-web",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/epc-onboarding-web"
+      },
+      "versions": [
+        "6.6.6"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/epc-onboarding-web/MAL-2024-2304.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

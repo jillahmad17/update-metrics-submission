@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5631",
+  "summary": "Malicious code in py-czrd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCZRD-6513659"
+  ],
+  "modified": "2024-06-28T03:15:06.567047Z",
+  "published": "2024-06-25T13:39:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:22Z",
+        "import_time": "2024-06-28T02:49:57.37809922Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04413",
+        "source": "reversing-labs",
+        "sha256": "bff286cb268d55096a63546480b111f86ebecb59a733fe09713290c80f2af43e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCZRD-6513659"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py-czrd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py-czrd"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py-czrd/MAL-2024-5631.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

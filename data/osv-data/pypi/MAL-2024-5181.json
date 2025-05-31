@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5181",
+  "summary": "Malicious code in glovo-data-platform-declarative (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:45Z",
+  "published": "2024-06-25T13:35:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:45Z",
+        "import_time": "2024-06-28T02:49:03.95290148Z",
+        "versions": [
+          "999.9.19",
+          "999.9.20",
+          "999.9.18",
+          "999.9.17"
+        ],
+        "id": "RLMA-2024-03963",
+        "source": "reversing-labs",
+        "sha256": "cf78568b9d11046de4810fdb1f8d0bf65417d83bb05adb72e281a42c67f88afd"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "glovo-data-platform-declarative",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/glovo-data-platform-declarative"
+      },
+      "versions": [
+        "999.9.19",
+        "999.9.20",
+        "999.9.18",
+        "999.9.17"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/glovo-data-platform-declarative/MAL-2024-5181.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

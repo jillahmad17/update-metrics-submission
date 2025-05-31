@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-6123",
+  "summary": "Malicious code in testpackage2lol (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:43:29Z",
+  "published": "2024-06-25T13:43:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:29Z",
+        "import_time": "2024-06-28T02:50:58.884615237Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04927",
+        "source": "reversing-labs",
+        "sha256": "978afcaa3e84c4af7fc6bcd123f9e11e7eba4e44dc7a9e63bda767b481ecf148"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "testpackage2lol",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/testpackage2lol"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/testpackage2lol/MAL-2024-6123.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

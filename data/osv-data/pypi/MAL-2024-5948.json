@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5948",
+  "summary": "Malicious code in ro-py-wrapper (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:04Z",
+  "published": "2024-06-25T13:42:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:04Z",
+        "import_time": "2024-06-28T02:50:37.535704383Z",
+        "versions": [
+          "2.0.10"
+        ],
+        "id": "RLMA-2024-04749",
+        "source": "reversing-labs",
+        "sha256": "1b27737385b5c2c41e1d6e0ca2b16ab692bb314e34a4537e264b4509a55bf60b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "ro-py-wrapper",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/ro-py-wrapper"
+      },
+      "versions": [
+        "2.0.10"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/ro-py-wrapper/MAL-2024-5948.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

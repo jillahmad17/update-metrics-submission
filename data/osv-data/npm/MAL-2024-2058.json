@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2058",
+  "summary": "Malicious code in @vk-tech/d11n-preparer (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:22:53Z",
+  "published": "2024-06-25T12:22:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "84d853b1075ef8ea702177c09165a7adfec35863e68516f4ee69a746e56220a7",
+        "import_time": "2024-06-28T02:41:38.361768495Z",
+        "versions": [
+          "80.80.80",
+          "3.80.80",
+          "3.0.80",
+          "3.0.8"
+        ],
+        "id": "RLMA-2024-00215",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:53Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@vk-tech/d11n-preparer",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40vk-tech/d11n-preparer"
+      },
+      "versions": [
+        "80.80.80",
+        "3.80.80",
+        "3.0.80",
+        "3.0.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@vk-tech/d11n-preparer/MAL-2024-2058.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

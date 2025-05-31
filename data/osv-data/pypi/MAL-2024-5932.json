@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5932",
+  "summary": "Malicious code in requstsssq (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-REQUSTSSSQ-5295970"
+  ],
+  "modified": "2024-06-28T03:15:15.361804Z",
+  "published": "2024-06-25T13:41:57Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:57Z",
+        "import_time": "2024-06-28T02:50:35.616014464Z",
+        "versions": [
+          "2.28.2"
+        ],
+        "id": "RLMA-2024-04733",
+        "source": "reversing-labs",
+        "sha256": "56f63408bd2b512a5fbcd3eb9a16ed299ea1aec0b4d22e65e993009023de986d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-REQUSTSSSQ-5295970"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "requstsssq",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requstsssq"
+      },
+      "versions": [
+        "2.28.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requstsssq/MAL-2024-5932.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

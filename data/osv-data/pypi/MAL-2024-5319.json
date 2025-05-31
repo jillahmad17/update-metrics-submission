@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5319",
+  "summary": "Malicious code in libig (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-LIBIG-5885084"
+  ],
+  "modified": "2024-06-28T03:14:55.329442Z",
+  "published": "2024-06-25T13:36:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:53Z",
+        "import_time": "2024-06-28T02:49:20.846080367Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04101",
+        "source": "reversing-labs",
+        "sha256": "55007ae29dabb83972efddb06c9173ef7a51cff0ceb3e5a6edaf871b6735f067"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-LIBIG-5885084"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "libig",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/libig"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/libig/MAL-2024-5319.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

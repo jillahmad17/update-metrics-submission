@@ -1,0 +1,305 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 26,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "A command line tool for using finite state transducers to compactly represents\nsets or maps of many strings (> 1 billion is possible). The command line tool\nexposes functionality to search FSTs using regular expressions, Levenshtein\nautomata and range queries.\n",
+  "forks": 128,
+  "funding_urls": [
+    "https://github.com/BurntSushi"
+  ],
+  "homepage": "https://github.com/BurntSushi/fst",
+  "keywords": [
+    "search",
+    "map",
+    "information",
+    "dictionary",
+    "retrieval"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/fst-bin/0.4.3/download",
+  "latest_release_number": "0.4.3",
+  "latest_release_published_at": "2023-03-12T23:28:37.685Z",
+  "latest_stable_release_number": "0.4.3",
+  "latest_stable_release_published_at": "2023-03-12T23:28:37.685Z",
+  "license_normalized": true,
+  "licenses": "Unlicense/MIT",
+  "name": "fst-bin",
+  "normalized_licenses": [
+    "Unlicense",
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/fst-bin/",
+  "platform": "Cargo",
+  "rank": 10,
+  "repository_license": "Unlicense",
+  "repository_status": null,
+  "repository_url": "https://github.com/BurntSushi/fst",
+  "security_policy_url": null,
+  "stars": 1791,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.2",
+      "published_at": "2016-02-06T03:53:20.131Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2017-06-07T00:16:43.445Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2017-11-28T22:15:21.884Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2020-03-09T00:32:58.961Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2020-03-09T01:09:23.336Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.2",
+      "published_at": "2021-06-06T11:01:22.004Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.3",
+      "published_at": "2023-03-12T23:28:37.685Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "Unlicense/MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.4.3",
+  "dependencies": [
+    {
+      "project_name": "anyhow",
+      "name": "anyhow",
+      "platform": "Cargo",
+      "requirements": "^1.0.26",
+      "latest_stable": "1.0.95",
+      "latest": "1.0.95",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "bit-set",
+      "name": "bit-set",
+      "platform": "Cargo",
+      "requirements": "^0.5.3",
+      "latest_stable": "0.8.0",
+      "latest": "0.8.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bstr",
+      "name": "bstr",
+      "platform": "Cargo",
+      "requirements": "^1.3.0",
+      "latest_stable": "1.11.3",
+      "latest": "1.11.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "clap",
+      "name": "clap",
+      "platform": "Cargo",
+      "requirements": "^2.33.0",
+      "latest_stable": "4.5.25",
+      "latest": "4.5.25",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "crossbeam-channel",
+      "name": "crossbeam-channel",
+      "platform": "Cargo",
+      "requirements": "^0.5.6",
+      "latest_stable": "0.5.13",
+      "latest": "0.5.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "csv",
+      "name": "csv",
+      "platform": "Cargo",
+      "requirements": "^1.2.0",
+      "latest_stable": "1.3.1",
+      "latest": "1.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fst",
+      "name": "fst",
+      "platform": "Cargo",
+      "requirements": "^0.4.6",
+      "latest_stable": "0.4.7",
+      "latest": "0.4.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "memmap2",
+      "name": "memmap2",
+      "platform": "Cargo",
+      "requirements": "^0.5.10",
+      "latest_stable": "0.9.5",
+      "latest": "0.9.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "regex-automata",
+      "name": "regex-automata",
+      "platform": "Cargo",
+      "requirements": "^0.1.9",
+      "latest_stable": "0.4.9",
+      "latest": "0.4.9",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1.0.104",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "tempfile",
+      "name": "tempfile",
+      "platform": "Cargo",
+      "requirements": "^3.1.0",
+      "latest_stable": "3.15.0",
+      "latest": "3.15.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

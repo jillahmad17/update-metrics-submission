@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-5761",
+  "summary": "Malicious code in pyportfoliopt (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:33Z",
+  "published": "2024-06-25T13:40:33Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:33Z",
+        "import_time": "2024-06-28T02:50:14.291940822Z",
+        "versions": [
+          "1.5.5",
+          "1.5.6",
+          "1.5.4"
+        ],
+        "id": "RLMA-2024-04557",
+        "source": "reversing-labs",
+        "sha256": "3f26dee0311da2ceed6101ed8787ee90713afe442d7649f8c254e386e2781da0"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pyportfoliopt",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pyportfoliopt"
+      },
+      "versions": [
+        "1.5.5",
+        "1.5.6",
+        "1.5.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pyportfoliopt/MAL-2024-5761.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

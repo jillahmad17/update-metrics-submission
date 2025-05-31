@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5926",
+  "summary": "Malicious code in requksts (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-REQUKSTS-6513509"
+  ],
+  "modified": "2024-06-28T03:15:14.910054Z",
+  "published": "2024-06-25T13:41:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:54Z",
+        "import_time": "2024-06-28T02:50:34.759552094Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04727",
+        "source": "reversing-labs",
+        "sha256": "79f16e27302a742499847e24f58274d00b32eff31a07b98700446fd754c57913"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-REQUKSTS-6513509"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "requksts",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requksts"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requksts/MAL-2024-5926.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

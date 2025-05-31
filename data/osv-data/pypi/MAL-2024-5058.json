@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5058",
+  "summary": "Malicious code in discord-client (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:45Z",
+  "published": "2024-06-25T13:34:45Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:45Z",
+        "import_time": "2024-06-28T02:48:49.339660597Z",
+        "versions": [
+          "1.5.3"
+        ],
+        "id": "RLMA-2024-03838",
+        "source": "reversing-labs",
+        "sha256": "81ba5f523e242dfcad98eb32c48ba1a93afc557420960a164fec900dc5c52a8b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "discord-client",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/discord-client"
+      },
+      "versions": [
+        "1.5.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/discord-client/MAL-2024-5058.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

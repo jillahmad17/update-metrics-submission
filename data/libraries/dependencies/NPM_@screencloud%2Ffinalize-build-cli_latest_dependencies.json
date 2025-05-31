@@ -1,0 +1,431 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 0,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 2,
+  "deprecation_reason": null,
+  "description": "Finalize CLI for regex replacement of template variables in a prepared build folder",
+  "forks": 0,
+  "funding_urls": null,
+  "homepage": null,
+  "keywords": [],
+  "language": null,
+  "latest_download_url": "https://registry.npmjs.org/@screencloud/finalize-build-cli/-/@screencloud/finalize-build-cli-1.2.4.tgz",
+  "latest_release_number": "1.2.4",
+  "latest_release_published_at": "2022-11-09T07:20:52.735Z",
+  "latest_stable_release_number": "1.2.4",
+  "latest_stable_release_published_at": "2022-11-09T07:20:52.735Z",
+  "license_normalized": false,
+  "licenses": "",
+  "name": "@screencloud/finalize-build-cli",
+  "normalized_licenses": [],
+  "package_manager_url": "https://www.npmjs.com/package/@screencloud/finalize-build-cli",
+  "platform": "NPM",
+  "rank": 4,
+  "repository_license": null,
+  "repository_status": null,
+  "repository_url": "",
+  "security_policy_url": null,
+  "stars": 0,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2019-07-17T07:03:19.943Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2019-07-17T07:07:55.414Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2019-07-17T07:23:47.077Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2019-07-18T01:55:12.771Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2019-07-18T11:05:31.887Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.1",
+      "published_at": "2019-07-18T11:25:25.613Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.2",
+      "published_at": "2019-07-18T11:36:42.737Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.3",
+      "published_at": "2022-11-03T11:30:07.239Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.4",
+      "published_at": "2022-11-09T07:20:52.735Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.2.4",
+  "dependencies": [
+    {
+      "project_name": "chalk",
+      "name": "chalk",
+      "platform": "NPM",
+      "requirements": "^2.4.2",
+      "latest_stable": "5.4.1",
+      "latest": "5.4.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "commander",
+      "name": "commander",
+      "platform": "NPM",
+      "requirements": "^2.19.0",
+      "latest_stable": "13.0.0",
+      "latest": "13.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "dotenv",
+      "name": "dotenv",
+      "platform": "NPM",
+      "requirements": "^8.0.0",
+      "latest_stable": "16.4.7",
+      "latest": "16.4.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    },
+    {
+      "project_name": "fallback-cli",
+      "name": "fallback-cli",
+      "platform": "NPM",
+      "requirements": "^2.0.2",
+      "latest_stable": "2.0.2",
+      "latest": "2.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "replace-in-file",
+      "name": "replace-in-file",
+      "platform": "NPM",
+      "requirements": "^4.1.1",
+      "latest_stable": "8.3.0",
+      "latest": "8.3.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "update-notifier",
+      "name": "update-notifier",
+      "platform": "NPM",
+      "requirements": "^2.5.0",
+      "latest_stable": "7.3.1",
+      "latest": "7.3.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    },
+    {
+      "project_name": "fs-extra",
+      "name": "fs-extra",
+      "platform": "NPM",
+      "requirements": "latest",
+      "latest_stable": "11.2.0",
+      "latest": "11.2.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/dotenv",
+      "name": "@types/dotenv",
+      "platform": "NPM",
+      "requirements": "^6.1.1",
+      "latest_stable": "8.2.3",
+      "latest": "8.2.3",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/fs-extra",
+      "name": "@types/fs-extra",
+      "platform": "NPM",
+      "requirements": "^8.0.0",
+      "latest_stable": "4.0.15",
+      "latest": "4.0.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "^23.3.13",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/update-notifier",
+      "name": "@types/update-notifier",
+      "platform": "NPM",
+      "requirements": "^2.5.0",
+      "latest_stable": "6.0.8",
+      "latest": "6.0.8",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-jest",
+      "name": "babel-jest",
+      "platform": "NPM",
+      "requirements": "^24.0.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^24.0.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^2.6.3",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "semantic-release",
+      "name": "semantic-release",
+      "platform": "NPM",
+      "requirements": "^15.13.3",
+      "latest_stable": "24.2.1",
+      "latest": "24.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-jest",
+      "name": "ts-jest",
+      "platform": "NPM",
+      "requirements": "^23.10.5",
+      "latest_stable": "29.2.5",
+      "latest": "29.2.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-node",
+      "name": "ts-node",
+      "platform": "NPM",
+      "requirements": "^8.0.2",
+      "latest_stable": "10.9.2",
+      "latest": "10.9.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tslint",
+      "name": "tslint",
+      "platform": "NPM",
+      "requirements": "^5.12.1",
+      "latest_stable": "6.1.3",
+      "latest": "6.1.3",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^3.3.1",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

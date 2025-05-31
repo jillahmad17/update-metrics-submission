@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-1834",
+  "summary": "Malicious code in borschik-webp-internal (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-BORSCHIKWEBPINTERNAL-3336137"
+  ],
+  "modified": "2024-06-28T03:14:31.854591Z",
+  "published": "2024-06-25T12:30:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:30:04Z",
+        "import_time": "2024-06-28T02:42:05.011446491Z",
+        "versions": [
+          "1.9.15",
+          "1.6.6",
+          "1.9.16",
+          "1.6.5",
+          "2.15.9",
+          "2.15.10"
+        ],
+        "id": "RLMA-2024-00430",
+        "source": "reversing-labs",
+        "sha256": "357d53daddb57f23797b9d7c9f2f262b4f1a04ef9130f1c69ae35252dc8df912"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-BORSCHIKWEBPINTERNAL-3336137"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "borschik-webp-internal",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/borschik-webp-internal"
+      },
+      "versions": [
+        "1.9.15",
+        "1.6.6",
+        "1.9.16",
+        "1.6.5",
+        "2.15.9",
+        "2.15.10"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/borschik-webp-internal/MAL-2024-1834.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

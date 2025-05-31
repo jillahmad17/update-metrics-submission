@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5740",
+  "summary": "Malicious code in pylibsqlite (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:22Z",
+  "published": "2024-06-25T13:40:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:22Z",
+        "import_time": "2024-06-28T02:50:11.533037424Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04533",
+        "source": "reversing-labs",
+        "sha256": "4ec00a66f1edbb18a96f18d1c62617f085e1e11c4676afe1dc5db3b56beb45ad"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pylibsqlite",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pylibsqlite"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pylibsqlite/MAL-2024-5740.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

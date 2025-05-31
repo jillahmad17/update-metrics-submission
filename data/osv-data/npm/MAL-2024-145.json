@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-145",
+  "summary": "Malicious code in materialxtest (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (745751f7063de8fc41dd9f584bfbfd3db4bbd39519cf7802da4db3579a6c08b3)\nThe OpenSSF Package Analysis project identified 'materialxtest' @ 9.1.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2024-01-22T04:25:48Z",
+  "published": "2024-01-22T04:25:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-01-22T04:25:48Z",
+        "import_time": "2024-01-22T04:34:57.052108447Z",
+        "versions": [
+          "9.1.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "745751f7063de8fc41dd9f584bfbfd3db4bbd39519cf7802da4db3579a6c08b3"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "materialxtest",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/materialxtest"
+      },
+      "versions": [
+        "9.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/materialxtest/MAL-2024-145.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

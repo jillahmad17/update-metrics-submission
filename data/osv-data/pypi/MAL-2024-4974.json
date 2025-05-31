@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-4974",
+  "summary": "Malicious code in colorram (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-COLORRAM-6513532"
+  ],
+  "modified": "2024-06-28T03:14:51.753318Z",
+  "published": "2024-06-25T13:34:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:04Z",
+        "import_time": "2024-06-28T02:48:39.740026648Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03754",
+        "source": "reversing-labs",
+        "sha256": "d270b00ce1ff57ff558f72ac6d811cbdaf3784b3754bfb726a246723dcb3e469"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-COLORRAM-6513532"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "colorram",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colorram"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colorram/MAL-2024-4974.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5125",
+  "summary": "Malicious code in exporter-stackdriver (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:17Z",
+  "published": "2024-06-25T13:35:17Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:17Z",
+        "import_time": "2024-06-28T02:48:57.041417313Z",
+        "versions": [
+          "99.0"
+        ],
+        "id": "RLMA-2024-03905",
+        "source": "reversing-labs",
+        "sha256": "ecd5c86fbdb8fe31f09d875a5fd8e363a5f8f92670986321508864d948e2cc63"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "exporter-stackdriver",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/exporter-stackdriver"
+      },
+      "versions": [
+        "99.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/exporter-stackdriver/MAL-2024-5125.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

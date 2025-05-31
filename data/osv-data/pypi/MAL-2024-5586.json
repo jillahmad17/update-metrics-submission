@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5586",
+  "summary": "Malicious code in py-ckrd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCKRD-6513409"
+  ],
+  "modified": "2024-06-28T03:15:02.279259Z",
+  "published": "2024-06-25T13:39:01Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:01Z",
+        "import_time": "2024-06-28T02:49:52.099084198Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04368",
+        "source": "reversing-labs",
+        "sha256": "a44741882f23d49ce12a3edfbd9b6204b266aeab4b0899232c7f6ef73a30ea7c"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCKRD-6513409"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py-ckrd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py-ckrd"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py-ckrd/MAL-2024-5586.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

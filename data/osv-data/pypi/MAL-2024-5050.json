@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5050",
+  "summary": "Malicious code in dider (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:41Z",
+  "published": "2024-06-25T13:34:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:41Z",
+        "import_time": "2024-06-28T02:48:48.358492009Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03830",
+        "source": "reversing-labs",
+        "sha256": "4a7abb5bf521cf423a11ea1b166582cd1227447017cc448bcdffffc526d62139"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "dider",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/dider"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/dider/MAL-2024-5050.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

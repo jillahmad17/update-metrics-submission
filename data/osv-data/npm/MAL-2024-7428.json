@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-7428",
+  "summary": "Malicious code in cdnjquery (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (4903831513d38d10f2f8a045dc6e56a11425973ad9a7961d4e4fb98fc02ca3cb)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-rfwh-86x7-xrj7"
+  ],
+  "modified": "2024-07-09T00:43:20.276258Z",
+  "published": "2024-07-08T05:20:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-07-08T05:20:01Z",
+        "import_time": "2024-07-09T00:27:22.244387265Z",
+        "id": "GHSA-rfwh-86x7-xrj7",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "4903831513d38d10f2f8a045dc6e56a11425973ad9a7961d4e4fb98fc02ca3cb"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-rfwh-86x7-xrj7"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cdnjquery",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cdnjquery"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/cdnjquery/MAL-2024-7428.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

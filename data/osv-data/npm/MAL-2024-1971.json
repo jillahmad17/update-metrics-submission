@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-1971",
+  "summary": "Malicious code in @b2bgeo/certs (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOCERTS-3326411"
+  ],
+  "modified": "2024-06-28T03:14:30.293523Z",
+  "published": "2024-06-25T12:18:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "26e88e80235d4cf1083700cc0eb362d2b4d18fc135e65962afb576e750256eab",
+        "import_time": "2024-06-28T02:41:13.950353879Z",
+        "versions": [
+          "13.3.7",
+          "13.3.8"
+        ],
+        "id": "RLMA-2024-00012",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:29Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOCERTS-3326411"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/certs",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/certs"
+      },
+      "versions": [
+        "13.3.7",
+        "13.3.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/certs/MAL-2024-1971.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

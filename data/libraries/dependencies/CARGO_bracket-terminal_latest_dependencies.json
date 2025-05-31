@@ -1,0 +1,647 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 49,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 5,
+  "dependents_count": 5,
+  "deprecation_reason": null,
+  "description": "ASCII/Codepage 437 terminal emulator with a game loop. Defaults to OpenGL, also support WebGPU (for Vulkan/Metal/WGPU), Curses and Crossterm for output. Part of the bracket-lib family.",
+  "forks": 111,
+  "funding_urls": [],
+  "homepage": "https://github.com/thebracket/bracket-lib",
+  "keywords": [
+    "cp437",
+    "ascii",
+    "roguelike",
+    "terminal",
+    "gamedev",
+    "amethyst-support",
+    "crates",
+    "retrogaming",
+    "rltk",
+    "rust-crate",
+    "rust-crates"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/bracket-terminal/0.8.7/download",
+  "latest_release_number": "0.8.7",
+  "latest_release_published_at": "2022-10-04T18:55:54.061Z",
+  "latest_stable_release_number": "0.8.7",
+  "latest_stable_release_published_at": "2022-10-04T18:55:54.061Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "bracket-terminal",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://crates.io/crates/bracket-terminal/",
+  "platform": "Cargo",
+  "rank": 13,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/thebracket/bracket-lib",
+  "security_policy_url": null,
+  "stars": 1534,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2020-02-21T21:57:32.182Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2020-02-22T17:39:52.801Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2020-04-08T19:52:46.983Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.1",
+      "published_at": "2020-04-29T13:45:33.704Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.2",
+      "published_at": "2021-02-15T16:33:19.078Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.4",
+      "published_at": "2021-07-02T14:01:25.508Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.5",
+      "published_at": "2021-07-06T19:42:28.144Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.7",
+      "published_at": "2022-10-04T18:55:54.061Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.8.7",
+  "dependencies": [
+    {
+      "project_name": "anyhow",
+      "name": "anyhow",
+      "platform": "Cargo",
+      "requirements": "~1.0",
+      "latest_stable": "1.0.95",
+      "latest": "1.0.95",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "bracket-color",
+      "name": "bracket-color",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-embedding",
+      "name": "bracket-embedding",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-geometry",
+      "name": "bracket-geometry",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-noise",
+      "name": "bracket-noise",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-pathfinding",
+      "name": "bracket-pathfinding",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-random",
+      "name": "bracket-random",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bracket-rex",
+      "name": "bracket-rex",
+      "platform": "Cargo",
+      "requirements": "~0.8",
+      "latest_stable": "0.8.7",
+      "latest": "0.8.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "console_error_panic_hook",
+      "name": "console_error_panic_hook",
+      "platform": "Cargo",
+      "requirements": "^0.1.6",
+      "latest_stable": "0.1.7",
+      "latest": "0.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "criterion",
+      "name": "criterion",
+      "platform": "Cargo",
+      "requirements": "~0.4",
+      "latest_stable": "0.5.1",
+      "latest": "0.5.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "dev",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lazy_static",
+      "name": "lazy_static",
+      "platform": "Cargo",
+      "requirements": "^1.4.0",
+      "latest_stable": "1.5.0",
+      "latest": "1.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "object-pool",
+      "name": "object-pool",
+      "platform": "Cargo",
+      "requirements": "^0.5.3",
+      "latest_stable": "0.6.0",
+      "latest": "0.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "parking_lot",
+      "name": "parking_lot",
+      "platform": "Cargo",
+      "requirements": "~0.12",
+      "latest_stable": "0.12.3",
+      "latest": "0.12.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand",
+      "name": "rand",
+      "platform": "Cargo",
+      "requirements": "^0.8",
+      "latest_stable": "0.8.5",
+      "latest": "0.9.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "ultraviolet",
+      "name": "ultraviolet",
+      "platform": "Cargo",
+      "requirements": "~0.9",
+      "latest_stable": "0.9.2",
+      "latest": "0.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0",
+        "Zlib"
+      ]
+    },
+    {
+      "project_name": "wasm-bindgen",
+      "name": "wasm-bindgen",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.2.99",
+      "latest": "0.2.99",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "wasm-timer",
+      "name": "wasm-timer",
+      "platform": "Cargo",
+      "requirements": "^0.1.0",
+      "latest_stable": "0.2.5",
+      "latest": "0.2.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "web-sys",
+      "name": "web-sys",
+      "platform": "Cargo",
+      "requirements": "^0.3",
+      "latest_stable": "0.3.76",
+      "latest": "0.3.76",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "winit",
+      "name": "winit",
+      "platform": "Cargo",
+      "requirements": "^0.26",
+      "latest_stable": "0.30.8",
+      "latest": "0.30.8",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "winit",
+      "name": "winit",
+      "platform": "Cargo",
+      "requirements": "~0.27",
+      "latest_stable": "0.30.8",
+      "latest": "0.30.8",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "bytemuck",
+      "name": "bytemuck",
+      "platform": "Cargo",
+      "requirements": "^1.4.0",
+      "latest_stable": "1.21.0",
+      "latest": "1.21.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Zlib",
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "crossterm",
+      "name": "crossterm",
+      "platform": "Cargo",
+      "requirements": "~0.25",
+      "latest_stable": "0.28.1",
+      "latest": "0.28.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ctrlc",
+      "name": "ctrlc",
+      "platform": "Cargo",
+      "requirements": "~3.2",
+      "latest_stable": "3.4.5",
+      "latest": "3.4.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "glow",
+      "name": "glow",
+      "platform": "Cargo",
+      "requirements": "~0.11",
+      "latest_stable": "0.16.0",
+      "latest": "0.16.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0",
+        "Zlib"
+      ]
+    },
+    {
+      "project_name": "glutin",
+      "name": "glutin",
+      "platform": "Cargo",
+      "requirements": "~0.29",
+      "latest_stable": "0.32.1",
+      "latest": "0.32.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "image",
+      "name": "image",
+      "platform": "Cargo",
+      "requirements": "^0.24",
+      "latest_stable": "0.25.5",
+      "latest": "0.25.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pancurses",
+      "name": "pancurses",
+      "platform": "Cargo",
+      "requirements": "^0.17",
+      "latest_stable": "0.17.0",
+      "latest": "0.17.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "png",
+      "name": "png",
+      "platform": "Cargo",
+      "requirements": "^0.17",
+      "latest_stable": "0.17.16",
+      "latest": "0.17.16",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pollster",
+      "name": "pollster",
+      "platform": "Cargo",
+      "requirements": "^0.2",
+      "latest_stable": "0.4.0",
+      "latest": "0.4.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "spin_sleep",
+      "name": "spin_sleep",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "wgpu",
+      "name": "wgpu",
+      "platform": "Cargo",
+      "requirements": "^0.13",
+      "latest_stable": "23.0.1",
+      "latest": "23.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

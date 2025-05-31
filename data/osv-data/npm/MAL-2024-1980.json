@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-1980",
+  "summary": "Malicious code in @b2bgeo/ci-github (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOCIGITHUB-3326419"
+  ],
+  "modified": "2024-06-28T03:14:30.458558Z",
+  "published": "2024-06-25T12:18:35Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "231d64c83f869b19485519f9a8fac7aa80e62094bdc99001861b3f486dded534",
+        "import_time": "2024-06-28T02:41:14.201715108Z",
+        "versions": [
+          "13.3.7",
+          "13.3.8"
+        ],
+        "id": "RLMA-2024-00014",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:35Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOCIGITHUB-3326419"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/ci-github",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/ci-github"
+      },
+      "versions": [
+        "13.3.7",
+        "13.3.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/ci-github/MAL-2024-1980.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

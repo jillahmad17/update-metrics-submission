@@ -1,0 +1,953 @@
+{
+  "code_of_conduct_url": "https://github.com/shaka-project/shaka-player/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 256,
+  "contribution_guidelines_url": "https://github.com/shaka-project/shaka-player/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 2,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "DASH/EME video player library",
+  "forks": 1349,
+  "funding_urls": [],
+  "homepage": "https://github.com/shaka-project/shaka-player",
+  "keywords": [
+    "dash",
+    "drm",
+    "encrypted-media",
+    "hls",
+    "javascript",
+    "live",
+    "live-streaming",
+    "media-source-extension",
+    "mse",
+    "offline",
+    "offline-capable",
+    "offline-mode",
+    "playback",
+    "playback-controls",
+    "video",
+    "video-playback",
+    "video-player",
+    "video-player-library",
+    "video-streaming",
+    "vod"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@alugha/shaka-player/-/@alugha/shaka-player-4.3.9.tgz",
+  "latest_release_number": "4.3.9",
+  "latest_release_published_at": "2023-08-23T09:00:33.384Z",
+  "latest_stable_release_number": "4.3.9",
+  "latest_stable_release_published_at": "2023-08-23T09:00:33.384Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@alugha/shaka-player",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@alugha/shaka-player",
+  "platform": "NPM",
+  "rank": 13,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/shaka-project/shaka-player",
+  "security_policy_url": "https://github.com/shaka-project/shaka-player/security/policy",
+  "stars": 7290,
+  "status": null,
+  "versions": [
+    {
+      "number": "2.5.0",
+      "published_at": "2019-11-30T13:58:44.780Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.1",
+      "published_at": "2019-11-30T14:38:42.550Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.2",
+      "published_at": "2019-12-01T10:16:06.581Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.5.8",
+      "published_at": "2020-01-18T09:05:00.351Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.3.8",
+      "published_at": "2023-07-24T15:34:24.549Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.3.9",
+      "published_at": "2023-08-23T09:00:33.384Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "4.3.9",
+  "dependencies": [
+    {
+      "project_name": "pwacompat",
+      "name": "pwacompat",
+      "platform": "NPM",
+      "requirements": "^2.0.17",
+      "latest_stable": "2.0.17",
+      "latest": "2.0.17",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^3.0.2",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "sprintf-js",
+      "name": "sprintf-js",
+      "platform": "NPM",
+      "requirements": "^1.1.2",
+      "latest_stable": "1.1.3",
+      "latest": "1.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "ssim.js",
+      "name": "ssim.js",
+      "platform": "NPM",
+      "requirements": "^3.5.0",
+      "latest_stable": "3.5.0",
+      "latest": "3.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "stylelint",
+      "name": "stylelint",
+      "platform": "NPM",
+      "requirements": "^14.5.1",
+      "latest_stable": "16.12.0",
+      "latest": "16.12.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "stylelint-config-standard",
+      "name": "stylelint-config-standard",
+      "platform": "NPM",
+      "requirements": "^25.0.0",
+      "latest_stable": "36.0.1",
+      "latest": "36.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tippy.js",
+      "name": "tippy.js",
+      "platform": "NPM",
+      "requirements": "^4.3.5",
+      "latest_stable": "6.3.7",
+      "latest": "6.3.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "which",
+      "name": "which",
+      "platform": "NPM",
+      "requirements": "^2.0.2",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "eme-encryption-scheme-polyfill",
+      "name": "eme-encryption-scheme-polyfill",
+      "platform": "NPM",
+      "requirements": "^2.1.1",
+      "latest_stable": "2.2.0",
+      "latest": "2.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@babel/core",
+      "name": "@babel/core",
+      "platform": "NPM",
+      "requirements": "^7.17.5",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/polyfill",
+      "name": "@babel/polyfill",
+      "platform": "NPM",
+      "requirements": "^7.12.1",
+      "latest_stable": "7.12.1",
+      "latest": "7.12.1",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/preset-env",
+      "name": "@babel/preset-env",
+      "platform": "NPM",
+      "requirements": "^7.16.11",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@teppeis/clutz",
+      "name": "@teppeis/clutz",
+      "platform": "NPM",
+      "requirements": "^1.0.29-4c95e12.v20190929",
+      "latest_stable": "1.0.2",
+      "latest": "1.0.29-4c95e12.v20190929",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "awesomplete",
+      "name": "awesomplete",
+      "platform": "NPM",
+      "requirements": "^1.1.5",
+      "latest_stable": "1.1.6",
+      "latest": "1.1.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-plugin-istanbul",
+      "name": "babel-plugin-istanbul",
+      "platform": "NPM",
+      "requirements": "^6.1.1",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "cajon",
+      "name": "cajon",
+      "platform": "NPM",
+      "requirements": "^0.4.4",
+      "latest_stable": "0.4.4",
+      "latest": "0.4.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "clean-package",
+      "name": "clean-package",
+      "platform": "NPM",
+      "requirements": "^2.2.0",
+      "latest_stable": "2.2.0",
+      "latest": "2.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "code-prettify",
+      "name": "code-prettify",
+      "platform": "NPM",
+      "requirements": "^0.1.0",
+      "latest_stable": "0.1.0",
+      "latest": "0.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "color-themes-for-google-code-prettify",
+      "name": "color-themes-for-google-code-prettify",
+      "platform": "NPM",
+      "requirements": "^2.0.4",
+      "latest_stable": "2.0.4",
+      "latest": "2.0.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "core-js",
+      "name": "core-js",
+      "platform": "NPM",
+      "requirements": "^3.21.1",
+      "latest_stable": "3.40.0",
+      "latest": "3.40.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "dialog-polyfill",
+      "name": "dialog-polyfill",
+      "platform": "NPM",
+      "requirements": "^0.5.6",
+      "latest_stable": "0.5.6",
+      "latest": "0.5.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "es6-promise-polyfill",
+      "name": "es6-promise-polyfill",
+      "platform": "NPM",
+      "requirements": "^1.2.0",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.9.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-google",
+      "name": "eslint-config-google",
+      "platform": "NPM",
+      "requirements": "^0.14.0",
+      "latest_stable": "0.14.0",
+      "latest": "0.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-shaka-rules",
+      "name": "eslint-plugin-shaka-rules",
+      "platform": "NPM",
+      "requirements": "file:./build/eslint-plugin-shaka-rules",
+      "latest_stable": "1.0.4",
+      "latest": "1.0.4",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "esprima",
+      "name": "esprima",
+      "platform": "NPM",
+      "requirements": "^4.0.1",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    },
+    {
+      "project_name": "fontfaceonload",
+      "name": "fontfaceonload",
+      "platform": "NPM",
+      "requirements": "^1.0.2",
+      "latest_stable": "1.0.2",
+      "latest": "1.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "google-closure-compiler-java",
+      "name": "google-closure-compiler-java",
+      "platform": "NPM",
+      "requirements": "^20221102.0.0",
+      "latest_stable": "20240317.0.0",
+      "latest": "20250111.0.0-nightly",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "google-closure-deps",
+      "name": "google-closure-deps",
+      "platform": "NPM",
+      "requirements": "^20221102.0.0",
+      "latest_stable": "20230802.0.0",
+      "latest": "20230802.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "google-closure-library",
+      "name": "google-closure-library",
+      "platform": "NPM",
+      "requirements": "^20221102.0.0",
+      "latest_stable": "20230802.0.0",
+      "latest": "20230802.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "htmlhint",
+      "name": "htmlhint",
+      "platform": "NPM",
+      "requirements": "^1.1.3",
+      "latest_stable": "1.1.4",
+      "latest": "1.1.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jasmine-ajax",
+      "name": "jasmine-ajax",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jimp",
+      "name": "jimp",
+      "platform": "NPM",
+      "requirements": "^0.16.1",
+      "latest_stable": "1.6.0",
+      "latest": "1.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "js-yaml",
+      "name": "js-yaml",
+      "platform": "NPM",
+      "requirements": "^4.1.0",
+      "latest_stable": "4.1.0",
+      "latest": "4.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jsdoc",
+      "name": "jsdoc",
+      "platform": "NPM",
+      "requirements": "github:joeyparrish/jsdoc#2ca85bb6",
+      "latest_stable": "4.0.4",
+      "latest": "4.0.4",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "karma",
+      "name": "karma",
+      "platform": "NPM",
+      "requirements": "^6.3.16",
+      "latest_stable": "6.4.4",
+      "latest": "6.4.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-babel-preprocessor",
+      "name": "karma-babel-preprocessor",
+      "platform": "NPM",
+      "requirements": "^8.0.2",
+      "latest_stable": "8.0.2",
+      "latest": "8.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "karma-coverage",
+      "name": "karma-coverage",
+      "platform": "NPM",
+      "requirements": "^2.2.0",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-jasmine",
+      "name": "karma-jasmine",
+      "platform": "NPM",
+      "requirements": "^4.0.1",
+      "latest_stable": "5.1.0",
+      "latest": "5.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-jasmine-ajax",
+      "name": "karma-jasmine-ajax",
+      "platform": "NPM",
+      "requirements": "^0.1.13",
+      "latest_stable": "0.1.13",
+      "latest": "0.1.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-local-wd-launcher",
+      "name": "karma-local-wd-launcher",
+      "platform": "NPM",
+      "requirements": "^1.6.2",
+      "latest_stable": "1.6.7",
+      "latest": "1.6.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "karma-opera-launcher",
+      "name": "karma-opera-launcher",
+      "platform": "NPM",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-sourcemap-loader",
+      "name": "karma-sourcemap-loader",
+      "platform": "NPM",
+      "requirements": "^0.3.8",
+      "latest_stable": "0.4.0",
+      "latest": "0.4.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-spec-reporter",
+      "name": "karma-spec-reporter",
+      "platform": "NPM",
+      "requirements": "^0.0.34",
+      "latest_stable": "0.0.36",
+      "latest": "0.0.36",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "karma-webdriver-launcher",
+      "name": "karma-webdriver-launcher",
+      "platform": "NPM",
+      "requirements": "^1.0.8",
+      "latest_stable": "1.0.8",
+      "latest": "1.0.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lcevc_dil.js",
+      "name": "lcevc_dil.js",
+      "platform": "NPM",
+      "requirements": "^1.1.20",
+      "latest_stable": "1.1.20",
+      "latest": "1.1.20",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "DOC",
+        "MIT-feh"
+      ]
+    },
+    {
+      "project_name": "less",
+      "name": "less",
+      "platform": "NPM",
+      "requirements": "https://gitpkg.now.sh/joeyparrish/less.js/packages/less?28c63a43",
+      "latest_stable": "4.2.1",
+      "latest": "4.2.1",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "less-plugin-clean-css",
+      "name": "less-plugin-clean-css",
+      "platform": "NPM",
+      "requirements": "github:austingardner/less-plugin-clean-css#4e9e77bf",
+      "latest_stable": "1.6.0",
+      "latest": "1.6.0",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "material-design-lite",
+      "name": "material-design-lite",
+      "platform": "NPM",
+      "requirements": "^1.3.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mux.js",
+      "name": "mux.js",
+      "platform": "NPM",
+      "requirements": "^6.2.0",
+      "latest_stable": "7.1.0",
+      "latest": "7.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "open-sans-fonts",
+      "name": "open-sans-fonts",
+      "platform": "NPM",
+      "requirements": "^1.6.2",
+      "latest_stable": "1.6.2",
+      "latest": "1.6.2",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "postcss-less",
+      "name": "postcss-less",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

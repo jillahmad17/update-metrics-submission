@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-5690",
+  "summary": "Malicious code in pycryptolibrary (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCRYPTOLIBRARY-5932174"
+  ],
+  "modified": "2024-06-28T03:15:06.163940Z",
+  "published": "2024-06-25T13:39:52Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:52Z",
+        "import_time": "2024-06-28T02:50:04.375321246Z",
+        "versions": [
+          "2.0.0",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04473",
+        "source": "reversing-labs",
+        "sha256": "aa5452050301cff7d0ed80ae01051f8b1e8aa4e9220c1e8dce27a5b6264393ec"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCRYPTOLIBRARY-5932174"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pycryptolibrary",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pycryptolibrary"
+      },
+      "versions": [
+        "2.0.0",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pycryptolibrary/MAL-2024-5690.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

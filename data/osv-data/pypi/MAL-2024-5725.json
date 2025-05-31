@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5725",
+  "summary": "Malicious code in pyinstalers (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYINSTALERS-6129565"
+  ],
+  "modified": "2024-06-28T03:15:07.431897Z",
+  "published": "2024-06-25T13:40:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:12Z",
+        "import_time": "2024-06-28T02:50:09.079039266Z",
+        "versions": [
+          "0.0.1"
+        ],
+        "id": "RLMA-2024-04512",
+        "source": "reversing-labs",
+        "sha256": "ed5d663125846e5f185569f7a4b0388e5f50bb950b23edf0f222f294b2a45281"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYINSTALERS-6129565"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.welivesecurity.com/en/eset-research/pernicious-potpourri-python-packages-pypi/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pyinstalers",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pyinstalers"
+      },
+      "versions": [
+        "0.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pyinstalers/MAL-2024-5725.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

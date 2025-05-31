@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4788",
+  "summary": "Malicious code in autorequirements (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:32:34Z",
+  "published": "2024-06-25T13:32:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:32:34Z",
+        "import_time": "2024-06-28T02:48:18.503319792Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-03568",
+        "source": "reversing-labs",
+        "sha256": "30ba5094715a9861c2854eeb8dcd163360e76abd3dbf062c97d696aba51954aa"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "autorequirements",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/autorequirements"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/autorequirements/MAL-2024-4788.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

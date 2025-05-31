@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-6132",
+  "summary": "Malicious code in tfit (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:43:33Z",
+  "published": "2024-06-25T13:43:33Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:33Z",
+        "import_time": "2024-06-28T02:50:59.991117034Z",
+        "versions": [
+          "3.2.0",
+          "3.2.1"
+        ],
+        "id": "RLMA-2024-04936",
+        "source": "reversing-labs",
+        "sha256": "4401db84a2f0a96a40a2b9b57381b810f67721b02ab9e20189cb3ef9ac8cdf84"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "tfit",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/tfit"
+      },
+      "versions": [
+        "3.2.0",
+        "3.2.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/tfit/MAL-2024-6132.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

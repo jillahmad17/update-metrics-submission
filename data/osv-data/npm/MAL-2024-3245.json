@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-3245",
+  "summary": "Malicious code in typeparsers (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-TYPEPARSERS-3335997"
+  ],
+  "modified": "2024-06-28T03:14:42.825835Z",
+  "published": "2024-06-25T13:06:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:06:48Z",
+        "import_time": "2024-06-28T02:45:15.370674337Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-02009",
+        "source": "reversing-labs",
+        "sha256": "39b0cbba38aa74f7b6351db9a6e6480013ec614340a5d7f02f42734d0e0cd9ba"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-TYPEPARSERS-3335997"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "typeparsers",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/typeparsers"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/typeparsers/MAL-2024-3245.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

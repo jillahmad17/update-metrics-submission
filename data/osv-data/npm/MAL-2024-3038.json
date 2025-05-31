@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3038",
+  "summary": "Malicious code in spectator-conf (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:01:40Z",
+  "published": "2024-06-25T13:01:40Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:01:40Z",
+        "import_time": "2024-06-28T02:44:47.173887291Z",
+        "versions": [
+          "1.5.5"
+        ],
+        "id": "RLMA-2024-01772",
+        "source": "reversing-labs",
+        "sha256": "7f64a7bd8bd73a1b1e654556f6d8a09fb6d08b4568af37cf0050b6499bcc51ff"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "spectator-conf",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/spectator-conf"
+      },
+      "versions": [
+        "1.5.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/spectator-conf/MAL-2024-3038.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-3075",
+  "summary": "Malicious code in sync-dsc (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:02:41Z",
+  "published": "2024-06-25T13:02:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:02:41Z",
+        "import_time": "2024-06-28T02:44:52.910033227Z",
+        "versions": [
+          "1.0.1",
+          "1.0.2",
+          "1.0.3",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01820",
+        "source": "reversing-labs",
+        "sha256": "7bc77201585f9ace2a89fcad07481a7f327ad2eb6fdd32bb26533319e60fd32f"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "sync-dsc",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/sync-dsc"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/sync-dsc/MAL-2024-3075.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

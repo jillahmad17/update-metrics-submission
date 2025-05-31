@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-2855",
+  "summary": "Malicious code in pdfjs2 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:55:35Z",
+  "published": "2024-06-25T12:55:35Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:55:35Z",
+        "import_time": "2024-06-28T02:44:23.428005729Z",
+        "versions": [
+          "2.2.2",
+          "5.2.3",
+          "2.2.3"
+        ],
+        "id": "RLMA-2024-01571",
+        "source": "reversing-labs",
+        "sha256": "924e2e9df23203a8e5f91c2211eb856484c34710c4d1419d8c50f90e89fda8d6"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pdfjs2",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/pdfjs2"
+      },
+      "versions": [
+        "2.2.2",
+        "5.2.3",
+        "2.2.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/pdfjs2/MAL-2024-2855.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

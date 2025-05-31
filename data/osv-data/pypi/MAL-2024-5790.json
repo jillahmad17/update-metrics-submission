@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5790",
+  "summary": "Malicious code in pythonbademoduleimports (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:49Z",
+  "published": "2024-06-25T13:40:49Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:49Z",
+        "import_time": "2024-06-28T02:50:17.809535596Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04588",
+        "source": "reversing-labs",
+        "sha256": "23e0c45c51a3db712a08979058cfcd4f9391947f2a7e671e14a5089b78b8dacd"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pythonbademoduleimports",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythonbademoduleimports"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonbademoduleimports/MAL-2024-5790.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

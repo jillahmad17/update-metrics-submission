@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2684",
+  "summary": "Malicious code in my_super_private_library (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:51:06Z",
+  "published": "2024-06-25T12:51:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:51:06Z",
+        "import_time": "2024-06-28T02:43:59.266474071Z",
+        "versions": [
+          "0.0.9"
+        ],
+        "id": "RLMA-2024-01371",
+        "source": "reversing-labs",
+        "sha256": "9649198e7404324fb27f3a90a3eb55438350f043b79df8ea0f7fb913ff8e070c"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "my_super_private_library",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/my_super_private_library"
+      },
+      "versions": [
+        "0.0.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/my_super_private_library/MAL-2024-2684.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5149",
+  "summary": "Malicious code in forenith (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:29Z",
+  "published": "2024-06-25T13:35:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:29Z",
+        "import_time": "2024-06-28T02:49:00.109637248Z",
+        "versions": [
+          "7.6.9"
+        ],
+        "id": "RLMA-2024-03929",
+        "source": "reversing-labs",
+        "sha256": "4221ae88dadab4bc09c5470ae8a3f67fbfc362d4a3d88c8e993338c265622f0f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://hackernoon.com/how-rat-mutants-in-python-steal-data-and-evade-detection"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "forenith",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/forenith"
+      },
+      "versions": [
+        "7.6.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/forenith/MAL-2024-5149.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

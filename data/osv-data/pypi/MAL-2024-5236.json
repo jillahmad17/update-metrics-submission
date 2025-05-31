@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5236",
+  "summary": "Malicious code in httpx-advanced3 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-HTTPXADVANCED3-5292149"
+  ],
+  "modified": "2024-06-28T03:14:54.448823Z",
+  "published": "2024-06-25T13:36:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:12Z",
+        "import_time": "2024-06-28T02:49:10.95738056Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04018",
+        "source": "reversing-labs",
+        "sha256": "8d12a602f3a1bd7f8f48137ceed0f7cc31dca8e82ee68adf1ae7aea85c39106a"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-HTTPXADVANCED3-5292149"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.fortinet.com/blog/threat-research/supply-chain-attack-via-new-malicious-python-packages"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "httpx-advanced3",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/httpx-advanced3"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/httpx-advanced3/MAL-2024-5236.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

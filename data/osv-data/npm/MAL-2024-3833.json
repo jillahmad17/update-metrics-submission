@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3833",
+  "summary": "Malicious code in vscode-dev-containers (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:19:25Z",
+  "published": "2024-06-25T13:19:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:19:25Z",
+        "import_time": "2024-06-28T02:46:25.2901551Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-02611",
+        "source": "reversing-labs",
+        "sha256": "7ff354d8e13cbe8775e4a44045ef9f1ddc9615fba45ee23eee22713b764693ce"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "vscode-dev-containers",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/vscode-dev-containers"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/vscode-dev-containers/MAL-2024-3833.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

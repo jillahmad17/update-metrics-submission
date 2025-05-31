@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5862",
+  "summary": "Malicious code in reqarg (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:24Z",
+  "published": "2024-06-25T13:41:24Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:24Z",
+        "import_time": "2024-06-28T02:50:27.020082538Z",
+        "versions": [
+          "1.4"
+        ],
+        "id": "RLMA-2024-04663",
+        "source": "reversing-labs",
+        "sha256": "a2ee3826622c44ede47f2c2c25d33009e58f95ff5414b43282dc0f10d2249fdf"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "reqarg",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/reqarg"
+      },
+      "versions": [
+        "1.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/reqarg/MAL-2024-5862.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

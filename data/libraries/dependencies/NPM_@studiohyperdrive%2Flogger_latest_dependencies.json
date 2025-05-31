@@ -1,0 +1,523 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 6,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 2,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "SHD logging module: an abstraction on console.log for both frontend as backend (Node.js).",
+  "forks": 0,
+  "funding_urls": [],
+  "homepage": "https://github.com/studiohyperdrive/logger",
+  "keywords": [],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@studiohyperdrive/logger/-/@studiohyperdrive/logger-1.1.3.tgz",
+  "latest_release_number": "1.1.3",
+  "latest_release_published_at": "2024-08-01T08:12:41.234Z",
+  "latest_stable_release_number": "1.1.3",
+  "latest_stable_release_published_at": "2024-08-01T08:12:41.234Z",
+  "license_normalized": false,
+  "licenses": "ISC",
+  "name": "@studiohyperdrive/logger",
+  "normalized_licenses": [
+    "ISC"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@studiohyperdrive/logger",
+  "platform": "NPM",
+  "rank": 9,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/studiohyperdrive/logger",
+  "security_policy_url": null,
+  "stars": 0,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.0.1",
+      "published_at": "2018-09-25T21:57:13.058Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.2",
+      "published_at": "2018-10-22T13:12:25.740Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.0.3",
+      "published_at": "2018-10-22T21:27:37.874Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2018-11-05T20:00:26.723Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2019-01-10T09:51:52.410Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2019-03-02T00:22:02.271Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2019-03-02T15:33:29.920Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.2",
+      "published_at": "2023-06-21T13:49:51.152Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.2-0",
+      "published_at": "2023-06-21T13:47:40.979Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.3",
+      "published_at": "2024-08-01T08:12:41.234Z",
+      "spdx_expression": "ISC",
+      "original_license": "ISC",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.1.3",
+  "dependencies": [
+    {
+      "project_name": "dateformat",
+      "name": "dateformat",
+      "platform": "NPM",
+      "requirements": "3.0.3",
+      "latest_stable": "5.0.3",
+      "latest": "5.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "signale",
+      "name": "signale",
+      "platform": "NPM",
+      "requirements": "1.4.0",
+      "latest_stable": "1.4.0",
+      "latest": "1.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "winston",
+      "name": "winston",
+      "platform": "NPM",
+      "requirements": "3.2.1",
+      "latest_stable": "3.17.0",
+      "latest": "3.17.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "winston-daily-rotate-file",
+      "name": "winston-daily-rotate-file",
+      "platform": "NPM",
+      "requirements": "3.8.0",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "winston-transport",
+      "name": "winston-transport",
+      "platform": "NPM",
+      "requirements": "4.3.0",
+      "latest_stable": "4.9.0",
+      "latest": "4.9.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-cli",
+      "name": "babel-cli",
+      "platform": "NPM",
+      "requirements": "6.26.0",
+      "latest_stable": "6.26.0",
+      "latest": "7.0.0-beta.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-core",
+      "name": "babel-core",
+      "platform": "NPM",
+      "requirements": "6.26.3",
+      "latest_stable": "6.26.3",
+      "latest": "6.26.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-eslint",
+      "name": "babel-eslint",
+      "platform": "NPM",
+      "requirements": "10.0.1",
+      "latest_stable": "10.1.0",
+      "latest": "10.1.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-plugin-external-helpers",
+      "name": "babel-plugin-external-helpers",
+      "platform": "NPM",
+      "requirements": "6.22.0",
+      "latest_stable": "6.22.0",
+      "latest": "7.0.0-beta.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-plugin-istanbul",
+      "name": "babel-plugin-istanbul",
+      "platform": "NPM",
+      "requirements": "5.1.1",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "babel-plugin-transform-object-rest-spread",
+      "name": "babel-plugin-transform-object-rest-spread",
+      "platform": "NPM",
+      "requirements": "6.26.0",
+      "latest_stable": "6.26.0",
+      "latest": "7.0.0-beta.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-polyfill",
+      "name": "babel-polyfill",
+      "platform": "NPM",
+      "requirements": "6.26.0",
+      "latest_stable": "6.26.0",
+      "latest": "7.0.0-beta.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-preset-env",
+      "name": "babel-preset-env",
+      "platform": "NPM",
+      "requirements": "1.7.0",
+      "latest_stable": "1.7.0",
+      "latest": "1.7.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "9.7.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup",
+      "name": "rollup",
+      "platform": "NPM",
+      "requirements": "0.68.2",
+      "latest_stable": "4.30.1",
+      "latest": "4.30.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-babel",
+      "name": "rollup-plugin-babel",
+      "platform": "NPM",
+      "requirements": "3.0.7",
+      "latest_stable": "4.4.0",
+      "latest": "5.0.0-alpha.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-bundle-size",
+      "name": "rollup-plugin-bundle-size",
+      "platform": "NPM",
+      "requirements": "1.0.3",
+      "latest_stable": "1.0.3",
+      "latest": "1.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-commonjs",
+      "name": "rollup-plugin-commonjs",
+      "platform": "NPM",
+      "requirements": "9.2.1",
+      "latest_stable": "10.1.0",
+      "latest": "10.1.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-conditional",
+      "name": "rollup-plugin-conditional",
+      "platform": "NPM",
+      "requirements": "3.1.2",
+      "latest_stable": "3.1.2",
+      "latest": "3.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-json",
+      "name": "rollup-plugin-json",
+      "platform": "NPM",
+      "requirements": "3.1.0",
+      "latest_stable": "4.0.0",
+      "latest": "4.0.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-node-builtins",
+      "name": "rollup-plugin-node-builtins",
+      "platform": "NPM",
+      "requirements": "2.1.2",
+      "latest_stable": "2.1.2",
+      "latest": "2.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-node-globals",
+      "name": "rollup-plugin-node-globals",
+      "platform": "NPM",
+      "requirements": "1.4.0",
+      "latest_stable": "1.4.0",
+      "latest": "1.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-node-resolve",
+      "name": "rollup-plugin-node-resolve",
+      "platform": "NPM",
+      "requirements": "4.0.1",
+      "latest_stable": "5.2.0",
+      "latest": "5.2.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rollup-plugin-uglify",
+      "name": "rollup-plugin-uglify",
+      "platform": "NPM",
+      "requirements": "3.0.0",
+      "latest_stable": "6.0.4",
+      "latest": "6.0.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

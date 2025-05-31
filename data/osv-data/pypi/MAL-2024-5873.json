@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-5873",
+  "summary": "Malicious code in requ-sts (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-REQUSTS-5295881"
+  ],
+  "modified": "2024-06-28T03:15:15.174202Z",
+  "published": "2024-06-25T13:41:29Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:29Z",
+        "import_time": "2024-06-28T02:50:28.284335272Z",
+        "versions": [
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04674",
+        "source": "reversing-labs",
+        "sha256": "00c1019c80f9fe3009dfdaa21c3ba4050a9a349d456fae7998a8636a01c48a32"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-REQUSTS-5295881"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "requ-sts",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requ-sts"
+      },
+      "versions": [
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requ-sts/MAL-2024-5873.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5964",
+  "summary": "Malicious code in sc-oauth2 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:12Z",
+  "published": "2024-06-25T13:42:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:12Z",
+        "import_time": "2024-06-28T02:50:39.491332187Z",
+        "versions": [
+          "99.0"
+        ],
+        "id": "RLMA-2024-04765",
+        "source": "reversing-labs",
+        "sha256": "e9c13fcd73416eb7048fae8aaf62b03f03d3f9a28f58c33709cbdff73411417a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "sc-oauth2",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/sc-oauth2"
+      },
+      "versions": [
+        "99.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sc-oauth2/MAL-2024-5964.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

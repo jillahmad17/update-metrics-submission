@@ -1,0 +1,455 @@
+{
+  "code_of_conduct_url": "https://github.com/americanexpress/one-app-dev-proxy/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 11,
+  "contribution_guidelines_url": "https://github.com/americanexpress/one-app-dev-proxy/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 2,
+  "dependents_count": 3,
+  "deprecation_reason": null,
+  "description": "Proxy requests to remote servers locally while also allowing for an express middleware to be provided and applied to all requests",
+  "forks": 4,
+  "funding_urls": [],
+  "homepage": "https://github.com/americanexpress/one-app-dev-proxy",
+  "keywords": [
+    "proxy",
+    "mock",
+    "api",
+    "One Amex",
+    "one-app",
+    "amex",
+    "dev-proxy",
+    "express",
+    "express-middleware",
+    "nodejs",
+    "proxy-requests"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@americanexpress/one-app-dev-proxy/-/@americanexpress/one-app-dev-proxy-2.0.0.tgz",
+  "latest_release_number": "2.0.0",
+  "latest_release_published_at": "2023-01-24T20:05:32.346Z",
+  "latest_stable_release_number": "2.0.0",
+  "latest_stable_release_published_at": "2023-01-24T20:05:32.346Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@americanexpress/one-app-dev-proxy",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@americanexpress/one-app-dev-proxy",
+  "platform": "NPM",
+  "rank": 9,
+  "repository_license": "Apache-2.0",
+  "repository_status": "Unmaintained",
+  "repository_url": "https://github.com/americanexpress/one-app-dev-proxy",
+  "security_policy_url": "https://github.com/americanexpress/one-app-dev-proxy/security/policy",
+  "stars": 6,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2019-11-22T22:37:12.771Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2023-01-24T20:05:32.346Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "2.0.0",
+  "dependencies": [
+    {
+      "project_name": "body-parser",
+      "name": "body-parser",
+      "platform": "NPM",
+      "requirements": "^1.18.2",
+      "latest_stable": "2.0.2",
+      "latest": "2.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chalk",
+      "name": "chalk",
+      "platform": "NPM",
+      "requirements": "^3.0.0",
+      "latest_stable": "5.4.1",
+      "latest": "5.4.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cors",
+      "name": "cors",
+      "platform": "NPM",
+      "requirements": "^2.8.3",
+      "latest_stable": "2.8.5",
+      "latest": "2.8.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "express",
+      "name": "express",
+      "platform": "NPM",
+      "requirements": "^4.15.2",
+      "latest_stable": "4.21.2",
+      "latest": "4.21.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "node-fetch",
+      "name": "node-fetch",
+      "platform": "NPM",
+      "requirements": "2.6.7",
+      "latest_stable": "2.7.0",
+      "latest": "2.7.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^2.6.1",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "yargs",
+      "name": "yargs",
+      "platform": "NPM",
+      "requirements": "^15.4.1",
+      "latest_stable": "17.7.2",
+      "latest": "17.7.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@commitlint/cli",
+      "name": "@commitlint/cli",
+      "platform": "NPM",
+      "requirements": "^9.1.2",
+      "latest_stable": "19.6.1",
+      "latest": "19.6.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@commitlint/config-conventional",
+      "name": "@commitlint/config-conventional",
+      "platform": "NPM",
+      "requirements": "^9.1.2",
+      "latest_stable": "19.6.0",
+      "latest": "19.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/changelog",
+      "name": "@semantic-release/changelog",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "6.0.3",
+      "latest": "6.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/commit-analyzer",
+      "name": "@semantic-release/commit-analyzer",
+      "platform": "NPM",
+      "requirements": "^9.0.0",
+      "latest_stable": "13.0.1",
+      "latest": "13.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/git",
+      "name": "@semantic-release/git",
+      "platform": "NPM",
+      "requirements": "^10.0.0",
+      "latest_stable": "10.0.1",
+      "latest": "10.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/github",
+      "name": "@semantic-release/github",
+      "platform": "NPM",
+      "requirements": "^8.0.0",
+      "latest_stable": "11.0.1",
+      "latest": "11.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/npm",
+      "name": "@semantic-release/npm",
+      "platform": "NPM",
+      "requirements": "^9.0.0",
+      "latest_stable": "12.0.1",
+      "latest": "12.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@semantic-release/release-notes-generator",
+      "name": "@semantic-release/release-notes-generator",
+      "platform": "NPM",
+      "requirements": "^10.0.0",
+      "latest_stable": "14.0.3",
+      "latest": "14.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "amex-jest-preset",
+      "name": "amex-jest-preset",
+      "platform": "NPM",
+      "requirements": "^3.0.0",
+      "latest_stable": "7.0.0",
+      "latest": "7.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@babel/cli",
+      "name": "@babel/cli",
+      "platform": "NPM",
+      "requirements": "^7.0.0",
+      "latest_stable": "7.26.4",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-preset-amex",
+      "name": "babel-preset-amex",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "4.0.3",
+      "latest": "4.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^6.5.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-amex",
+      "name": "eslint-config-amex",
+      "platform": "NPM",
+      "requirements": "^13.1.0",
+      "latest_stable": "16.6.1",
+      "latest": "16.6.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "husky",
+      "name": "husky",
+      "platform": "NPM",
+      "requirements": "^3.0.9",
+      "latest_stable": "9.1.7",
+      "latest": "9.1.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^29.0.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lockfile-lint",
+      "name": "lockfile-lint",
+      "platform": "NPM",
+      "requirements": "^4.3.7",
+      "latest_stable": "4.14.0",
+      "latest": "4.14.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "semantic-release",
+      "name": "semantic-release",
+      "platform": "NPM",
+      "requirements": "^19.0.0",
+      "latest_stable": "24.2.1",
+      "latest": "24.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

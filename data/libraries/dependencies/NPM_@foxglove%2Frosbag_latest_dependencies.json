@@ -1,0 +1,624 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 17,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 0,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "`@foxglove/rosbag` is a node.js & browser compatible module for reading [rosbag](http://wiki.ros.org/rosbag) binary data files.",
+  "forks": 7,
+  "funding_urls": [],
+  "homepage": "https://foxglove.github.io/rosbag/",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "ros",
+    "typescript"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@foxglove/rosbag/-/@foxglove/rosbag-0.4.1.tgz",
+  "latest_release_number": "0.4.1",
+  "latest_release_published_at": "2024-03-05T15:21:26.182Z",
+  "latest_stable_release_number": "0.4.1",
+  "latest_stable_release_published_at": "2024-03-05T15:21:26.182Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@foxglove/rosbag",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@foxglove/rosbag",
+  "platform": "NPM",
+  "rank": 11,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/foxglove/rosbag",
+  "security_policy_url": null,
+  "stars": 12,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2021-08-06T17:24:38.858Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2021-08-19T21:38:02.064Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.1.2",
+      "published_at": "2021-10-30T16:00:04.481Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2022-03-08T19:55:48.755Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.1",
+      "published_at": "2022-03-11T18:08:07.955Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.2",
+      "published_at": "2022-05-05T00:19:13.560Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.3",
+      "published_at": "2022-09-12T21:01:33.809Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2023-02-28T04:55:52.538Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2023-04-07T21:59:18.980Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2024-03-05T15:21:26.182Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.4.1",
+  "dependencies": [
+    {
+      "project_name": "@foxglove/rosmsg",
+      "name": "@foxglove/rosmsg",
+      "platform": "NPM",
+      "requirements": "^4.0.0",
+      "latest_stable": "5.0.4",
+      "latest": "5.0.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@foxglove/rosmsg-serialization",
+      "name": "@foxglove/rosmsg-serialization",
+      "platform": "NPM",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.3",
+      "latest": "2.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@foxglove/rostime",
+      "name": "@foxglove/rostime",
+      "platform": "NPM",
+      "requirements": "^1.1.2",
+      "latest_stable": "1.1.2",
+      "latest": "1.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "heap",
+      "name": "heap",
+      "platform": "NPM",
+      "requirements": "^0.2.7",
+      "latest_stable": "0.2.7",
+      "latest": "0.2.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@foxglove/eslint-plugin",
+      "name": "@foxglove/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "0.21.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@foxglove/tsconfig",
+      "name": "@foxglove/tsconfig",
+      "platform": "NPM",
+      "requirements": "1.1.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "29.4.0",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "18.14.2",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/eslint-plugin",
+      "name": "@typescript-eslint/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "5.54.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "5.54.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "compressjs",
+      "name": "compressjs",
+      "platform": "NPM",
+      "requirements": "1.0.3",
+      "latest_stable": "1.0.3",
+      "latest": "1.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "GPL-2.0+"
+      ]
+    },
+    {
+      "project_name": "cross-env",
+      "name": "cross-env",
+      "platform": "NPM",
+      "requirements": "7.0.3",
+      "latest_stable": "7.0.3",
+      "latest": "7.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "8.35.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-prettier",
+      "name": "eslint-config-prettier",
+      "platform": "NPM",
+      "requirements": "8.6.0",
+      "latest_stable": "9.1.0",
+      "latest": "9.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-es",
+      "name": "eslint-plugin-es",
+      "platform": "NPM",
+      "requirements": "4.1.0",
+      "latest_stable": "4.1.0",
+      "latest": "4.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-filenames",
+      "name": "eslint-plugin-filenames",
+      "platform": "NPM",
+      "requirements": "1.3.2",
+      "latest_stable": "1.3.2",
+      "latest": "1.3.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "2.27.5",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-jest",
+      "name": "eslint-plugin-jest",
+      "platform": "NPM",
+      "requirements": "27.2.1",
+      "latest_stable": "28.10.0",
+      "latest": "28.10.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-prettier",
+      "name": "eslint-plugin-prettier",
+      "platform": "NPM",
+      "requirements": "4.2.1",
+      "latest_stable": "5.2.1",
+      "latest": "5.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-react",
+      "name": "eslint-plugin-react",
+      "platform": "NPM",
+      "requirements": "7.32.2",
+      "latest_stable": "7.37.3",
+      "latest": "7.37.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-react-hooks",
+      "name": "eslint-plugin-react-hooks",
+      "platform": "NPM",
+      "requirements": "4.6.0",
+      "latest_stable": "5.1.0",
+      "latest": "0.0.0-experimental-056073de-20250109",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "29.4.3",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest-cli",
+      "name": "jest-cli",
+      "platform": "NPM",
+      "requirements": "29.4.3",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest-environment-jsdom",
+      "name": "jest-environment-jsdom",
+      "platform": "NPM",
+      "requirements": "29.4.3",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lz4js",
+      "name": "lz4js",
+      "platform": "NPM",
+      "requirements": "0.2.0",
+      "latest_stable": "0.2.0",
+      "latest": "0.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "2.8.4",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "4.1.2",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "ts-jest",
+      "name": "ts-jest",
+      "platform": "NPM",
+      "requirements": "29.0.5",
+      "latest_stable": "29.2.5",
+      "latest": "29.2.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typedoc",
+      "name": "typedoc",
+      "platform": "NPM",
+      "requirements": "0.23.26",
+      "latest_stable": "0.27.6",
+      "latest": "0.27.6",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "4.9.5",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

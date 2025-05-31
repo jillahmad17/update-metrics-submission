@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5890",
+  "summary": "Malicious code in requesters (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:37Z",
+  "published": "2024-06-25T13:41:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:37Z",
+        "import_time": "2024-06-28T02:50:30.253378985Z",
+        "versions": [
+          "0.0.1"
+        ],
+        "id": "RLMA-2024-04691",
+        "source": "reversing-labs",
+        "sha256": "7b4397ccd1ec2d0b831a3867bb11b00fad0f2dadf32e867c552eab54cadc7fd1"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "requesters",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/requesters"
+      },
+      "versions": [
+        "0.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/requesters/MAL-2024-5890.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

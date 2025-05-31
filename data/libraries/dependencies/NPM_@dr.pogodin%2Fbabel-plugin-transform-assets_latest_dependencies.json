@@ -1,0 +1,450 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 0,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 3,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "Transforms importing of asset files at compile time using Babel",
+  "forks": 1,
+  "funding_urls": [
+    "https://github.com/birdofpreyru"
+  ],
+  "homepage": "https://dr.pogodin.studio/docs/babel-plugin-transform-assets",
+  "keywords": [
+    "babel",
+    "webpack",
+    "file-loader",
+    "babel-plugin",
+    "asset",
+    "require",
+    "import",
+    "hook",
+    "plugin",
+    "universal",
+    "isomorphic",
+    "asset-require-hook",
+    "frontend",
+    "javascript",
+    "js",
+    "react",
+    "reactjs",
+    "web"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/@dr.pogodin/babel-plugin-transform-assets/-/@dr.pogodin/babel-plugin-transform-assets-1.2.4.tgz",
+  "latest_release_number": "1.2.4",
+  "latest_release_published_at": "2024-12-25T15:49:59.479Z",
+  "latest_stable_release_number": "1.2.4",
+  "latest_stable_release_published_at": "2024-12-25T15:49:59.479Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "@dr.pogodin/babel-plugin-transform-assets",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@dr.pogodin/babel-plugin-transform-assets",
+  "platform": "NPM",
+  "rank": 11,
+  "repository_license": "Other",
+  "repository_status": null,
+  "repository_url": "https://github.com/birdofpreyru/babel-plugin-transform-assets",
+  "security_policy_url": null,
+  "stars": 1,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.1.0",
+      "published_at": "2020-11-06T23:23:42.631Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2020-11-06T23:37:01.473Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2022-10-20T11:20:50.753Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.1",
+      "published_at": "2022-11-07T22:02:17.690Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.2",
+      "published_at": "2023-01-16T12:58:37.192Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.3",
+      "published_at": "2024-12-24T17:20:05.787Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.4",
+      "published_at": "2024-12-25T15:49:59.479Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.2.4",
+  "dependencies": [
+    {
+      "project_name": "enhanced-resolve",
+      "name": "enhanced-resolve",
+      "platform": "NPM",
+      "requirements": "^5.18.0",
+      "latest_stable": "5.18.0",
+      "latest": "5.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "loader-utils",
+      "name": "loader-utils",
+      "platform": "NPM",
+      "requirements": "^3.3.1",
+      "latest_stable": "3.3.1",
+      "latest": "3.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/cli",
+      "name": "@babel/cli",
+      "platform": "NPM",
+      "requirements": "^7.26.4",
+      "latest_stable": "7.26.4",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/core",
+      "name": "@babel/core",
+      "platform": "NPM",
+      "requirements": "^7.26.0",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/eslint-parser",
+      "name": "@babel/eslint-parser",
+      "platform": "NPM",
+      "requirements": "^7.25.9",
+      "latest_stable": "7.26.5",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/eslint-plugin",
+      "name": "@babel/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "^7.25.9",
+      "latest_stable": "7.25.9",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/preset-env",
+      "name": "@babel/preset-env",
+      "platform": "NPM",
+      "requirements": "^7.26.0",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@babel/register",
+      "name": "@babel/register",
+      "platform": "NPM",
+      "requirements": "^7.25.9",
+      "latest_stable": "7.25.9",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chai",
+      "name": "chai",
+      "platform": "NPM",
+      "requirements": "^5.1.2",
+      "latest_stable": "5.1.2",
+      "latest": "5.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.57.1",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-airbnb-base",
+      "name": "eslint-config-airbnb-base",
+      "platform": "NPM",
+      "requirements": "^15.0.0",
+      "latest_stable": "15.0.0",
+      "latest": "15.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "^2.31.0",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fs-monkey",
+      "name": "fs-monkey",
+      "platform": "NPM",
+      "requirements": "^1.0.6",
+      "latest_stable": "1.0.6",
+      "latest": "1.0.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense"
+      ]
+    },
+    {
+      "project_name": "gulp-babel",
+      "name": "gulp-babel",
+      "platform": "NPM",
+      "requirements": "^8.0.0-beta.2",
+      "latest_stable": "8.0.0",
+      "latest": "8.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "memfs",
+      "name": "memfs",
+      "platform": "NPM",
+      "requirements": "^4.15.1",
+      "latest_stable": "4.17.0",
+      "latest": "4.17.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "mocha",
+      "name": "mocha",
+      "platform": "NPM",
+      "requirements": "^11.0.1",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mocha-each",
+      "name": "mocha-each",
+      "platform": "NPM",
+      "requirements": "^2.0.1",
+      "latest_stable": "2.0.1",
+      "latest": "2.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^6.0.1",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "unionfs",
+      "name": "unionfs",
+      "platform": "NPM",
+      "requirements": "^4.5.4",
+      "latest_stable": "4.5.4",
+      "latest": "4.5.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense"
+      ]
+    },
+    {
+      "project_name": "vinyl",
+      "name": "vinyl",
+      "platform": "NPM",
+      "requirements": "^3.0.0",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

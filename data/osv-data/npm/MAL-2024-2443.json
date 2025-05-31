@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2443",
+  "summary": "Malicious code in guardian-service (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:44:52Z",
+  "published": "2024-06-25T12:44:52Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:44:52Z",
+        "import_time": "2024-06-28T02:43:26.174360203Z",
+        "versions": [
+          "99.9.9"
+        ],
+        "id": "RLMA-2024-01106",
+        "source": "reversing-labs",
+        "sha256": "d1461b604dff29dbe76bec686e4d65f3270787f9e25314cd0985288bd0f067f9"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "guardian-service",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/guardian-service"
+      },
+      "versions": [
+        "99.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/guardian-service/MAL-2024-2443.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

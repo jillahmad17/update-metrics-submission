@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5352",
+  "summary": "Malicious code in massconnect (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:37:09Z",
+  "published": "2024-06-25T13:37:09Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:09Z",
+        "import_time": "2024-06-28T02:49:24.719509134Z",
+        "versions": [
+          "2.35.18"
+        ],
+        "id": "RLMA-2024-04134",
+        "source": "reversing-labs",
+        "sha256": "ffe97b432e09f7dc0281c1fb46d49e00ed55069db1182f2c48446b5fb0431445"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "massconnect",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/massconnect"
+      },
+      "versions": [
+        "2.35.18"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/massconnect/MAL-2024-5352.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

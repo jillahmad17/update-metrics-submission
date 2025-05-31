@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5819",
+  "summary": "Malicious code in pythonhttpx (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:41:02Z",
+  "published": "2024-06-25T13:41:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:41:02Z",
+        "import_time": "2024-06-28T02:50:21.38173832Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04617",
+        "source": "reversing-labs",
+        "sha256": "e01e2f3a213f3f512d4e54c480c7d387b60866a730de28830c98907dc256aad7"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pythonhttpx",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythonhttpx"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonhttpx/MAL-2024-5819.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-5986",
+  "summary": "Malicious code in semurgdb (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SEMURGDB-5885076"
+  ],
+  "modified": "2024-06-28T03:15:16.167692Z",
+  "published": "2024-06-25T13:42:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:23Z",
+        "import_time": "2024-06-28T02:50:42.137820005Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04787",
+        "source": "reversing-labs",
+        "sha256": "0c7708e1f300d32565503bec9ba8b13c022c27f19706b44742151101a2a6592e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SEMURGDB-5885076"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "semurgdb",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/semurgdb"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/semurgdb/MAL-2024-5986.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

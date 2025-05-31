@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5812",
+  "summary": "Malicious code in pythoncryptov2 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:59Z",
+  "published": "2024-06-25T13:40:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:59Z",
+        "import_time": "2024-06-28T02:50:20.613202432Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04610",
+        "source": "reversing-labs",
+        "sha256": "d66dcf976a3db2a4b378a94bcda65e8dd947e68787a1c4ebee17eba3864c3ca1"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pythoncryptov2",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pythoncryptov2"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythoncryptov2/MAL-2024-5812.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

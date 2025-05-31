@@ -1,0 +1,4220 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 262,
+  "contribution_guidelines_url": "https://github.com/trufflesuite/truffle/blob/develop/CONTRIBUTING.md",
+  "dependent_repos_count": 9,
+  "dependents_count": 25,
+  "deprecation_reason": null,
+  "description": "Core code for Truffle command line tool",
+  "forks": 2316,
+  "funding_urls": [],
+  "homepage": "https://github.com/trufflesuite/truffle#readme",
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "framework",
+    "hacktoberfest",
+    "javascript",
+    "smart-contract-tools",
+    "smart-contracts",
+    "solidity",
+    "truffle"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@truffle/core/-/@truffle/core-5.11.5.tgz",
+  "latest_release_number": "5.11.5",
+  "latest_release_published_at": "2023-09-13T21:19:29.403Z",
+  "latest_stable_release_number": "5.11.5",
+  "latest_stable_release_published_at": "2023-09-13T21:19:29.403Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "@truffle/core",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@truffle/core",
+  "platform": "NPM",
+  "rank": 15,
+  "repository_license": "MIT",
+  "repository_status": "Unmaintained",
+  "repository_url": "https://github.com/trufflesuite/truffle",
+  "security_policy_url": null,
+  "stars": 14019,
+  "status": null,
+  "versions": [
+    {
+      "number": "5.0.35",
+      "published_at": "2019-09-04T19:58:18.219Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.36",
+      "published_at": "2019-09-12T20:38:31.294Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.36-migrate-describe.0",
+      "published_at": "2019-09-05T01:45:05.344Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.36-migrate-describe.1",
+      "published_at": "2019-09-07T00:22:49.487Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.37",
+      "published_at": "2019-09-19T21:12:27.446Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.38",
+      "published_at": "2019-09-27T04:28:34.475Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.38-alphaTez.0",
+      "published_at": "2019-09-29T05:33:56.880Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.39",
+      "published_at": "2019-10-03T00:10:35.566Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.40",
+      "published_at": "2019-10-10T16:17:44.654Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.41",
+      "published_at": "2019-10-17T18:00:21.977Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.42",
+      "published_at": "2019-10-25T17:39:22.281Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.43",
+      "published_at": "2019-10-31T23:18:55.628Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.44",
+      "published_at": "2019-11-07T23:02:40.283Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.45-micah.0",
+      "published_at": "2019-11-08T06:38:03.364Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.46-micah.0",
+      "published_at": "2019-11-04T01:31:36.138Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0",
+      "published_at": "2019-11-12T15:40:36.301Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.10.0",
+      "published_at": "2023-06-16T18:44:20.912Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.10.1",
+      "published_at": "2023-06-23T21:08:52.015Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.10.2",
+      "published_at": "2023-06-30T20:09:45.317Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0-alphaTez.0",
+      "published_at": "2019-10-09T18:17:41.623Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0-ens-events.0",
+      "published_at": "2019-09-27T20:49:49.852Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0-next.0",
+      "published_at": "2019-11-05T13:44:52.234Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0-next.1",
+      "published_at": "2019-11-05T14:01:09.736Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.1",
+      "published_at": "2019-11-22T22:51:31.199Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.10",
+      "published_at": "2020-01-25T05:54:09.799Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.0",
+      "published_at": "2023-07-14T18:58:30.609Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.11",
+      "published_at": "2020-01-30T21:50:50.561Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.1",
+      "published_at": "2023-07-25T19:12:30.963Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.11-alphaTez.0",
+      "published_at": "2020-01-28T03:45:18.504Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.12",
+      "published_at": "2020-02-06T21:05:25.412Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.2",
+      "published_at": "2023-08-04T22:07:36.079Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.12-alphaTez.0",
+      "published_at": "2020-01-30T23:53:33.626Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.12-alphaTez.1",
+      "published_at": "2020-02-04T01:46:00.239Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13",
+      "published_at": "2020-02-14T22:07:42.100Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.3",
+      "published_at": "2023-08-29T00:21:08.176Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.0",
+      "published_at": "2020-02-11T01:46:06.090Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.1",
+      "published_at": "2020-02-11T03:18:14.621Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.2",
+      "published_at": "2020-02-11T22:09:46.234Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.3",
+      "published_at": "2020-02-11T23:05:10.518Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.4",
+      "published_at": "2020-02-12T17:56:27.960Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.5",
+      "published_at": "2020-02-12T22:20:00.382Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.6",
+      "published_at": "2020-02-12T22:26:06.002Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.7",
+      "published_at": "2020-02-12T22:41:20.205Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.8",
+      "published_at": "2020-02-12T23:20:28.392Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-alphaTez.9",
+      "published_at": "2020-02-13T00:19:46.751Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-chmod.0",
+      "published_at": "2020-02-11T18:57:03.261Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.13-truffleLogger.0",
+      "published_at": "2020-02-07T00:02:14.041Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.14",
+      "published_at": "2020-02-21T01:14:12.974Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.4",
+      "published_at": "2023-09-07T19:51:06.097Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.14-alphaTez.0",
+      "published_at": "2020-02-17T05:05:36.367Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.14-truffleLogger.0",
+      "published_at": "2020-02-14T22:53:52.281Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.15",
+      "published_at": "2020-02-27T17:36:07.377Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.11.5",
+      "published_at": "2023-09-13T21:19:29.403Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.15-fix-decoder-types.0",
+      "published_at": "2020-02-25T03:21:13.013Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.16",
+      "published_at": "2020-03-05T19:39:25.999Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.16-truffleLogger.0",
+      "published_at": "2020-03-04T18:30:19.538Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.17",
+      "published_at": "2020-03-12T23:38:38.350Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.18",
+      "published_at": "2020-03-19T23:59:40.839Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.19",
+      "published_at": "2020-03-27T01:29:42.206Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.1-alphaTez.0",
+      "published_at": "2019-10-11T23:53:54.426Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.2",
+      "published_at": "2019-11-28T14:55:01.457Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.20",
+      "published_at": "2020-04-02T17:17:18.040Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.21",
+      "published_at": "2020-04-11T04:41:06.993Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.22",
+      "published_at": "2020-04-16T21:16:46.413Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.23",
+      "published_at": "2020-04-23T21:33:44.015Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.24",
+      "published_at": "2020-04-30T21:46:28.357Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.25",
+      "published_at": "2020-05-09T04:29:19.115Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.26",
+      "published_at": "2020-05-15T03:26:48.912Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.27",
+      "published_at": "2020-05-23T19:35:09.830Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.28",
+      "published_at": "2020-05-30T02:47:19.221Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.29",
+      "published_at": "2020-06-06T23:39:22.560Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.3",
+      "published_at": "2019-12-06T14:29:52.018Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.30",
+      "published_at": "2020-06-12T22:48:36.550Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.31",
+      "published_at": "2020-06-18T22:45:50.818Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.32",
+      "published_at": "2020-06-25T23:37:43.008Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.33",
+      "published_at": "2020-07-02T19:39:10.841Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.34",
+      "published_at": "2020-07-09T22:34:56.216Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.34-next.0",
+      "published_at": "2020-07-09T16:12:09.035Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.35",
+      "published_at": "2020-07-17T22:11:09.925Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.36",
+      "published_at": "2020-07-24T21:46:08.160Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.37",
+      "published_at": "2020-07-31T01:17:16.164Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.37-save-intermediate.0",
+      "published_at": "2020-07-31T00:21:37.942Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.37-save-intermediate.1",
+      "published_at": "2020-07-31T00:39:39.065Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.39",
+      "published_at": "2020-08-08T03:01:34.773Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.4",
+      "published_at": "2019-12-13T18:07:31.461Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.40",
+      "published_at": "2020-08-14T18:13:16.183Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.41",
+      "published_at": "2020-08-18T01:32:56.538Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.42",
+      "published_at": "2020-08-27T18:57:04.496Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.43",
+      "published_at": "2020-09-04T00:48:50.366Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.44",
+      "published_at": "2020-09-11T00:37:38.147Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.45",
+      "published_at": "2020-09-17T20:25:47.299Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.46",
+      "published_at": "2020-09-24T23:46:10.297Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.46-alpha.0",
+      "published_at": "2020-09-21T16:39:13.814Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.47",
+      "published_at": "2020-10-02T01:19:44.113Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.48",
+      "published_at": "2020-10-09T00:28:54.061Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.49",
+      "published_at": "2020-10-15T23:27:44.267Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.49-abi-utils.0",
+      "published_at": "2020-10-12T21:44:28.689Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.4-alphaTez.0",
+      "published_at": "2019-12-12T00:06:15.196Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.5",
+      "published_at": "2019-12-20T01:20:16.223Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.50",
+      "published_at": "2020-10-22T16:55:45.774Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.51",
+      "published_at": "2020-10-29T23:07:27.736Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.52",
+      "published_at": "2020-11-06T05:34:47.726Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.53",
+      "published_at": "2020-11-12T22:30:42.405Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.54",
+      "published_at": "2020-11-19T22:17:30.127Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.55",
+      "published_at": "2020-11-28T02:12:08.277Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.56",
+      "published_at": "2020-12-03T20:19:18.283Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.57",
+      "published_at": "2020-12-11T01:19:03.011Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.58",
+      "published_at": "2020-12-17T21:26:47.866Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.59",
+      "published_at": "2020-12-27T01:22:23.576Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.5-alphaTez.0",
+      "published_at": "2019-12-12T00:58:30.265Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.6",
+      "published_at": "2019-12-27T19:59:13.174Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.60",
+      "published_at": "2021-01-02T05:37:14.277Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.61",
+      "published_at": "2021-01-08T21:28:08.033Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.62",
+      "published_at": "2021-01-14T23:51:33.459Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.63",
+      "published_at": "2021-01-22T21:30:50.506Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.64",
+      "published_at": "2021-01-31T02:41:51.447Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.65",
+      "published_at": "2021-02-04T23:45:33.401Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.66",
+      "published_at": "2021-02-11T23:01:21.257Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.67",
+      "published_at": "2021-02-19T22:27:03.467Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.7",
+      "published_at": "2020-01-05T00:33:49.025Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.8",
+      "published_at": "2020-01-10T18:30:32.679Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.9",
+      "published_at": "2020-01-17T19:02:39.580Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0",
+      "published_at": "2021-02-28T05:05:29.199Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.0",
+      "published_at": "2020-07-06T18:17:06.729Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.1",
+      "published_at": "2020-07-06T18:23:50.318Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.2",
+      "published_at": "2020-07-06T18:35:32.031Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.3",
+      "published_at": "2020-07-07T01:06:11.835Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.4",
+      "published_at": "2020-07-07T03:24:52.479Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.5",
+      "published_at": "2020-07-07T03:50:21.213Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.6",
+      "published_at": "2020-07-07T04:02:26.027Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.7",
+      "published_at": "2020-07-07T05:36:47.368Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-preserves.8",
+      "published_at": "2020-07-14T05:42:07.991Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-tezos.0",
+      "published_at": "2020-02-18T18:26:19.475Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-tezos.1",
+      "published_at": "2020-02-21T23:21:45.135Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-tezos.2",
+      "published_at": "2020-03-16T22:31:09.219Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-tezos.3",
+      "published_at": "2020-03-18T18:59:01.359Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0-truffleLogger.0",
+      "published_at": "2019-12-03T22:30:14.880Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.1-truffleLogger.0",
+      "published_at": "2019-12-19T17:44:23.942Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.2",
+      "published_at": "2021-03-02T01:03:33.720Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.2-alphaTez.0",
+      "published_at": "2019-12-18T20:08:41.199Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.2-truffleLogger.0",
+      "published_at": "2019-12-27T15:29:42.585Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.2-truffleLogger.1",
+      "published_at": "2020-01-16T17:06:00.920Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.3",
+      "published_at": "2021-03-05T23:36:05.456Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.3-alphaTez.0",
+      "published_at": "2020-01-07T00:33:00.000Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4",
+      "published_at": "2021-03-12T22:44:05.861Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4-alphaTez.0",
+      "published_at": "2020-01-07T20:47:57.938Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4-alphaTez.1",
+      "published_at": "2020-01-08T21:57:38.641Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4-alphaTez.2",
+      "published_at": "2020-01-14T23:07:54.228Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4-alphaTez.3",
+      "published_at": "2020-01-16T20:04:01.317Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.4-preserves.0",
+      "published_at": "2021-03-24T16:34:34.650Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.5",
+      "published_at": "2021-03-19T21:35:29.438Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.6",
+      "published_at": "2021-03-25T19:45:58.148Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.7-preserves.0",
+      "published_at": "2021-03-31T08:20:36.319Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.7-preserves.1",
+      "published_at": "2021-03-31T08:28:04.986Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.7-preserves.2",
+      "published_at": "2021-03-31T08:40:14.300Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.7-preserves.4",
+      "published_at": "2021-03-31T09:20:40.041Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.7-preserves.5",
+      "published_at": "2021-03-31T09:45:29.755Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0",
+      "published_at": "2021-03-31T22:31:43.969Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.0",
+      "published_at": "2020-04-07T16:31:48.776Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.1",
+      "published_at": "2020-04-07T23:31:03.843Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.2",
+      "published_at": "2020-04-14T17:55:06.272Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.3",
+      "published_at": "2020-05-26T16:03:01.146Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.4",
+      "published_at": "2020-05-26T21:22:48.129Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.5",
+      "published_at": "2020-05-29T21:33:32.651Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.6",
+      "published_at": "2020-05-29T23:50:45.465Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.0-tezos.7",
+      "published_at": "2020-05-30T00:06:33.272Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.1",
+      "published_at": "2021-04-08T20:01:19.676Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.10",
+      "published_at": "2021-06-12T20:29:39.823Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.10-cheerios.0",
+      "published_at": "2021-06-09T22:29:17.405Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.10-cheerios.1",
+      "published_at": "2021-06-10T02:29:13.858Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.10-decoder-no-web3.0",
+      "published_at": "2021-06-09T03:31:13.863Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.11",
+      "published_at": "2021-06-18T19:33:58.440Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.12",
+      "published_at": "2021-06-25T00:08:17.576Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.13",
+      "published_at": "2021-06-28T23:26:38.846Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.14",
+      "published_at": "2021-07-01T23:32:38.467Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.2",
+      "published_at": "2021-04-16T20:26:07.679Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.3",
+      "published_at": "2021-04-23T23:01:34.488Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.4",
+      "published_at": "2021-04-30T00:11:48.065Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.5",
+      "published_at": "2021-05-07T23:58:38.898Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.6",
+      "published_at": "2021-05-11T19:46:48.973Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.7",
+      "published_at": "2021-05-20T21:44:06.633Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.8",
+      "published_at": "2021-05-28T21:19:54.775Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.3.9",
+      "published_at": "2021-06-04T17:48:31.732Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0",
+      "published_at": "2021-07-09T21:33:06.747Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.0",
+      "published_at": "2020-06-02T22:17:41.822Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.1",
+      "published_at": "2020-06-05T16:22:55.413Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.2",
+      "published_at": "2020-06-15T19:56:47.919Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.3",
+      "published_at": "2020-06-15T22:50:07.229Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.4",
+      "published_at": "2020-06-16T14:03:19.482Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.5",
+      "published_at": "2020-06-23T16:50:32.553Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.0-tezos.6",
+      "published_at": "2020-06-24T21:11:36.729Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.1",
+      "published_at": "2021-07-15T20:57:29.061Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.10",
+      "published_at": "2021-09-11T00:17:27.949Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.10-alpha.0",
+      "published_at": "2021-09-08T15:20:06.524Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.10-alpha.1",
+      "published_at": "2021-09-13T23:58:14.307Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.11",
+      "published_at": "2021-09-17T16:29:54.263Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.12",
+      "published_at": "2021-09-24T22:55:41.102Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.13",
+      "published_at": "2021-09-30T21:41:30.119Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.13-alpha.0",
+      "published_at": "2021-09-28T21:15:03.018Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.13-decoder-beta.0",
+      "published_at": "2021-09-29T14:59:43.671Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.14",
+      "published_at": "2021-10-07T20:23:50.363Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.14-fc.0",
+      "published_at": "2021-10-04T19:40:21.912Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.15",
+      "published_at": "2021-10-14T20:35:46.572Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.16",
+      "published_at": "2021-10-21T23:08:16.623Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.17",
+      "published_at": "2021-10-29T16:57:12.383Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.18",
+      "published_at": "2021-11-05T15:05:27.515Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.19",
+      "published_at": "2021-11-11T23:14:41.994Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.2",
+      "published_at": "2021-07-24T02:42:53.740Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.20",
+      "published_at": "2021-11-19T00:55:36.998Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.21",
+      "published_at": "2021-11-19T01:55:38.446Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.22",
+      "published_at": "2021-11-24T01:03:14.725Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.23",
+      "published_at": "2021-12-02T22:34:41.555Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.24",
+      "published_at": "2021-12-10T16:01:12.534Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.25",
+      "published_at": "2021-12-16T22:57:16.637Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.26",
+      "published_at": "2021-12-23T00:16:25.391Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.27",
+      "published_at": "2022-01-06T21:28:59.619Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.28",
+      "published_at": "2022-01-09T21:57:28.258Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.29",
+      "published_at": "2022-01-13T23:33:55.524Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.3",
+      "published_at": "2021-07-30T20:31:30.031Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.30",
+      "published_at": "2022-01-20T22:29:09.503Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.31",
+      "published_at": "2022-01-29T22:01:24.232Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.32",
+      "published_at": "2022-02-03T23:19:27.785Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.32-dashboard.1",
+      "published_at": "2022-02-01T19:45:02.812Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.33",
+      "published_at": "2022-02-11T00:41:54.167Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.4",
+      "published_at": "2021-08-06T19:09:33.275Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.5",
+      "published_at": "2021-08-06T20:29:15.151Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.6",
+      "published_at": "2021-08-12T21:24:53.432Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.7",
+      "published_at": "2021-08-22T00:45:33.215Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.8",
+      "published_at": "2021-08-27T17:30:44.955Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.4.9",
+      "published_at": "2021-09-02T19:57:20.200Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0",
+      "published_at": "2022-02-17T22:52:39.502Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0-tezos.0",
+      "published_at": "2020-07-15T19:03:56.921Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0-tezos.1",
+      "published_at": "2020-07-22T17:09:33.708Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0-tezos.2",
+      "published_at": "2020-07-23T15:54:00.761Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0-tezos.3",
+      "published_at": "2020-07-23T16:54:04.749Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.0-tezos.4",
+      "published_at": "2020-07-27T17:11:20.153Z",
+      "spdx_expression": "NONE",
+      "original_license": "",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.1",
+      "published_at": "2022-02-22T01:53:33.982Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.10",
+      "published_at": "2022-04-13T22:22:41.447Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.11",
+      "published_at": "2022-04-21T22:25:53.959Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.12",
+      "published_at": "2022-04-28T21:13:28.981Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.13",
+      "published_at": "2022-05-06T15:57:56.915Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.14",
+      "published_at": "2022-05-13T03:57:34.872Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.15",
+      "published_at": "2022-05-20T16:36:03.980Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.16",
+      "published_at": "2022-05-27T18:23:46.017Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.17",
+      "published_at": "2022-06-03T21:22:49.991Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.18",
+      "published_at": "2022-06-09T22:37:24.791Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.19",
+      "published_at": "2022-06-23T20:45:59.223Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.19-alpha.0",
+      "published_at": "2022-06-23T15:17:55.742Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.19-alpha.2",
+      "published_at": "2022-06-24T16:11:52.431Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.2",
+      "published_at": "2022-02-24T20:48:43.449Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.20",
+      "published_at": "2022-07-01T21:02:17.564Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.21",
+      "published_at": "2022-07-07T20:14:12.654Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.22",
+      "published_at": "2022-07-15T20:51:10.174Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.23",
+      "published_at": "2022-07-21T23:32:17.178Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.23-typescript-migrations.0",
+      "published_at": "2022-07-21T02:40:34.510Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.24",
+      "published_at": "2022-07-29T19:28:42.815Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.25",
+      "published_at": "2022-08-05T00:36:10.794Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.26",
+      "published_at": "2022-08-10T22:24:56.020Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.27",
+      "published_at": "2022-08-17T23:40:44.964Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.28",
+      "published_at": "2022-08-24T22:39:23.714Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.28-hardhat-error.0",
+      "published_at": "2022-08-20T00:39:52.420Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.28-hardhat-error.1",
+      "published_at": "2022-08-22T21:43:04.768Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.29",
+      "published_at": "2022-09-07T22:51:02.855Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.29-hardhat-error.0",
+      "published_at": "2022-08-25T07:06:07.557Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.3",
+      "published_at": "2022-03-03T22:35:17.534Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.30",
+      "published_at": "2022-09-15T00:40:03.679Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.31",
+      "published_at": "2022-09-22T22:32:26.732Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.32",
+      "published_at": "2022-09-30T19:52:30.364Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.4",
+      "published_at": "2022-03-11T00:22:20.199Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.5",
+      "published_at": "2022-03-17T23:05:31.870Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.6",
+      "published_at": "2022-03-24T23:37:40.420Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.7",
+      "published_at": "2022-04-01T00:40:48.762Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.8",
+      "published_at": "2022-04-08T15:43:40.645Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.5.9",
+      "published_at": "2022-04-08T20:09:27.727Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.0",
+      "published_at": "2022-10-05T20:24:05.846Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.1",
+      "published_at": "2022-10-12T22:48:21.814Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.2",
+      "published_at": "2022-10-19T18:42:15.884Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.3",
+      "published_at": "2022-10-26T20:12:50.788Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.4",
+      "published_at": "2022-11-02T20:28:10.755Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.5",
+      "published_at": "2022-11-09T22:27:48.964Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.6",
+      "published_at": "2022-11-16T21:02:45.610Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.7",
+      "published_at": "2022-11-23T23:46:19.782Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.8",
+      "published_at": "2022-11-30T20:42:43.672Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.6.9",
+      "published_at": "2022-12-08T22:30:40.629Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.0",
+      "published_at": "2022-12-15T21:56:34.374Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.1",
+      "published_at": "2022-12-21T19:58:58.315Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.2",
+      "published_at": "2023-01-06T16:54:05.631Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.3",
+      "published_at": "2023-01-13T00:17:24.229Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.4",
+      "published_at": "2023-01-27T00:21:58.886Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.5",
+      "published_at": "2023-02-02T20:49:58.796Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.6",
+      "published_at": "2023-02-11T00:29:04.055Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.7",
+      "published_at": "2023-02-17T00:30:35.578Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.8",
+      "published_at": "2023-02-24T18:31:31.518Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.7.9",
+      "published_at": "2023-03-02T21:34:33.550Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.8.0",
+      "published_at": "2023-03-10T02:02:18.022Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.8.1",
+      "published_at": "2023-03-17T19:33:05.208Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.8.2",
+      "published_at": "2023-04-10T21:44:07.465Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.8.3",
+      "published_at": "2023-04-20T19:41:57.357Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.8.4",
+      "published_at": "2023-04-28T01:35:22.908Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.0",
+      "published_at": "2023-05-11T01:50:46.496Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.0-visual-debugger.0",
+      "published_at": "2023-05-12T23:39:00.088Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.1",
+      "published_at": "2023-05-19T21:19:15.575Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.2",
+      "published_at": "2023-05-25T21:16:32.812Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.3",
+      "published_at": "2023-06-02T23:49:33.290Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.9.4",
+      "published_at": "2023-06-06T20:25:43.743Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "5.9.4",
+  "dependencies": [
+    {
+      "project_name": "@truffle/artifactor",
+      "name": "@truffle/artifactor",
+      "platform": "NPM",
+      "requirements": "^4.0.191",
+      "latest_stable": "4.0.199",
+      "latest": "4.0.199",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/box",
+      "name": "@truffle/box",
+      "platform": "NPM",
+      "requirements": "^2.1.77",
+      "latest_stable": "2.1.81",
+      "latest": "2.1.81",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/code-utils",
+      "name": "@truffle/code-utils",
+      "platform": "NPM",
+      "requirements": "^3.0.3",
+      "latest_stable": "3.0.4",
+      "latest": "3.0.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/codec",
+      "name": "@truffle/codec",
+      "platform": "NPM",
+      "requirements": "^0.15.2",
+      "latest_stable": "0.17.3",
+      "latest": "0.17.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/compile-common",
+      "name": "@truffle/compile-common",
+      "platform": "NPM",
+      "requirements": "^0.9.6",
+      "latest_stable": "0.9.8",
+      "latest": "0.9.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/compile-solidity",
+      "name": "@truffle/compile-solidity",
+      "platform": "NPM",
+      "requirements": "^6.0.71",
+      "latest_stable": "6.0.79",
+      "latest": "6.0.79",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/config",
+      "name": "@truffle/config",
+      "platform": "NPM",
+      "requirements": "^1.3.57",
+      "latest_stable": "1.3.61",
+      "latest": "1.3.61",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/contract",
+      "name": "@truffle/contract",
+      "platform": "NPM",
+      "requirements": "^4.6.23",
+      "latest_stable": "4.6.31",
+      "latest": "4.6.31",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/dashboard",
+      "name": "@truffle/dashboard",
+      "platform": "NPM",
+      "requirements": "^0.3.22",
+      "latest_stable": "0.4.5",
+      "latest": "0.4.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/db-loader",
+      "name": "@truffle/db-loader",
+      "platform": "NPM",
+      "requirements": "^0.2.28",
+      "latest_stable": "0.2.36",
+      "latest": "0.2.36",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/debug-utils",
+      "name": "@truffle/debug-utils",
+      "platform": "NPM",
+      "requirements": "^6.0.51",
+      "latest_stable": "6.0.57",
+      "latest": "6.0.57",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/debugger",
+      "name": "@truffle/debugger",
+      "platform": "NPM",
+      "requirements": "^11.1.4",
+      "latest_stable": "12.1.5",
+      "latest": "12.1.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/decoder",
+      "name": "@truffle/decoder",
+      "platform": "NPM",
+      "requirements": "^5.4.4",
+      "latest_stable": "6.1.5",
+      "latest": "6.1.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/deployer",
+      "name": "@truffle/deployer",
+      "platform": "NPM",
+      "requirements": "^3.3.19",
+      "latest_stable": "3.3.27",
+      "latest": "3.3.27",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/environment",
+      "name": "@truffle/environment",
+      "platform": "NPM",
+      "requirements": "^0.2.152",
+      "latest_stable": "0.2.160",
+      "latest": "0.2.160",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/error",
+      "name": "@truffle/error",
+      "platform": "NPM",
+      "requirements": "^0.2.1",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/expect",
+      "name": "@truffle/expect",
+      "platform": "NPM",
+      "requirements": "^0.1.6",
+      "latest_stable": "0.1.7",
+      "latest": "0.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/fetch-and-compile",
+      "name": "@truffle/fetch-and-compile",
+      "platform": "NPM",
+      "requirements": "^0.5.48",
+      "latest_stable": "0.5.56",
+      "latest": "0.5.56",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/from-hardhat",
+      "name": "@truffle/from-hardhat",
+      "platform": "NPM",
+      "requirements": "^0.2.12",
+      "latest_stable": "0.2.20",
+      "latest": "0.2.20",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/hdwallet",
+      "name": "@truffle/hdwallet",
+      "platform": "NPM",
+      "requirements": "^0.1.3",
+      "latest_stable": "0.1.4",
+      "latest": "0.1.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/interface-adapter",
+      "name": "@truffle/interface-adapter",
+      "platform": "NPM",
+      "requirements": "^0.5.34",
+      "latest_stable": "0.5.37",
+      "latest": "0.5.37",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/migrate",
+      "name": "@truffle/migrate",
+      "platform": "NPM",
+      "requirements": "^3.3.40",
+      "latest_stable": "3.3.48",
+      "latest": "3.3.48",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/plugins",
+      "name": "@truffle/plugins",
+      "platform": "NPM",
+      "requirements": "^0.2.14",
+      "latest_stable": "0.2.15",
+      "latest": "0.2.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/preserve",
+      "name": "@truffle/preserve",
+      "platform": "NPM",
+      "requirements": "^0.2.16",
+      "latest_stable": "0.2.17",
+      "latest": "0.2.17",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/promise-tracker",
+      "name": "@truffle/promise-tracker",
+      "platform": "NPM",
+      "requirements": "^0.1.6",
+      "latest_stable": "0.1.7",
+      "latest": "0.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/provider",
+      "name": "@truffle/provider",
+      "platform": "NPM",
+      "requirements": "^0.3.10",
+      "latest_stable": "0.3.13",
+      "latest": "0.3.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/provisioner",
+      "name": "@truffle/provisioner",
+      "platform": "NPM",
+      "requirements": "^0.2.80",
+      "latest_stable": "0.2.84",
+      "latest": "0.2.84",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/require",
+      "name": "@truffle/require",
+      "platform": "NPM",
+      "requirements": "^2.1.35",
+      "latest_stable": "2.1.43",
+      "latest": "2.1.43",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/resolver",
+      "name": "@truffle/resolver",
+      "platform": "NPM",
+      "requirements": "^9.0.45",
+      "latest_stable": "9.0.53",
+      "latest": "9.0.53",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/source-fetcher",
+      "name": "@truffle/source-fetcher",
+      "platform": "NPM",
+      "requirements": "^1.0.37",
+      "latest_stable": "1.0.44",
+      "latest": "1.0.44",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/spinners",
+      "name": "@truffle/spinners",
+      "platform": "NPM",
+      "requirements": "^0.2.4",
+      "latest_stable": "0.2.5",
+      "latest": "0.2.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/test",
+      "name": "@truffle/test",
+      "platform": "NPM",
+      "requirements": "^0.1.24",
+      "latest_stable": "0.2.7",
+      "latest": "0.2.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/workflow-compile",
+      "name": "@truffle/workflow-compile",
+      "platform": "NPM",
+      "requirements": "^4.0.63",
+      "latest_stable": "4.0.71",
+      "latest": "4.0.71",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "JSONStream",
+      "name": "JSONStream",
+      "platform": "NPM",
+      "requirements": "^1.3.5",
+      "latest_stable": "1.3.5",
+      "latest": "1.3.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "address",
+      "name": "address",
+      "platform": "NPM",
+      "requirements": "^1.1.2",
+      "latest_stable": "2.0.3",
+      "latest": "2.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "chai",
+      "name": "chai",
+      "platform": "NPM",
+      "requirements": "^4.2.0",
+      "latest_stable": "5.1.2",
+      "latest": "5.1.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "colors",
+      "name": "colors",
+      "platform": "NPM",
+      "requirements": "1.4.0",
+      "latest_stable": "1.4.2",
+      "latest": "1.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "command-exists",
+      "name": "command-exists",
+      "platform": "NPM",
+      "requirements": "^1.2.8",
+      "latest_stable": "1.2.9",
+      "latest": "1.2.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "conf",
+      "name": "conf",
+      "platform": "NPM",
+      "requirements": "^10.0.2",
+      "latest_stable": "13.1.0",
+      "latest": "13.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "debug",
+      "name": "debug",
+      "platform": "NPM",
+      "requirements": "^4.3.1",
+      "latest_stable": "4.4.0",
+      "latest": "4.4.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "del",
+      "name": "del",
+      "platform": "NPM",
+      "requirements": "^2.2.0",
+      "latest_stable": "8.0.0",
+      "latest": "8.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ethereum-cryptography",
+      "name": "ethereum-cryptography",
+      "platform": "NPM",
+      "requirements": "1.1.2",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "fs-extra",
+      "name": "fs-extra",
+      "platform": "NPM",
+      "requirements": "^9.1.0",
+      "latest_stable": "11.2.0",
+      "latest": "11.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ganache",
+      "name": "ganache",
+      "platform": "NPM",
+      "requirements": "7.8.0",
+      "latest_stable": "7.9.2",
+      "latest": "7.9.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "get-port",
+      "name": "get-port",
+      "platform": "NPM",
+      "requirements": "^5.1.1",
+      "latest_stable": "7.1.0",
+      "latest": "7.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "get-random-values",
+      "name": "get-random-values",
+      "platform": "NPM",
+      "requirements": "^1.2.2",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "glob",
+      "name": "glob",
+      "platform": "NPM",
+      "requirements": "^7.1.6",
+      "latest_stable": "11.0.1",
+      "latest": "11.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "inquirer",
+      "name": "inquirer",
+      "platform": "NPM",
+      "requirements": "8.2.2",
+      "latest_stable": "12.3.1",
+      "latest": "12.3.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "iter-tools",
+      "name": "iter-tools",
+      "platform": "NPM",
+      "requirements": "^7.5.0",
+      "latest_stable": "7.5.3",
+      "latest": "7.5.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "js-interpreter",
+      "name": "js-interpreter",
+      "platform": "NPM",
+      "requirements": "2.2.0",
+      "latest_stable": "5.2.1",
+      "latest": "5.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "lodash",
+      "name": "lodash",
+      "platform": "NPM",
+      "requirements": "^4.17.21",
+      "latest_stable": "4.17.21",
+      "latest": "4.17.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mocha",
+      "name": "mocha",
+      "platform": "NPM",
+      "requirements": "10.1.0",
+      "latest_stable": "11.1.0",
+      "latest": "11.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "node-emoji",
+      "name": "node-emoji",
+      "platform": "NPM",
+      "requirements": "^1.8.1",
+      "latest_stable": "2.2.0",
+      "latest": "2.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "original-require",
+      "name": "original-require",
+      "platform": "NPM",
+      "requirements": "^1.0.1",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sane",
+      "name": "sane",
+      "platform": "NPM",
+      "requirements": "^4.0.2",
+      "latest_stable": "5.0.1",
+      "latest": "5.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "semver",
+      "name": "semver",
+      "platform": "NPM",
+      "requirements": "7.3.7",
+      "latest_stable": "7.6.3",
+      "latest": "7.6.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "source-map-support",
+      "name": "source-map-support",
+      "platform": "NPM",
+      "requirements": "^0.5.19",
+      "latest_stable": "0.5.21",
+      "latest": "0.5.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "spawn-args",
+      "name": "spawn-args",
+      "platform": "NPM",
+      "requirements": "0.2.0",
+      "latest_stable": "0.2.0",
+      "latest": "0.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tmp",
+      "name": "tmp",
+      "platform": "NPM",
+      "requirements": "^0.2.1",
+      "latest_stable": "0.2.3",
+      "latest": "0.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "universal-analytics",
+      "name": "universal-analytics",
+      "platform": "NPM",
+      "requirements": "^0.4.17",
+      "latest_stable": "0.5.3",
+      "latest": "0.5.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "uuid",
+      "name": "uuid",
+      "platform": "NPM",
+      "requirements": "^9.0.0",
+      "latest_stable": "11.0.5",
+      "latest": "11.0.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "web3",
+      "name": "web3",
+      "platform": "NPM",
+      "requirements": "1.10.0",
+      "latest_stable": "4.16.0",
+      "latest": "4.16.1-dev.ae99434.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "LGPL-3.0"
+      ]
+    },
+    {
+      "project_name": "web3-utils",
+      "name": "web3-utils",
+      "platform": "NPM",
+      "requirements": "1.10.0",
+      "latest_stable": "4.3.3",
+      "latest": "4.3.4-dev.ae99434.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "LGPL-3.0"
+      ]
+    },
+    {
+      "project_name": "xregexp",
+      "name": "xregexp",
+      "platform": "NPM",
+      "requirements": "^4.2.4",
+      "latest_stable": "5.1.1",
+      "latest": "5.1.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "yargs",
+      "name": "yargs",
+      "platform": "NPM",
+      "requirements": "^13.3.0",
+      "latest_stable": "17.7.2",
+      "latest": "17.7.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@truffle/blockchain-utils",
+      "name": "@truffle/blockchain-utils",
+      "platform": "NPM",
+      "requirements": "^0.1.8",
+      "latest_stable": "0.1.9",
+      "latest": "0.1.9",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "app-module-path",
+      "name": "app-module-path",
+      "platform": "NPM",
+      "requirements": "^2.2.0",
+      "latest_stable": "2.2.0",
+      "latest": "2.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    },
+    {
+      "project_name": "chai-as-promised",
+      "name": "chai-as-promised",
+      "platform": "NPM",
+      "requirements": "^7.1.1",
+      "latest_stable": "8.0.1",
+      "latest": "8.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "memorystream",
+      "name": "memorystream",
+      "platform": "NPM",
+      "requirements": "^0.3.1",
+      "latest_stable": "0.3.1",
+      "latest": "0.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sinon",
+      "name": "sinon",
+      "platform": "NPM",
+      "requirements": "^9.0.2",
+      "latest_stable": "19.0.2",
+      "latest": "19.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    }
+  ]
+}

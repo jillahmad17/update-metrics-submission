@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5023",
+  "summary": "Malicious code in custvomtkinter (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-CUSTVOMTKINTER-6513615"
+  ],
+  "modified": "2024-06-28T03:14:52.923513Z",
+  "published": "2024-06-25T13:34:28Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:28Z",
+        "import_time": "2024-06-28T02:48:45.359568361Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03803",
+        "source": "reversing-labs",
+        "sha256": "10dd4035596e476bbb7c8f587f91bc8512c88cfa16cc0020389922cd9154bd33"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-CUSTVOMTKINTER-6513615"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "custvomtkinter",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/custvomtkinter"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/custvomtkinter/MAL-2024-5023.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

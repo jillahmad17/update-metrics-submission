@@ -1,0 +1,952 @@
+{
+  "code_of_conduct_url": "https://github.com/kentcdodds/mdx-bundler/blob/main/CODE_OF_CONDUCT.md",
+  "contributions_count": 27,
+  "contribution_guidelines_url": "https://github.com/kentcdodds/mdx-bundler/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 15,
+  "dependents_count": 46,
+  "deprecation_reason": null,
+  "description": "Compile and bundle your MDX files and their dependencies. FAST.",
+  "forks": 75,
+  "funding_urls": [],
+  "homepage": "https://github.com/kentcdodds/mdx-bundler#readme",
+  "keywords": [
+    "mdx",
+    "bundler",
+    "mdx-bundler",
+    "esbuild"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/mdx-bundler/-/mdx-bundler-10.0.3.tgz",
+  "latest_release_number": "10.0.3",
+  "latest_release_published_at": "2024-08-16T22:25:58.151Z",
+  "latest_stable_release_number": "10.0.3",
+  "latest_stable_release_published_at": "2024-08-16T22:25:58.151Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "mdx-bundler",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/mdx-bundler",
+  "platform": "NPM",
+  "rank": 17,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/kentcdodds/mdx-bundler",
+  "security_policy_url": null,
+  "stars": 1778,
+  "status": null,
+  "versions": [
+    {
+      "number": "1.0.0",
+      "published_at": "2021-02-14T00:34:49.208Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "10.0.0",
+      "published_at": "2023-11-14T14:06:38.937Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "10.0.1",
+      "published_at": "2023-11-17T16:38:50.105Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "10.0.2",
+      "published_at": "2024-03-27T15:47:57.547Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "10.0.3",
+      "published_at": "2024-08-16T22:25:58.151Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2021-02-14T01:48:31.675Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2021-02-17T04:09:23.856Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2021-02-17T04:51:48.156Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2021-02-17T19:47:44.565Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.2",
+      "published_at": "2021-02-17T20:26:41.141Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.3",
+      "published_at": "2021-02-17T20:33:51.264Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2021-03-11T14:24:25.853Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2021-03-13T22:56:59.029Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.0",
+      "published_at": "2021-03-13T23:13:42.873Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "published_at": "2021-03-14T17:17:15.776Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.2",
+      "published_at": "2021-03-16T01:29:04.110Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.1.3",
+      "published_at": "2021-04-08T14:48:44.928Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.2.0",
+      "published_at": "2021-04-13T14:15:10.330Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.2.1",
+      "published_at": "2021-04-13T21:32:55.246Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.3.0",
+      "published_at": "2021-04-27T22:21:46.212Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.3.1",
+      "published_at": "2021-04-28T12:51:12.096Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.4.0",
+      "published_at": "2021-04-29T13:23:33.170Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.4.1",
+      "published_at": "2021-04-30T13:22:27.978Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2021-05-10T20:46:14.651Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.1",
+      "published_at": "2021-06-02T15:59:44.174Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2021-06-09T13:43:29.069Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.1",
+      "published_at": "2021-06-28T21:13:38.827Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2021-07-08T20:54:54.682Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.0",
+      "published_at": "2021-07-10T12:23:39.060Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.1",
+      "published_at": "2021-07-20T12:58:19.511Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.2",
+      "published_at": "2021-07-20T17:03:33.252Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.0",
+      "published_at": "2021-07-28T20:40:06.467Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.2.1",
+      "published_at": "2021-07-30T21:05:57.615Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2021-08-13T13:25:43.870Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.1",
+      "published_at": "2021-08-13T17:17:34.460Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.2",
+      "published_at": "2021-10-01T04:44:53.692Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.3",
+      "published_at": "2021-11-05T00:17:06.466Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "7.0.0",
+      "published_at": "2021-11-05T14:54:30.554Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "8.0.0",
+      "published_at": "2021-11-18T03:58:04.927Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "8.0.1",
+      "published_at": "2021-12-18T00:14:58.479Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "8.1.0",
+      "published_at": "2022-04-01T17:26:25.861Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "9.0.0",
+      "published_at": "2022-04-01T17:33:05.993Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "9.0.1",
+      "published_at": "2022-05-18T04:15:46.409Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "9.1.0",
+      "published_at": "2022-12-24T19:22:32.960Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "9.2.0",
+      "published_at": "2022-12-24T19:32:22.137Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "9.2.1",
+      "published_at": "2022-12-24T19:46:31.089Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "9.2.1",
+  "dependencies": [
+    {
+      "project_name": "@babel/runtime",
+      "name": "@babel/runtime",
+      "platform": "NPM",
+      "requirements": "^7.16.3",
+      "latest_stable": "7.26.0",
+      "latest": "8.0.0-alpha.15",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@esbuild-plugins/node-resolve",
+      "name": "@esbuild-plugins/node-resolve",
+      "platform": "NPM",
+      "requirements": "^0.1.4",
+      "latest_stable": "0.2.2",
+      "latest": "0.2.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "@fal-works/esbuild-plugin-global-externals",
+      "name": "@fal-works/esbuild-plugin-global-externals",
+      "platform": "NPM",
+      "requirements": "^2.1.2",
+      "latest_stable": "2.1.2",
+      "latest": "2.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@mdx-js/esbuild",
+      "name": "@mdx-js/esbuild",
+      "platform": "NPM",
+      "requirements": "^2.0.0",
+      "latest_stable": "3.1.0",
+      "latest": "3.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "gray-matter",
+      "name": "gray-matter",
+      "platform": "NPM",
+      "requirements": "^4.0.3",
+      "latest_stable": "4.0.3",
+      "latest": "4.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "remark-frontmatter",
+      "name": "remark-frontmatter",
+      "platform": "NPM",
+      "requirements": "^4.0.1",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "remark-mdx-frontmatter",
+      "name": "remark-mdx-frontmatter",
+      "platform": "NPM",
+      "requirements": "^1.1.1",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "uuid",
+      "name": "uuid",
+      "platform": "NPM",
+      "requirements": "^8.3.2",
+      "latest_stable": "11.0.5",
+      "latest": "11.0.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "vfile",
+      "name": "vfile",
+      "platform": "NPM",
+      "requirements": "^5.3.2",
+      "latest_stable": "6.0.3",
+      "latest": "6.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@testing-library/react",
+      "name": "@testing-library/react",
+      "platform": "NPM",
+      "requirements": "^13.0.0",
+      "latest_stable": "16.1.0",
+      "latest": "16.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jsdom",
+      "name": "@types/jsdom",
+      "platform": "NPM",
+      "requirements": "^16.2.14",
+      "latest_stable": "21.1.7",
+      "latest": "21.1.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/mdx",
+      "name": "@types/mdx",
+      "platform": "NPM",
+      "requirements": "^2.0.1",
+      "latest_stable": "2.0.13",
+      "latest": "2.0.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/react",
+      "name": "@types/react",
+      "platform": "NPM",
+      "requirements": "^17.0.34",
+      "latest_stable": "19.0.5",
+      "latest": "19.0.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/react-dom",
+      "name": "@types/react-dom",
+      "platform": "NPM",
+      "requirements": "^17.0.11",
+      "latest_stable": "19.0.3",
+      "latest": "19.0.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/uuid",
+      "name": "@types/uuid",
+      "platform": "NPM",
+      "requirements": "^8.3.4",
+      "latest_stable": "10.0.0",
+      "latest": "10.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "babel-eslint",
+      "name": "babel-eslint",
+      "platform": "NPM",
+      "requirements": "^10.1.0",
+      "latest_stable": "10.1.0",
+      "latest": "10.1.0",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "c8",
+      "name": "c8",
+      "platform": "NPM",
+      "requirements": "^7.10.0",
+      "latest_stable": "10.1.3",
+      "latest": "10.1.3",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "cross-env",
+      "name": "cross-env",
+      "platform": "NPM",
+      "requirements": "^7.0.3",
+      "latest_stable": "7.0.3",
+      "latest": "7.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "esbuild",
+      "name": "esbuild",
+      "platform": "NPM",
+      "requirements": "^0.14.29",
+      "latest_stable": "0.24.2",
+      "latest": "0.24.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jsdom",
+      "name": "jsdom",
+      "platform": "NPM",
+      "requirements": "^19.0.0",
+      "latest_stable": "26.0.0",
+      "latest": "26.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "kcd-scripts",
+      "name": "kcd-scripts",
+      "platform": "NPM",
+      "requirements": "^11.2.2",
+      "latest_stable": "16.0.0",
+      "latest": "16.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "left-pad",
+      "name": "left-pad",
+      "platform": "NPM",
+      "requirements": "^1.3.0",
+      "latest_stable": "1.3.0",
+      "latest": "1.3.0",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "WTFPL"
+      ]
+    },
+    {
+      "project_name": "mdx-test-data",
+      "name": "mdx-test-data",
+      "platform": "NPM",
+      "requirements": "^1.0.1",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react",
+      "name": "react",
+      "platform": "NPM",
+      "requirements": "^18.0.0",
+      "latest_stable": "19.0.0",
+      "latest": "0.0.0-experimental-056073de-20250109",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "react-dom",
+      "name": "react-dom",
+      "platform": "NPM",
+      "requirements": "^18.0.0",
+      "latest_stable": "19.0.0",
+      "latest": "0.0.0-experimental-056073de-20250109",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "remark-mdx-images",
+      "name": "remark-mdx-images",
+      "platform": "NPM",
+      "requirements": "^1.0.3",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^4.4.3",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "uvu",
+      "name": "uvu",
+      "platform": "NPM",
+      "requirements": "^0.5.2",
+      "latest_stable": "0.5.6",
+      "latest": "0.5.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

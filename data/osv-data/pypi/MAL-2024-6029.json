@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-6029",
+  "summary": "Malicious code in sparkk (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:44Z",
+  "published": "2024-06-25T13:42:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:44Z",
+        "import_time": "2024-06-28T02:50:47.721237285Z",
+        "versions": [
+          "3.0.1"
+        ],
+        "id": "RLMA-2024-04832",
+        "source": "reversing-labs",
+        "sha256": "29bd8dc70259d74ab5d3bdd13b4d056581ee75ae9d30adffc3abb35793e2e0de"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sparkk",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/sparkk"
+      },
+      "versions": [
+        "3.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sparkk/MAL-2024-6029.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-4973",
+  "summary": "Malicious code in colorpad (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:04Z",
+  "published": "2024-06-25T13:34:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:04Z",
+        "import_time": "2024-06-28T02:48:39.639175369Z",
+        "versions": [
+          "1.4.4"
+        ],
+        "id": "RLMA-2024-03753",
+        "source": "reversing-labs",
+        "sha256": "3608358d13a7c10b798a8ded1d61feb439ad6ac13e4a84ce779bc9bdc1a3a7be"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "colorpad",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colorpad"
+      },
+      "versions": [
+        "1.4.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colorpad/MAL-2024-4973.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

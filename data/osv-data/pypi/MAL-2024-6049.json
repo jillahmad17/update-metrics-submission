@@ -1,0 +1,69 @@
+{
+  "id": "MAL-2024-6049",
+  "summary": "Malicious code in style-py (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-STYLEPY-3262850"
+  ],
+  "modified": "2024-06-28T03:27:24.262242Z",
+  "published": "2024-06-25T13:42:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:54Z",
+        "import_time": "2024-06-28T02:50:50.109242483Z",
+        "versions": [
+          "3.0",
+          "3.1"
+        ],
+        "id": "RLMA-2024-04852",
+        "source": "reversing-labs",
+        "sha256": "fc0f246845feaf237bcc93b2078453b5fb78025a8d3ed9dcbba404c9c2cbc4b6"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/a-deep-dive-into-powerat-a-newly-discovered-stealer-rat-combo-polluting-pypi/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-STYLEPY-3262850"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-create-cloudflare-tunnels-to-bypass-firewalls"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "style-py",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/style-py"
+      },
+      "versions": [
+        "3.0",
+        "3.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/style-py/MAL-2024-6049.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

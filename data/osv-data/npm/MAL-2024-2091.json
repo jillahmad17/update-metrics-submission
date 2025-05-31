@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-2091",
+  "summary": "Malicious code in devoxx-test (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:36:07Z",
+  "published": "2024-06-25T12:36:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:36:07Z",
+        "import_time": "2024-06-28T02:42:38.344367603Z",
+        "versions": [
+          "0.0.10",
+          "0.0.12",
+          "0.0.11"
+        ],
+        "id": "RLMA-2024-00711",
+        "source": "reversing-labs",
+        "sha256": "649299ee3a3923189154de95406409b89098729e3222340b27dab2adb8b61195"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "devoxx-test",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/devoxx-test"
+      },
+      "versions": [
+        "0.0.10",
+        "0.0.12",
+        "0.0.11"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/devoxx-test/MAL-2024-2091.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

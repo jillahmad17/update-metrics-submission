@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5215",
+  "summary": "Malicious code in http3clientpy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:02Z",
+  "published": "2024-06-25T13:36:02Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:02Z",
+        "import_time": "2024-06-28T02:49:08.026575338Z",
+        "versions": [
+          "1.0.24"
+        ],
+        "id": "RLMA-2024-03997",
+        "source": "reversing-labs",
+        "sha256": "44d50b17e1a252fd7e258fc99cf8148677f9157b1d6a0c81abfa445ff33a9c88"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "http3clientpy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/http3clientpy"
+      },
+      "versions": [
+        "1.0.24"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/http3clientpy/MAL-2024-5215.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

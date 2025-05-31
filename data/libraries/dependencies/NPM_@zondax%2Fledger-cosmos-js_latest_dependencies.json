@@ -1,0 +1,696 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 0,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 4,
+  "dependents_count": 5,
+  "deprecation_reason": null,
+  "description": "Node API for Cosmos App (Ledger Nano S/S+/X)",
+  "forks": 17,
+  "funding_urls": [],
+  "homepage": "https://github.com/cosmos/ledger-cosmos-js",
+  "keywords": [
+    "Ledger",
+    "Typescript",
+    "Tendermint",
+    "Cosmos"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@zondax/ledger-cosmos-js/-/@zondax/ledger-cosmos-js-4.0.0.tgz",
+  "latest_release_number": "4.0.0",
+  "latest_release_published_at": "2024-09-01T13:17:26.887Z",
+  "latest_stable_release_number": "4.0.0",
+  "latest_stable_release_published_at": "2024-09-01T13:17:26.887Z",
+  "license_normalized": false,
+  "licenses": "Apache-2.0",
+  "name": "@zondax/ledger-cosmos-js",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@zondax/ledger-cosmos-js",
+  "platform": "NPM",
+  "rank": 12,
+  "repository_license": "Apache-2.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/cosmos/ledger-cosmos-js",
+  "security_policy_url": null,
+  "stars": 10,
+  "status": null,
+  "versions": [
+    {
+      "number": "2.1.8",
+      "published_at": "2020-10-02T17:26:10.119Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2022-08-30T13:06:11.954Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2022-08-30T13:23:06.563Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2022-12-07T13:41:59.579Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.3",
+      "published_at": "2023-07-13T12:16:09.764Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2024-09-01T13:17:26.887Z",
+      "spdx_expression": "Apache-2.0",
+      "original_license": "Apache-2.0",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "4.0.0",
+  "dependencies": [
+    {
+      "project_name": "@ledgerhq/hw-transport",
+      "name": "@ledgerhq/hw-transport",
+      "platform": "NPM",
+      "requirements": "6.30.6",
+      "latest_stable": "6.31.4",
+      "latest": "6.31.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@zondax/ledger-js",
+      "name": "@zondax/ledger-js",
+      "platform": "NPM",
+      "requirements": "^0.10.0",
+      "latest_stable": "1.2.0",
+      "latest": "1.2.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "bech32",
+      "name": "bech32",
+      "platform": "NPM",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "buffer",
+      "name": "buffer",
+      "platform": "NPM",
+      "requirements": "^6.0.3",
+      "latest_stable": "6.0.3",
+      "latest": "6.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "crypto",
+      "name": "crypto",
+      "platform": "NPM",
+      "requirements": "^1.0.1",
+      "latest_stable": "1.0.1",
+      "latest": "1.0.1",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "crypto-browserify",
+      "name": "crypto-browserify",
+      "platform": "NPM",
+      "requirements": "^3.12.0",
+      "latest_stable": "3.12.1",
+      "latest": "3.12.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ripemd160",
+      "name": "ripemd160",
+      "platform": "NPM",
+      "requirements": "^2.0.2",
+      "latest_stable": "2.0.2",
+      "latest": "2.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "stream-browserify",
+      "name": "stream-browserify",
+      "platform": "NPM",
+      "requirements": "^3.0.0",
+      "latest_stable": "3.0.0",
+      "latest": "3.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@ledgerhq/hw-transport-node-hid",
+      "name": "@ledgerhq/hw-transport-node-hid",
+      "platform": "NPM",
+      "requirements": "6.28.6",
+      "latest_stable": "6.29.4",
+      "latest": "6.29.5-next.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@ledgerhq/hw-transport-webusb",
+      "name": "@ledgerhq/hw-transport-webusb",
+      "platform": "NPM",
+      "requirements": "6.28.6",
+      "latest_stable": "6.29.4",
+      "latest": "6.29.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@ledgerhq/hw-transport-mocker",
+      "name": "@ledgerhq/hw-transport-mocker",
+      "platform": "NPM",
+      "requirements": "^6.28.6",
+      "latest_stable": "6.29.4",
+      "latest": "6.29.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@swc/core",
+      "name": "@swc/core",
+      "platform": "NPM",
+      "requirements": "^1.6.1",
+      "latest_stable": "1.10.7",
+      "latest": "1.10.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "^29.5.12",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/ledgerhq__hw-transport",
+      "name": "@types/ledgerhq__hw-transport",
+      "platform": "NPM",
+      "requirements": "4.21.8",
+      "latest_stable": "4.21.8",
+      "latest": "4.21.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^20.14.2",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/eslint-plugin",
+      "name": "@typescript-eslint/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "^7.13.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "^7.13.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bip32",
+      "name": "bip32",
+      "platform": "NPM",
+      "requirements": "4.0.0",
+      "latest_stable": "4.0.0",
+      "latest": "5.0.0-rc.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bip39",
+      "name": "bip39",
+      "platform": "NPM",
+      "requirements": "3.1.0",
+      "latest_stable": "3.1.0",
+      "latest": "3.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "copyfiles",
+      "name": "copyfiles",
+      "platform": "NPM",
+      "requirements": "^2.4.1",
+      "latest_stable": "2.4.1",
+      "latest": "2.4.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "core-js",
+      "name": "core-js",
+      "platform": "NPM",
+      "requirements": "^3.37.1",
+      "latest_stable": "3.40.0",
+      "latest": "3.40.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "crypto-js",
+      "name": "crypto-js",
+      "platform": "NPM",
+      "requirements": "4.2.0",
+      "latest_stable": "4.2.0",
+      "latest": "4.2.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^9.5.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-prettier",
+      "name": "eslint-config-prettier",
+      "platform": "NPM",
+      "requirements": "^9.1.0",
+      "latest_stable": "9.1.0",
+      "latest": "9.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "^2.29.1",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-jest",
+      "name": "eslint-plugin-jest",
+      "platform": "NPM",
+      "requirements": "^28.6.0",
+      "latest_stable": "28.10.0",
+      "latest": "28.10.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-prettier",
+      "name": "eslint-plugin-prettier",
+      "platform": "NPM",
+      "requirements": "^5.1.3",
+      "latest_stable": "5.2.1",
+      "latest": "5.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-unused-imports",
+      "name": "eslint-plugin-unused-imports",
+      "platform": "NPM",
+      "requirements": "^3.2.0",
+      "latest_stable": "4.1.4",
+      "latest": "4.1.4",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-tsdoc",
+      "name": "eslint-plugin-tsdoc",
+      "platform": "NPM",
+      "requirements": "^0.2.17",
+      "latest_stable": "0.4.0",
+      "latest": "0.4.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^29.7.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest-serial-runner",
+      "name": "jest-serial-runner",
+      "platform": "NPM",
+      "requirements": "^1.2.0",
+      "latest_stable": "1.2.1",
+      "latest": "1.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^3.3.2",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "secp256k1",
+      "name": "secp256k1",
+      "platform": "NPM",
+      "requirements": "^5.0.0",
+      "latest_stable": "3.8.1",
+      "latest": "3.8.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-jest",
+      "name": "ts-jest",
+      "platform": "NPM",
+      "requirements": "29.1.5",
+      "latest_stable": "29.2.5",
+      "latest": "29.2.5",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ts-node",
+      "name": "ts-node",
+      "platform": "NPM",
+      "requirements": "^10.9.2",
+      "latest_stable": "10.9.2",
+      "latest": "10.9.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.4.5",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "webpack",
+      "name": "webpack",
+      "platform": "NPM",
+      "requirements": "^5.92.0",
+      "latest_stable": "5.97.1",
+      "latest": "5.97.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

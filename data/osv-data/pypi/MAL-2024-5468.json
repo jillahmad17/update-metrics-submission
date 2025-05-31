@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5468",
+  "summary": "Malicious code in pill9w (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PILL9W-6513450"
+  ],
+  "modified": "2024-06-28T03:14:57.037510Z",
+  "published": "2024-06-25T13:38:04Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:04Z",
+        "import_time": "2024-06-28T02:49:37.973115565Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04250",
+        "source": "reversing-labs",
+        "sha256": "beeeb3c9028344fbd2ed3b049db218569c0c256e4288d907004295164162853e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PILL9W-6513450"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pill9w",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pill9w"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pill9w/MAL-2024-5468.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

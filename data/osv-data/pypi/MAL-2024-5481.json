@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5481",
+  "summary": "Malicious code in piolow (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PIOLOW-6513686"
+  ],
+  "modified": "2024-06-28T03:14:57.712739Z",
+  "published": "2024-06-25T13:38:10Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:10Z",
+        "import_time": "2024-06-28T02:49:39.461341431Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04263",
+        "source": "reversing-labs",
+        "sha256": "6d8d1512c3ad78993adb7d00ec6fd5880d22eb5c2bbf5b83fa64a0dd98ea1b66"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PIOLOW-6513686"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "piolow",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/piolow"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/piolow/MAL-2024-5481.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-3246",
+  "summary": "Malicious code in @expue/types (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-EXPUETYPES-5920723"
+  ],
+  "modified": "2024-06-28T03:14:35.485713Z",
+  "published": "2024-06-25T12:19:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "ef9ef9827e2b155c780ba2b9b21422c64928e2b133ccebb716f87d85ee00de92",
+        "import_time": "2024-06-28T02:41:20.7034357Z",
+        "versions": [
+          "0.0.3-alpha.0"
+        ],
+        "id": "RLMA-2024-00067",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:19:41Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/sensitive-data-exfiltration-campaign-targets-npm-and-pypi/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-EXPUETYPES-5920723"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@expue/types",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40expue/types"
+      },
+      "versions": [
+        "0.0.3-alpha.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@expue/types/MAL-2024-3246.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

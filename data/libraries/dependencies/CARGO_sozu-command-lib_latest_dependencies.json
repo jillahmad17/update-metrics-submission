@@ -1,0 +1,941 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 52,
+  "contribution_guidelines_url": "https://github.com/sozu-proxy/sozu/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 5,
+  "dependents_count": 8,
+  "deprecation_reason": null,
+  "description": "configuration library to command a sozu instance",
+  "forks": 197,
+  "funding_urls": [],
+  "homepage": "https://sozu.io",
+  "keywords": [
+    "http",
+    "http-proxy",
+    "performance",
+    "proxy",
+    "rust",
+    "security"
+  ],
+  "language": "Rust",
+  "latest_download_url": "https://crates.io/api/v1/crates/sozu-command-lib/1.0.6/download",
+  "latest_release_number": "1.0.6",
+  "latest_release_published_at": "2025-01-08T12:26:46.892Z",
+  "latest_stable_release_number": "1.0.6",
+  "latest_stable_release_published_at": "2025-01-08T12:26:46.892Z",
+  "license_normalized": false,
+  "licenses": "LGPL-3.0",
+  "name": "sozu-command-lib",
+  "normalized_licenses": [
+    "LGPL-3.0"
+  ],
+  "package_manager_url": "https://crates.io/crates/sozu-command-lib/",
+  "platform": "Cargo",
+  "rank": 17,
+  "repository_license": "AGPL-3.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/sozu-proxy/sozu",
+  "security_policy_url": null,
+  "stars": 3172,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2017-04-04T16:20:05.480Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.10.0",
+      "published_at": "2018-10-25T09:40:39.860Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.1.1",
+      "published_at": "2017-04-13T14:46:36.153Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.0",
+      "published_at": "2018-11-15T14:52:04.742Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.48",
+      "published_at": "2020-06-29T10:52:51.217Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.50",
+      "published_at": "2020-10-22T08:42:24.599Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.11.52",
+      "published_at": "2021-01-14T16:03:51.754Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.0",
+      "published_at": "2021-04-27T20:53:07.683Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.12.0-alpha1",
+      "published_at": "2021-04-19T15:07:52.845Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.0",
+      "published_at": "2021-07-08T09:31:27.861Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.13.6",
+      "published_at": "2022-10-13T07:54:26.064Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.1",
+      "published_at": "2022-10-13T13:10:41.613Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.2",
+      "published_at": "2022-12-08T14:13:03.204Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.14.3",
+      "published_at": "2023-05-17T12:28:51.468Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.0",
+      "published_at": "2023-06-23T08:33:49.463Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.1",
+      "published_at": "2023-07-11T14:23:36.301Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.10",
+      "published_at": "2023-10-25T10:28:21.569Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.11",
+      "published_at": "2023-10-27T12:32:04.093Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.12",
+      "published_at": "2023-10-27T12:37:49.364Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.13",
+      "published_at": "2023-10-27T13:15:18.963Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.14",
+      "published_at": "2023-10-27T22:36:15.515Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.15",
+      "published_at": "2023-11-15T09:32:44.796Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.16",
+      "published_at": "2023-11-22T09:51:32.950Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.17",
+      "published_at": "2023-11-23T20:01:56.570Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.18",
+      "published_at": "2023-12-13T12:46:41.574Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.19",
+      "published_at": "2024-01-25T15:22:58.114Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.2",
+      "published_at": "2023-07-17T16:54:23.261Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.3",
+      "published_at": "2023-08-09T09:31:18.069Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.4",
+      "published_at": "2023-09-13T16:02:56.018Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.5",
+      "published_at": "2023-09-21T09:49:13.853Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.6",
+      "published_at": "2023-10-11T13:18:35.790Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.8",
+      "published_at": "2023-10-23T17:13:02.080Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.15.9",
+      "published_at": "2023-10-24T16:06:22.025Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2017-04-20T13:51:10.386Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2017-11-21T13:42:49.153Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2017-11-29T14:22:05.525Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.5.0",
+      "published_at": "2018-01-29T14:39:32.009Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2018-04-11T13:18:21.046Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.0",
+      "published_at": "2018-06-07T17:01:52.603Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.7.2",
+      "published_at": "2018-06-12T09:59:15.477Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.8.0",
+      "published_at": "2018-08-21T15:18:09.831Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "0.9.0",
+      "published_at": "2018-09-27T14:38:00.967Z",
+      "spdx_expression": "AGPL-3.0",
+      "original_license": "AGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2024-04-16T08:20:36.287Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.1",
+      "published_at": "2024-03-19T14:53:15.085Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.0-rc.2",
+      "published_at": "2024-04-05T09:23:03.401Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2024-05-29T12:34:40.403Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2024-06-03T15:19:11.769Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.3",
+      "published_at": "2024-07-17T16:27:19.388Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.4",
+      "published_at": "2024-07-25T12:21:45.835Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.5",
+      "published_at": "2024-10-14T08:31:17.313Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.0.6",
+      "published_at": "2025-01-08T12:26:46.892Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.0-rc.0",
+      "published_at": "2024-07-19T08:24:13.931Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    },
+    {
+      "number": "1.1.0-rc.1",
+      "published_at": "2024-07-25T12:46:55.820Z",
+      "spdx_expression": "LGPL-3.0",
+      "original_license": "LGPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Cargo"
+      ]
+    }
+  ],
+  "dependencies_for_version": "1.1.0-rc.1",
+  "dependencies": [
+    {
+      "project_name": "hex",
+      "name": "hex",
+      "platform": "Cargo",
+      "requirements": "^0.4.3",
+      "latest_stable": "0.4.3",
+      "latest": "0.4.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "libc",
+      "name": "libc",
+      "platform": "Cargo",
+      "requirements": "^0.2.155",
+      "latest_stable": "0.2.169",
+      "latest": "0.2.169",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "log",
+      "name": "log",
+      "platform": "Cargo",
+      "requirements": "^0.4.21",
+      "latest_stable": "0.4.24",
+      "latest": "0.4.24",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "memchr",
+      "name": "memchr",
+      "platform": "Cargo",
+      "requirements": "^2.7.2",
+      "latest_stable": "2.7.4",
+      "latest": "2.7.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Unlicense",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "mio",
+      "name": "mio",
+      "platform": "Cargo",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.0.2",
+      "latest": "1.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nix",
+      "name": "nix",
+      "platform": "Cargo",
+      "requirements": "^0.29.0",
+      "latest_stable": "0.29.0",
+      "latest": "0.29.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "nom",
+      "name": "nom",
+      "platform": "Cargo",
+      "requirements": "^7.1.3",
+      "latest_stable": "6.2.2",
+      "latest": "8.0.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pool",
+      "name": "pool",
+      "platform": "Cargo",
+      "requirements": "^0.1.4",
+      "latest_stable": "0.1.4",
+      "latest": "0.1.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "poule",
+      "name": "poule",
+      "platform": "Cargo",
+      "requirements": "^0.3.2",
+      "latest_stable": "0.3.2",
+      "latest": "0.3.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettytable-rs",
+      "name": "prettytable-rs",
+      "platform": "Cargo",
+      "requirements": "^0.10.0",
+      "latest_stable": "0.10.0",
+      "latest": "0.10.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "prost",
+      "name": "prost",
+      "platform": "Cargo",
+      "requirements": "^0.13.1",
+      "latest_stable": "0.13.4",
+      "latest": "0.13.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "prost-build",
+      "name": "prost-build",
+      "platform": "Cargo",
+      "requirements": "^0.13.1",
+      "latest_stable": "0.13.4",
+      "latest": "0.13.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "build",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rand",
+      "name": "rand",
+      "platform": "Cargo",
+      "requirements": "^0.8.5",
+      "latest_stable": "0.8.5",
+      "latest": "0.9.0-beta.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "rusty_ulid",
+      "name": "rusty_ulid",
+      "platform": "Cargo",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde",
+      "name": "serde",
+      "platform": "Cargo",
+      "requirements": "^1.0.203",
+      "latest_stable": "1.0.217",
+      "latest": "1.0.217",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "serde_json",
+      "name": "serde_json",
+      "platform": "Cargo",
+      "requirements": "^1.0.117",
+      "latest_stable": "1.0.135",
+      "latest": "1.0.135",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "sha2",
+      "name": "sha2",
+      "platform": "Cargo",
+      "requirements": "^0.10.8",
+      "latest_stable": "0.10.8",
+      "latest": "0.11.0-pre.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "thiserror",
+      "name": "thiserror",
+      "platform": "Cargo",
+      "requirements": "^1.0.61",
+      "latest_stable": "2.0.11",
+      "latest": "2.0.11",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "time",
+      "name": "time",
+      "platform": "Cargo",
+      "requirements": "^0.3.36",
+      "latest_stable": "0.3.37",
+      "latest": "0.3.37",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "toml",
+      "name": "toml",
+      "platform": "Cargo",
+      "requirements": "^0.8.13",
+      "latest_stable": "0.8.19",
+      "latest": "0.8.19",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "trailer",
+      "name": "trailer",
+      "platform": "Cargo",
+      "requirements": "^0.1.2",
+      "latest_stable": "0.1.2",
+      "latest": "0.1.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "x509-parser",
+      "name": "x509-parser",
+      "platform": "Cargo",
+      "requirements": "^0.16.0",
+      "latest_stable": "0.16.0",
+      "latest": "0.16.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "normal",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT",
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

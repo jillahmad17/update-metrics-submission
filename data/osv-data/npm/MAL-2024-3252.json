@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-3252",
+  "summary": "Malicious code in ufo-helpers (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-UFOHELPERS-3336148"
+  ],
+  "modified": "2024-06-28T03:14:42.892595Z",
+  "published": "2024-06-25T13:06:55Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:06:55Z",
+        "import_time": "2024-06-28T02:45:16.135915395Z",
+        "versions": [
+          "2.2.2",
+          "1.2.13",
+          "1.2.14",
+          "1.7.1"
+        ],
+        "id": "RLMA-2024-02016",
+        "source": "reversing-labs",
+        "sha256": "330a4418ce09d26773c18a863c99fc0c27da2eaf24b578f280570b37fcfd0683"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-UFOHELPERS-3336148"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "ufo-helpers",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/ufo-helpers"
+      },
+      "versions": [
+        "2.2.2",
+        "1.2.13",
+        "1.2.14",
+        "1.7.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/ufo-helpers/MAL-2024-3252.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

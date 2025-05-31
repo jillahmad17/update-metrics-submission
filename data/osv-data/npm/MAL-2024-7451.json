@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-7451",
+  "summary": "Malicious code in imagegs (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (64b0ae7f15fa5e3881104b1275c61ff67ae89763b0849f1538b1f5b73d8faa8f)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-mh5f-49j4-gx79"
+  ],
+  "modified": "2024-07-11T00:44:48.181278Z",
+  "published": "2024-07-11T00:13:08Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-07-11T00:13:08Z",
+        "import_time": "2024-07-11T00:28:06.931386133Z",
+        "id": "GHSA-mh5f-49j4-gx79",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "64b0ae7f15fa5e3881104b1275c61ff67ae89763b0849f1538b1f5b73d8faa8f"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-mh5f-49j4-gx79"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "imagegs",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/imagegs"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/imagegs/MAL-2024-7451.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

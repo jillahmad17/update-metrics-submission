@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-5116",
+  "summary": "Malicious code in etherapi (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-ETHERAPI-5292131"
+  ],
+  "modified": "2024-06-28T03:14:53.456090Z",
+  "published": "2024-06-25T13:35:13Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:13Z",
+        "import_time": "2024-06-28T02:48:55.974443649Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03896",
+        "source": "reversing-labs",
+        "sha256": "63466665c587219c62cad6ba48e41e8149fbe599c9f6380f1ce3b01bd0f72bc1"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-ETHERAPI-5292131"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.fortinet.com/blog/threat-research/supply-chain-attack-via-new-malicious-python-packages"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "etherapi",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/etherapi"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/etherapi/MAL-2024-5116.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

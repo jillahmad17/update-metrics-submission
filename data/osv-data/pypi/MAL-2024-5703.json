@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5703",
+  "summary": "Malicious code in pydistlib (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:39:59Z",
+  "published": "2024-06-25T13:39:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:59Z",
+        "import_time": "2024-06-28T02:50:05.854190172Z",
+        "versions": [
+          "0.5",
+          "0.2",
+          "0.4",
+          "0.3"
+        ],
+        "id": "RLMA-2024-04486",
+        "source": "reversing-labs",
+        "sha256": "df1c469bbe3f9ddc3e878770a7b00471754a8d8bdf252e08171b7a01c76b7e34"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pydistlib",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pydistlib"
+      },
+      "versions": [
+        "0.5",
+        "0.2",
+        "0.4",
+        "0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pydistlib/MAL-2024-5703.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

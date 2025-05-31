@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2591",
+  "summary": "Malicious code in @region-lib/language (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:22:19Z",
+  "published": "2024-06-25T12:22:19Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "6a6be4f2a319fee0c2903e02e44c09f4d9c28aa56c880b2b608b684e36a149a9",
+        "import_time": "2024-06-28T02:41:35.534343763Z",
+        "versions": [
+          "2000.0.1"
+        ],
+        "id": "RLMA-2024-00192",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:22:19Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@region-lib/language",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40region-lib/language"
+      },
+      "versions": [
+        "2000.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@region-lib/language/MAL-2024-2591.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

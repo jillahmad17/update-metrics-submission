@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3108",
+  "summary": "Malicious code in test-package101 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:03:37Z",
+  "published": "2024-06-25T13:03:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:03:37Z",
+        "import_time": "2024-06-28T02:44:57.869702073Z",
+        "versions": [
+          "4.3.1"
+        ],
+        "id": "RLMA-2024-01862",
+        "source": "reversing-labs",
+        "sha256": "f74e5351ec2a68359ba2f1fbdfd23aad8c186c40c709f4b6ffc32e0d86f59e7c"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "test-package101",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/test-package101"
+      },
+      "versions": [
+        "4.3.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/test-package101/MAL-2024-3108.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

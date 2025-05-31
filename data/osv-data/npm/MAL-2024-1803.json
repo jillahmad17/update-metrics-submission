@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-1803",
+  "summary": "Malicious code in @golden-stack/babel-web (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:20:06Z",
+  "published": "2024-06-25T12:20:06Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "fd8a3a01a928d88f1cab87e0e7d9a57aa1179d41f66b281d95626d90c7542076",
+        "import_time": "2024-06-28T02:41:23.046337252Z",
+        "versions": [
+          "1.99.0"
+        ],
+        "id": "RLMA-2024-00087",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:20:06Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@golden-stack/babel-web",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40golden-stack/babel-web"
+      },
+      "versions": [
+        "1.99.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@golden-stack/babel-web/MAL-2024-1803.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

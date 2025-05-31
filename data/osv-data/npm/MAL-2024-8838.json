@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-8838",
+  "summary": "Malicious code in @zarafront/lib-zds (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (b7da81ddf52154f443baa27b56764a0be023447376bd6d8a3f587cc7db455f84)\nThe OpenSSF Package Analysis project identified '@zarafront/lib-zds' @ 99.50.55 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2024-09-08T17:03:36Z",
+  "published": "2024-09-08T17:03:36Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-09-08T17:03:36Z",
+        "import_time": "2024-09-08T17:05:57.091790725Z",
+        "versions": [
+          "99.50.55"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "b7da81ddf52154f443baa27b56764a0be023447376bd6d8a3f587cc7db455f84"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@zarafront/lib-zds",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40zarafront/lib-zds"
+      },
+      "versions": [
+        "99.50.55"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@zarafront/lib-zds/MAL-2024-8838.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

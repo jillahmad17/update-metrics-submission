@@ -1,0 +1,987 @@
+{
+  "code_of_conduct_url": "https://github.com/wessberg/ts-evaluator/blob/master/CODE_OF_CONDUCT.md",
+  "contributions_count": 2,
+  "contribution_guidelines_url": "https://github.com/wessberg/ts-evaluator/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 7,
+  "dependents_count": 11,
+  "deprecation_reason": null,
+  "description": "An interpreter for Typescript that can evaluate an arbitrary Node within a Typescript AST",
+  "forks": 1,
+  "funding_urls": [
+    "https://github.com/wessberg",
+    "https://patreon.com/wessberg"
+  ],
+  "homepage": "https://github.com/wessberg/ts-evaluator#readme",
+  "keywords": [
+    "typescript",
+    "ts",
+    "interpreter",
+    "evaluate",
+    "evaluator",
+    "ast"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/ts-evaluator/-/ts-evaluator-2.0.0.tgz",
+  "latest_release_number": "2.0.0",
+  "latest_release_published_at": "2024-10-10T10:56:27.770Z",
+  "latest_stable_release_number": "2.0.0",
+  "latest_stable_release_published_at": "2024-10-10T10:56:27.770Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "ts-evaluator",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/ts-evaluator",
+  "platform": "NPM",
+  "rank": 14,
+  "repository_license": "MIT",
+  "repository_status": null,
+  "repository_url": "https://github.com/wessberg/ts-evaluator",
+  "security_policy_url": null,
+  "stars": 89,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2021-05-20T20:17:00.934Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2022-05-25T18:22:09.211Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2022-06-07T20:16:18.662Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2022-07-22T14:33:49.689Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.3",
+      "published_at": "2022-07-22T21:33:18.242Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.4",
+      "published_at": "2022-07-23T21:10:24.336Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.5",
+      "published_at": "2022-07-23T21:46:17.995Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.6",
+      "published_at": "2022-07-29T11:04:44.168Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.7",
+      "published_at": "2022-07-29T22:32:55.554Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2023-01-10T00:16:48.587Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.2.0",
+      "published_at": "2023-08-04T12:47:27.824Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2024-10-10T10:56:27.770Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "2.0.0",
+  "dependencies": [
+    {
+      "project_name": "ansi-colors",
+      "name": "ansi-colors",
+      "platform": "NPM",
+      "requirements": "^4.1.3",
+      "latest_stable": "4.1.3",
+      "latest": "4.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "crosspath",
+      "name": "crosspath",
+      "platform": "NPM",
+      "requirements": "^2.0.0",
+      "latest_stable": "2.0.0",
+      "latest": "2.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "object-path",
+      "name": "object-path",
+      "platform": "NPM",
+      "requirements": "^0.11.8",
+      "latest_stable": "0.11.8",
+      "latest": "0.11.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@eslint/js",
+      "name": "@eslint/js",
+      "platform": "NPM",
+      "requirements": "^9.12.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jsdom",
+      "name": "@types/jsdom",
+      "platform": "NPM",
+      "requirements": "^21.1.7",
+      "latest_stable": "21.1.7",
+      "latest": "21.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^22.7.5",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/object-path",
+      "name": "@types/object-path",
+      "platform": "NPM",
+      "requirements": "^0.11.4",
+      "latest_stable": "0.11.4",
+      "latest": "0.11.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/semver",
+      "name": "@types/semver",
+      "platform": "NPM",
+      "requirements": "^7.5.8",
+      "latest_stable": "7.5.8",
+      "latest": "7.5.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wessberg/prettier-config",
+      "name": "@wessberg/prettier-config",
+      "platform": "NPM",
+      "requirements": "^1.0.0",
+      "latest_stable": "1.0.0",
+      "latest": "1.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@wessberg/ts-config",
+      "name": "@wessberg/ts-config",
+      "platform": "NPM",
+      "requirements": "^5.0.18",
+      "latest_stable": "5.0.20",
+      "latest": "5.0.20",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^9.12.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-prettier",
+      "name": "eslint-config-prettier",
+      "platform": "NPM",
+      "requirements": "^9.1.0",
+      "latest_stable": "9.1.0",
+      "latest": "9.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-jsdoc",
+      "name": "eslint-plugin-jsdoc",
+      "platform": "NPM",
+      "requirements": "^50.3.1",
+      "latest_stable": "50.6.1",
+      "latest": "50.6.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-prettier",
+      "name": "eslint-plugin-prettier",
+      "platform": "NPM",
+      "requirements": "^5.2.1",
+      "latest_stable": "5.2.1",
+      "latest": "5.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "helpertypes",
+      "name": "helpertypes",
+      "platform": "NPM",
+      "requirements": "^0.0.19",
+      "latest_stable": "0.0.19",
+      "latest": "0.0.19",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "husky",
+      "name": "husky",
+      "platform": "NPM",
+      "requirements": "^9.1.6",
+      "latest_stable": "9.1.7",
+      "latest": "9.1.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jsdom",
+      "name": "jsdom",
+      "platform": "NPM",
+      "requirements": "^25.0.1",
+      "latest_stable": "26.0.0",
+      "latest": "26.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lint-staged",
+      "name": "lint-staged",
+      "platform": "NPM",
+      "requirements": "^15.2.10",
+      "latest_stable": "15.3.0",
+      "latest": "15.3.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "memfs",
+      "name": "memfs",
+      "platform": "NPM",
+      "requirements": "^4.13.0",
+      "latest_stable": "4.17.0",
+      "latest": "4.17.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "np",
+      "name": "np",
+      "platform": "NPM",
+      "requirements": "10.0.7",
+      "latest_stable": "10.1.0",
+      "latest": "10.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "npm-check-updates",
+      "name": "npm-check-updates",
+      "platform": "NPM",
+      "requirements": "^17.1.3",
+      "latest_stable": "17.1.13",
+      "latest": "17.1.13",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pnpm",
+      "name": "pnpm",
+      "platform": "NPM",
+      "requirements": "^9.12.1",
+      "latest_stable": "10.0.0",
+      "latest": "10.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "prettier",
+      "name": "prettier",
+      "platform": "NPM",
+      "requirements": "^3.3.3",
+      "latest_stable": "3.4.2",
+      "latest": "3.4.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "rimraf",
+      "name": "rimraf",
+      "platform": "NPM",
+      "requirements": "^6.0.1",
+      "latest_stable": "5.0.10",
+      "latest": "5.0.10",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "sandhog",
+      "name": "sandhog",
+      "platform": "NPM",
+      "requirements": "^2.0.2",
+      "latest_stable": "3.0.2",
+      "latest": "3.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "semver",
+      "name": "semver",
+      "platform": "NPM",
+      "requirements": "7.6.3",
+      "latest_stable": "7.6.3",
+      "latest": "7.6.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "standard-changelog",
+      "name": "standard-changelog",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tsup",
+      "name": "tsup",
+      "platform": "NPM",
+      "requirements": "^8.3.0",
+      "latest_stable": "8.3.5",
+      "latest": "8.3.5",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tsx",
+      "name": "tsx",
+      "platform": "NPM",
+      "requirements": "^4.19.1",
+      "latest_stable": "4.19.2",
+      "latest": "4.19.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.6.3",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "typescript-3-4-1",
+      "name": "typescript-3-4-1",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.4.1",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-3-5-1",
+      "name": "typescript-3-5-1",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.5.1",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-3-6-2",
+      "name": "typescript-3-6-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.6.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-3-7-2",
+      "name": "typescript-3-7-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.7.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-3-8-3",
+      "name": "typescript-3-8-3",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.8.3",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-3-9-2",
+      "name": "typescript-3-9-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@3.9.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-0-3",
+      "name": "typescript-4-0-3",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.0.3",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-1-2",
+      "name": "typescript-4-1-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.1.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-2-4",
+      "name": "typescript-4-2-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.2.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-3-5",
+      "name": "typescript-4-3-5",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.3.5",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-4-2",
+      "name": "typescript-4-4-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.4.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-5-4",
+      "name": "typescript-4-5-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.5.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-6-4",
+      "name": "typescript-4-6-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.6.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-7-2",
+      "name": "typescript-4-7-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.7.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-8-2",
+      "name": "typescript-4-8-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.8.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-4-9-4",
+      "name": "typescript-4-9-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@4.9.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-0-4",
+      "name": "typescript-5-0-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.0.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-1-6",
+      "name": "typescript-5-1-6",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.1.6",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-2-2",
+      "name": "typescript-5-2-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.2.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-3-3",
+      "name": "typescript-5-3-3",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.3.3",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-4-5",
+      "name": "typescript-5-4-5",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.4.5",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-5-4",
+      "name": "typescript-5-5-4",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.5.4",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-5-6-2",
+      "name": "typescript-5-6-2",
+      "platform": "NPM",
+      "requirements": "npm:typescript@5.6.2",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "typescript-eslint",
+      "name": "typescript-eslint",
+      "platform": "NPM",
+      "requirements": "^8.8.1",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-2579",
+  "summary": "Malicious code in kendo-react-messages (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:48:21Z",
+  "published": "2024-06-25T12:48:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:48:21Z",
+        "import_time": "2024-06-28T02:43:44.671115471Z",
+        "versions": [
+          "1.999.0",
+          "1.999.1"
+        ],
+        "id": "RLMA-2024-01258",
+        "source": "reversing-labs",
+        "sha256": "45383383207378f6d63aea8979ebadc3b05b205576117a268a352731378a3da1"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "kendo-react-messages",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/kendo-react-messages"
+      },
+      "versions": [
+        "1.999.0",
+        "1.999.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/kendo-react-messages/MAL-2024-2579.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "code_of_conduct_url": "https://github.com/hapijs/.github/blob/master/CODE_OF_CONDUCT.md",
+  "contributions_count": 16,
+  "contribution_guidelines_url": "https://github.com/hapijs/.github/blob/master/CONTRIBUTING.md",
+  "dependent_repos_count": 11,
+  "dependents_count": 20,
+  "deprecation_reason": "This module has moved and is now available at @hapi/subtext. Please update your dependencies as this version is no longer maintained and may contain bugs and security issues.",
+  "description": "HTTP payload parsing",
+  "forks": 25,
+  "funding_urls": [],
+  "homepage": "https://github.com/hapijs/subtext#readme",
+  "keywords": [
+    "http",
+    "payload",
+    "file",
+    "stream",
+    "multipart"
+  ],
+  "language": "JavaScript",
+  "latest_download_url": "https://registry.npmjs.org/subtext/-/subtext-5.1.3.tgz",
+  "latest_release_number": "5.1.3",
+  "latest_release_published_at": "2024-01-06T10:21:53.693Z",
+  "latest_stable_release_number": "5.1.3",
+  "latest_stable_release_published_at": "2024-01-06T10:21:53.693Z",
+  "license_normalized": true,
+  "licenses": "SEE LICENSE IN LICENSE.md",
+  "name": "subtext",
+  "normalized_licenses": [
+    "ICU"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/subtext",
+  "platform": "NPM",
+  "rank": 9,
+  "repository_license": "Other",
+  "repository_status": null,
+  "repository_url": "https://github.com/hapijs/subtext",
+  "security_policy_url": "https://github.com/hapijs/subtext/security/policy",
+  "stars": 24,
+  "status": "Deprecated",
+  "versions": [
+    {
+      "number": "0.0.0",
+      "published_at": "2014-09-29T01:56:03.878Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.0",
+      "published_at": "2014-10-02T21:35:25.655Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.1",
+      "published_at": "2014-10-02T21:43:36.752Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.0.2",
+      "published_at": "2014-11-07T08:19:50.255Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "BSD",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.0",
+      "published_at": "2015-07-01T04:00:48.920Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "1.1.1",
+      "published_at": "2015-07-03T22:40:07.023Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.0",
+      "published_at": "2015-08-11T21:39:24.129Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.1",
+      "published_at": "2015-09-30T14:40:34.842Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "2.0.2",
+      "published_at": "2015-10-20T09:39:45.207Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.0",
+      "published_at": "2015-11-03T06:13:07.869Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.1",
+      "published_at": "2015-11-14T14:07:41.309Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "3.0.2",
+      "published_at": "2015-11-14T17:37:52.790Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.0",
+      "published_at": "2015-12-22T21:23:49.338Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.1",
+      "published_at": "2016-04-06T15:12:33.153Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.2",
+      "published_at": "2016-05-08T20:14:42.241Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.3",
+      "published_at": "2016-05-11T15:25:10.121Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.4",
+      "published_at": "2016-05-21T13:05:04.755Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.0.5",
+      "published_at": "2016-07-28T19:24:49.164Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.1.0",
+      "published_at": "2016-08-22T06:57:35.373Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.2.0",
+      "published_at": "2016-08-26T02:22:19.503Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.2.1",
+      "published_at": "2016-08-26T02:26:41.713Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.2.2",
+      "published_at": "2016-09-27T09:43:36.053Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.3.0",
+      "published_at": "2016-10-19T08:50:39.610Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.4.0",
+      "published_at": "2017-03-21T06:50:04.801Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "4.4.1",
+      "published_at": "2017-05-28T06:54:37.997Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.0",
+      "published_at": "2017-06-30T10:21:06.880Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.0.1",
+      "published_at": "2019-01-31T19:35:12.809Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "5.1.3",
+      "published_at": "2024-01-06T10:21:53.693Z",
+      "spdx_expression": "NOASSERTION",
+      "original_license": "SEE LICENSE IN LICENSE.md",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.0",
+      "published_at": "2017-09-18T22:43:51.074Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.1",
+      "published_at": "2017-09-26T00:28:39.461Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.10",
+      "published_at": "2018-11-02T17:50:41.478Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.11",
+      "published_at": "2018-11-03T00:38:54.129Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.12",
+      "published_at": "2019-01-31T19:36:58.890Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.3",
+      "published_at": "2017-09-28T06:25:30.022Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.4",
+      "published_at": "2017-10-19T17:52:12.414Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.5",
+      "published_at": "2017-10-22T08:45:46.051Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.6",
+      "published_at": "2017-11-03T08:46:09.408Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.7",
+      "published_at": "2017-11-03T20:19:32.048Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.8",
+      "published_at": "2018-10-31T20:59:19.627Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "6.0.9",
+      "published_at": "2018-11-01T19:24:47.476Z",
+      "spdx_expression": "BSD-3-Clause",
+      "original_license": "BSD-3-Clause",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "6.0.9",
+  "dependencies": [
+    {
+      "project_name": "boom",
+      "name": "boom",
+      "platform": "NPM",
+      "requirements": "7.x.x",
+      "latest_stable": "5.3.3",
+      "latest": "5.3.3",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ICU"
+      ]
+    },
+    {
+      "project_name": "content",
+      "name": "content",
+      "platform": "NPM",
+      "requirements": "4.x.x",
+      "latest_stable": "3.1.2",
+      "latest": "3.1.2",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ICU"
+      ]
+    },
+    {
+      "project_name": "hoek",
+      "name": "hoek",
+      "platform": "NPM",
+      "requirements": "6.x.x",
+      "latest_stable": "4.3.1",
+      "latest": "4.3.1",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ICU"
+      ]
+    },
+    {
+      "project_name": "pez",
+      "name": "pez",
+      "platform": "NPM",
+      "requirements": "4.x.x",
+      "latest_stable": "2.2.2",
+      "latest": "2.2.2",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ICU"
+      ]
+    },
+    {
+      "project_name": "wreck",
+      "name": "wreck",
+      "platform": "NPM",
+      "requirements": "14.x.x",
+      "latest_stable": "12.6.2",
+      "latest": "12.6.2",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "ICU"
+      ]
+    },
+    {
+      "project_name": "code",
+      "name": "code",
+      "platform": "NPM",
+      "requirements": "5.x.x",
+      "latest_stable": "5.2.4",
+      "latest": "5.2.4",
+      "deprecated": true,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "form-data",
+      "name": "form-data",
+      "platform": "NPM",
+      "requirements": "2.1.x",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "lab",
+      "name": "lab",
+      "platform": "NPM",
+      "requirements": "17.x.x",
+      "latest_stable": "18.0.2",
+      "latest": "18.0.2",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    }
+  ]
+}

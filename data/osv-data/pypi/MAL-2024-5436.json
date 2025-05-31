@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-5436",
+  "summary": "Malicious code in osbeautify (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-OSBEAUTIFY-6129562"
+  ],
+  "modified": "2024-06-28T03:14:56.444651Z",
+  "published": "2024-06-25T13:37:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:37:48Z",
+        "import_time": "2024-06-28T02:49:34.45779196Z",
+        "versions": [
+          "1.7",
+          "1.8",
+          "1.4"
+        ],
+        "id": "RLMA-2024-04218",
+        "source": "reversing-labs",
+        "sha256": "725bfc50d75d5e4676e92a0518be26e9d10063fa740f53ec54bb4b1145d254c3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://www.welivesecurity.com/en/eset-research/pernicious-potpourri-python-packages-pypi/"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-OSBEAUTIFY-6129562"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "osbeautify",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/osbeautify"
+      },
+      "versions": [
+        "1.7",
+        "1.8",
+        "1.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/osbeautify/MAL-2024-5436.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

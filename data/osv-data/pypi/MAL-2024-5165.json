@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5165",
+  "summary": "Malicious code in friendlyproxies (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:37Z",
+  "published": "2024-06-25T13:35:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:37Z",
+        "import_time": "2024-06-28T02:49:02.099045498Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03947",
+        "source": "reversing-labs",
+        "sha256": "e65255b8490df2126cd3fd30675c010b30c3ffb9140c01eae9c2778a3db2bfa5"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "friendlyproxies",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/friendlyproxies"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/friendlyproxies/MAL-2024-5165.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

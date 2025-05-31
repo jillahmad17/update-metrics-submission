@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5089",
+  "summary": "Malicious code in disocrd (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:00Z",
+  "published": "2024-06-25T13:35:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:00Z",
+        "import_time": "2024-06-28T02:48:52.754188605Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-03869",
+        "source": "reversing-labs",
+        "sha256": "8f70bf521a0d71149f2191d46bf66c4115023018c61fe4ab39e40467f202f675"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "disocrd",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/disocrd"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/disocrd/MAL-2024-5089.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-3059",
+  "summary": "Malicious code in stripe-apps-deep (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-STRIPEAPPSDEEP-5406422"
+  ],
+  "modified": "2024-06-28T03:14:41.219448Z",
+  "published": "2024-06-25T13:02:11Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:02:11Z",
+        "import_time": "2024-06-28T02:44:50.273980942Z",
+        "versions": [
+          "1.0.4",
+          "1.0.10",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-01798",
+        "source": "reversing-labs",
+        "sha256": "89b8ae4f66b92c7cc7a26f6e857b13f364bf1f760d1368fe5b2f63a8dbbc9a42"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-STRIPEAPPSDEEP-5406422"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "stripe-apps-deep",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/stripe-apps-deep"
+      },
+      "versions": [
+        "1.0.4",
+        "1.0.10",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/stripe-apps-deep/MAL-2024-3059.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

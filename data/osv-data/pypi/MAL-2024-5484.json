@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5484",
+  "summary": "Malicious code in pip-remote-access-test (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:38:12Z",
+  "published": "2024-06-25T13:38:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:12Z",
+        "import_time": "2024-06-28T02:49:39.835542224Z",
+        "versions": [
+          "0.0.3"
+        ],
+        "id": "RLMA-2024-04266",
+        "source": "reversing-labs",
+        "sha256": "1132cb5dff1a9c741dce0f66ed6ba1ce8fea02eb88a9d37f297d3d069ee9b8d0"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pip-remote-access-test",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pip-remote-access-test"
+      },
+      "versions": [
+        "0.0.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pip-remote-access-test/MAL-2024-5484.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-8081",
+  "summary": "Malicious code in milowebsdk (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (a40bdfac421ca7bca789b4f66c1bb8d98644cd0cda4e376fa9d1cdb2e63625ab)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-mv37-76h4-68rg"
+  ],
+  "modified": "2024-08-30T00:44:24.178870Z",
+  "published": "2024-08-29T09:17:20Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-08-29T09:17:30Z",
+        "import_time": "2024-08-30T00:29:18.847678125Z",
+        "id": "GHSA-mv37-76h4-68rg",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "a40bdfac421ca7bca789b4f66c1bb8d98644cd0cda4e376fa9d1cdb2e63625ab"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-mv37-76h4-68rg"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "milowebsdk",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/milowebsdk"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/milowebsdk/MAL-2024-8081.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-4982",
+  "summary": "Malicious code in colorsmecs (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:08Z",
+  "published": "2024-06-25T13:34:08Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:08Z",
+        "import_time": "2024-06-28T02:48:40.605986839Z",
+        "versions": [
+          "0.6.7"
+        ],
+        "id": "RLMA-2024-03762",
+        "source": "reversing-labs",
+        "sha256": "80a36e2ddd6c401144eb1c45d0fdc225bc4088050756fb9728b781c25be6e7c5"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "colorsmecs",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/colorsmecs"
+      },
+      "versions": [
+        "0.6.7"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colorsmecs/MAL-2024-4982.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-1775",
+  "summary": "Malicious code in asap-test-keys (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:28:27Z",
+  "published": "2024-06-25T12:28:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:28:27Z",
+        "import_time": "2024-06-28T02:41:57.021779162Z",
+        "versions": [
+          "1.9.9",
+          "0.9.9",
+          "99.9.9",
+          "9.9.9"
+        ],
+        "id": "RLMA-2024-00366",
+        "source": "reversing-labs",
+        "sha256": "77109cc8c3e3c3c1d0c7fbabe2a63155d850e2ae7304bf2e3101196afe38b547"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "asap-test-keys",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/asap-test-keys"
+      },
+      "versions": [
+        "1.9.9",
+        "0.9.9",
+        "99.9.9",
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/asap-test-keys/MAL-2024-1775.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

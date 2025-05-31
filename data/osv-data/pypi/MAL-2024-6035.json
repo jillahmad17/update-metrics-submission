@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-6035",
+  "summary": "Malicious code in sql-to-sqlite (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SQLTOSQLITE-5885049"
+  ],
+  "modified": "2024-06-28T03:15:17.181444Z",
+  "published": "2024-06-25T13:42:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:48Z",
+        "import_time": "2024-06-28T02:50:48.405677073Z",
+        "versions": [
+          "1.2"
+        ],
+        "id": "RLMA-2024-04838",
+        "source": "reversing-labs",
+        "sha256": "f856d8ea64706ccd0a3c0e272866ed3eac8e3adbeafbe1f6243168bb38ecd4ce"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SQLTOSQLITE-5885049"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sql-to-sqlite",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/sql-to-sqlite"
+      },
+      "versions": [
+        "1.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sql-to-sqlite/MAL-2024-6035.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

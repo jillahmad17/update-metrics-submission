@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-6007",
+  "summary": "Malicious code in shiwers (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:42:33Z",
+  "published": "2024-06-25T13:42:33Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:42:33Z",
+        "import_time": "2024-06-28T02:50:44.83053455Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-04808",
+        "source": "reversing-labs",
+        "sha256": "f688806efe936a47d34617fe5e8cdf9598cb07b588d2b973d27b2f7794e94c32"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "shiwers",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/shiwers"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/shiwers/MAL-2024-6007.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

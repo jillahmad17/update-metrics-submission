@@ -1,0 +1,627 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 3,
+  "contribution_guidelines_url": null,
+  "dependent_repos_count": 3,
+  "dependents_count": 4,
+  "deprecation_reason": null,
+  "description": "Creates distributed callback queue based on redis pubsub. Pass 2 redis clients (supports redis sentinel as well for HA), manages locks across multiple processes",
+  "forks": 2,
+  "funding_urls": [],
+  "homepage": "https://github.com/microfleet/distributed-callback-queue",
+  "keywords": [
+    "callback",
+    "queue",
+    "callback-queue",
+    "lock",
+    "distributed",
+    "pubsub",
+    "redis"
+  ],
+  "language": "TypeScript",
+  "latest_download_url": "https://registry.npmjs.org/@microfleet/dlock/-/@microfleet/dlock-15.0.1.tgz",
+  "latest_release_number": "15.0.1",
+  "latest_release_published_at": "2023-12-19T02:50:59.989Z",
+  "latest_stable_release_number": "15.0.1",
+  "latest_stable_release_published_at": "2023-12-19T02:50:59.989Z",
+  "license_normalized": false,
+  "licenses": "MIT",
+  "name": "@microfleet/dlock",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "package_manager_url": "https://www.npmjs.com/package/@microfleet/dlock",
+  "platform": "NPM",
+  "rank": 10,
+  "repository_license": null,
+  "repository_status": null,
+  "repository_url": "https://github.com/microfleet/distributed-callback-queue",
+  "security_policy_url": null,
+  "stars": 9,
+  "status": null,
+  "versions": [
+    {
+      "number": "13.0.0",
+      "published_at": "2021-04-21T00:15:01.289Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "13.1.0",
+      "published_at": "2021-11-17T18:19:06.297Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "14.0.0",
+      "published_at": "2022-02-04T05:07:34.692Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "15.0.0",
+      "published_at": "2022-10-31T17:08:02.342Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    },
+    {
+      "number": "15.0.1",
+      "published_at": "2023-12-19T02:50:59.989Z",
+      "spdx_expression": "MIT",
+      "original_license": "MIT",
+      "researched_at": null,
+      "repository_sources": [
+        "NPM"
+      ]
+    }
+  ],
+  "dependencies_for_version": "15.0.1",
+  "dependencies": [
+    {
+      "project_name": "@microfleet/callback-queue",
+      "name": "@microfleet/callback-queue",
+      "platform": "NPM",
+      "requirements": "^4.0.2",
+      "latest_stable": "4.0.2",
+      "latest": "4.0.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@microfleet/ioredis-lock",
+      "name": "@microfleet/ioredis-lock",
+      "platform": "NPM",
+      "requirements": "^5.1.0",
+      "latest_stable": "5.1.0",
+      "latest": "5.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "bluebird",
+      "name": "bluebird",
+      "platform": "NPM",
+      "requirements": "^3.7.2",
+      "latest_stable": "3.7.2",
+      "latest": "3.7.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "denque",
+      "name": "denque",
+      "platform": "NPM",
+      "requirements": "^2.1.0",
+      "latest_stable": "2.1.0",
+      "latest": "2.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "lodash",
+      "name": "lodash",
+      "platform": "NPM",
+      "requirements": "^4.17.21",
+      "latest_stable": "4.17.21",
+      "latest": "4.17.21",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pino",
+      "name": "pino",
+      "platform": "NPM",
+      "requirements": "^8.17.1",
+      "latest_stable": "9.6.0",
+      "latest": "9.6.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "read-pkg-up",
+      "name": "read-pkg-up",
+      "platform": "NPM",
+      "requirements": "^7.0.1",
+      "latest_stable": "11.0.0",
+      "latest": "11.0.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "serialize-error",
+      "name": "serialize-error",
+      "platform": "NPM",
+      "requirements": "^8.1.0",
+      "latest_stable": "12.0.0",
+      "latest": "12.0.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@makeomatic/deploy",
+      "name": "@makeomatic/deploy",
+      "platform": "NPM",
+      "requirements": "^12.11.2",
+      "latest_stable": "13.1.0",
+      "latest": "13.1.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@node-rs/xxhash-linux-arm64-musl",
+      "name": "@node-rs/xxhash-linux-arm64-musl",
+      "platform": "NPM",
+      "requirements": "^1.4.2",
+      "latest_stable": "1.7.6",
+      "latest": "1.7.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@node-rs/xxhash-linux-x64-musl",
+      "name": "@node-rs/xxhash-linux-x64-musl",
+      "platform": "NPM",
+      "requirements": "^1.4.2",
+      "latest_stable": "1.7.6",
+      "latest": "1.7.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@swc-node/jest",
+      "name": "@swc-node/jest",
+      "platform": "NPM",
+      "requirements": "^1.6.8",
+      "latest_stable": "1.8.12",
+      "latest": "1.8.12",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@swc/core",
+      "name": "@swc/core",
+      "platform": "NPM",
+      "requirements": "^1.3.101",
+      "latest_stable": "1.10.7",
+      "latest": "1.10.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "@swc/core-linux-arm64-musl",
+      "name": "@swc/core-linux-arm64-musl",
+      "platform": "NPM",
+      "requirements": "^1.3.101",
+      "latest_stable": "1.10.7",
+      "latest": "1.10.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@swc/core-linux-x64-musl",
+      "name": "@swc/core-linux-x64-musl",
+      "platform": "NPM",
+      "requirements": "^1.3.101",
+      "latest_stable": "1.10.7",
+      "latest": "1.10.7",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/bluebird",
+      "name": "@types/bluebird",
+      "platform": "NPM",
+      "requirements": "^3.5.42",
+      "latest_stable": "1.0.8",
+      "latest": "1.0.8",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/ioredis",
+      "name": "@types/ioredis",
+      "platform": "NPM",
+      "requirements": "^4.28.10",
+      "latest_stable": "5.0.0",
+      "latest": "5.0.0",
+      "deprecated": true,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/jest",
+      "name": "@types/jest",
+      "platform": "NPM",
+      "requirements": "^29.5.11",
+      "latest_stable": "29.5.14",
+      "latest": "29.5.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/lodash",
+      "name": "@types/lodash",
+      "platform": "NPM",
+      "requirements": "^4.14.202",
+      "latest_stable": "4.17.14",
+      "latest": "4.17.14",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/node",
+      "name": "@types/node",
+      "platform": "NPM",
+      "requirements": "^20.10.5",
+      "latest_stable": "18.19.70",
+      "latest": "18.19.70",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@types/sinon",
+      "name": "@types/sinon",
+      "platform": "NPM",
+      "requirements": "^17.0.2",
+      "latest_stable": "17.0.3",
+      "latest": "17.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/eslint-plugin",
+      "name": "@typescript-eslint/eslint-plugin",
+      "platform": "NPM",
+      "requirements": "^6.15.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "@typescript-eslint/parser",
+      "name": "@typescript-eslint/parser",
+      "platform": "NPM",
+      "requirements": "^6.15.0",
+      "latest_stable": "8.19.1",
+      "latest": "8.19.2-alpha.7",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "cross-env",
+      "name": "cross-env",
+      "platform": "NPM",
+      "requirements": "^7.0.3",
+      "latest_stable": "7.0.3",
+      "latest": "7.0.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint",
+      "name": "eslint",
+      "platform": "NPM",
+      "requirements": "^8.56.0",
+      "latest_stable": "9.18.0",
+      "latest": "9.18.0",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-config-makeomatic",
+      "name": "eslint-config-makeomatic",
+      "platform": "NPM",
+      "requirements": "^6.0.0",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-import",
+      "name": "eslint-plugin-import",
+      "platform": "NPM",
+      "requirements": "^2.29.1",
+      "latest_stable": "2.31.0",
+      "latest": "2.31.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "eslint-plugin-promise",
+      "name": "eslint-plugin-promise",
+      "platform": "NPM",
+      "requirements": "^6.1.1",
+      "latest_stable": "7.2.1",
+      "latest": "7.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "ISC"
+      ]
+    },
+    {
+      "project_name": "ioredis",
+      "name": "ioredis",
+      "platform": "NPM",
+      "requirements": "^4.28.5",
+      "latest_stable": "5.4.2",
+      "latest": "5.4.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "jest",
+      "name": "jest",
+      "platform": "NPM",
+      "requirements": "^29.7.0",
+      "latest_stable": "29.7.0",
+      "latest": "30.0.0-alpha.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "semantic-release",
+      "name": "semantic-release",
+      "platform": "NPM",
+      "requirements": "^22.0.12",
+      "latest_stable": "24.2.1",
+      "latest": "24.2.1",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sinon",
+      "name": "sinon",
+      "platform": "NPM",
+      "requirements": "^17.0.1",
+      "latest_stable": "19.0.2",
+      "latest": "19.0.2",
+      "deprecated": false,
+      "outdated": true,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "typescript",
+      "name": "typescript",
+      "platform": "NPM",
+      "requirements": "^5.3.3",
+      "latest_stable": "5.7.3",
+      "latest": "5.8.0-dev.20250112",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "Development",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    }
+  ]
+}

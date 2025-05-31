@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-1982",
+  "summary": "Malicious code in @b2bgeo/ci-startrek (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOCISTARTREK-3326431"
+  ],
+  "modified": "2024-06-28T03:14:30.612811Z",
+  "published": "2024-06-25T12:18:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "f5c813d4f468f027b3c10492630085b4118eab59dee0dda332703f3be48d8736",
+        "import_time": "2024-06-28T02:41:14.400099189Z",
+        "versions": [
+          "13.3.7",
+          "13.3.8"
+        ],
+        "id": "RLMA-2024-00016",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:37Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOCISTARTREK-3326431"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/ci-startrek",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/ci-startrek"
+      },
+      "versions": [
+        "13.3.7",
+        "13.3.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/ci-startrek/MAL-2024-1982.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

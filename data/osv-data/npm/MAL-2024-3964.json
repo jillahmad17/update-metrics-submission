@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3964",
+  "summary": "Malicious code in wwc22docker (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:22:19Z",
+  "published": "2024-06-25T13:22:19Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:22:19Z",
+        "import_time": "2024-06-28T02:46:40.571770296Z",
+        "versions": [
+          "2.0.1"
+        ],
+        "id": "RLMA-2024-02740",
+        "source": "reversing-labs",
+        "sha256": "f82d59b0186d9fd3d31198363e56f796d202260924a060a55eaf9949bf13ef21"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "wwc22docker",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/wwc22docker"
+      },
+      "versions": [
+        "2.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/wwc22docker/MAL-2024-3964.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

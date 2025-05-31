@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5738",
+  "summary": "Malicious code in pylibscraper (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:40:21Z",
+  "published": "2024-06-25T13:40:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:21Z",
+        "import_time": "2024-06-28T02:50:11.286842515Z",
+        "versions": [
+          "0.9.0"
+        ],
+        "id": "RLMA-2024-04531",
+        "source": "reversing-labs",
+        "sha256": "a9dcdd3219839e6301cb065bb1f5a7f820068d69020cdb5c85a602410a63bd60"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "pylibscraper",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pylibscraper"
+      },
+      "versions": [
+        "0.9.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pylibscraper/MAL-2024-5738.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

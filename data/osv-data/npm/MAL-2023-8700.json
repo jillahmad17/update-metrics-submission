@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-8700",
+  "summary": "Malicious code in spectro-cloud-docs (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (fc21e3384d0921c988c3a9357b6d7568003a57b5ce8492d7c2568bcd5ccfe2c9)\nThe OpenSSF Package Analysis project identified 'spectro-cloud-docs' @ 4.0.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-12-15T09:47:10Z",
+  "published": "2023-12-15T09:47:10Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-12-15T09:47:10Z",
+        "import_time": "2023-12-15T10:05:02.001597927Z",
+        "versions": [
+          "4.0.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "fc21e3384d0921c988c3a9357b6d7568003a57b5ce8492d7c2568bcd5ccfe2c9"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "spectro-cloud-docs",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/spectro-cloud-docs"
+      },
+      "versions": [
+        "4.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/spectro-cloud-docs/MAL-2023-8700.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

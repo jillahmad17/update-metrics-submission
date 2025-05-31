@@ -1,0 +1,61 @@
+{
+  "id": "MAL-2024-5747",
+  "summary": "Malicious code in pyobfadvance (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYOBFADVANCE-6052823"
+  ],
+  "modified": "2024-06-28T03:15:08.290247Z",
+  "published": "2024-06-25T13:40:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:40:25Z",
+        "import_time": "2024-06-28T02:50:12.470294386Z",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04541",
+        "source": "reversing-labs",
+        "sha256": "9548d4bcf494958e57283805b9d8b79c3af1ad2e3401596abc28bd004768d75a"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYOBFADVANCE-6052823"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://checkmarx.com/blog/python-obfuscation-traps/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pyobfadvance",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pyobfadvance"
+      },
+      "versions": [
+        "1.0.1",
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pyobfadvance/MAL-2024-5747.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

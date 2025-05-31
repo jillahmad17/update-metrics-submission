@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2023-1232",
+  "summary": "Malicious code in matlab-language-server (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (1f39baaf2d75f17bd519c839da52b1c3a235cd7dfcb7bdc62feeb9e3dc587ce1)\nThe OpenSSF Package Analysis project identified 'matlab-language-server' @ 1.3.9 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-08-10T06:17:49Z",
+  "published": "2023-07-26T06:11:32Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-07-26T06:15:38.043316735Z",
+        "import_time": "2023-08-10T06:16:46.54088161Z",
+        "versions": [
+          "1.3.9"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "1f39baaf2d75f17bd519c839da52b1c3a235cd7dfcb7bdc62feeb9e3dc587ce1"
+      },
+      {
+        "modified_time": "2023-07-26T06:11:32.186103863Z",
+        "import_time": "2023-08-10T06:16:46.257469871Z",
+        "versions": [
+          "1.3.9"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "a0b26e5ad79e7b3bd08ab17e27e642a06613ded91bba0d894d128d2d4eb16bce"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "matlab-language-server",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/matlab-language-server"
+      },
+      "versions": [
+        "1.3.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/matlab-language-server/MAL-2023-1232.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

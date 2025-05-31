@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-5258",
+  "summary": "Malicious code in imapping (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:23Z",
+  "published": "2024-06-25T13:36:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:23Z",
+        "import_time": "2024-06-28T02:49:13.494676118Z",
+        "versions": [
+          "0.1.1",
+          "0.1.2",
+          "0.1.0"
+        ],
+        "id": "RLMA-2024-04040",
+        "source": "reversing-labs",
+        "sha256": "73915960d9e9d2a4106bb13bf343aa7736a6ff6be3156f235171e1112527d330"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "imapping",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/imapping"
+      },
+      "versions": [
+        "0.1.1",
+        "0.1.2",
+        "0.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/imapping/MAL-2024-5258.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

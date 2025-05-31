@@ -1,0 +1,65 @@
+{
+  "id": "MAL-2024-3064",
+  "summary": "Malicious code in sun-flare (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-SUNFLARE-5920705"
+  ],
+  "modified": "2024-06-28T03:27:23.368042Z",
+  "published": "2024-06-25T13:02:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:02:21Z",
+        "import_time": "2024-06-28T02:44:50.897008845Z",
+        "versions": [
+          "1.0.9-latest.0",
+          "1.1.0",
+          "1.0.8",
+          "1.0.9"
+        ],
+        "id": "RLMA-2024-01803",
+        "source": "reversing-labs",
+        "sha256": "67ba99279515b5f7944c57f4e72ce1bed0be1309f3e8e514eb307d8cca954ea4"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-SUNFLARE-5920705"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.phylum.io/sensitive-data-exfiltration-campaign-targets-npm-and-pypi/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "sun-flare",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/sun-flare"
+      },
+      "versions": [
+        "1.0.9-latest.0",
+        "1.1.0",
+        "1.0.8",
+        "1.0.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/sun-flare/MAL-2024-3064.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

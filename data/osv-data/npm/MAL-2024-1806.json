@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-1806",
+  "summary": "Malicious code in @b2bgeo/backend-api-types (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-B2BGEOBACKENDAPITYPES-3326446"
+  ],
+  "modified": "2024-06-28T03:14:30.214295Z",
+  "published": "2024-06-25T12:18:28Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "c82c53f178a067128e902a51577d0f30d3f34999fb241d98e08d979853614f50",
+        "import_time": "2024-06-28T02:41:13.84708222Z",
+        "versions": [
+          "13.3.7",
+          "13.3.8"
+        ],
+        "id": "RLMA-2024-00011",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:28Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-B2BGEOBACKENDAPITYPES-3326446"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@b2bgeo/backend-api-types",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40b2bgeo/backend-api-types"
+      },
+      "versions": [
+        "13.3.7",
+        "13.3.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@b2bgeo/backend-api-types/MAL-2024-1806.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

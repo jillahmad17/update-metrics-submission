@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-5611",
+  "summary": "Malicious code in py-corf (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-PYCORF-6513671"
+  ],
+  "modified": "2024-06-28T03:15:04.643345Z",
+  "published": "2024-06-25T13:39:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:39:12Z",
+        "import_time": "2024-06-28T02:49:54.870468228Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04393",
+        "source": "reversing-labs",
+        "sha256": "a2d8e89663362d2546057b4db1b75c99d66bd8287ecc2f99177ca7abb7a84c79"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYCORF-6513671"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "py-corf",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/py-corf"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/py-corf/MAL-2024-5611.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

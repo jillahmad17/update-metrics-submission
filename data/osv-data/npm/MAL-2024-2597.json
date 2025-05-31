@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2597",
+  "summary": "Malicious code in @panel-layout/layout (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:21:50Z",
+  "published": "2024-06-25T12:21:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "95d7cccd998885c843d84f85ea406be4d57eba1f03e309d139cbcba5f07f0b93",
+        "import_time": "2024-06-28T02:41:32.729142158Z",
+        "versions": [
+          "6.21.0"
+        ],
+        "id": "RLMA-2024-00168",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:21:50Z"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@panel-layout/layout",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40panel-layout/layout"
+      },
+      "versions": [
+        "6.21.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@panel-layout/layout/MAL-2024-2597.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

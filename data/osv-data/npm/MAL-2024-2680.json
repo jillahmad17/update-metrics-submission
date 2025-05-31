@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-2680",
+  "summary": "Malicious code in mtres (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:50:55Z",
+  "published": "2024-06-25T12:50:55Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:50:55Z",
+        "import_time": "2024-06-28T02:43:58.775900067Z",
+        "versions": [
+          "7.0.9",
+          "8.0.1",
+          "7.0.8",
+          "7.1.0"
+        ],
+        "id": "RLMA-2024-01367",
+        "source": "reversing-labs",
+        "sha256": "2288fafd64563e8e0deee17466fbd1966cead825d4d8402195d1d48a8aad13ad"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "mtres",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/mtres"
+      },
+      "versions": [
+        "7.0.9",
+        "8.0.1",
+        "7.0.8",
+        "7.1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/mtres/MAL-2024-2680.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-4995",
+  "summary": "Malicious code in cordipy (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:15Z",
+  "published": "2024-06-25T13:34:15Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:15Z",
+        "import_time": "2024-06-28T02:48:42.03258093Z",
+        "versions": [
+          "1"
+        ],
+        "id": "RLMA-2024-03775",
+        "source": "reversing-labs",
+        "sha256": "e040e51a0eee1259595d6bddea9f46417f531e642c82a0f2ed442dbd2196d5be"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cordipy",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/cordipy"
+      },
+      "versions": [
+        "1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/cordipy/MAL-2024-4995.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-5090",
+  "summary": "Malicious code in diuser (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:00Z",
+  "published": "2024-06-25T13:35:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:00Z",
+        "import_time": "2024-06-28T02:48:52.890307121Z",
+        "versions": [
+          "0.0.1"
+        ],
+        "id": "RLMA-2024-03870",
+        "source": "reversing-labs",
+        "sha256": "e376043186159f45dcde2adf7fddba5f1346cf8d50ec050abd4aef51dacbac34"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "diuser",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/diuser"
+      },
+      "versions": [
+        "0.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/diuser/MAL-2024-5090.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

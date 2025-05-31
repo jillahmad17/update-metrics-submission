@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5048",
+  "summary": "Malicious code in dhawnz (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:34:40Z",
+  "published": "2024-06-25T13:34:40Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:34:40Z",
+        "import_time": "2024-06-28T02:48:48.145211875Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03828",
+        "source": "reversing-labs",
+        "sha256": "adffef1b7d33262fd740aae6c84413b6acc4080c1ba69e22c4e690452a2387e5"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "dhawnz",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/dhawnz"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/dhawnz/MAL-2024-5048.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

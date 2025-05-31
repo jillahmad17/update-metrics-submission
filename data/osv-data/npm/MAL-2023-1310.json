@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2023-1310",
+  "summary": "Malicious code in stripe-terminal-react-native (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (0e3b17da38297fec9219b0316809efc9980ec6945104c9cada84571ffbfb2192)\nThe OpenSSF Package Analysis project identified 'stripe-terminal-react-native' @ 999.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2023-05-20T05:01:00Z",
+  "published": "2023-05-20T05:01:00Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2023-05-20T05:01:00.239324472Z",
+        "import_time": "2023-08-10T06:16:00.658520748Z",
+        "versions": [
+          "999.99.99"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "0e3b17da38297fec9219b0316809efc9980ec6945104c9cada84571ffbfb2192"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "stripe-terminal-react-native",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/stripe-terminal-react-native"
+      },
+      "versions": [
+        "999.99.99"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/stripe-terminal-react-native/MAL-2023-1310.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

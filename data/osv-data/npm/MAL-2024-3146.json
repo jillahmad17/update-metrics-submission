@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3146",
+  "summary": "Malicious code in topic-viewer (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:04:34Z",
+  "published": "2024-06-25T13:04:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:04:34Z",
+        "import_time": "2024-06-28T02:45:02.918460635Z",
+        "versions": [
+          "99.9.9"
+        ],
+        "id": "RLMA-2024-01904",
+        "source": "reversing-labs",
+        "sha256": "e196ae5a309cf2079f07691f61b16f24b464731e3f0d785562f9434cf81de5c9"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "topic-viewer",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/topic-viewer"
+      },
+      "versions": [
+        "99.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/topic-viewer/MAL-2024-3146.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

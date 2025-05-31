@@ -1,0 +1,57 @@
+{
+  "id": "MAL-2024-2892",
+  "summary": "Malicious code in @bizone/prettier-config (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-BIZONEPRETTIERCONFIG-5406445"
+  ],
+  "modified": "2024-06-28T03:14:31.715682Z",
+  "published": "2024-06-25T12:18:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "4a4d4786a649c474eadeb0530eefa80bfe10104e2c80c3dcd71581ab05da6567",
+        "import_time": "2024-06-28T02:41:16.21247306Z",
+        "versions": [
+          "2.0.1",
+          "2.0.0"
+        ],
+        "id": "RLMA-2024-00030",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:18:54Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-BIZONEPRETTIERCONFIG-5406445"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@bizone/prettier-config",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40bizone/prettier-config"
+      },
+      "versions": [
+        "2.0.1",
+        "2.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@bizone/prettier-config/MAL-2024-2892.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "MAL-2024-1859",
+  "summary": "Malicious code in @capdesk/camo (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-CAPDESKCAMO-5666412"
+  ],
+  "modified": "2024-06-28T03:14:32.308384Z",
+  "published": "2024-06-25T12:19:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "sha256": "31acea9d98fce13c28d228a133c983f3459f38b8555f543d231d56a0f3d3af9c",
+        "import_time": "2024-06-28T02:41:17.310087191Z",
+        "versions": [
+          "99.0.4",
+          "99.0.2",
+          "99.0.3",
+          "100.0.5",
+          "101.0.5"
+        ],
+        "id": "RLMA-2024-00039",
+        "source": "reversing-labs",
+        "modified_time": "2024-06-25T12:19:07Z"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-CAPDESKCAMO-5666412"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@capdesk/camo",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40capdesk/camo"
+      },
+      "versions": [
+        "99.0.4",
+        "99.0.2",
+        "99.0.3",
+        "100.0.5",
+        "101.0.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@capdesk/camo/MAL-2024-1859.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

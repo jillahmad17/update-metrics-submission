@@ -1,0 +1,69 @@
+{
+  "id": "MAL-2024-5326",
+  "summary": "Malicious code in libsocks5 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-LIBSOCKS5-6139260"
+  ],
+  "modified": "2024-06-28T03:14:55.599884Z",
+  "published": "2024-06-25T13:36:56Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:56Z",
+        "import_time": "2024-06-28T02:49:21.705863052Z",
+        "versions": [
+          "1.7.4",
+          "1.7.0",
+          "1.1.1",
+          "1.7.3",
+          "1.7.2",
+          "1.7.1"
+        ],
+        "id": "RLMA-2024-04108",
+        "source": "reversing-labs",
+        "sha256": "09951764d125cccafdedff570d8c1c23f5b758818f2a4ea86b0136a5e96c5906"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-LIBSOCKS5-6139260"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/python-packages-leverage-github-to-deploy-fileless-malware-b6c281dea58f"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "libsocks5",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/libsocks5"
+      },
+      "versions": [
+        "1.7.4",
+        "1.7.0",
+        "1.1.1",
+        "1.7.3",
+        "1.7.2",
+        "1.7.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/libsocks5/MAL-2024-5326.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

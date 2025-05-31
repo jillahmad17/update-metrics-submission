@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-1732",
+  "summary": "Malicious code in addin-fuel-transaction-import (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:25:03Z",
+  "published": "2024-06-25T12:25:03Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:25:03Z",
+        "import_time": "2024-06-28T02:41:50.213846769Z",
+        "versions": [
+          "3.1.1"
+        ],
+        "id": "RLMA-2024-00310",
+        "source": "reversing-labs",
+        "sha256": "dbb0f041cfac14c4cbba8004bb11e73f72cd5b2f01703a85a35b43c4efa91473"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "addin-fuel-transaction-import",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/addin-fuel-transaction-import"
+      },
+      "versions": [
+        "3.1.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/addin-fuel-transaction-import/MAL-2024-1732.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

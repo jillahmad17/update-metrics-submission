@@ -1,0 +1,60 @@
+{
+  "id": "MAL-2024-5104",
+  "summary": "Malicious code in edgehttp (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:35:07Z",
+  "published": "2024-06-25T13:35:07Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:35:07Z",
+        "import_time": "2024-06-28T02:48:54.359991918Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03884",
+        "source": "reversing-labs",
+        "sha256": "c7c41cd17c1d9d8860a2f89f5a34bcc506aad12eff97c43c63bdab2a517ca5a3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "edgehttp",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/edgehttp"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/edgehttp/MAL-2024-5104.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

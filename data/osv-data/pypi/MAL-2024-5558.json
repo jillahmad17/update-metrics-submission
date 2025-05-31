@@ -1,0 +1,56 @@
+{
+  "id": "MAL-2024-5558",
+  "summary": "Malicious code in pohttp (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:38:47Z",
+  "published": "2024-06-25T13:38:47Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:38:47Z",
+        "import_time": "2024-06-28T02:49:48.736703354Z",
+        "versions": [
+          "0.1"
+        ],
+        "id": "RLMA-2024-04340",
+        "source": "reversing-labs",
+        "sha256": "ec9c19a7b9b332d8f26f1f47df2130bfd88c10ad3c544ffbfd9b4ed11e970b62"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://www.reversinglabs.com/blog/beware-impostor-http-libraries-lurk-on-pypi"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.sonatype.com/malware-monthly-january-2023"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "pohttp",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/pohttp"
+      },
+      "versions": [
+        "0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pohttp/MAL-2024-5558.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

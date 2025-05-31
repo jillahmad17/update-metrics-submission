@@ -1,0 +1,60 @@
+{
+  "id": "MAL-2024-4882",
+  "summary": "Malicious code in captcha-py (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:33:20Z",
+  "published": "2024-06-25T13:33:20Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:33:20Z",
+        "import_time": "2024-06-28T02:48:28.984225353Z",
+        "versions": [
+          "1.0"
+        ],
+        "id": "RLMA-2024-03662",
+        "source": "reversing-labs",
+        "sha256": "387e80b18e3957b757e6182363406f48dbc35cceeec603dbfe94bb7107fe77cd"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://research.jfrog.com/malicious-packages/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DataDog/malicious-software-packages-dataset"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "captcha-py",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/captcha-py"
+      },
+      "versions": [
+        "1.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/captcha-py/MAL-2024-4882.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

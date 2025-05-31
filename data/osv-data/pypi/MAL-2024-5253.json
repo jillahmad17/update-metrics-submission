@@ -1,0 +1,52 @@
+{
+  "id": "MAL-2024-5253",
+  "summary": "Malicious code in hypixel-networth-api (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:36:20Z",
+  "published": "2024-06-25T13:36:20Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:36:20Z",
+        "import_time": "2024-06-28T02:49:12.88855574Z",
+        "versions": [
+          "0.1.2"
+        ],
+        "id": "RLMA-2024-04035",
+        "source": "reversing-labs",
+        "sha256": "7718fba8e763018a2c79cdea7ccca7636a6dd06737e1f2f5178a0eedeb7a6fb1"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://blog.virustotal.com/2023/06/inside-of-wasps-nest-deep-dive-into.html"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "hypixel-networth-api",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/hypixel-networth-api"
+      },
+      "versions": [
+        "0.1.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/hypixel-networth-api/MAL-2024-5253.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

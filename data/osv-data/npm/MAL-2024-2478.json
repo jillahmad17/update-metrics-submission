@@ -1,0 +1,54 @@
+{
+  "id": "MAL-2024-2478",
+  "summary": "Malicious code in hilton_cms (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:45:44Z",
+  "published": "2024-06-25T12:45:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:45:44Z",
+        "import_time": "2024-06-28T02:43:30.466340731Z",
+        "versions": [
+          "3.2.2",
+          "10.0.0",
+          "1.0.0",
+          "4.0.0",
+          "8.0.0"
+        ],
+        "id": "RLMA-2024-01143",
+        "source": "reversing-labs",
+        "sha256": "59ab95a3d4bb8e416e9226b83cf4e3be396854c5893cedcb9669dfaef8e9912d"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "hilton_cms",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/hilton_cms"
+      },
+      "versions": [
+        "3.2.2",
+        "10.0.0",
+        "1.0.0",
+        "4.0.0",
+        "8.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/hilton_cms/MAL-2024-2478.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

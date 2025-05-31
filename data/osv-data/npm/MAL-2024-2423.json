@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2423",
+  "summary": "Malicious code in glob10 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:44:21Z",
+  "published": "2024-06-25T12:44:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:44:21Z",
+        "import_time": "2024-06-28T02:43:23.059610011Z",
+        "versions": [
+          "10.0.2"
+        ],
+        "id": "RLMA-2024-01083",
+        "source": "reversing-labs",
+        "sha256": "e58a8bbc77580bdec9c48e0e3541eaa375bc1eaaaf808e70448dc9a5bb30f85f"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "glob10",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/glob10"
+      },
+      "versions": [
+        "10.0.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/glob10/MAL-2024-2423.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

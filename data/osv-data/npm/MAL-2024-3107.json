@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3107",
+  "summary": "Malicious code in test-nodeconfusion (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:03:37Z",
+  "published": "2024-06-25T13:03:37Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:03:37Z",
+        "import_time": "2024-06-28T02:44:57.74655076Z",
+        "versions": [
+          "1.29.1"
+        ],
+        "id": "RLMA-2024-01861",
+        "source": "reversing-labs",
+        "sha256": "7b46b8b96e45928454d16882078cd8fa327b36b6e4f5eb100ba5886ce4490acc"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "test-nodeconfusion",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/test-nodeconfusion"
+      },
+      "versions": [
+        "1.29.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/test-nodeconfusion/MAL-2024-3107.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

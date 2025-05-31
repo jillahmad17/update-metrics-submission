@@ -1,0 +1,59 @@
+{
+  "id": "MAL-2024-6074",
+  "summary": "Malicious code in syscryptlibv2 (PyPI)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-PYTHON-SYSCRYPTLIBV2-5932104"
+  ],
+  "modified": "2024-06-28T03:15:18.330470Z",
+  "published": "2024-06-25T13:43:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:43:05Z",
+        "import_time": "2024-06-28T02:50:53.031369702Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-04877",
+        "source": "reversing-labs",
+        "sha256": "78db41cc074ac263745f26e31616e50633ed6861b76b15eaa18cfff2768362b2"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://medium.com/checkmarx-security/the-evolutionary-tale-of-a-persistent-python-threat-d19196d4ed15"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-PYTHON-SYSCRYPTLIBV2-5932104"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "syscryptlibv2",
+        "ecosystem": "PyPI",
+        "purl": "pkg:pypi/syscryptlibv2"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/syscryptlibv2/MAL-2024-6074.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

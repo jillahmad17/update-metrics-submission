@@ -1,0 +1,637 @@
+{
+  "code_of_conduct_url": null,
+  "contributions_count": 2,
+  "contribution_guidelines_url": "https://github.com/martibosch/detectree/blob/main/CONTRIBUTING.md",
+  "dependent_repos_count": 0,
+  "dependents_count": 0,
+  "deprecation_reason": null,
+  "description": "Tree detection from aerial imagery in Python.",
+  "forks": 32,
+  "funding_urls": [],
+  "homepage": "https://doi.org/10.21105/joss.02172",
+  "keywords": [
+    "image-segmentation",
+    "python",
+    "remote-sensing",
+    "tree-canopy",
+    "tree-detection",
+    "tree-pixels"
+  ],
+  "language": "Python",
+  "latest_download_url": null,
+  "latest_release_number": "0.6.0",
+  "latest_release_published_at": "2025-01-02T13:25:50.000Z",
+  "latest_stable_release_number": "0.6.0",
+  "latest_stable_release_published_at": "2025-01-02T13:25:50.000Z",
+  "license_normalized": false,
+  "licenses": "GPL-3.0",
+  "name": "detectree",
+  "normalized_licenses": [
+    "GPL-3.0"
+  ],
+  "package_manager_url": "https://pypi.org/project/detectree/",
+  "platform": "Pypi",
+  "rank": 10,
+  "repository_license": "GPL-3.0",
+  "repository_status": null,
+  "repository_url": "https://github.com/martibosch/detectree",
+  "security_policy_url": null,
+  "stars": 244,
+  "status": null,
+  "versions": [
+    {
+      "number": "0.1.0",
+      "published_at": "2019-11-14T13:53:50.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.2.0",
+      "published_at": "2019-12-11T12:31:50.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.3.0",
+      "published_at": "2020-03-02T07:35:57.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.3.1",
+      "published_at": "2020-03-11T15:39:05.000Z",
+      "spdx_expression": null,
+      "original_license": null,
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.0",
+      "published_at": "2021-07-03T13:17:29.000Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.1",
+      "published_at": "2021-07-05T10:18:22.000Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.4.2",
+      "published_at": null,
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.5.0",
+      "published_at": "2024-03-28T14:36:59.000Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.5.1",
+      "published_at": "2024-03-29T08:15:09.000Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    },
+    {
+      "number": "0.6.0",
+      "published_at": "2025-01-02T13:25:50.000Z",
+      "spdx_expression": "GPL-3.0",
+      "original_license": "GPL-3.0",
+      "researched_at": null,
+      "repository_sources": [
+        "Pypi"
+      ]
+    }
+  ],
+  "dependencies_for_version": "0.6.0",
+  "dependencies": [
+    {
+      "project_name": "dask[delayed,distributed]",
+      "name": "dask[delayed,distributed]",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "joblib",
+      "name": "joblib",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.4.2",
+      "latest": "1.4.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "laspy[lazrs]",
+      "name": "laspy[lazrs]",
+      "platform": "Pypi",
+      "requirements": ">=2.0.0",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "lightgbm",
+      "name": "lightgbm",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.5.0",
+      "latest": "4.5.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "numpy",
+      "name": "numpy",
+      "platform": "Pypi",
+      "requirements": ">=1.15",
+      "latest_stable": "2.2.1",
+      "latest": "2.2.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "opencv-python",
+      "name": "opencv-python",
+      "platform": "Pypi",
+      "requirements": ">=4.0.0",
+      "latest_stable": "3.1.0",
+      "latest": "4.10.0.84",
+      "deprecated": false,
+      "outdated": null,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pandas",
+      "name": "pandas",
+      "platform": "Pypi",
+      "requirements": ">=0.23",
+      "latest_stable": "2.2.3",
+      "latest": "2.2.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "pymaxflow",
+      "name": "pymaxflow",
+      "platform": "Pypi",
+      "requirements": ">=1.0.0",
+      "latest_stable": "1.3.2",
+      "latest": "1.3.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "GPL-2.0+"
+      ]
+    },
+    {
+      "project_name": "rasterio",
+      "name": "rasterio",
+      "platform": "Pypi",
+      "requirements": ">=1.0.0",
+      "latest_stable": "1.4.3",
+      "latest": "1.4.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "scikit-image",
+      "name": "scikit-image",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.25.0",
+      "latest": "0.25.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "scikit-learn",
+      "name": "scikit-learn",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.6.1",
+      "latest": "1.6.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "scipy",
+      "name": "scipy",
+      "platform": "Pypi",
+      "requirements": ">=1.0.0",
+      "latest_stable": "1.15.1",
+      "latest": "1.15.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "skops",
+      "name": "skops",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.11.0",
+      "latest": "0.11.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "shapely",
+      "name": "shapely",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2.0.6",
+      "latest": "2.0.6",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "tqdm",
+      "name": "tqdm",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.67.1",
+      "latest": "4.67.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "runtime",
+      "optional": false,
+      "normalized_licenses": [
+        "MPL-2.0",
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "coverage[toml]",
+      "name": "coverage[toml]",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": null,
+      "latest": null,
+      "deprecated": null,
+      "outdated": null,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": null
+    },
+    {
+      "project_name": "pytest",
+      "name": "pytest",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.3.4",
+      "latest": "8.3.4",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pytest-cov",
+      "name": "pytest-cov",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "ruff",
+      "name": "ruff",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.9.1",
+      "latest": "0.9.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"test\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "build",
+      "name": "build",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "1.2.2",
+      "latest": "1.2.2.post1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "commitizen",
+      "name": "commitizen",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.1.0",
+      "latest": "4.1.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pre-commit",
+      "name": "pre-commit",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.0.1",
+      "latest": "4.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "pip",
+      "name": "pip",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "24.3.1",
+      "latest": "24.3.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "toml",
+      "name": "toml",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.10.2",
+      "latest": "0.10.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "tox",
+      "name": "tox",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "4.23.2",
+      "latest": "4.23.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "twine",
+      "name": "twine",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.1",
+      "latest": "6.0.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"dev\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "project_name": "pydata-sphinx-theme",
+      "name": "pydata-sphinx-theme",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.16.1",
+      "latest": "0.16.1",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "Other"
+      ]
+    },
+    {
+      "project_name": "sphinx",
+      "name": "sphinx",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "8.1.3",
+      "latest": "8.1.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "project_name": "sphinx-click",
+      "name": "sphinx-click",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "6.0.0",
+      "latest": "6.0.0",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinx-mdinclude",
+      "name": "sphinx-mdinclude",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "0.6.2",
+      "latest": "0.6.2",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "project_name": "sphinxcontrib-bibtex",
+      "name": "sphinxcontrib-bibtex",
+      "platform": "Pypi",
+      "requirements": "*",
+      "latest_stable": "2.6.3",
+      "latest": "2.6.3",
+      "deprecated": false,
+      "outdated": false,
+      "filepath": null,
+      "kind": "extra == \"doc\"",
+      "optional": true,
+      "normalized_licenses": [
+        "BSD-2-Clause"
+      ]
+    }
+  ]
+}

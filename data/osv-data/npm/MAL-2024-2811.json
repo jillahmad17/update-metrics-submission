@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-2811",
+  "summary": "Malicious code in orko-logger (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T12:54:34Z",
+  "published": "2024-06-25T12:54:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:54:34Z",
+        "import_time": "2024-06-28T02:44:17.70320747Z",
+        "versions": [
+          "25.0.1-5"
+        ],
+        "id": "RLMA-2024-01522",
+        "source": "reversing-labs",
+        "sha256": "8df63980c1ae40b3b2856c09d540058bcfaa73ed961d76270afd966a0677ef1e"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "orko-logger",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/orko-logger"
+      },
+      "versions": [
+        "25.0.1-5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/orko-logger/MAL-2024-2811.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

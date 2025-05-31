@@ -1,0 +1,55 @@
+{
+  "id": "MAL-2024-2000",
+  "summary": "Malicious code in combinezone (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "aliases": [
+    "SNYK-JS-COMBINEZONE-5406398"
+  ],
+  "modified": "2024-06-28T03:14:32.745386Z",
+  "published": "2024-06-25T12:34:05Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T12:34:05Z",
+        "import_time": "2024-06-28T02:42:27.47071503Z",
+        "versions": [
+          "7.14.2"
+        ],
+        "id": "RLMA-2024-00620",
+        "source": "reversing-labs",
+        "sha256": "cefaa44bfeba403268aeaec173518efae3311aa7aa7f8d584a3f057f0c07f8a8"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-COMBINEZONE-5406398"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "combinezone",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/combinezone"
+      },
+      "versions": [
+        "7.14.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/combinezone/MAL-2024-2000.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2024-8038",
+  "summary": "Malicious code in solana-cctp-contracts (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (f513aced5931ffb63f949f93cc61dfe8ceae696235caee3f926488e16d73de06)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-chxp-j9r5-7jwm"
+  ],
+  "modified": "2024-08-27T00:42:16.505328Z",
+  "published": "2024-08-26T01:30:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-08-26T01:30:59Z",
+        "import_time": "2024-08-27T00:29:00.942649785Z",
+        "id": "GHSA-chxp-j9r5-7jwm",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "f513aced5931ffb63f949f93cc61dfe8ceae696235caee3f926488e16d73de06"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-chxp-j9r5-7jwm"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "solana-cctp-contracts",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/solana-cctp-contracts"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/solana-cctp-contracts/MAL-2024-8038.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

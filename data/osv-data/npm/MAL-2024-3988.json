@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-3988",
+  "summary": "Malicious code in zola (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:22:54Z",
+  "published": "2024-06-25T13:22:54Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:22:54Z",
+        "import_time": "2024-06-28T02:46:43.477655157Z",
+        "versions": [
+          "1.2.3"
+        ],
+        "id": "RLMA-2024-02765",
+        "source": "reversing-labs",
+        "sha256": "895749003065cb8e0f6c0bc3b32f4129ff928c982a19444f0c17b7349761f8db"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "zola",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/zola"
+      },
+      "versions": [
+        "1.2.3"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/zola/MAL-2024-3988.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}
